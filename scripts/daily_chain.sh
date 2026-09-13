@@ -14,23 +14,26 @@ export SK_LLM_TOPN="${SK_LLM_TOPN:-60}"
 
 echo "=== Science-KOL 日链 $(date '+%F %T %Z') ==="
 
-echo "[1/6] 抓取文献"
+echo "[1/7] 抓取文献"
 $PY scripts/fetch_literature.py || { echo "抓取失败"; exit 1; }
 
-echo "[2/6] 分流 + 中文摘要"
+echo "[2/7] 分流 + 中文摘要"
 $PY scripts/classify_literature.py || { echo "分流失败"; exit 1; }
 
-echo "[3/6] 日/月/年分层"
+echo "[3/7] 日/月/年分层"
 $PY scripts/build_literature_layers.py || { echo "分层失败"; exit 1; }
 
-echo "[4/6] KOL 观点抓取"
+echo "[4/7] KOL 观点抓取"
 # 只抓 active 且有 ORCID 的人；失败不阻断整条链（文献侧仍要出面板）
 $PY scripts/fetch_statements.py || echo "[WARN] 言论抓取失败，沿用上一轮数据"
 
-echo "[5/6] 建面板"
+echo "[5/7] 观点三层聚合"
+$PY scripts/build_statement_layers.py || { echo "观点分层失败"; exit 1; }
+
+echo "[6/7] 建面板"
 $PY scripts/build_dashboard.py || { echo "建面板失败"; exit 1; }
 
-echo "[6/6] Notion 同步"
+echo "[7/7] Notion 同步"
 # 幂等 upsert + 去重兜底；失败不阻断（面板与 GitHub 仍应发布）
 $PY scripts/notion_sync.py || echo "[WARN] Notion 同步失败，下轮重试"
 

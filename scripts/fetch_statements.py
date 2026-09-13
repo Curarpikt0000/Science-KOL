@@ -129,7 +129,16 @@ def europepmc_statements(person: dict, months: int = 18) -> list[dict]:
 
 
 def the_conversation_statements(person: dict) -> list[dict]:
-    """The Conversation 学者亲笔专栏 —— 科学家公开表达最纯粹的载体。"""
+    """The Conversation 学者亲笔专栏 —— 科学家公开表达最纯粹的载体。
+
+    ★ 同名闸必须【名+姓双命中】，只验姓氏等于没有闸。
+      实测 2026-09-13：仅验姓氏时 39 人里 18 人抓错人——
+      Paul M. Thompson → campbell-thompson、Meng Chen → justin-meyer、
+      Wang Jun → yuxuan-wu。与 EuropePMC 那 41 条污染是同一个错误。
+
+    ★ 必须进文章页取发表日与正文：列表页只有标题，
+      published 恒空会让日/月/年三层全部归不了档（47% 条目曾因此无法分档）。
+    """
     name = (person.get("name_en") or person.get("name_zh") or "").strip()
     if not name:
         return []
@@ -142,9 +151,20 @@ def the_conversation_statements(person: dict) -> list[dict]:
     if not profiles:
         return []
 
-    # 取命中最多的作者页，且其 slug 必须含姓氏（同名闸）
-    last = re.sub(r"[^a-z]", "", name.split()[-1].lower())
-    cand = [p for p in set(profiles) if last and last in p.replace("-", "")]
+    # 姓名归一化：去掉中间名缩写与非字母，保留有效词
+    words = [re.sub(r"[^a-z]", "", w.lower())
+             for w in re.sub(r"[^A-Za-z\s\u2010-]", " ", name).split()]
+    words = [w for w in words if len(w) >= 2]
+    if len(words) < 2:
+        return []
+    first, last = words[0], words[-1]
+
+    # ★ 强匹配：slug 分词后必须同时含名与姓，缺一不可
+    cand = []
+    for p in set(profiles):
+        seg = set(p.split("-"))
+        if first in seg and last in seg:
+            cand.append(p)
     if not cand:
         return []
     slug = max(cand, key=lambda s: profiles.count(s))
@@ -153,32 +173,52 @@ def the_conversation_statements(person: dict) -> list[dict]:
     if not blob2:
         return []
     h2 = blob2.decode("utf-8", "ignore")
-    out = []
+    hrefs = []
     for m in re.finditer(
             r'<a href="(/[^"]+-\d{4,6})"[^>]*>\s*(?:<[^>]+>\s*)*([^<]{15,200}?)\s*<',
-            h2)  :
+            h2):
         href, title = m.group(1), _strip(m.group(2))
         if "/profiles/" in href or not title:
             continue
+        if (href, title) not in hrefs:
+            hrefs.append((href, title))
+        if len(hrefs) >= 8:
+            break
+
+    out = []
+    for href, title in hrefs:
+        full = "https://theconversation.com" + href
+        art = fetch(full, timeout=25)
+        pub, body = "", ""
+        if art:
+            a = art.decode("utf-8", "ignore")
+            # 发表日：优先 JSON-LD datePublished，回退 <time datetime>
+            md = (re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})', a)
+                  or re.search(r'<time[^>]+datetime="(\d{4}-\d{2}-\d{2})', a))
+            if md:
+                pub = md.group(1)
+            # 正文首段：description meta 最稳（避开正文 HTML 噪音）
+            mb = (re.search(r'<meta name="description" content="([^"]{80,})"', a)
+                  or re.search(r'<meta property="og:description" content="([^"]{80,})"', a))
+            if mb:
+                body = _strip(mb.group(1))
         out.append({
             "person_id": person["id"],
             "person_name": name,
             "channel": "The Conversation",
             "pub_type": "学者专栏",
             "title": title,
-            "body": "",
+            "body": body,
             "journal": "The Conversation",
             "doi": "",
-            "url": "https://theconversation.com" + href,
-            "published": "",
-            "date_status": "unverified",
+            "url": full,
+            "published": pub,
+            "date_status": "verified" if pub else "unverified",
             "authors": name,
             "attribution_confidence": "high",
-            "attribution_basis": f"The Conversation 作者页 /profiles/{slug}",
+            "attribution_basis": f"The Conversation 作者页 /profiles/{slug}（名+姓双命中）",
             "collected_on": date.today().isoformat(),
         })
-        if len(out) >= 12:
-            break
     return out
 
 

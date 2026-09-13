@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 ROSTER = ROOT / "data" / "kol_registry.json"
 LAYERS = ROOT / "data" / "layers" / "literature_layers.json"
 STMT_DIR = ROOT / "data" / "statements"
+STMT_LAYERS = ROOT / "data" / "layers" / "statement_layers.json"
 OUT = ROOT / "dashboard" / "index.html"
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
@@ -63,6 +64,8 @@ def build() -> str:
                 continue
         for v in stmts_by_person.values():
             v.sort(key=lambda x: x.get("published") or "", reverse=True)
+    slayers = (json.loads(STMT_LAYERS.read_text(encoding="utf-8"))
+               if STMT_LAYERS.exists() else {})
     layers = json.loads(LAYERS.read_text(encoding="utf-8")) if LAYERS.exists() else {}
     people = roster.get("people", [])
     daily = layers.get("daily", {})
@@ -250,6 +253,72 @@ def build() -> str:
     lit_total = meta.get("total", 0)
     llm_n = sum(1 for d in daily.values() for i in d["items"] if i.get("summary_zh"))
 
+    # ── 观点三层渲染（主角是人，先给发声人排行，与文献层刻意不同）──
+    def stmt_blocks(layer: str, limit: int) -> list:
+        out = []
+        buckets = (slayers.get(layer) or {})
+        for bk in sorted(buckets, reverse=True)[:limit]:
+            b = buckets[bk]
+            dist = b.get("by_field") or {}
+            diststr = "\u3000".join(f"{k} {v}" for k, v in
+                                sorted(dist.items(), key=lambda x: -x[1])[:8])
+            tops = b.get("top_persons") or []
+            topstr = "".join(
+                f"<span class='pill'>{esc(n)}<b>{c}</b></span>" for n, c in tops)
+            chs = b.get("by_channel") or {}
+            chstr = "\u3001".join(f"{k} {v}" for k, v in
+                             sorted(chs.items(), key=lambda x: -x[1]))
+            rows = []
+            for st in (b.get("items") or [])[:14]:
+                body = (st.get("body") or "").strip()
+                d = st.get("published") or "\u65e5\u671f\u672a\u6838\u5b9e"
+                if body:
+                    inner = (f"<details><summary>\u89c2\u70b9\u8be6\u60c5</summary>"
+                             f"<p class='abs'>{esc(body[:900])}</p>"
+                             f"<p class='links'><a href='{esc(st.get('url'))}' target='_blank'>\u539f\u6587\u51fa\u5904</a>"
+                             f"<span class='attr'>{esc(st.get('attribution_note') or '')}</span></p></details>")
+                else:
+                    inner = (f"<p class='links'><a href='{esc(st.get('url'))}' target='_blank'>\u539f\u6587\u51fa\u5904</a></p>")
+                rows.append(
+                    "<li class='stmt'>"
+                    f"<span class='sd'>{esc(d)}</span>"
+                    f"<span class='sj'>{esc(st.get('person_name') or '')}</span>"
+                    f"<span class='sj'>\u00b7 {esc((st.get('journal') or '')[:24])}</span>"
+                    f"<div class='stt'>{esc(st.get('title'))}</div>{inner}</li>")
+            trend = ""
+            if layer == "yearly" and b.get("field_trend"):
+                bars = []
+                ft = b["field_trend"]
+                months = sorted({m for v in ft.values() for m in v})
+                for fld in sorted(ft, key=lambda f: -sum(ft[f].values()))[:6]:
+                    cells = "".join(
+                        f"<i title='{esc(m)} {ft[fld].get(m, 0)} \u6761' "
+                        f"style='height:{min(34, 4 + ft[fld].get(m, 0) * 3)}px'></i>"
+                        for m in months)
+                    bars.append(f"<div class='tr'><span>{esc(fld)}</span>"
+                                f"<div class='bars'>{cells}</div></div>")
+                trend = ("<div class='trend'><div class='tt'>\u5404\u95e8\u7c7b\u6708\u5ea6\u53d1\u58f0\u91cf</div>"
+                         + "".join(bars) + "</div>")
+            out.append(
+                f"<section class='bucket'><h3>{esc(bk)}"
+                f"<span class='cnt'>{b.get('count', 0)} \u6761</span></h3>"
+                f"<p class='dist'>{esc(diststr)}</p>"
+                f"<div class='pills'>{topstr}</div>"
+                f"<p class='dist small'>\u6765\u6e90\uff1a{esc(chstr)}</p>"
+                f"{trend}<ul class='stmts'>{''.join(rows)}</ul></section>")
+        return out
+
+    sday = stmt_blocks("daily", 14)
+    smon = stmt_blocks("monthly", 12)
+    syear = stmt_blocks("yearly", 5)
+    sund = slayers.get("undated") or {}
+    und_html = ""
+    if sund.get("count"):
+        _src = "\u3001".join(f"{k} {v}" for k, v in (sund.get("by_channel") or {}).items())
+        und_html = (f"<p class='note'>\u53e6\u6709 {sund['count']} \u6761\u672a\u53d6\u5230\u53d1\u8868\u65e5\uff0c"
+                    f"\u672a\u8ba1\u5165\u4efb\u4f55\u65f6\u95f4\u6876\uff08\u6765\u6e90\uff1a{_src}\uff09\u3002"
+                    f"\u6309\u53e3\u5f84\u4e0d\u7528\u6293\u53d6\u65e5\u9876\u66ff\u3002</p>")
+
     nav_fields = "".join(
         f"<a href='#kol-{esc(f)}'>{esc(f)}"
         f"<i>{len(by_field.get(f, []))}</i></a>" for f in FIELDS)
@@ -318,6 +387,17 @@ margin-right:4px;vertical-align:middle}}
 .stt{{font-size:12.5px;color:#1b1e23;margin:2px 0}}
 .attr{{font-size:10px;color:#9a9a92;margin-left:8px}}
 .more{{font-size:11px;color:#8a929c;margin-top:4px}}
+.pills{{margin:6px 0 4px;display:flex;flex-wrap:wrap;gap:5px}}
+.pill{{font-size:11.5px;background:#eef1f4;color:#3b444f;padding:2px 7px;
+ border-radius:2px;border:1px solid #e2e6ea}}
+.pill b{{margin-left:5px;color:#6a7480;font-weight:600}}
+.dist.small{{font-size:11px;color:#8a929c}}
+.trend{{margin:8px 0;padding:7px 9px;background:#fafbfc;border:1px solid #eceff2}}
+.trend .tt{{font-size:11.5px;color:#6a7480;margin-bottom:5px}}
+.trend .tr{{display:flex;align-items:flex-end;gap:8px;margin:3px 0}}
+.trend .tr>span{{font-size:11px;color:#5a636d;width:78px;flex:none}}
+.trend .bars{{display:flex;align-items:flex-end;gap:2px;height:36px}}
+.trend .bars i{{width:7px;background:#8fa6b8;display:block}}
 details{{margin-top:6px}}
 summary{{cursor:pointer;font-size:12px;color:#4d7db5;outline:none}}
 details p{{font-size:13px;color:#4a4f57;margin:6px 0}}
@@ -355,6 +435,10 @@ footer{{margin-top:50px;padding-top:14px;border-top:1px solid #ddd;font-size:12p
   <a href="#lit-day">按日</a>
   <a href="#lit-month">按月</a>
   <a href="#lit-year">按年</a>
+  <div class="grp">观点时序</div>
+  <a href="#stmt-day">按日</a>
+  <a href="#stmt-month">按月</a>
+  <a href="#stmt-year">按年</a>
   <div class="grp">说明</div>
   <a href="#method">口径与方法</a>
 </nav>
@@ -379,6 +463,19 @@ C 公共表达 30%、D 方法透明 15%），评级取名册内百分位，非�
   <span><i style="background:#b9ae97"></i>标注为未核实：该项数据源不提供，待补</span>
 </div>
 {''.join(kol_html)}
+
+<h2 id="stmt-day">观点 · 按日</h2>
+<p class="note">名册成员当日发表的观点型文章。归属以 ORCID 或作者主页双命中锚定。</p>
+{und_html}
+{''.join(sday) or '<p class="note">暂无数据</p>'}
+
+<h2 id="stmt-month">观点 · 按月</h2>
+<p class="note">按自然月聚合，标出该月发声最活跃的人与门类分布。</p>
+{''.join(smon) or '<p class="note">暂无数据</p>'}
+
+<h2 id="stmt-year">观点 · 按年</h2>
+<p class="note">按自然年聚合，展示各门类的月度发声走势。</p>
+{''.join(syear) or '<p class="note">暂无数据</p>'}
 
 <h2 id="lit-day">文献 · 按日</h2>
 <p class="note">每日新增的期刊论文与预印本，按重要度排序。点开可看原始摘要与出处。</p>
