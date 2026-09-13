@@ -37,6 +37,20 @@ def esc(s) -> str:
     return html.escape(str(s or ""))
 
 
+def zh_title(r: dict) -> str:
+    """标题一律中文优先。Chao 铁律：展开层不能是英文。"""
+    return (r.get("title_zh") or "").strip() or (r.get("title") or "").strip()
+
+
+def zh_body(r: dict) -> str:
+    """正文一律中文优先：summary_zh > abstract_zh > 原文。"""
+    for k in ("summary_zh", "abstract_zh"):
+        v = (r.get(k) or "").strip()
+        if v:
+            return v
+    return (r.get("body") or r.get("abstract") or "").strip()
+
+
 def stars(n: int) -> str:
     n = int(n or 0)
     return (("<span class='st on'>●</span>" * n)
@@ -122,7 +136,7 @@ def build() -> str:
                 srows = []
                 for st in mine[:5]:
                     d = st.get("published") or "日期未核实"
-                    body = (st.get("body") or "")[:700]
+                    body = zh_body(st)[:700]
                     tail = (f"<details><summary>观点详情</summary>"
                             f"<p class='abs'>{esc(body)}</p>"
                             f"<p class='links'><a href='{esc(st.get('url'))}' target='_blank'>原文出处</a>"
@@ -133,7 +147,7 @@ def build() -> str:
                         "<li class='stmt'>"
                         f"<span class='sd'>{esc(d)}</span>"
                         f"<span class='sj'>{esc((st.get('journal') or '')[:26])}</span>"
-                        f"<div class='stt'>{esc(st.get('title'))}</div>"
+                        f"<div class='stt'>{esc(zh_title(st))}</div>"
                         f"{tail}</li>")
                 more = (f"<div class='more'>另有 {len(mine) - 5} 条</div>"
                         if len(mine) > 5 else "")
@@ -184,7 +198,18 @@ def build() -> str:
         rows = []
         for it in items[:limit]:
             f = it.get("field") or "未分类"
-            zh = it.get("summary_zh") or ""
+            zh = (it.get("summary_zh") or "").strip()
+            en_abs = (it.get("abstract") or "").strip()
+            # ★ 展开层一律中文优先（Chao 铁律）。英文原文降为二级折叠，
+            #   仅在有中文时提供；没有中文摘要时才直接展示英文并标注。
+            if zh:
+                detail = (f"<p class='abs'>{esc(zh)}</p>"
+                          + (f"<details class='sub'><summary>英文原文摘要</summary>"
+                             f"<p class='abs en'>{esc(en_abs[:900])}</p></details>"
+                             if en_abs else ""))
+            else:
+                detail = (f"<p class='abs en'>{esc(en_abs[:900])}</p>"
+                          f"<p class='note-i'>该条暂无中文摘要</p>" if en_abs else "")
             rows.append(f"""
 <li class='lit'>
   <div class='ltop'>
@@ -192,10 +217,10 @@ def build() -> str:
     <span class='src'>{esc(it.get('source'))}</span>
     <span class='pd'>{esc(it.get('published'))}</span>
   </div>
-  <div class='ltitle'>{esc(it.get('title'))}</div>
-  {"<div class='zh'>" + esc(zh) + "</div>" if zh else ""}
+  <div class='ltitle'>{esc(zh_title(it))}</div>
+  {"<div class='zh en-sub'>" + esc(it.get('title') or '') + "</div>" if it.get('title_zh') else ""}
   <details><summary>摘要与出处</summary>
-    <p class='abs'>{esc((it.get('abstract') or '')[:900])}</p>
+    {detail}
     <p class='links'>
       {"<a href='" + esc(it['url']) + "' target='_blank'>原文</a>" if it.get('url') else ''}
       {" · <a href='https://doi.org/" + esc(it['doi']) + "' target='_blank'>DOI</a>" if it.get('doi') else ''}
@@ -270,7 +295,7 @@ def build() -> str:
                              sorted(chs.items(), key=lambda x: -x[1]))
             rows = []
             for st in (b.get("items") or [])[:14]:
-                body = (st.get("body") or "").strip()
+                body = zh_body(st)
                 d = st.get("published") or "\u65e5\u671f\u672a\u6838\u5b9e"
                 if body:
                     inner = (f"<details><summary>\u89c2\u70b9\u8be6\u60c5</summary>"
@@ -284,7 +309,7 @@ def build() -> str:
                     f"<span class='sd'>{esc(d)}</span>"
                     f"<span class='sj'>{esc(st.get('person_name') or '')}</span>"
                     f"<span class='sj'>\u00b7 {esc((st.get('journal') or '')[:24])}</span>"
-                    f"<div class='stt'>{esc(st.get('title'))}</div>{inner}</li>")
+                    f"<div class='stt'>{esc(zh_title(st))}</div>{inner}</li>")
             trend = ""
             if layer == "yearly" and b.get("field_trend"):
                 bars = []
@@ -398,6 +423,11 @@ margin-right:4px;vertical-align:middle}}
 .trend .tr>span{{font-size:11px;color:#5a636d;width:78px;flex:none}}
 .trend .bars{{display:flex;align-items:flex-end;gap:2px;height:36px}}
 .trend .bars i{{width:7px;background:#8fa6b8;display:block}}
+.en-sub{{font-size:11px;color:#9aa2ab;font-style:normal;margin-top:1px}}
+.abs.en{{color:#6d757e}}
+details.sub{{margin-top:6px}}
+details.sub summary{{font-size:11.5px;color:#8a929c}}
+.note-i{{font-size:11px;color:#96472f;margin-top:4px}}
 details{{margin-top:6px}}
 summary{{cursor:pointer;font-size:12px;color:#4d7db5;outline:none}}
 details p{{font-size:13px;color:#4a4f57;margin:6px 0}}

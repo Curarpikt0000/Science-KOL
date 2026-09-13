@@ -57,6 +57,7 @@ def brief(it: dict) -> dict:
     """面板用精简条目（三层信息结构的第一层与第三层：一句话 + 出处）。"""
     return {
         "title": it.get("title", ""),
+        "title_zh": it.get("title_zh", ""),   # ★ 必须带上，否则面板标题回落英文
         "summary_zh": it.get("summary_zh", ""),
         "source": it.get("source", ""),
         "tier": it.get("tier", ""),
