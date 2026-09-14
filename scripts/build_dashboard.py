@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import html
 import json
+import sys
 from datetime import date
 from pathlib import Path
 
@@ -21,6 +22,10 @@ ROSTER = ROOT / "data" / "kol_registry.json"
 LAYERS = ROOT / "data" / "layers" / "literature_layers.json"
 STMT_DIR = ROOT / "data" / "statements"
 STMT_LAYERS = ROOT / "data" / "layers" / "statement_layers.json"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dash_filter import (FIELD_COLOR_FB, FILTER_CSS,  # noqa: E402
+                         FILTER_JS, filter_bar, four_layer_body)
 OUT = ROOT / "dashboard" / "index.html"
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
@@ -344,6 +349,107 @@ def build() -> str:
                     f"\u672a\u8ba1\u5165\u4efb\u4f55\u65f6\u95f4\u6876\uff08\u6765\u6e90\uff1a{_src}\uff09\u3002"
                     f"\u6309\u53e3\u5f84\u4e0d\u7528\u6293\u53d6\u65e5\u9876\u66ff\u3002</p>")
 
+    # ── 卡片网格：一次渲染全部，由 filter 前端过滤（Chao 2026-09-14）──
+    fmap_field = {p["id"]: p.get("field") for p in people}
+    from datetime import date as _d, timedelta as _td
+    _t = _d.today()
+    CUTS = {"day": _t.isoformat(),
+            "week": (_t - _td(days=7)).isoformat(),
+            "month": (_t - _td(days=30)).isoformat(),
+            "year": (_t - _td(days=365)).isoformat()}
+
+    def card_grid(rows, scope, who_key, src_key, fields_order):
+        cnt = {}
+        for r in rows:
+            f = r.get("_field") or "未分类"
+            cnt[f] = cnt.get(f, 0) + 1
+        cards = []
+        for i, r in enumerate(rows):
+            f = r.get("_field") or "未分类"
+            uid = f"{scope}{i}"
+            dt = r.get("published") or ""
+            meta = [("发表日", esc(dt) if dt else "未核实（按纪律留空，不用抓取日顶替）", False),
+                    ("来源", esc(r.get(src_key) or ""), False),
+                    ("门类", esc(f), False),
+                    ("归属", esc(r.get("attribution_note")
+                                 or r.get("abstract_source") or "—"), False)]
+            if r.get("doi"):
+                meta.append(("DOI", f"<a href='https://doi.org/{esc(r['doi'])}' "
+                                    f"target='_blank'>{esc(r['doi'])}</a>", True))
+            if r.get("url"):
+                meta.append(("原文", f"<a href='{esc(r['url'])}' target='_blank'>"
+                                     f"{esc(r['url'][:76])}</a>", True))
+            if r.get("title"):
+                meta.append(("英文原题", esc(r["title"]), True))
+            lead = (r.get("l1_lead") or "").strip()
+            if not lead:
+                lead = (r.get("summary_zh") or "")[:78]
+            cards.append(
+                f"<article class='ccard' data-field='{esc(f)}' data-date='{esc(dt)}' "
+                f"style='border-top-color:{FIELD_COLOR.get(f, FIELD_COLOR_FB)}'>"
+                f"<div class='cc-top'>"
+                f"<span class='cc-tag' style='background:"
+                f"{FIELD_COLOR.get(f, FIELD_COLOR_FB)}'>{esc(f)}</span>"
+                f"<span class='cc-date'>{esc(dt or '日期未核实')}</span></div>"
+                f"<div class='cc-who'>{esc(r.get(who_key) or '')}</div>"
+                f"<div class='cc-title'>{esc(zh_title(r))}</div>"
+                f"<div class='cc-lead'>{esc(lead)}</div>"
+                f"<div class='cc-src'>{esc(r.get(src_key) or '')}</div>"
+                f"<button type='button' class='cc-open'>展开四层 &#9662;</button>"
+                f"<div class='cc-body'>{four_layer_body(r, uid, esc, meta)}</div>"
+                f"</article>")
+        return cnt, ("<div class='cgrid'>" + "".join(cards) + "</div>"
+                     "<div class='fempty' style='display:none'>"
+                     "<p class='note'>当前筛选条件下没有条目。放宽时间档或切到「全部」门类。</p>"
+                     "</div>")
+
+    # 观点：全部条目
+    srows = []
+    for r in all_stmts:
+        rr = dict(r)
+        rr["_field"] = fmap_field.get(r.get("person_id")) or "未归类"
+        srows.append(rr)
+    srows.sort(key=lambda x: x.get("published") or "", reverse=True)
+    scnt, sgrid = card_grid(srows, "s", "person_name", "journal", FIELDS)
+    sdist = "、".join(f"{k} {v}" for k, v in
+                     sorted(scnt.items(), key=lambda x: -x[1]))
+    sstat = (f"<div class='fstat'>当前显示 <b>{len(srows)}</b> / 共 {len(srows)} 条</div>"
+             f"<details class='fsum'><summary>门类与来源分布</summary>"
+             f"<div class='sline'>门类：{esc(sdist)}</div>"
+             f"<div class='sline'>来源：" + esc("、".join(
+                 f"{k} {v}" for k, v in sorted(
+                     __import__("collections").Counter(
+                         r.get("channel") or "未知" for r in srows).items(),
+                     key=lambda x: -x[1]))) + "</div></details>")
+    stmt_panel = filter_bar("s", FIELDS, scnt, sstat) + sgrid + "</div>"
+
+    # 文献：展示层去重后的全部条目
+    lrows_map = {}
+    for L in ("daily", "monthly", "yearly"):
+        for b in (layers.get(L) or {}).values():
+            for it in (b.get("items") or b.get("top_items") or []):
+                if isinstance(it, dict) and it.get("url"):
+                    lrows_map.setdefault(it["url"], it)
+    lrows = []
+    for r in lrows_map.values():
+        rr = dict(r)
+        rr["_field"] = r.get("field") or "未分类"
+        lrows.append(rr)
+    lrows.sort(key=lambda x: (x.get("published") or "", x.get("importance") or 0),
+               reverse=True)
+    lcnt, lgrid = card_grid(lrows, "l", "authors", "source", FIELDS)
+    ldist = "、".join(f"{k} {v}" for k, v in
+                     sorted(lcnt.items(), key=lambda x: -x[1]))
+    lstat = (f"<div class='fstat'>当前显示 <b>{len(lrows)}</b> / 共 {len(lrows)} 条</div>"
+             f"<details class='fsum'><summary>门类与来源分布</summary>"
+             f"<div class='sline'>门类：{esc(ldist)}</div>"
+             f"<div class='sline'>来源：" + esc("、".join(
+                 f"{k} {v}" for k, v in sorted(
+                     __import__("collections").Counter(
+                         r.get("source") or "未知" for r in lrows).items(),
+                     key=lambda x: -x[1])[:14])) + "</div></details>")
+    lit_panel = filter_bar("l", FIELDS, lcnt, lstat) + lgrid + "</div>"
+
     nav_fields = "".join(
         f"<a href='#kol-{esc(f)}'>{esc(f)}"
         f"<i>{len(by_field.get(f, []))}</i></a>" for f in FIELDS)
@@ -454,25 +560,31 @@ margin:2px 4px 2px 0;font-size:12px;color:#3d4855}}
 .bars{{display:flex;align-items:flex-end;gap:3px;height:46px}}
 .bar{{width:11px;display:inline-block;border-radius:1px 1px 0 0}}
 footer{{margin-top:50px;padding-top:14px;border-top:1px solid #ddd;font-size:12px;color:#888}}
+{FILTER_CSS}
 </style></head><body>
 <nav id="side">
   <h1>Science KOL</h1>
   <p class="sub">科学界观点与文献追踪</p>
-  <a href="#overview">总览</a>
+  <div class="grp">主视图</div>
+  <a href="#stmt">KOL 观点</a>
+  <a href="#lit">科学文献</a>
   <div class="grp">KOL 名册</div>
+  <a href="#overview">总览</a>
   {nav_fields}
-  <div class="grp">文献扫描</div>
-  <a href="#lit-day">按日</a>
-  <a href="#lit-month">按月</a>
-  <a href="#lit-year">按年</a>
-  <div class="grp">观点时序</div>
-  <a href="#stmt-day">按日</a>
-  <a href="#stmt-month">按月</a>
-  <a href="#stmt-year">按年</a>
   <div class="grp">说明</div>
   <a href="#method">口径与方法</a>
 </nav>
 <main>
+<h2 id="stmt">KOL 观点</h2>
+<p class="note">按时间档与门类筛选，两排按钮可叠加。每张卡片点开为四层：一句话导语 →
+总结 → 原文翻译 → 出处与元信息。归属以 ORCID 或作者主页双命中锚定。</p>
+{stmt_panel}
+
+<h2 id="lit">科学文献</h2>
+<p class="note">顶刊、预印本与非主流期刊的每日扫描结果，同样支持时间与门类筛选、
+四层展开。文献源头多数只提供摘要，原文翻译层会如实标注。</p>
+{lit_panel}
+
 <h2 id="overview">总览</h2>
 <p class="note">左侧按科学门类浏览 KOL 名册，或按日、月、年查看文献扫描结果。</p>
 <div class="stat">
@@ -493,31 +605,6 @@ C 公共表达 30%、D 方法透明 15%），评级取名册内百分位，非�
   <span><i style="background:#b9ae97"></i>标注为未核实：该项数据源不提供，待补</span>
 </div>
 {''.join(kol_html)}
-
-<h2 id="stmt-day">观点 · 按日</h2>
-<p class="note">名册成员当日发表的观点型文章。归属以 ORCID 或作者主页双命中锚定。</p>
-{und_html}
-{''.join(sday) or '<p class="note">暂无数据</p>'}
-
-<h2 id="stmt-month">观点 · 按月</h2>
-<p class="note">按自然月聚合，标出该月发声最活跃的人与门类分布。</p>
-{''.join(smon) or '<p class="note">暂无数据</p>'}
-
-<h2 id="stmt-year">观点 · 按年</h2>
-<p class="note">按自然年聚合，展示各门类的月度发声走势。</p>
-{''.join(syear) or '<p class="note">暂无数据</p>'}
-
-<h2 id="lit-day">文献 · 按日</h2>
-<p class="note">每日新增的期刊论文与预印本，按重要度排序。点开可看原始摘要与出处。</p>
-{''.join(day_blocks) or '<p class="note">暂无数据</p>'}
-
-<h2 id="lit-month">文献 · 按月</h2>
-<p class="note">按自然月聚合，含门类分布与高频主题词。</p>
-{''.join(month_blocks) or '<p class="note">暂无数据</p>'}
-
-<h2 id="lit-year">文献 · 按年</h2>
-<p class="note">按自然年聚合，展示各门类的月度产出趋势。</p>
-{''.join(year_blocks) or '<p class="note">暂无数据</p>'}
 
 <h2 id="method">口径与方法</h2>
 <p class="note">数据来源与判定口径，供核查。</p>
@@ -559,6 +646,9 @@ function onScroll(){{
 }}
 window.addEventListener('scroll',onScroll);onScroll();
 </script>
+<script>{FILTER_JS}
+window.__SK_CUT={json.dumps(CUTS)};
+window.__skApplyAll&&window.__skApplyAll();</script>
 </body></html>"""
 
 
