@@ -94,6 +94,10 @@ def build() -> str:
 
     by_field: dict[str, list] = {f: [] for f in FIELDS}
     for p in people:
+        # ★ 只渲染在册者。名册变更后必须同步过滤渲染层，
+        #   否则出现「人已归档但卡片还在」（Eco 项目踩过的坑）。
+        if not p.get("active"):
+            continue
         by_field.setdefault(p.get("field", "其他"), []).append(p)
 
     days = sorted(daily, reverse=True)
@@ -279,7 +283,8 @@ def build() -> str:
             f"<h4>高频主题</h4><div class='topics'>{topics or '—'}</div>"
             f"{lit_items(blk.get('top_items', []), 20)}</details>")
 
-    total_people = len(people)
+    total_people = sum(1 for x in people if x.get("active"))
+    archived_people = len(people) - total_people
     lit_total = meta.get("total", 0)
     llm_n = sum(1 for d in daily.values() for i in d["items"] if i.get("summary_zh"))
 
@@ -588,7 +593,7 @@ footer{{margin-top:50px;padding-top:14px;border-top:1px solid #ddd;font-size:12p
 <h2 id="overview">总览</h2>
 <p class="note">左侧按科学门类浏览 KOL 名册，或按日、月、年查看文献扫描结果。</p>
 <div class="stat">
-  <div><b>{total_people}</b><span>名册人数</span></div>
+  <div><b>{total_people}</b><span>在册 KOL</span></div>
   <div><b>{len(all_stmts)}</b><span>KOL 观点</span></div>
   <div><b>{lit_total}</b><span>在库文献</span></div>
   <div><b>{llm_n}</b><span>中文摘要</span></div>
@@ -634,7 +639,7 @@ D 方法透明取 ORCID 公开、机构可核、无同名污点。近 12 个月�
 </div>
 
 <footer>Science KOL · 生成于 {date.today().isoformat()} ·
-名册 {total_people} 人 · 文献 {lit_total} 条</footer>
+在册 {total_people} 人（另有 {archived_people} 人因近 18 个月无观点型发表已归档，历史保留） · 文献 {lit_total} 条</footer>
 </main>
 <script>
 var links=[].slice.call(document.querySelectorAll('#side a'));

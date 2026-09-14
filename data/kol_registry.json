@@ -10,7 +10,7 @@
    "bio": "IONS首席科学家, 研究预感/预知, 著《The Conscious Universe》",
    "affiliation": "",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "forecast-checker",
    "origin_note": "IONS 首席科学家，超心理学元分析与预感实验的主要一手研究者",
    "migrated_on": "2026-09-13",
@@ -27,7 +27,9 @@
    "statements": [],
    "fc_prediction_count": 6,
    "rating": 4,
-   "rating_pct": 14.3
+   "rating_pct": 14.3,
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "julia_mossbridge",
@@ -37,7 +39,7 @@
    "bio": "神经科学家, 著《The Premonition Code》",
    "affiliation": "",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "forecast-checker",
    "origin_note": "神经科学家，预感生理反应（presentiment）实验与元分析作者",
    "migrated_on": "2026-09-13",
@@ -54,7 +56,9 @@
    "statements": [],
    "fc_prediction_count": 4,
    "rating": 4,
-   "rating_pct": 18.3
+   "rating_pct": 18.3,
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "stanley_krippner",
@@ -64,7 +68,7 @@
    "bio": "心理学教授, 主持梦心灵感应与预知梦经典实验(高龄, 定稿前复核在世状态)",
    "affiliation": "",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "forecast-checker",
    "origin_note": "心理学教授，主持梦心灵感应与预知梦经典实验（高龄，在世状态需复核）",
    "migrated_on": "2026-09-13",
@@ -81,7 +85,9 @@
    "statements": [],
    "fc_prediction_count": 4,
    "rating": 3,
-   "rating_pct": 37.3
+   "rating_pct": 37.3,
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "larry_dossey",
@@ -91,7 +97,7 @@
    "bio": "医师/作家, 著《The Power of Premonitions》",
    "affiliation": "",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "forecast-checker",
    "origin_note": "医师、作家，意识与健康交叉领域公共表达者",
    "migrated_on": "2026-09-13",
@@ -108,7 +114,9 @@
    "statements": [],
    "fc_prediction_count": 2,
    "rating": 2,
-   "rating_pct": 67.5
+   "rating_pct": 67.5,
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "federico_faggin",
@@ -118,7 +126,7 @@
    "bio": "1941-12-01 生于意大利维琴察，帕多瓦大学物理学博士（1965，最优等）。1968 年在仙童半导体发明自对准 MOS 硅栅技术（SGT）——这项技术使 MOS 半导体存储芯片、CCD 图像传感器与微处理器成为可能。1971 年主持设计世界上第一款商用微处理器 Intel 4004，随后主导 8008 与 8080；与 Ralph Ungermann 共同创办 Zilog，主持 Z80 开发；后创办 Cygnet Technologies 与 Synaptics（触摸板与触摸屏）。获马可尼奖（1988）、京都奖（1997）、美国国家技术与创新奖章（2009，美国technological领域最高荣誉）。1990 年在太浩湖度假时经历一次强烈的意识体验，此后三十年转向意识研究。2011 年创立 Federico and Elvia Faggin 基金会资助美国高校意识研究，2015 年在加州大学圣克鲁兹分校设立「法金家族信息物理学讲席教授」百万美元捐赠基金。2024 年出版《Irreducible: Consciousness, Life, Computers, and Human Nature》。★定位说明：他不是预言家、灵媒或遥视者，而是提出一套关于意识本质的物理学理论并据此推出若干可检验断言的科学家。收录定位为理论推演者，与 Dean Radin、Julian Jaynes 同档。其理论「量子信息泛心论」(Quantum Information Panpsychism, QIP) 与物理学家 Giacomo Mauro D'Ariano 合作提出，已发表于 arXiv (2012.06580)，属可被同行审视的学术主张而非私人启示。",
    "affiliation": "",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "forecast-checker",
    "origin_note": "物理学博士，Intel 4004 首款商用微处理器设计者，转向意识理论研究",
    "migrated_on": "2026-09-13",
@@ -135,7 +143,9 @@
    "statements": [],
    "fc_prediction_count": 5,
    "rating": 5,
-   "rating_pct": 9.5
+   "rating_pct": 9.5,
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "harold_puthoff",
@@ -145,7 +155,7 @@
    "bio": "",
    "affiliation": "",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "forecast-checker",
    "origin_note": "物理学家，SRI 遥视研究项目负责人，激光与零点能领域发表者",
    "migrated_on": "2026-09-13",
@@ -162,7 +172,9 @@
    "statements": [],
    "fc_prediction_count": 11,
    "rating": 3,
-   "rating_pct": 31.7
+   "rating_pct": 31.7,
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "russell_targ",
@@ -172,7 +184,7 @@
    "bio": "激光物理学家, SRI遥视研究共同创始, 创造'remote viewing'一词",
    "affiliation": "",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "forecast-checker",
    "origin_note": "激光物理学家，SRI 遥视研究共同创始人，'remote viewing' 一词创造者",
    "migrated_on": "2026-09-13",
@@ -189,7 +201,9 @@
    "statements": [],
    "fc_prediction_count": 3,
    "rating": 4,
-   "rating_pct": 19.0
+   "rating_pct": 19.0,
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "stephan_schwartz",
@@ -199,7 +213,7 @@
    "bio": "遥视研究者/意识科学家, 应用遥视于考古",
    "affiliation": "",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "forecast-checker",
    "origin_note": "意识科学研究者，将遥视方法应用于考古学的一手实践者",
    "migrated_on": "2026-09-13",
@@ -216,7 +230,9 @@
    "statements": [],
    "fc_prediction_count": 19,
    "rating": 4,
-   "rating_pct": 26.2
+   "rating_pct": 26.2,
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "courtney_brown",
@@ -226,7 +242,7 @@
    "bio": "埃默里大学副教授, Farsight Institute创始人(科学界存疑)",
    "affiliation": "",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "forecast-checker",
    "origin_note": "埃默里大学副教授，Farsight Institute 创始人（方法受科学界质疑，如实标注）",
    "migrated_on": "2026-09-13",
@@ -243,7 +259,9 @@
    "statements": [],
    "fc_prediction_count": 6,
    "rating": 2,
-   "rating_pct": 62.7
+   "rating_pct": 62.7,
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "julian_jaynes",
@@ -253,7 +271,7 @@
    "bio": "美国心理学家，先后任教于耶鲁与普林斯顿近二十五年。1976 年出版《二分心智崩塌与意识的起源》，提出「二分心智假说」：约公元前 1200 年之前，人类尚无今天意义上的内省式意识，而是把右脑生成的听觉幻觉当作神明或首领的命令加以服从；现代自我意识是这一心理结构崩塌后才习得的产物。★定位说明：他研究的对象是【过去】而非未来，本质是历史心理学假说提出者，不是预言者。收录定位为「异常意识状态」理论谱系的源头——本库遥视、出体、灵媒三类的意识讨论多可追溯至他。其主张至今在学界仍有争议，既未被证实也未被证伪，故一律不强判，星级不代表判断力评价。",
    "affiliation": "",
    "alive": false,
-   "active": true,
+   "active": false,
    "origin": "forecast-checker",
    "origin_note": "耶鲁/普林斯顿心理学家，二分心智假说提出者（已故，列为经典档）",
    "migrated_on": "2026-09-13",
@@ -270,7 +288,9 @@
    "statements": [],
    "fc_prediction_count": 5,
    "rating": 4,
-   "rating_pct": 29.4
+   "rating_pct": 29.4,
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5075296559",
@@ -503,7 +523,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-2374-9204",
    "openalex_url": "https://openalex.org/A5017009749",
@@ -545,7 +565,9 @@
    "rating": 2,
    "rating_pct": 70.6,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Cornelia Marja van Duijn is a Dutch epidemiologist. She is a Professor of Epidemiology at Nuffield Department of Population Health and a Fellow of St "
+   "alive_evidence": "Cornelia Marja van Duijn is a Dutch epidemiologist. She is a Professor of Epidemiology at Nuffield Department of Population Health and a Fellow of St ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5072133376",
@@ -614,7 +636,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-5591-1176",
    "openalex_url": "https://openalex.org/A5059462255",
@@ -656,7 +678,9 @@
    "rating": 2,
    "rating_pct": 82.5,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Kenneth Wayne Kinzler is a professor of oncology, and director of the Ludwig Center at Johns Hopkins University at the Sidney Kimmel Comprehensive Can"
+   "alive_evidence": "Kenneth Wayne Kinzler is a professor of oncology, and director of the Ludwig Center at Johns Hopkins University at the Sidney Kimmel Comprehensive Can",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5078498803",
@@ -953,7 +977,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-9865-121X",
    "openalex_url": "https://openalex.org/A5039611937",
@@ -997,7 +1021,9 @@
    "rating": 1,
    "rating_pct": 88.1,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5045246745",
@@ -1009,7 +1035,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-8178-6601",
    "openalex_url": "https://openalex.org/A5045246745",
@@ -1051,7 +1077,9 @@
    "rating": 2,
    "rating_pct": 71.4,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Ronald H. Petersen, more commonly known as Ron Petersen, born in 1934, is a mycologist and professor emeritus at the University of Tennessee known for"
+   "alive_evidence": "Ronald H. Petersen, more commonly known as Ron Petersen, born in 1934, is a mycologist and professor emeritus at the University of Tennessee known for",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5046120768",
@@ -1063,7 +1091,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-2152-4220",
    "openalex_url": "https://openalex.org/A5046120768",
@@ -1105,7 +1133,9 @@
    "rating": 2,
    "rating_pct": 81.0,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5042597057",
@@ -1292,7 +1322,7 @@
    "affiliation_verified": false,
    "country": "",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-0949-8752",
    "openalex_url": "https://openalex.org/A5107596541",
@@ -1334,7 +1364,9 @@
    "rating": 3,
    "rating_pct": 34.1,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Mark Joseph Daly is Director of the Finnish Institute for Molecular Medicine (FIMM) at the University of Helsinki, a Professor of Genetics at Harvard "
+   "alive_evidence": "Mark Joseph Daly is Director of the Finnish Institute for Molecular Medicine (FIMM) at the University of Helsinki, a Professor of Genetics at Harvard ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5004067604",
@@ -1462,7 +1494,7 @@
    "affiliation_verified": false,
    "country": "FI",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-0273-3166",
    "openalex_url": "https://openalex.org/A5054572740",
@@ -1504,7 +1536,9 @@
    "rating": 2,
    "rating_pct": 84.1,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Willem M. de Vos is a Dutch academic and microbiologist. He studied for his PhD at the University of Groningen. He is notable for winning the Spinozap"
+   "alive_evidence": "Willem M. de Vos is a Dutch academic and microbiologist. He studied for his PhD at the University of Groningen. He is notable for winning the Spinozap",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5100668859",
@@ -1742,7 +1776,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-8304-3548",
    "openalex_url": "https://openalex.org/A5063884903",
@@ -1788,7 +1822,9 @@
    "rating": 3,
    "rating_pct": 48.4,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Jeffrey I. Gordon is the Dr. Robert J. Glaser Distinguished University Professor and Director of The Edison Family Center for Genome Sciences & System"
+   "alive_evidence": "Jeffrey I. Gordon is the Dr. Robert J. Glaser Distinguished University Professor and Director of The Edison Family Center for Genome Sciences & System",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5083897996",
@@ -1912,7 +1948,7 @@
    "affiliation_verified": false,
    "country": "CN",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-0858-3410",
    "openalex_url": "https://openalex.org/A5004969934",
@@ -1954,7 +1990,9 @@
    "rating": 2,
    "rating_pct": 80.2,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Yang Huanming is a Chinese biologist, businessman and one of China's leading genetics researchers. He is Chairman and co-founder of the Beijing Genomi"
+   "alive_evidence": "Yang Huanming is a Chinese biologist, businessman and one of China's leading genetics researchers. He is Chairman and co-founder of the Beijing Genomi",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5074612242",
@@ -2078,7 +2116,7 @@
    "affiliation_verified": false,
    "country": "CH",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-8945-8573",
    "openalex_url": "https://openalex.org/A5057678172",
@@ -2120,7 +2158,9 @@
    "rating": 3,
    "rating_pct": 41.3,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5074103823",
@@ -2132,7 +2172,7 @@
    "affiliation_verified": false,
    "country": "AU",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-7225-5449",
    "openalex_url": "https://openalex.org/A5074103823",
@@ -2174,7 +2214,9 @@
    "rating": 4,
    "rating_pct": 16.7,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "\nDacheng Tao is an Australian engineer and academic. He is currently a Distinguished University Professor and Professor of Artificial Intelligence at "
+   "alive_evidence": "\nDacheng Tao is an Australian engineer and academic. He is currently a Distinguished University Professor and Professor of Artificial Intelligence at ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5016282235",
@@ -2241,7 +2283,7 @@
    "affiliation_verified": false,
    "country": "DE",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-3359-1743",
    "openalex_url": "https://openalex.org/A5083228566",
@@ -2283,7 +2325,9 @@
    "rating": 2,
    "rating_pct": 77.8,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5100418319",
@@ -2295,7 +2339,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-4848-2304",
    "openalex_url": "https://openalex.org/A5100418319",
@@ -2337,7 +2381,9 @@
    "rating": 4,
    "rating_pct": 27.8,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Ming-Hsuan Yang is a computer scientist, academic, and author. He is a professor at the University of California, Merced, and a research scientist at "
+   "alive_evidence": "Ming-Hsuan Yang is a computer scientist, academic, and author. He is a professor at the University of California, Merced, and a research scientist at ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5019539533",
@@ -2349,7 +2395,7 @@
    "affiliation_verified": false,
    "country": "CN",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-3629-2696",
    "openalex_url": "https://openalex.org/A5019539533",
@@ -2391,7 +2437,9 @@
    "rating": 3,
    "rating_pct": 57.1,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Jiawei Han is a Chinese-American computer scientist and writer. He currently holds the position of Michael Aiken Chair Professor in the Department of "
+   "alive_evidence": "Jiawei Han is a Chinese-American computer scientist and writer. He currently holds the position of Michael Aiken Chair Professor in the Department of ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5001594573",
@@ -2403,7 +2451,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-3695-1580",
    "openalex_url": "https://openalex.org/A5001594573",
@@ -2445,7 +2493,9 @@
    "rating": 3,
    "rating_pct": 57.9,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Jitendra Malik is an Indian-American academic who is the Arthur J. Chick Professor of Electrical Engineering and Computer Sciences at the University o"
+   "alive_evidence": "Jitendra Malik is an Indian-American academic who is the Arthur J. Chick Professor of Electrical Engineering and Computer Sciences at the University o",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5091272738",
@@ -2515,7 +2565,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-5453-8533",
    "openalex_url": "https://openalex.org/A5029105520",
@@ -2559,7 +2609,9 @@
    "rating": 3,
    "rating_pct": 31.0,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Trevor Jackson Darrell is an American computer scientist and professor at the University of California, Berkeley. He is known for his research on comp"
+   "alive_evidence": "Trevor Jackson Darrell is an American computer scientist and professor at the University of California, Berkeley. He is known for his research on comp",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5005421447",
@@ -2630,7 +2682,7 @@
    "affiliation_verified": false,
    "country": "CN",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-7481-0810",
    "openalex_url": "https://openalex.org/A5100450462",
@@ -2674,7 +2726,9 @@
    "rating": 3,
    "rating_pct": 50.8,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Fei-Fei Li is a Chinese-born American computer scientist best known for establishing ImageNet, the dataset that enabled rapid advances in computer vis"
+   "alive_evidence": "Fei-Fei Li is a Chinese-born American computer scientist best known for establishing ImageNet, the dataset that enabled rapid advances in computer vis",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5046006076",
@@ -2686,7 +2740,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-6155-649X",
    "openalex_url": "https://openalex.org/A5046006076",
@@ -2732,7 +2786,9 @@
    "rating": 3,
    "rating_pct": 35.7,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Christopher David Manning is an Australian-American computer scientist and applied linguist specializing in the areas of natural language processing, "
+   "alive_evidence": "Christopher David Manning is an Australian-American computer scientist and applied linguist specializing in the areas of natural language processing, ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5086706224",
@@ -2744,7 +2800,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-5207-9249",
    "openalex_url": "https://openalex.org/A5086706224",
@@ -2786,7 +2842,9 @@
    "rating": 2,
    "rating_pct": 72.2,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Alan Yuille is an English academic who ish Bloomberg Distinguished Professor of Computational Cognitive Science with appointments in the departments o"
+   "alive_evidence": "Alan Yuille is an English academic who ish Bloomberg Distinguished Professor of Computational Cognitive Science with appointments in the departments o",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5042449260",
@@ -2855,7 +2913,7 @@
    "affiliation_verified": false,
    "country": "CN",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-5059-8360",
    "openalex_url": "https://openalex.org/A5100636286",
@@ -2901,7 +2959,9 @@
    "rating": 4,
    "rating_pct": 21.4,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Qiang Yang is the Chair Professor, Department Head of CSE, HKUST in Hong Kong and University New Bright Professor of Engineering and Chair Professor f"
+   "alive_evidence": "Qiang Yang is the Chair Professor, Department Head of CSE, HKUST in Hong Kong and University New Bright Professor of Engineering and Chair Professor f",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5100630207",
@@ -2913,7 +2973,7 @@
    "affiliation_verified": false,
    "country": "CH",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-2770-9031",
    "openalex_url": "https://openalex.org/A5100630207",
@@ -2959,7 +3019,9 @@
    "rating": 5,
    "rating_pct": 0.8,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Maximilian Carl Emil Weber was a German sociologist, historian, jurist, and political economist who was one of the central figures in the development "
+   "alive_evidence": "Maximilian Carl Emil Weber was a German sociologist, historian, jurist, and political economist who was one of the central figures in the development ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5034359289",
@@ -2971,7 +3033,7 @@
    "affiliation_verified": false,
    "country": "GB",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-2146-677X",
    "openalex_url": "https://openalex.org/A5034359289",
@@ -3018,7 +3080,9 @@
    "rating": 3,
    "rating_pct": 53.2,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5032512426",
@@ -3030,7 +3094,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-7752-6073",
    "openalex_url": "https://openalex.org/A5032512426",
@@ -3074,7 +3138,9 @@
    "rating": 2,
    "rating_pct": 64.3,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Edward Witten is an American theoretical physicist known for his contributions to string theory, topological quantum field theory, general relativity "
+   "alive_evidence": "Edward Witten is an American theoretical physicist known for his contributions to string theory, topological quantum field theory, general relativity ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5040645120",
@@ -3086,7 +3152,7 @@
    "affiliation_verified": false,
    "country": "IT",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-7688-2797",
    "openalex_url": "https://openalex.org/A5040645120",
@@ -3128,7 +3194,9 @@
    "rating": 3,
    "rating_pct": 42.1,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5037176679",
@@ -3140,7 +3208,7 @@
    "affiliation_verified": false,
    "country": "DE",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-9598-6623",
    "openalex_url": "https://openalex.org/A5037176679",
@@ -3187,7 +3255,9 @@
    "rating": 2,
    "rating_pct": 73.8,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5100698315",
@@ -3199,7 +3269,7 @@
    "affiliation_verified": false,
    "country": "IT",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-0156-0790",
    "openalex_url": "https://openalex.org/A5100698315",
@@ -3246,7 +3316,9 @@
    "rating": 3,
    "rating_pct": 56.3,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5090809028",
@@ -3258,7 +3330,7 @@
    "affiliation_verified": false,
    "country": "ES",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-2812-9554",
    "openalex_url": "https://openalex.org/A5090809028",
@@ -3305,7 +3377,9 @@
    "rating": 1,
    "rating_pct": 99.2,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5041704528",
@@ -3317,7 +3391,7 @@
    "affiliation_verified": false,
    "country": "AU",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-1831-4871",
    "openalex_url": "https://openalex.org/A5041704528",
@@ -3358,7 +3432,9 @@
    "rating": 2,
    "rating_pct": 76.2,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5017618655",
@@ -3429,7 +3505,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-5099-4718",
    "openalex_url": "https://openalex.org/A5063560980",
@@ -3476,7 +3552,9 @@
    "rating": 3,
    "rating_pct": 54.8,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5050296510",
@@ -3488,7 +3566,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-1236-9249",
    "openalex_url": "https://openalex.org/A5050296510",
@@ -3535,7 +3613,9 @@
    "rating": 2,
    "rating_pct": 69.0,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5007995306",
@@ -3547,7 +3627,7 @@
    "affiliation_verified": false,
    "country": "GB",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-5916-3467",
    "openalex_url": "https://openalex.org/A5007995306",
@@ -3594,7 +3674,9 @@
    "rating": 1,
    "rating_pct": 95.2,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5100638254",
@@ -3606,7 +3688,7 @@
    "affiliation_verified": false,
    "country": "FR",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-5866-1504",
    "openalex_url": "https://openalex.org/A5100638254",
@@ -3652,7 +3734,9 @@
    "rating": 4,
    "rating_pct": 17.5,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5101847617",
@@ -3664,7 +3748,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-1589-9955",
    "openalex_url": "https://openalex.org/A5101847617",
@@ -3711,7 +3795,9 @@
    "rating": 1,
    "rating_pct": 97.6,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5044268160",
@@ -3723,7 +3809,7 @@
    "affiliation_verified": false,
    "country": "SA",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-5611-3325",
    "openalex_url": "https://openalex.org/A5044268160",
@@ -3769,7 +3855,9 @@
    "rating": 5,
    "rating_pct": 7.9,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Omar Mwannes Yaghi is a chemist best known for developing metal–organic frameworks (MOFs) and pioneering reticular chemistry. He was awarded the 2025 "
+   "alive_evidence": "Omar Mwannes Yaghi is a chemist best known for developing metal–organic frameworks (MOFs) and pioneering reticular chemistry. He was awarded the 2025 ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5039233288",
@@ -3781,7 +3869,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-3875-4775",
    "openalex_url": "https://openalex.org/A5039233288",
@@ -3823,7 +3911,9 @@
    "rating": 2,
    "rating_pct": 66.7,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Stephen L. Buchwald is an American chemist and the Camille Dreyfus Professor of Chemistry at MIT. He is known for his involvement in the development o"
+   "alive_evidence": "Stephen L. Buchwald is an American chemist and the Camille Dreyfus Professor of Chemistry at MIT. He is known for his involvement in the development o",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5001336137",
@@ -3893,7 +3983,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-4157-468X",
    "openalex_url": "https://openalex.org/A5088865204",
@@ -3935,7 +4025,9 @@
    "rating": 2,
    "rating_pct": 75.4,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "John F. Hartwig is an American organometallic chemist who holds the position of Henry Rapoport Professor of Chemistry at the University of California,"
+   "alive_evidence": "John F. Hartwig is an American organometallic chemist who holds the position of Henry Rapoport Professor of Chemistry at the University of California,",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5017714289",
@@ -4001,7 +4093,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-3982-9812",
    "openalex_url": "https://openalex.org/A5074510664",
@@ -4043,7 +4135,9 @@
    "rating": 3,
    "rating_pct": 55.6,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Joseph Thomas Hupp is an American chemist. He is the Morrison Professor of Chemistry in the Weinberg College of Arts and Sciences at Northwestern Univ"
+   "alive_evidence": "Joseph Thomas Hupp is an American chemist. He is the Morrison Professor of Chemistry in the Weinberg College of Arts and Sciences at Northwestern Univ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5042178740",
@@ -4271,7 +4365,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-5324-1321",
    "openalex_url": "https://openalex.org/A5042591801",
@@ -4317,7 +4411,9 @@
    "rating": 3,
    "rating_pct": 40.5,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Jeffrey Robert Long is an American chemist who is currently the C. Judson King Distinguished Professor at the University of California, Berkeley, and "
+   "alive_evidence": "Jeffrey Robert Long is an American chemist who is currently the C. Judson King Distinguished Professor at the University of California, Berkeley, and ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5028281315",
@@ -4329,7 +4425,7 @@
    "affiliation_verified": false,
    "country": "SG",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-6956-9543",
    "openalex_url": "https://openalex.org/A5028281315",
@@ -4375,7 +4471,9 @@
    "rating": 3,
    "rating_pct": 42.9,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Susumu Kitagawa   is a Japanese Nobel Prize-winning chemist specializing in coordination chemistry, with a focus on organic–inorganic hybrid compounds"
+   "alive_evidence": "Susumu Kitagawa   is a Japanese Nobel Prize-winning chemist specializing in coordination chemistry, with a focus on organic–inorganic hybrid compounds",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5069641174",
@@ -4668,7 +4766,7 @@
    "affiliation_verified": false,
    "country": "GB",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-8665-0690",
    "openalex_url": "https://openalex.org/A5023888505",
@@ -4710,7 +4808,9 @@
    "rating": 2,
    "rating_pct": 81.7,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Christopher Donald Frith is a British psychologist and professor emeritus at the Wellcome Centre for Neuroimaging at University College London. He is "
+   "alive_evidence": "Christopher Donald Frith is a British psychologist and professor emeritus at the Wellcome Centre for Neuroimaging at University College London. He is ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5039112406",
@@ -4953,7 +5053,7 @@
    "affiliation_verified": false,
    "country": "CA",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-3841-6098",
    "openalex_url": "https://openalex.org/A5011305571",
@@ -4995,7 +5095,9 @@
    "rating": 1,
    "rating_pct": 91.3,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Alan Charles Evans FCAS is a Welsh-born Canadian neuroscientist who is a Distinguished James McGill Professor of Neurology and Neurosurgery, Psychiatr"
+   "alive_evidence": "Alan Charles Evans FCAS is a Welsh-born Canadian neuroscientist who is a Distinguished James McGill Professor of Neurology and Neurosurgery, Psychiatr",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5018481303",
@@ -5061,7 +5163,7 @@
    "affiliation_verified": false,
    "country": "NO",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-6126-2966",
    "openalex_url": "https://openalex.org/A5087626511",
@@ -5103,7 +5205,9 @@
    "rating": 3,
    "rating_pct": 46.8,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Anders Martin Dale is a neuroscientist and professor of radiology, neurosciences, psychiatry, and cognitive science at the University of California, S"
+   "alive_evidence": "Anders Martin Dale is a neuroscientist and professor of radiology, neurosciences, psychiatry, and cognitive science at the University of California, S",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5041538919",
@@ -5278,7 +5382,7 @@
    "affiliation_verified": false,
    "country": "GB",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-5032-5493",
    "openalex_url": "https://openalex.org/A5026935547",
@@ -5325,7 +5429,9 @@
    "rating": 2,
    "rating_pct": 60.3,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5011579041",
@@ -5391,7 +5497,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-2013-560X",
    "openalex_url": "https://openalex.org/A5023264421",
@@ -5438,7 +5544,9 @@
    "rating": 3,
    "rating_pct": 38.9,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5016662094",
@@ -5563,7 +5671,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-5429-0758",
    "openalex_url": "https://openalex.org/A5074346386",
@@ -5605,7 +5713,9 @@
    "rating": 3,
    "rating_pct": 43.7,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5060053337",
@@ -5617,7 +5727,7 @@
    "affiliation_verified": false,
    "country": "IN",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-1073-8477",
    "openalex_url": "https://openalex.org/A5060053337",
@@ -5659,7 +5769,9 @@
    "rating": 3,
    "rating_pct": 38.1,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5027462848",
@@ -5671,7 +5783,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-3676-1325",
    "openalex_url": "https://openalex.org/A5027462848",
@@ -5717,7 +5829,9 @@
    "rating": 3,
    "rating_pct": 34.9,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Shang-Ping Xie is a Chinese-American climatologist and oceanographer who holds the Roger Revelle Chair at the Scripps Institution of Oceanography. Kno"
+   "alive_evidence": "Shang-Ping Xie is a Chinese-American climatologist and oceanographer who holds the Roger Revelle Chair at the Scripps Institution of Oceanography. Kno",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5037996237",
@@ -5846,7 +5960,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-7398-8521",
    "openalex_url": "https://openalex.org/A5034879784",
@@ -5888,7 +6002,9 @@
    "rating": 1,
    "rating_pct": 93.7,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Russell Julian Hemley is an American geophysicist, solid-state physicist, and physical chemist. Hemley is especially notable for his work in the theor"
+   "alive_evidence": "Russell Julian Hemley is an American geophysicist, solid-state physicist, and physical chemist. Hemley is especially notable for his work in the theor",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5032567598",
@@ -6011,7 +6127,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-3221-9467",
    "openalex_url": "https://openalex.org/A5087402778",
@@ -6053,7 +6169,9 @@
    "rating": 1,
    "rating_pct": 85.7,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5049069215",
@@ -6065,7 +6183,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-1237-5008",
    "openalex_url": "https://openalex.org/A5049069215",
@@ -6107,7 +6225,9 @@
    "rating": 1,
    "rating_pct": 94.4,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "James C. McWilliams is a professor at the UCLA Institute of Geophysics and Planetary Physics and Department of Atmospheric and Oceanic Sciences."
+   "alive_evidence": "James C. McWilliams is a professor at the UCLA Institute of Geophysics and Planetary Physics and Department of Atmospheric and Oceanic Sciences.",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5041936168",
@@ -6119,7 +6239,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-3107-3862",
    "openalex_url": "https://openalex.org/A5041936168",
@@ -6160,7 +6280,9 @@
    "rating": 4,
    "rating_pct": 11.1,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5066728260",
@@ -6172,7 +6294,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-0140-7641",
    "openalex_url": "https://openalex.org/A5066728260",
@@ -6218,7 +6340,9 @@
    "rating": 5,
    "rating_pct": 2.4,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Terence Chi-Shen Tao is an Australian-American mathematician and professor of mathematics at the University of California, Los Angeles (UCLA). He was "
+   "alive_evidence": "Terence Chi-Shen Tao is an Australian-American mathematician and professor of mathematics at the University of California, Los Angeles (UCLA). He was ",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5023863881",
@@ -6230,7 +6354,7 @@
    "affiliation_verified": false,
    "country": "GB",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-0643-1971",
    "openalex_url": "https://openalex.org/A5023863881",
@@ -6277,7 +6401,9 @@
    "rating": 2,
    "rating_pct": 61.9,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5006865040",
@@ -6289,7 +6415,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-3394-2187",
    "openalex_url": "https://openalex.org/A5006865040",
@@ -6331,7 +6457,9 @@
    "rating": 4,
    "rating_pct": 24.6,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Shing-Tung Yau is a Chinese American mathematician and educator. He is the first ethnic Chinese Fields medalist and director of the Yau Mathematical S"
+   "alive_evidence": "Shing-Tung Yau is a Chinese American mathematician and educator. He is the first ethnic Chinese Fields medalist and director of the Yau Mathematical S",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5027670183",
@@ -6343,7 +6471,7 @@
    "affiliation_verified": false,
    "country": "US",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-6642-1479",
    "openalex_url": "https://openalex.org/A5027670183",
@@ -6385,7 +6513,9 @@
    "rating": 3,
    "rating_pct": 39.7,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Bernd Sturmfels is a professor of mathematics and computer science at the University of California, Berkeley and is a director of the Max Planck Insti"
+   "alive_evidence": "Bernd Sturmfels is a professor of mathematics and computer science at the University of California, Berkeley and is a director of the Max Planck Insti",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5047837542",
@@ -6514,7 +6644,7 @@
    "affiliation_verified": false,
    "country": "NL",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0003-1823-7105",
    "openalex_url": "https://openalex.org/A5085085199",
@@ -6556,7 +6686,9 @@
    "rating": 1,
    "rating_pct": 98.4,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Frans Oort is a Dutch mathematician who specializes in algebraic geometry."
+   "alive_evidence": "Frans Oort is a Dutch mathematician who specializes in algebraic geometry.",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5079646930",
@@ -6568,7 +6700,7 @@
    "affiliation_verified": false,
    "country": "CA",
    "alive": null,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0002-6301-7737",
    "openalex_url": "https://openalex.org/A5079646930",
@@ -6614,7 +6746,9 @@
    "rating": 1,
    "rating_pct": 96.0,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "未找到可采信的维基词条"
+   "alive_evidence": "未找到可采信的维基词条",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "oa-A5100357847",
@@ -6626,7 +6760,7 @@
    "affiliation_verified": false,
    "country": "CN",
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "openalex-candidate",
    "orcid": "0000-0001-7319-8570",
    "openalex_url": "https://openalex.org/A5100357847",
@@ -6672,7 +6806,9 @@
    "rating": 1,
    "rating_pct": 100.0,
    "alive_checked_on": "2026-09-13",
-   "alive_evidence": "Chen Meng is a Chinese professional table tennis player and Olympic champion. She joined the provincial team when she was 9 and joined the national te"
+   "alive_evidence": "Chen Meng is a Chinese professional table tennis player and Olympic champion. She joined the provincial team when she was 9 and joined the national te",
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   },
   {
    "id": "venki_ramakrishnan",
@@ -6742,7 +6878,7 @@
    "affiliation": "海登天文馆（美国自然历史博物馆）",
    "affiliation_verified": true,
    "alive": true,
-   "active": true,
+   "active": false,
    "origin": "forecast-checker-batch2",
    "origin_note": "天体物理学家、科普主持人；收录条目偏产业预测而非科学论断",
    "stance": "科学传播者",
@@ -6775,7 +6911,9 @@
    ],
    "migrated_on": "2026-09-13",
    "rating": 4,
-   "rating_pct": 15.1
+   "rating_pct": 15.1,
+   "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
+   "removed_on": "2026-09-14"
   }
  ],
  "_migrated_from_fc": {
