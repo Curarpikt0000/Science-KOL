@@ -130,7 +130,25 @@ def translate_rows(rows: list[dict], prompt_tpl: str, body_key: str,
     return ok
 
 
+def _acquire_pipeline_lock():
+    """与 publish.sh 共用同一把锁，避免并发写 data/literature/*.json。
+
+    实测 2026-09-21：publish.sh 重建三层时会改写同一批日文件，
+    正在跑的翻译进程被打断（停在 60/201，无报错、无 DONE 标记）。
+    """
+    import fcntl
+    lock_path = ROOT / "logs" / ".pipeline.lock"
+    lock_path.parent.mkdir(exist_ok=True)
+    fh = open(lock_path, "w")
+    try:
+        fcntl.flock(fh, fcntl.LOCK_EX)
+    except OSError:
+        pass
+    return fh                       # 持有到进程退出
+
+
 def main() -> int:
+    _LOCK = _acquire_pipeline_lock()  # noqa: F841 —— 必须留引用，否则被 GC 释放锁
     if not PROXY:
         print("[ERR] GENAI_PROXY 未配置，无法翻译。中止（不产出半成品）。")
         return 1
