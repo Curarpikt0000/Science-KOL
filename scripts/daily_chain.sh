@@ -27,7 +27,12 @@ $PY scripts/fetch_statements.py || echo "[WARN] 言论抓取失败，沿用上�
 echo "[4/9] 全站中文化"
 # ★ 顺序铁律：翻译写回【源文件】，三层是快照 —— 必须先翻译再重建三层，
 #   否则中文不会出现在面板上（2026-09-13 实测踩过）。
-$PY scripts/translate_to_zh.py all || echo "[WARN] 翻译失败，沿用上一轮中文"
+# ★ 翻译单轮上限 400，日增量超过它就会越积越多（实测 2026-09-21：
+#   积压到 803 条无中文标题）。改为循环跑到门禁通过或最多 6 轮为止。
+for _i in 1 2 3 4 5 6; do
+  $PY scripts/check_zh_coverage.py >/dev/null 2>&1 && break
+  SK_ZH_LIMIT=400 $PY scripts/translate_to_zh.py all || { echo "[WARN] 翻译失败"; break; }
+done
 
 echo "[5/9] 生成四层内容（一句话/总结/原文翻译）"
 $PY scripts/build_four_layers.py all || echo "[WARN] 四层生成失败，沿用上一轮"
