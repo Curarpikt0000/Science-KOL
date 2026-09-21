@@ -14,17 +14,17 @@ export SK_LLM_TOPN="${SK_LLM_TOPN:-60}"
 
 echo "=== Science-KOL 日链 $(date '+%F %T %Z') ==="
 
-echo "[1/9] 抓取文献"
+echo "[1/10] 抓取文献"
 $PY scripts/fetch_literature.py || { echo "抓取失败"; exit 1; }
 
-echo "[2/9] 分流 + 中文摘要"
+echo "[2/10] 分流 + 中文摘要"
 $PY scripts/classify_literature.py || { echo "分流失败"; exit 1; }
 
-echo "[3/9] KOL 观点抓取"
+echo "[3/10] KOL 观点抓取"
 # 只抓 active 且有 ORCID 的人；失败不阻断整条链（文献侧仍要出面板）
 $PY scripts/fetch_statements.py || echo "[WARN] 言论抓取失败，沿用上一轮数据"
 
-echo "[4/9] 全站中文化"
+echo "[4/10] 全站中文化"
 # ★ 顺序铁律：翻译写回【源文件】，三层是快照 —— 必须先翻译再重建三层，
 #   否则中文不会出现在面板上（2026-09-13 实测踩过）。
 # ★ 翻译单轮上限 400，日增量超过它就会越积越多（实测 2026-09-21：
@@ -34,23 +34,34 @@ for _i in 1 2 3 4 5 6; do
   SK_ZH_LIMIT=400 $PY scripts/translate_to_zh.py all || { echo "[WARN] 翻译失败"; break; }
 done
 
-echo "[5/9] 生成四层内容（一句话/总结/原文翻译）"
+echo "[5/10] 生成四层内容（一句话/总结/原文翻译）"
 $PY scripts/build_four_layers.py all || echo "[WARN] 四层生成失败，沿用上一轮"
 $PY scripts/refetch_l3.py || echo "[WARN] L3 重抓失败，下轮重试"
 
-echo "[6/9] 文献三层重建（吃进新译文）"
+echo "[6/10] 文献三层重建（吃进新译文）"
 $PY scripts/build_literature_layers.py || { echo "文献分层失败"; exit 1; }
 
-echo "[7/9] 观点三层聚合"
+echo "[7/10] 观点三层聚合"
 $PY scripts/build_statement_layers.py || { echo "观点分层失败"; exit 1; }
 
-echo "[8/9] 建面板"
+echo "[8/10] 建面板"
 $PY scripts/build_dashboard.py || { echo "建面板失败"; exit 1; }
 # 中文覆盖率门禁：不达标只警告不中断（数据仍可用），但日志留痕便于追查
 $PY scripts/check_zh_coverage.py || echo "[WARN] 存在未中文化条目，见上方明细"
 
-echo "[9/9] Notion 同步"
+echo "[9/10] Notion 同步"
 # 幂等 upsert + 去重兜底；失败不阻断（面板与 GitHub 仍应发布）
 $PY scripts/notion_sync.py || echo "[WARN] Notion 同步失败，下轮重试"
+
+echo "[10/10] 发布（三通道：GitHub Pages + Cloudflare + 内网 vibe）"
+# ★ 2026-09-21 事故：日链原本【没有发布步骤】——数据天天更新，公网却停在 09-14
+#   整整 7 天没动，靠 Chao 问「今天 cron 跑了么」才发现。
+#   发布必须是日链的一环，不能靠人记得手动跑 publish.sh。
+# ★ 失败不改变日链退出码（数据已落盘，下轮会重推），但必须在日志里喊出来。
+if bash scripts/publish.sh; then
+  echo "发布完成"
+else
+  echo "[WARN] 发布失败 rc=$? — 数据已落盘，下轮重试" >&2
+fi
 
 echo "=== 完成 $(date '+%F %T') ==="

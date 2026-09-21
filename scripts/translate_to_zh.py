@@ -149,7 +149,7 @@ def main() -> int:
         f.write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
 
     if scope in ("all", "lit"):
-        # 只翻面板实际展示的条目：从三层里取 URL 集合
+        # 只翻【面板实际展示】的条目：从三层里取 URL 集合
         lay_f = ROOT / "data" / "layers" / "literature_layers.json"
         shown_urls = set()
         if lay_f.exists():
@@ -159,13 +159,30 @@ def main() -> int:
                     for it in (b.get("items") or b.get("top_items") or []):
                         if isinstance(it, dict) and it.get("url"):
                             shown_urls.add(it["url"])
-        lf = sorted((ROOT / "data" / "literature").glob("*.json"))[-1]
-        data = json.loads(lf.read_text(encoding="utf-8"))
-        items = data.get("items") if isinstance(data, dict) else data
-        target = [r for r in items if r.get("url") in shown_urls] if shown_urls else items
-        print(f"[文献] {lf.name} 展示层 {len(target)} 条")
-        translate_rows(target, PROMPT_LIT, "abstract", "文献", lim)
-        lf.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+        # ★ 必须遍历【全部】日文件，不能只读最新一个。
+        #   面板展示的是多日累积（实测 2026-09-21：展示 1572 条横跨 9 个日文件，
+        #   只读最新的就有 1141 条永远够不到 → 缺口越积越多、循环多少轮都清不完）。
+        lit_files = sorted((ROOT / "data" / "literature").glob("*.json"))
+        remaining = lim
+        for lf in reversed(lit_files):          # 从最新往回补，新数据优先
+            if remaining <= 0:
+                break
+            data = json.loads(lf.read_text(encoding="utf-8"))
+            items = data.get("items") if isinstance(data, dict) else data
+            if not items:
+                continue
+            target = ([r for r in items if r.get("url") in shown_urls]
+                      if shown_urls else list(items))
+            todo_n = sum(1 for r in target
+                         if not (has_cn(r.get("title_zh"))
+                                 and has_cn(r.get("summary_zh"))))
+            if not todo_n:
+                continue
+            print(f"[文献] {lf.name} 展示层 {len(target)} 条")
+            done = translate_rows(target, PROMPT_LIT, "abstract", "文献", remaining)
+            remaining -= max(done, 0)
+            lf.write_text(json.dumps(data, ensure_ascii=False, indent=1),
+                          encoding="utf-8")
 
     print("完成。下一步需重建三层与面板才会生效。")
     return 0
