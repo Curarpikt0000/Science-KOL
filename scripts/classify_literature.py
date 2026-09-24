@@ -203,17 +203,26 @@ def llm_summarize(items: list[dict], batch_size: int = 8) -> int:
             m = re.search(r"\[.*\]", out, re.S)
             if m:
                 try:
-                    for rec in json.loads(m.group(0)):
-                        idx = rec.get("i")
-                        if isinstance(idx, int) and 0 <= idx < len(chunk):
-                            s = (rec.get("summary_zh") or "").strip()
-                            if s:
-                                chunk[idx]["summary_zh"] = s
-                                done += 1
-                            if rec.get("field") in FIELDS:
-                                chunk[idx]["field_llm"] = rec["field"]
+                    parsed = json.loads(m.group(0))
                 except json.JSONDecodeError:
-                    pass
+                    parsed = []
+                if not isinstance(parsed, list):
+                    parsed = []
+                for rec in parsed:
+                    # ★ 2026-09-24 线上崩溃：LLM 偶尔返回 [1,2,3] 这类合法 JSON 但
+                    #   元素非 dict，rec.get() 抛 AttributeError（只捕 JSONDecodeError 挡不住），
+                    #   整条日链在此中断 → 面板停更 → 自愈每小时重跑又每次崩 → cron 超时。
+                    #   单条脏数据绝不能掀翻整条管道：不是 dict 就跳过。
+                    if not isinstance(rec, dict):
+                        continue
+                    idx = rec.get("i")
+                    if isinstance(idx, int) and 0 <= idx < len(chunk):
+                        s = (rec.get("summary_zh") or "").strip()
+                        if s:
+                            chunk[idx]["summary_zh"] = s
+                            done += 1
+                        if rec.get("field") in FIELDS:
+                            chunk[idx]["field_llm"] = rec["field"]
         print(f"    LLM 批 {b // batch_size + 1}/{(len(items) - 1) // batch_size + 1} "
               f"→ 累计 {done}")
         time.sleep(SLEEP)
@@ -253,7 +262,15 @@ def main() -> int:
     ranked = sorted([i for i in items if i["field"]],
                     key=lambda x: -x["importance"])[:top_n]
     print(f"\n=== LLM 中文摘要：Top {len(ranked)} 条 ===")
-    ok = llm_summarize(ranked)
+    # ★ 2026-09-24 教训：LLM 摘要只是锦上添花，规则分流（上方）才是关键产出且已完成。
+    #   此处任何异常都不该掀翻整条日链——那次 AttributeError 让面板停更两天，
+    #   自愈每小时重跑又每次崩在同一处，最终 cron 超时告警。
+    #   失败就少几条中文摘要，下轮 translate_to_zh.py 会补上。
+    try:
+        ok = llm_summarize(ranked)
+    except Exception as e:                      # noqa: BLE001 —— 故意兜住全部
+        print(f"[WARN] LLM 摘要异常（不影响分流结果）：{type(e).__name__}: {e}")
+        ok = 0
     print(f"LLM 摘要成功 {ok}/{len(ranked)}")
 
     payload["_stats"]["field_dist"] = dist
