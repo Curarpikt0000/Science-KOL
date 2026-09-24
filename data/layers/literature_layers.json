@@ -1,31 +1,46 @@
 {
  "_meta": {
-  "built_at": "2026-09-24",
-  "total": 13840,
-  "undated": 179,
+  "built_at": "2026-09-25",
+  "total": 14086,
+  "undated": 182,
   "days": 56,
   "months": 3,
   "years": 1
  },
  "daily": {
   "2026-09-24": {
-   "count": 1358,
+   "count": 1549,
    "by_field": {
-    "AI计算机": 718,
-    "物理天文": 213,
-    "数学基础理论": 168,
-    "医学健康": 77,
-    "化学材料": 77,
-    "生命科学": 40,
-    "神经认知": 39,
-    "地球气候": 23,
-    "未分类": 3
+    "AI计算机": 743,
+    "物理天文": 221,
+    "数学基础理论": 174,
+    "医学健康": 130,
+    "化学材料": 97,
+    "生命科学": 86,
+    "神经认知": 50,
+    "地球气候": 31,
+    "未分类": 17
    },
    "by_tier": {
-    "alt": 202,
-    "preprint": 1156
+    "alt": 314,
+    "preprint": 1227,
+    "mainstream": 8
    },
    "items": [
+    {
+     "title": "Little-known arm of immune system could be key to better vaccines, cancer therapies",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "Science",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.science.org/content/article/little-known-arm-immune-system-could-be-key-better-vaccines-cancer-therapies",
+     "doi": "10.1126/science.zqp1jqe",
+     "published": "2026-09-24",
+     "importance": 10.5,
+     "abstract": "The CD1 system responds to lipids, not proteins, driving reactions to bee stings, bacteria, and possibly poison ivy",
+     "authors": "Mitch Leslie"
+    },
     {
      "title": "Cellular basis of accelerated whole-tooth regeneration",
      "title_zh": "加速全牙再生的细胞基础研究",
@@ -237,6 +252,62 @@
      "authors": "Luiza Barseghyan, Olabisi Bamidele, Alfred A. Simental, Salma Khan"
     },
     {
+     "title": "DNA Barcoding and Untargeted Metabolomics Reveal Phylogenetic and Chemotaxonomic Relationships Among 11 Ferula Species from Xinjiang, China",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "MDPI",
+     "tier": "alt",
+     "field": "生命科学",
+     "url": "https://doi.org/10.3390/metabo16100712",
+     "doi": "10.3390/metabo16100712",
+     "published": "2026-09-24",
+     "importance": 9.5,
+     "abstract": "Background/Objectives: Morphological similarity among Ferula species, particularly during the vegetative stage, complicates the reliable authentication of leaf materials. The correspondence between phylogenetic relationships and leaf chemotaxonomic patterns among wild and cultivated Ferula resources remains insufficiently characterized. This study addressed three questions in 11 Ferula species from Xinjiang, China: whether combined DNA barcodes support species authentication and broad phylogenetic grouping; whether leaf metabolic profiles reveal taxon-associated differentiation; and to what extent phylogenetic and metabolic groupings correspond. Methods: Four DNA barcode loci, ITS2, trnH–psbA, rps11, and atpA–trnR, were combined for molecular authentication and phylogenetic analysis. Ultrasound-assisted extraction conditions were optimized using response surface methodology to establish standardized sample preparation, followed by LC–MS-based untargeted metabolomic profiling of 33 leaf samples representing 11 species. Multivariate analyses were used to characterize taxon-associated metabolic patterns and chemotaxonomic relationships. Results: The combined DNA barcode dataset genera",
+     "authors": "Shuak Halimubek, Pengyan Yan, Lei Chen, Jingjing Chen, Xiaoqing Zhang, Siyu Chen"
+    },
+    {
+     "title": "Brain Aging and Cellular Senescence Trigger Neuroimmunological Dysregulation and Neurodegeneration",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "MDPI",
+     "tier": "alt",
+     "field": "神经认知",
+     "url": "https://doi.org/10.3390/brainsci16101019",
+     "doi": "10.3390/brainsci16101019",
+     "published": "2026-09-24",
+     "importance": 9.5,
+     "abstract": "Cellular senescence during brain aging is a complex biological phenomenon triggered by age-related and external factors, leading to epigenetic and genetic alterations that impair cellular replication, cause mitochondrial dysfunction, and activate the senescence-associated secretory phenotype (SASP). This activation initiates proinflammatory signaling cascades and impairs inflammation-resolution mechanisms, facilitating the accumulation of immunosenescent cells and proinflammatory mediators and promoting the chronic, age-associated inflammation known as “inflammaging.” Although immunosenescence and inflammaging are distinct mechanisms, they are not independent. Both can contribute to the development and progression of neurodegenerative disorders by maintaining a chronic systemic proinflammatory state mediated by dysfunction of signaling pathways involved in lipid metabolism and inflammation resolution, as well as by disrupting the blood–brain barrier, which facilitates neuroinflammation within the brain parenchyma. Furthermore, dysfunction in bidirectional communication pathways between the immune system and the central nervous system, driven by immunosenescence in neural cells, inc",
+     "authors": "Vega-García Angélica, Manuel-Apolinar Leticia, Feria-Romero Iris Angélica, Campos-Bedolla Patricia, Gutiérrez-García Carlos Alberto, Luna-Munguía Hiram"
+    },
+    {
+     "title": "Role of the Gut Microbiome in Natural and Synthetic Drug Efficacy and Safety: A Narrative Review",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "MDPI",
+     "tier": "alt",
+     "field": "生命科学",
+     "url": "https://doi.org/10.3390/applmicrobiol6100113",
+     "doi": "10.3390/applmicrobiol6100113",
+     "published": "2026-09-24",
+     "importance": 9.5,
+     "abstract": "The gut microbiome has emerged as an important determinant of the metabolism, efficacy, and safety of many therapeutic agents, expanding the traditional host-centered view of pharmacology. Direct microbial biotransformation is particularly relevant to orally administered compounds, whereas the gut microbiome can also influence systemically administered therapies indirectly through immune, inflammatory, barrier, and hepatic pathways. Beyond its established roles in nutrient metabolism, immune regulation, and maintenance of epithelial homeostasis, the microbiome functions as a metabolically active organ capable of transforming endogenous molecules, dietary compounds, xenobiotics, and therapeutic agents through an extensive repertoire of microbial enzymes and metabolites. These interactions influence virtually every stage of drug disposition by modifying pharmacokinetics, pharmacodynamics, bioavailability, therapeutic efficacy, and toxicity. This narrative review summarizes current knowledge of the composition and functional diversity of the gut microbiome and examines the molecular mechanisms underlying host–microbe–drug interactions, including direct microbial biotransformation, reg",
+     "authors": "Ricardo Villoch-Rosado, Dijanneliz Acosta, Lorelein Morales-Santiago, Isabel M. González-Tardí, Omaira Medina-Rodríguez, Karoline Ríos-Rodríguez"
+    },
+    {
+     "title": "Gut Microbiome-Mediated Neuroprotective Effect of the Mediterranean Diet: A Narrative Review of Cognitive Aging, Alzheimer’s Disease, and Parkinson’s Disease",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "MDPI",
+     "tier": "alt",
+     "field": "生命科学",
+     "url": "https://doi.org/10.3390/nu18193146",
+     "doi": "10.3390/nu18193146",
+     "published": "2026-09-24",
+     "importance": 9.5,
+     "abstract": "Background: Alzheimer’s disease (AD) and Parkinson’s disease (PD) are major neurodegenerative disorders for which disease-modifying therapies are limited. Increasingly, evidence suggests that diet influences neurodegenerative risk through interactions among the gut microbiome, immune system, and brain. The Mediterranean diet (MD) is associated with improved cognitive health, but the mechanisms underlying its potential neuroprotective effects remain incompletely understood. Objective: In this narrative review, evidence on microbiome-mediated mechanisms linking MD adherence to neuroprotection was synthesized, and how Mediterranean dietary components influence microbial ecology, metabolites, immune regulation, and neuroinflammation relevant to cognitive aging, AD, and PD was evaluated. Methods: Evidence from experimental, observational, and clinical studies was reviewed, focusing on microbial metabolites, intestinal barrier integrity, immune regulation, and inflammatory pathways. Discussion: Mediterranean dietary components, including fiber, polyphenols, whole grains, legumes, nuts, extra-virgin olive oil, and omega-3 fatty acids, may promote beneficial microbial communities and metab",
+     "authors": "Kundun Kamalakar, Christa Akerele, Ezequiel Lafont, Lauren R. Koralnik, Caitlin Gilman, Jose Clemente Litran"
+    },
+    {
      "title": "Developmental synchrony of retinal waves, apoptosis, and angiogenesis in postnatal retina",
      "title_zh": "后天视网膜发育中视网膜波、凋亡与血管生成的同步性",
      "summary_zh": "后天小鼠视网膜发育是一个多方面的过程，涉及自发神经活动（视网膜波）、血管丛生长和程序性细胞死亡的协调互动。尽管这些过程在粗略层面上已知相互作用，但具体的整合机制仍不明确。通过大规模宽场钙成像、高密度多电极阵列记录、单细胞RNA测序和免疫组化，我们描述了视网膜发育过程中紧密对齐的离心扩展模式。该模式与II期视网膜波的出现、血管发育、表达Heme氧合酶-1（Hmox1）的小胶质细胞、凋亡细胞标记物及本研究中识别的新型自发荧光簇复合物（ACCs）相关。已知凋亡细胞上调功能性pannexin-1（PANX-1）半通道，这些电压门控通道释放的嘌呤分子作为“吃我”信号吸引邻近的小胶质细胞。用药物丙磺舒阻断PANX-1半通道会显著降低自发波的频率和强度，表明视网膜波确实由这些凋亡细胞触发。我们的观察表明，自发波最初是在未血管化的视网膜区域由过度活跃的凋亡视网膜神经节细胞（RGCs）触发。",
@@ -361,6 +432,76 @@
      "importance": 9.0,
      "abstract": "Facial expressivity analysis in Parkinson’s disease (PD) has received considerable attention due to the characteristic symptom of hypomimia, which is defined as the reduction or loss of spontaneous facial movements and emotional facial expressions. Hypomimia has been linked to a detrimental impact on close relationships and psychological well-being. This investigation presents the preliminary findings of a quantitative analysis of facial expressivity in a longitudinal pilot cohort of nine Mexican subjects diagnosed with PD, evaluated during two sessions: at baseline and following eight weeks of clinical follow-up under stable medication conditions. In each session, participants were instructed to mimic eight specific facial expressions while their faces were recorded with a high-definition camera. Facial expressivity was quantified by extracting dynamic features (Euclidean distances) between key landmarks from video recordings using the MediaPipe FaceMesh framework (utilizing 468 3D landmarks, excluding the iris). The landmark coordinates were normalized for translation, scale (via intercanthal distance), and rotation. Our quantitative results showed that the normalized landmark di",
      "authors": "Héctor E. Parga-Nájera, Jorge L. Rojas-Arce, Luis A. Aguilar-Pérez, Ingrid S. Morales-Sánchez, Luis Jimenez-Angeles"
+    },
+    {
+     "title": "Integrated respirometry and metabolomics unveil circadian metabolic dynamics in Drosophila",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "eLife",
+     "tier": "alt",
+     "field": "生命科学",
+     "url": "https://elifesciences.org/articles/108681",
+     "doi": "",
+     "published": "2026-09-24",
+     "importance": 9.0,
+     "abstract": "Sleep and circadian rhythms shape organismal energy patterns, but how this timing connects to oxygen use and carbon dioxide production remains incompletely understood. We combined high-resolution respirometry with liquid chromatography-mass spectrometry (LC-MS)-based metabolomics to characterize respiratory dynamics and metabolic states in Drosophila melanogaster , resolving genotype-specific impacts of sleep disruption and circadian regulation. Wild-type flies under light-dark cycles (WT-LD) showed rhythmic respiratory patterns reflective of anticipatory coordination of mitochondrial energy metabolism, amino acid turnover, and redox cycling. Short-sleep mutants ( fmn , sss ) exhibited elevated metabolic rates, with reactive shifts of fuel preferences toward lipid and amino acid catabolism, and altered mitochondrial respiration. The clock mutant ( per 01 ) and flies under constant darkness (WT-DD) showed reactive and widespread metabolic dysregulation and impaired redox homeostasis. These findings demonstrate that both sleep and circadian systems contribute to aligning metabolic substrate selection with energy demands, offering mechanistic insights into how disruptions in behaviora",
+     "authors": ""
+    },
+    {
+     "title": "Immunoregenerative Microenvironment Modulation in Tendon–Ligament Regeneration: Evolution of Chitosan-Based Composite Biomaterials",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "MDPI",
+     "tier": "alt",
+     "field": "生命科学",
+     "url": "https://doi.org/10.3390/ijms27198546",
+     "doi": "10.3390/ijms27198546",
+     "published": "2026-09-24",
+     "importance": 9.0,
+     "abstract": "Tendon and ligament injuries remain challenging to treat because healing may result in fibrosis, incomplete tendon–bone integration, impaired biomechanical properties, and reinjury. This review critically synthesizes preclinical evidence on chitosan-based composite biomaterials for tendon–ligament regeneration, focusing on their evolution from structural scaffolds toward multifunctional immunoregenerative platforms. Evidence across immune regulation, inflammatory signaling, angiogenesis, progenitor-cell activity, extracellular matrix remodeling, fibrocartilage formation, enthesis regeneration, tendon–bone healing, and biomechanical recovery was evaluated, while distinguishing direct chitosan-related evidence from contextual evidence derived from broader biomaterial systems. Chitosan-based platforms may support multiple regenerative domains through structural guidance, bioadhesion, localized delivery of bioactive components, and formulation-dependent immunomodulatory activity. However, heterogeneity in chitosan physicochemical properties, composite formulations, experimental models, and outcome measures limits direct comparison and prevents definitive attribution of multicomponent e",
+     "authors": "Muhammad Wibowo Ariyanto, Zairin Noor, Dwikora Novembri Utomo, Oski Illiandri"
+    },
+    {
+     "title": "Genome-Wide Identification and Expression Profiling of the GATA Gene Family Reveals Candidate Genes Associated with GA3-Induced Shoot Elongation in Citrus grandis ‘Wanbai’",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "MDPI",
+     "tier": "alt",
+     "field": "生命科学",
+     "url": "https://doi.org/10.3390/ijms27198542",
+     "doi": "10.3390/ijms27198542",
+     "published": "2026-09-24",
+     "importance": 9.0,
+     "abstract": "Plant GATA transcription factors are zinc-finger proteins involved in signal transduction, growth and development. However, their potential involvement in plant height and gibberellin-associated shoot growth in pummelo insufficiently characterised. In this study, members of the CgGATA gene family were identified genome-wide and characterised through analyses of physicochemical properties, chromosomal distribution, phylogenetic relationships, gene structures, conserved motifs, collinearity and predicted cis-acting elements in putative upstream regulatory regions. RT-qPCR was used to examine expression profiles across sampled tissues, and expression changes associated with prolonged gibberellin (GA3) treatment in ‘Wanbai Pummelo’ shoot tips, and expression patterns in tall and dwarf pummelo genotypes. A total of 23 CgGATA genes were identified and classified into four phylogenetic subfamilies. Members of the same subfamily generally shared similar gene structures and conserved-motif compositions. Comparative collinearity analysis identified more syntenic GATA gene pairs between pummelo and sweet orange than between pummelo and Arabidopsis thaliana. The putative upstream regulatory re",
+     "authors": "Chenxiang Ma, Yuanyuan Xu, Jian Han, Youhan Kong, Liying Yang, Di Feng"
+    },
+    {
+     "title": "Ubiquitin Proteasome System BTB-Adaptor Protein Insomniac Modifies Seizure Severity and Response to the Ketogenic Diet in a Drosophila Model of Mitochondrial Encephalomyopathy",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "MDPI",
+     "tier": "alt",
+     "field": "神经认知",
+     "url": "https://doi.org/10.3390/genes17101185",
+     "doi": "10.3390/genes17101185",
+     "published": "2026-09-24",
+     "importance": 9.0,
+     "abstract": "Background/Objectives: The ubiquitin proteasome system (UPS) serves critical cellular homeostatic functions that contribute to neurological health, including neuronal metabolism, synaptic plasticity, and the molecular circadian clock. The UPS is tightly regulated to ensure the correct balance of healthy proteins and those targeted for degradation and recycling; malfunction in this quality control process can contribute to disease states such as neurodegeneration and cancer. Target specificity in this system is due in part to ubiquitin ligase adaptor proteins, such as those of the BTB superfamily of proteins, which connect substrates to the larger proteasomal complex. In Drosophila, the BTB family member insomniac (human orthologs KTCD2, 5, and 17) has been shown to regulate sleep, arousal, and synaptic plasticity, but has not been examined for a role in neuronal excitability disease phenotypes. Methods: We utilized a genetic approach to interrogate neurobehavioral dysfunction in mitochondrial encephalomyopathy (ME) and the ability of dietary therapy to modulate this dysfunction. Results: Here, we report that genetic interference with insomniac modifies seizure-like behavior in a ne",
+     "authors": "Keri J. Fogle, Brynn Urban, Dana M. Mumford, Michael J. Palladino"
+    },
+    {
+     "title": "Preoperative Zinc Deficiency as a Novel Prognostic Predictor for Postoperative Recurrence in Hepatocellular Carcinoma",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "MDPI",
+     "tier": "alt",
+     "field": "医学健康",
+     "url": "https://doi.org/10.3390/nu18193147",
+     "doi": "10.3390/nu18193147",
+     "published": "2026-09-24",
+     "importance": 9.0,
+     "abstract": "Background/Objectives: The impact of preoperative zinc (Zn) status on the survival and recurrence of patients with hepatocellular carcinoma (HCC) after hepatectomy remains unclear. This study aimed to clarify whether preoperative Zn deficiency affects the prognosis of patients with HCC undergoing initial curative hepatectomy. Methods: We retrospectively reviewed 105 patients who underwent initial curative hepatectomy for HCC at our institution (2011–2018). Preoperative Zn deficiency was defined as serum Zn 70 µg/dL. Clinical and tumor parameters were compared between patients with and without Zn deficiency. Disease-free and overall survival were evaluated using the Kaplan–Meier method, and prognostic factors were identified via univariate and multivariate Cox proportional hazards analyses. Subgroup analyses were conducted based on age, gender, and etiology. Results: Among 105 patients, 46 (43.8%) showed Zn deficiency (Zn deficiency group), whereas 59 (56.2%) showed normal Zn (normal Zn group). Compared with the normal-Zn group, the Zn deficiency group showed significantly lower hemoglobin, prothrombin activity, serum albumin, and smaller tumor size (all p 0.05). The Zn deficiency g",
+     "authors": "Yuki Adachi, Shingo Shimada, Shoichiro Mizukami, Tomoki Takizawa, Katsuro Enomoto, Kai Makino"
     },
     {
      "title": "The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis",
@@ -1565,156 +1706,16 @@
      "importance": 8.5,
      "abstract": "The stochastic block model is a paradigmatic model of networks with community structure. Yet percolation in the model has been studied primarily in cases with a fixed block structure, even though in real networks, the community structure may evolve as the network grows. Here we study percolation in sequences of stochastic block models in which the numbers and sizes of communities, as well as the intra- and intercommunity connection probabilities may all change with the network size. We analyze five such sequences using two methods: linearized self-consistent equations for the locally tree-like models and a branching process at the community scale for the models with nonvanishing clustering. We find that the critical average degree is not generally equal to $1$, even in locally tree-like sequences, because the transition depends on how connections are distributed across the evolving community structure. We also show that the community-scale branching process accurately predicts the transition when intercommunity connections are sufficiently sparse, even in the presence of nonvanishing clustering, while a geometric stochastic block model sequence demonstrates the limitations of this ",
      "authors": "Luca Pieleanu, Moritz Laber, Narayan G. Sabhahit, Dmitri Krioukov"
-    },
-    {
-     "title": "The maximum relaxation time of a random walk on regular graphs",
-     "title_zh": "规则图上随机游走的最大松弛时间",
-     "summary_zh": "我们为连通规则图上的简单随机游走建立了严格的二次界限，偶数阶和奇数阶的主常数分别为 $3/(2\\pi^2)$ 和 $1/\\pi^2$。这解决了一个长期存在的猜想，即Aldous--Fill谱隙猜想（2002）。我们还证明了相应的三次和四次链的唯一性和稳定性定理，并解决了Abdi、Ghorbani和Imrich（2021）以及Abdi和Ghorbani（2023）提出的四次唯一性猜想。我们在最小度数和规则性约束下建立了代数连通性的严格界限，并证明了最小化者的猜测链结构，识别其重复块。这解决了Guiduli和Mohar（1996）的长期猜想以及Abdi和Ghorbani（2024）的结构猜想。我们的定量稳定性定理表明，几乎最小的代数连通性迫使几乎最大的直径，从而证明了它们的直径猜想。此外，我们还获得了基于边连通性的严格松弛时间界限。对于非规则图，我们建立了最大度数与邻接谱半径之间的严格界限，确认了Liu（2024）的猜想。作为应用，我们证明了Aldous和Fill（2002）对规则图提出的击中时间和通勤时间的严格界限。",
-     "source": "arXiv:math.PR",
-     "tier": "preprint",
-     "field": "数学基础理论",
-     "url": "https://arxiv.org/abs/2609.06818",
-     "doi": "10.48550/arXiv.2609.06818",
-     "published": "2026-09-24",
-     "importance": 8.5,
-     "abstract": "We establish sharp quadratic bounds on the relaxation time of simple random walk on connected regular graphs, with leading constants $3/(2\\pi^2)$ and $1/\\pi^2$ for even and odd orders, respectively. This resolves a longstanding conjecture known as Aldous--Fill spectral gap conjecture (2002). We also prove uniqueness and stability theorems for the corresponding cubic and quartic chains, and settle the quartic uniqueness conjecture posed by Abdi, Ghorbani, and Imrich (2021) and by Abdi and Ghorbani (2023). We establish sharp bounds on algebraic connectivity under minimum-degree and regularity constraints and prove the conjectured chain structure of the minimisers, identifying their repeating blocks. This resolves a longstanding conjecture of Guiduli and Mohar (1996) and a structural conjecture of Abdi and Ghorbani (2024). Our quantitative stability theorem shows that nearly minimum algebraic connectivity forces nearly maximum diameter, proving their diameter conjecture. We further obtain sharp relaxation-time bounds in terms of edge-connectivity. For nonregular graphs, we establish sharp bounds for the gap between maximum degree and adjacency spectral radius, confirming a conjecture ",
-     "authors": "Haoran Zhu"
-    },
-    {
-     "title": "Geometric lifting and Freiman's $3k-4$ theorem in compact connected abelian groups",
-     "title_zh": "紧致连通阿贝尔群中的几何提升与弗赖曼$3k-4$定理",
-     "summary_zh": "我们在紧致连通阿贝尔群中发展了一种几何提升方法，以解决逆和集问题。第一个结果是弗赖曼$3k-4$定理的类比，即对于每个满足$\\mu_G(A+A)<3\\mu_G(A)$的紧致集$A\\subseteq G$，其哈尔测度足够小，则$A$包含在一个测度至多为$\\mu_G(A+A)-\\mu_G(A)$的一维博尔集内。这解决了Christ和Iliopoulou提出的问题。证明结合了Bilu定理与spillover论证的几何细化。我们还建立了一个精确的投影定理。在具有连通核的连续满同态下，测度足够小且倍增至多为$K$（$2\\le K<3$）的紧致集，其像的倍增至多为$2K-2$，且该因子是最优的。进一步的结果包括针对流行和集的$3k-4$定理的变体以及针对陶的卷积不等式的逆定理。",
-     "source": "arXiv:math.NT",
-     "tier": "preprint",
-     "field": "数学基础理论",
-     "url": "https://arxiv.org/abs/2609.27322",
-     "doi": "10.48550/arXiv.2609.27322",
-     "published": "2026-09-24",
-     "importance": 8.5,
-     "abstract": "We develop a geometric lifting method for inverse sumset problems in compact connected abelian groups. The first result is an analogue of Freiman's $3k-4$ theorem, that is every compact set $A\\subseteq G$ of sufficiently small Haar measure satisfying $\\mu_G(A+A)<3\\mu_G(A)$ is contained in a one dimensional Bohr set of measure at most $\\mu_G(A+A)-\\mu_G(A)$. This resolves a question of Christ and Iliopoulou. The proof combines Bilu's theorem with a geometric refinement of the spillover argument. We also establish a sharp projection theorem. Under a continuous surjective homomorphism with connected kernel, a compact set of sufficiently small positive measure and doubling at most $K$, where $2\\le K<3$, has image of doubling at most $2K-2$, and this factor is best possible. Further consequences include variants of the $3k-4$ theorem for popular sumsets and an inverse theorem for Tao's convolution inequality.",
-     "authors": "Yifan Jing, Yuchen Meng"
-    },
-    {
-     "title": "Definite integral Albert algebras: arithmetic and finite geometry",
-     "title_zh": "确定性阿尔伯特代数：算术与有限几何",
-     "summary_zh": "本文对定义在$\\mathbb{Z}$上的确定性阿尔伯特代数进行了统一研究，主要运用特殊的Siegel-Weil恒等式作为算术工具。从标准八元数序列出发，其第一个标量θ系数饱和了属的平均值，并迫使其余类无根。$G_2$ θ提升的立方环系数给出了剩余规模为2的框架序列的质量，这也可以通过壳几何得到。均匀的Niemeier-Golay稳定器界限饱和了该质量，证明了恰好存在一个额外类，并确定了自同构阶、框架传递性以及819个秩为1的元素上的2457个框架。相关的广义六边形在其阶被证明后，将非标准群识别为${}^3D_4(2):3$。独立的加权θ论证给出了迹为零的根系统替代$\\varnothing$或$A_2E_8^3$。该构造将框架对象的正质量与特殊的艾森斯坦系数联系起来。",
-     "source": "arXiv:math.NT",
-     "tier": "preprint",
-     "field": "数学基础理论",
-     "url": "https://arxiv.org/abs/2609.27550",
-     "doi": "10.48550/arXiv.2609.27550",
-     "published": "2026-09-24",
-     "importance": 8.5,
-     "abstract": "We give a unified treatment of definite Albert algebras over $\\mathbb{Z}$, with exceptional Siegel--Weil identities as the main arithmetic tool. Starting from the standard octonion order alone, its first scalar theta coefficient saturates the genus average and forces every remaining class to be rootless. A cubic-ring coefficient of the $G_2$ theta lift then gives the mass of the remaining scale-$2$ framed orders, also recovered from shell geometry. A uniform Niemeier--Golay stabilizer bound saturates this mass, proving that there is exactly one further class and determining both automorphism orders, frame transitivity, and the $2457$ frames on $819$ rank-one elements. The associated generalized hexagon identifies the nonstandard group as ${}^3D_4(2):3$ only after its order has been proved. An independent weighted-theta argument gives the trace-zero root-system alternative $\\varnothing$ or $A_2E_8^3$. The construction relates positive masses of framed objects to exceptional Eisenstein coefficients.",
-     "authors": "Gerald H\\\"ohn"
-    },
-    {
-     "title": "The Tate conjecture for powers of abelian fourfolds and the Hodge conjecture for powers of CM fourfolds",
-     "title_zh": "阿贝尔四重态的塔特猜想与CM四重态的霍奇猜想",
-     "summary_zh": "我们证明了在有限域上，维度不超过四的阿贝尔多样体的每个幂次上的塔特猜想。对于几何上简单的四重态，我们利用Broe定理和Frobenius关系的分类。对于阿贝尔曲面的二面体对，我们通过阿贝尔三重态的族、Gross--Schoen高度公式和极化收缩构造了代数类。我们还证明了每个复数CM阿贝尔四重态的霍奇猜想，使用了Markman关于Weil类的定理和Milne的标准。有限域的结果暗示了标准猜想D以及每个幂次上zeta函数的预期极点阶数。",
-     "source": "arXiv:math.NT",
-     "tier": "preprint",
-     "field": "数学基础理论",
-     "url": "https://arxiv.org/abs/2609.27916",
-     "doi": "10.48550/arXiv.2609.27916",
-     "published": "2026-09-24",
-     "importance": 8.5,
-     "abstract": "We prove the Tate conjecture in every codimension on every power of an abelian variety of dimension at most four over a finite field. For geometrically simple fourfolds, we use Broe's theorem and the classification of Frobenius relations. For dihedral pairs of abelian surfaces, we construct algebraic classes using families of abelian threefolds, the Gross--Schoen height formula, and polarization contractions. We also prove the Hodge conjecture for every power of a complex CM abelian fourfold, using Markman's theorem on Weil classes and Milne's criterion. The finite field results imply standard conjecture~D and the expected pole orders of the zeta function on every power.",
-     "authors": "Ningyi Li"
-    },
-    {
-     "title": "Bayesian inference, on-line forecasting and model choice for large VAR models with Cholesky stochastic volatility",
-     "title_zh": "大规模VAR模型的贝叶斯推断与在线预测方法",
-     "summary_zh": "本文研究了具有Cholesky随机波动性的$K$维贝叶斯向量自回归模型（BVARs），其中创新协方差矩阵是$K$个独立单变量SV过程的下三角线性变换。这类模型在实证宏观经济学中广泛应用，以捕捉时间变化的不确定性并提高预测准确性。然而，后验模拟的成本限制了系统规模，成为实证研究的主要瓶颈。我们引入了一种马尔可夫链蒙特卡洛（MCMC）内核，其混合效果优于现有的同等计算复杂度的采样器。该方法基于重新参数化，使得$K$个波动轨迹条件独立，并利用粒子吉布斯更新每个轨迹。在$K=15$的应用中，该内核相对于基准修正三角算法提高了每秒有效样本均值，VAR系数提高约14倍，波动性提高约3.4倍。此外，我们还引入了一种序列蒙特卡洛平方（\\smcsq{}）采样器，利用我们的MCMC内核作为构建块，能够在每个时刻提供一步预测密度和数据的边际似然，从而实现在线预测和模型选择。",
-     "source": "arXiv:stat.ME",
-     "tier": "preprint",
-     "field": "数学基础理论",
-     "url": "https://arxiv.org/abs/2609.27431",
-     "doi": "10.48550/arXiv.2609.27431",
-     "published": "2026-09-24",
-     "importance": 8.5,
-     "abstract": "We consider $K$-dimensional Bayesian vector autoregressions (BVARs) with Cholesky stochastic volatility (SV), in which the innovation covariance matrix is a lower-triangular linear transform of $K$ independent univariate SV processes. Such models are widely used in empirical macroeconomics to capture time-varying uncertainty and improve forecast accuracy, but the cost of posterior simulation is the binding constraint on the size of the system, and a major bottleneck for empirical work. We introduce a Markov chain Monte Carlo (MCMC) kernel that mixes better than existing samplers at the same computational complexity. It rests on a reparametrisation that makes the $K$ volatility trajectories conditionally independent, and on Particle Gibbs to update each trajectory. The kernel targets the exact posterior, rather than an approximation of it, and in an application with $K = 15$ it raises the mean effective sample size per second, relative to the benchmark corrected triangular algorithm, by a factor of approximately $14$ for the VAR coefficients and $3.4$ for the volatilities. We also introduce a a Sequential Monte Carlo squared (\\smcsq{}) sampler, which used our MCMC kernel as a buildi",
-     "authors": "Nicolas Chopin, Andras Fulop, Yuedan Huo, Anna Simoni"
-    },
-    {
-     "title": "A two-step log-linear procedure for graphical representation and inference of associations in cross-classified data for disease diagnosis",
-     "title_zh": "用于疾病诊断的交叉分类数据关联图示与推断的两步对数线性程序",
-     "summary_zh": "生物统计学，尤其是疾病诊断，常关注交叉分类数据的关联分析。距离关联模型为低类别数的非稀疏矩阵提供了图形解释。本文展示了在饱和模型下，对数线性模型的线性关系在距离关联参数化中保持完整维度，从而提出了一种两步程序，便于在去除总体和主要效应后分析和解释关联。该程序适用于由二元变量构成的交叉分类数据，易于使用传统统计软件实现。针对疾病诊断，解决了展开表示中的退化解问题及确定轮廓位置显著差异的问题，并考虑了基于比值比的独立性假设检验。此外，提出了一种程序以确定检验显著性的原因，避免误差传播问题。",
-     "source": "arXiv:stat.ME",
-     "tier": "preprint",
-     "field": "医学健康",
-     "url": "https://arxiv.org/abs/2609.27491",
-     "doi": "10.48550/arXiv.2609.27491",
-     "published": "2026-09-24",
-     "importance": 8.5,
-     "abstract": "Biometrical sciences and disease diagnosis in particular, are often concerned with the analysis of associations for cross-classified data, for which distance association models give us a graphical interpretation for non-sparse matrices with a low number of categories. In this framework, usually binary exploratory and response variables are present, with analysis based on individual profiles being of great interest. For saturated models, we show the usual linear relationship for log-linear models is preserved in full dimension for the distance association parameterization. This enables a two-step procedure to facilitate the analysis and the interpretation of associations in terms of unfolding after the overall and main effects are removed. The proposed procedure can deal with cross-classified data for profiles by binary variables, and it is easy to implement using traditional statistical software. For disease diagnosis, the problems of a degenerate solution in the unfolding representation, and that of determining significant differences between the profile locations are addressed. A hypothesis test of independence based on odds ratio is considered. Furthermore, a procedure is propos",
-     "authors": "Fernando Vera-Vera, Jos\\'e A. Rold\\'an-Nofuentes"
-    },
-    {
-     "title": "The SMG-Yau-Yau Filter and Lossless Data Assimilation: Resolving Infinite Lie Algebras via Statistical Fiber Theory",
-     "title_zh": "SMG-Yau-Yau滤波器与无损数据同化研究",
-     "summary_zh": "经典的连续时间非线性滤波在一般非线性状态空间中由于无限李代数导数爆炸（$\\dim(\\mathcal{E}) = \\infty$）而失效，导致滤波器发散。为解决这一四十年的危机，我们提出了基于统计纤维理论的SMG-Yau-Yau滤波器和无损数据同化框架，该框架建立在Orlicz流形$\\mathcal{M}$上。通过为$\\mathcal{M}$配备黎曼子沉浸和Ehresmann连接，未约束的Duncan-Mortensen-Zakai评分速度场被正交分解为统计可验证方向（$\\text{SVD}\\chi_f$）和结构内部方向（$\\text{SID}_f$）。系统的非线性和未闭合的李对易子被正交隔离在$\\text{SID}_f$中，保护宏观基参数免受空间导数污染，同时保持总评分方差能量。我们通过双轴坍缩机制统一了渐近性：证明当$\\dim(\\mathcal{E}) < \\infty$时，我们的模型与经典Yau-Yau动力学完全一致，而大样本极限（$N \\to \\infty$）则引发热力学淬火，平坦化无限维几何。最后，我们制定了主动因果张力（AAT）泛函，以在线监测累积的模型误设。超出拓扑容量阈值将触发规范对称性。",
-     "source": "arXiv:stat.ME",
-     "tier": "preprint",
-     "field": "数学基础理论",
-     "url": "https://arxiv.org/abs/2609.28062",
-     "doi": "10.48550/arXiv.2609.28062",
-     "published": "2026-09-24",
-     "importance": 8.5,
-     "abstract": "Classical continuous-time non-linear filtering fails in generic non-linear state spaces due to an infinite Lie algebraic derivative explosion ($\\dim(\\mathcal{E}) = \\infty$), leading to filter divergence. To resolve this four-decade crisis, we introduce the SMG-Yau-Yau filter and lossless data assimilation framework built on Statistical Fiber Theory over an Orlicz manifold $\\mathcal{M}$. By equipping $\\mathcal{M}$ with a Riemannian submersion and an Ehresmann connection, the unconstrained Duncan-Mortensen-Zakai score velocity field is orthogonally decomposed into Statistically Verifiable Directions ($\\text{SVD}\\chi_f$) and Structural Internal Directions ($\\text{SID}_f$). System non-linearities and unclosed Lie commutators are orthogonally quarantined in $\\text{SID}_f$, protecting macroscopic base parameters from spatial derivative pollution while preserving total score variance energy. We unify the asymptotics through a Dual-Axis Collapse Mechanism: proving our model identically recovers classical Yau-Yau dynamics when $\\dim(\\mathcal{E}) < \\infty$, while large-sample limits ($N \\to \\infty$) induce a thermodynamic quench that flattens infinite-dimensional geometry under $\\dim(\\mathca",
-     "authors": "Bing Cheng, Yi-Shuai Niu, Howell Tong, Shing-Tung Yau"
-    },
-    {
-     "title": "Fast-Neutron Scintillation with Multi-Quantum-Well 2D Perovskites",
-     "title_zh": "多量子阱二维钙钛矿快速中子闪烁体研究",
-     "summary_zh": "快速中子闪烁体需有效将中子能量转化为可检测光，同时在中子与γ射线背景之间实现选择性。本文报道了一种合成策略，用于层状二维铅卤化钙钛矿闪烁体，能够独立控制宏观探测器几何形状和微观相组成。我们的合成方法生产出毫米厚、大面积的闪烁体，具有精心设计的多量子阱能量结构，实现有效的光谱分离，同时保持纳秒级发射动力学。在137Cs辐照下，我们的闪烁体在662 keV时展现出5.4%的能量分辨率。在氘-氘聚变中子辐照下，我们通过脉冲形状鉴别直接演示了中子与γ射线事件的分离，优值为3.51。这些结果确立了多量子阱二维钙钛矿作为一种可扩展材料平台，结合了快速中子的灵敏度和选择性。",
-     "source": "arXiv:physics.chem-ph",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://arxiv.org/abs/2609.28468",
-     "doi": "10.48550/arXiv.2609.28468",
-     "published": "2026-09-24",
-     "importance": 8.5,
-     "abstract": "Fast-neutron scintillators must efficiently convert neutron energy into detectable light while enabling selectivity between neutrons and the {\\gamma}-ray background. Here, we report a synthesis strategy for layered two-dimensional (2D) lead halide perovskite scintillators with independent control of the macroscopic detector geometry and microscopic phase composition. Our synthesis approach produces mm-thick, large-area scintillators with a deliberately engineered multi-quantum-well energy landscape, creating an effective spectral separation while retaining nanosecond emission dynamics. Our scintillators exhibit an energy resolution of 5.4% at 662 keV under 137Cs irradiation. Under deuterium-deuterium fusion neutron irradiation, we directly demonstrate neutron and {\\gamma}-ray event separation by pulse shape discrimination, with a figure of merit of 3.51. Taken together, these results establish multi-quantum-well 2D perovskites as a scalable materials platform that combines fast-neutron sensitivity and selectivity within a controllable detector form factor.",
-     "authors": "Shaun Tan, Zachary Benesh, Seong Eui Chang, Shelby Elder, Haidi Jakovic, Tae-Woo Lee, Moungi G. Bawendi"
-    },
-    {
-     "title": "Going Beyond the d-band Center to Design Intermetallic Catalysts for Nitrogen Reduction: A High-Throughput DFT and Machine Learning Study",
-     "title_zh": "超越d带中心设计氮还原的金属间化合物催化剂",
-     "summary_zh": "本研究结合高通量密度泛函理论（DFT）计算与机器学习（ML），揭示了47种由Co、Ni、Al、Zn、V、Fe、Cu和Pt组成的金属间化合物（IMCs）中氮还原反应的关键描述符。系统评估了关键中间体（*N2、*N2H和*NH3）的吸附能，生成约1200个数据点。研究发现，Fe9Co7和Fe3Co是最平衡的催化剂，在所有三种中间体中表现出良好的吸附能。通过结合材料的内在属性及局部和全局电子描述符，开发了预测性机器学习模型，*N2、*N2H和*NH3的平均绝对误差分别为0.27 eV、0.39 eV和0.17 eV。重要的是，仅使用20个关键特征预测*NH3和*N2H的吸附能，38个特征用于*N2，使得模型简单且计算高效。SHAP分析表明，p带和s带特性在决定吸附强度方面比传统的d带中心更为重要，尤其是对于*N2。",
-     "source": "arXiv:cond-mat.mtrl-sci",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://arxiv.org/abs/2607.17463",
-     "doi": "10.48550/arXiv.2607.17463",
-     "published": "2026-09-24",
-     "importance": 8.5,
-     "abstract": "This study combines high-throughput density functional theory (DFT) calculations with machine learning (ML) to uncover the key descriptors governing the nitrogen reduction reaction in 47 intermetallic compounds (IMCs) composed of Co, Ni, Al, Zn, V, Fe, Cu, and Pt, and the adsorption energies of key intermediates (*N2, *N2H, and *NH3) were systematically evaluated across all accessible surface sites, yielding approximately 1,200 data points. Among the IMCs studied, Fe9Co7 and Fe3Co emerge as the most balanced catalysts, exhibiting favorable adsorption energies across all three intermediates. By incorporating intrinsic material properties along with local and global electronic descriptors including s-, p- and d-band centers and fillings, as well as Bader charges of atoms neighboring the adsorbate, predictive ML models were developed with mean absolute errors (MAEs) of 0.27 eV for *N2, 0.39 eV for *N2H, and 0.17 eV for *NH3 adsorption. Importantly, accurate adsorption-energy predictions were achieved using only 20 key features for *N2H and *NH3 and 38 features for *N2, enabling the use of simple and computationally efficient ML models. SHAP analysis indicates that p-band and s-band ch",
-     "authors": "Parastoo Agharezaei, Kulbir Kaur Ghuman"
-    },
-    {
-     "title": "Optimization of Bimetallic Catalysts for the Hydrogenation of Liquid Organic Hydrogen Carriers using Contaminated Hydrogen Gas",
-     "title_zh": "使用污染氢气优化双金属催化剂氢化液态有机氢载体",
-     "summary_zh": "液态有机氢载体能够安全高密度存储氢气，但在工业氢气流中常见的杂质（尤其是会毒化贵金属的CO）限制了其规模化应用。本研究探讨了基于Pd、Ru和Ni的催化剂在Al2O3上对苄基甲苯氢化的协同效应，采用纯氢和CO污染的进料，模拟实际操作。通过在一系列单金属和双金属样品中强制相同的金属负载、分散度和介孔性，隔离了内在的金属间效应。XPS结果显示，双金属催化剂中Ni表面相更富电子，Ru对Ni的电子状态影响强于Pd。在CO存在下，催化活性顺序为Pd–Ni Ni ≳ Ru–Ni Pd ≈ Ru。Ni对保持CO下的活性至关重要，而单金属Pd和Ru则受到强烈毒化。这是由于在双金属催化剂上，CO甲烷化在525 K附近启动。对于表现最佳的Pd–Ni/Al2O3催化剂，原位DRIFTS识别出嵌入Ni中的孤立Pd位点，在CO/H2下可逆分离/再分散，形成瞬态Pd2/Pd3集合体。总体而言，本研究表明将低含量贵金属选择性引入Ni是一种有效策略，以生产稳健、耐CO且经济吸引的苄基甲苯催化剂。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009407/v1",
-     "doi": "10.26434/chemrxiv.15009407/v1",
-     "published": "2026-09-24",
-     "importance": 8.5,
-     "abstract": "Liquid organic hydrogen carriers enable safe storage of H2 at high densities, but scalable application is impeded by the tolerance towards impurities common in industrial H2 streams, notably CO that poisons noble metals. In this work, we investigated synergistic effects in Pd-, Ru-, and Ni-based catalysts on Al2O3 for benzyltoluene hydrogenation under pure H2 and COcontaminated feeds representative of realistic operation. By enforcing identical metal loadings, dispersion, and mesoporosity across a series of mono- and bimetallic samples, intrinsic metalmetal effects were isolated. XPS reveals a more electron-rich Ni surface phase in the bimetallics, with Ru exerting a stronger influence on the electronic state of Ni than Pd. Catalytic activity of the samples in the presence of CO follows Pd–Ni Ni ≳ Ru–Ni Pd ≈ Ru. Ni is essential to retain activity under CO, while monometallic Pd and Ru are strongly poisoned. This is due to Nidriven CO methanation which initiates near 525 K on bimetallics. In case of the best-performing Pd–Ni/Al2O3 catalyst, operando DRIFTS identifies isolated Pd sites embedded in Ni that reversibly segregate/redisperse under CO/H2, forming transient Pd2/Pd3 ensemble",
-     "authors": "Kevin Alconada, Yaoci Sheng, Lukas Popp, Adrian Seitz, Felix Lott, Felix Herold"
     }
    ]
   },
   "2026-09-23": {
-   "count": 183,
+   "count": 235,
    "by_field": {
     "化学材料": 86,
+    "医学健康": 73,
     "未分类": 27,
-    "医学健康": 23,
-    "生命科学": 18,
+    "生命科学": 20,
     "神经认知": 9,
     "AI计算机": 8,
     "地球气候": 6,
@@ -1724,7 +1725,7 @@
    "by_tier": {
     "mainstream": 67,
     "alt": 35,
-    "preprint": 81
+    "preprint": 133
    },
    "items": [
     {
@@ -2778,6 +2779,272 @@
      "authors": "Jianxin He, Ying Li"
     },
     {
+     "title": "Making inferences with incomplete epidemiological data: a proof-of-concept estimating measles vaccine coverage across Canada",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.07.16.26358151",
+     "doi": "10.64898/2026.07.16.26358151",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background & aims of study: Current measles outbreaks around the world have highlighted the evolving immunity landscape of some vaccine-preventable diseases (VPDs). In Canada, there have been approximately 1,100 reported measles cases between January and June 2026 alone. This far exceeds the previous average annual case count of <200. This significant outbreak has underscored the need to better understand the present state of population immunity to measles in Canada, an essential input parameter for outbreak response models. Most population immunity in this setting is derived from routine childhood vaccination, but vaccine coverage data is available heterogeneously across the country and is typically collected cross-sectionally to monitor population adherence to immunization schedules rather than to inform population-level susceptibility. This study developed statistical methods to adapt available measles vaccine coverage estimates into more complete estimates of present-day immunity in Canada by age and province/territory (PT). Methods & results: First, a standardized dataset for vaccine coverage by PT was curated from existing publicly-available datasets and reports. A significan",
+     "authors": "Hadley, L.; Milwid, R.; Hongoh, V.; Wasfi, R.; Kissler, S. M.; Papst, I."
+    },
+    {
+     "title": "Auditing the Human LLM Autonomy Gap in Clinical Ethics: Development and Application of the Autonomy Index Across 50 Clinical Ethics Vignettes",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.22.26363256",
+     "doi": "10.64898/2026.09.22.26363256",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background. Respect for autonomy is central to biomedical ethics but is rarely assessed with a structured, reproducible measure. This gap matters as patients, families, and clinicians increasingly use general-purpose language models for health-related questions. We developed the Autonomy Index (AIx) to characterize autonomous agency in clinical-ethics vignettes and compared ratings from trained human reviewers with ratings from current language models. Methods. We reviewed ten decisional-capacity instruments and classified them by target construct into consent capacity, decision capacity, and functional autonomy, identifying a region of autonomous agency (values, deliberation, and enactment) that existing instruments measure least well. The resulting thirteen-item instrument scores four domains: Values Awareness, Factual Understanding, Rational Deliberation, and Intentional Action, on a five-point ordinal scale with an explicit not-applicable option; the External Constraint Index and Support Provided Index are reported separately. Nine models scored 89 clinical vignettes. We selected 50 vignettes by model-score tier and inter-model disagreement, then obtained 173 ratings from 30 cl",
+     "authors": "Dutta Roy, T.; Brendel, R. W."
+    },
+    {
+     "title": "Dietary Patterns and Cardiovascular Risk in Adult Survivors of Childhood Cancer: Findings From the SCCSS-Nutrition Study",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.22.26363621",
+     "doi": "10.64898/2026.09.22.26363621",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Purpose: To identify dietary patterns among adult childhood cancer survivors (CCSs), examine their determinants, and assess whether they differ according to cardiovascular disease (CVD) risk profiles. Methods: CCSs from the Swiss Childhood Cancer Survivor Study diagnosed before age 21 years (1976-2005), surviving [ ]5 years and aged [ ]18 years in 2017, completed a food frequency questionnaire (SCCSS-Nutrition). Factor and hierarchical cluster analyses of 52 food groups identified dietary patterns. We categorised CCSs as having CVD, CVD risk factors (obesity, hypertension, diabetes, high cholesterol), or being CVD risk-free. Multinomial logistic regression assessed associations between dietary patterns and CVD risk profiles. Results: Among 802 CCSs (median age: 35 years; IQR: 29-41; 50% male), we identified five dietary patterns: Mediterranean-inspired diet (22%), Western indulgence diet (38%), Western sweet & fatty diet (26%), restrained indulgence diet (9%), plant-based & alcohol-rich diet (6%). Male sex, younger age, German-speaking region, smoking, and living with others were associated with Western indulgence, Western sweet & fatty, and restrained indulgence diets. Higher Swis",
+     "authors": "Li, R.; Revuelta Iniesta, R.; Barker, A. R.; Chatelan, A.; Leuenberger, L. M.; Shoman, Y.; Spycher, B. D.; Belle, F. N."
+    },
+    {
+     "title": "Evaluation of an AI-Powered Patient Education Application in Bariatric Surgery: A Prospective Mixed-Methods Feasibility Study",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.16.26363276",
+     "doi": "10.64898/2026.09.16.26363276",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background Patient education is critical to safe and effective postoperative bariatric surgery care. Large language models (LLMs) may improve access to personalized patient education but evidence regarding direct patient use in clinical settings remains limited. We evaluated BariBot, an LLM-powered educational application for patients undergoing bariatric surgery. Methods We conducted a prospective, single-arm mixed-methods feasibility study at a tertiary academic medical center from May 2024 to May 2025. Adult patients undergoing bariatric surgery used BariBot independently on postoperative day 1. The application provided conversational postoperative education and adapted language complexity to participants' educational attainment. Outcomes included feasibility, usability, acceptability, perceived trustworthiness, and anticipated future use. Usability was assessed using the System Usability Scale (SUS). Immediately after BariBot use, participants completed a semi-structured qualitative interview assessing acceptability, perceived trustworthiness, and anticipated future use. Interview transcripts underwent thematic analysis. Results Sixteen participants completed the BariBot use se",
+     "authors": "Samaan, J. S.; Nguyen, S. T.; Hamamah, S.; Tran, A.; Ceasar, R. C.; Wolfe, N.; Yu, T.; Chavez, D.; Rajeev, N.; Advani, R.; Watson, R.; Abu Dayyeh, B.; Sandhu, K.; Wong, H. J.; Tatonetti, N. P.; Samaka"
+    },
+    {
+     "title": "Efficacy and Safety of Macitentan Across Pulmonary Hypertension Phenotypes: A Systematic Review and Meta-analysis",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.22.26363639",
+     "doi": "10.64898/2026.09.22.26363639",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "ABSTRACT Background: Macitentan is a dual endothelin receptor antagonist used in pulmonary arterial hypertension (PAH) and has also been studied in other forms of pulmonary hypertension (PH). Evidence across PH phenotypes has been heterogeneous. This study aims to evaluate the efficacy and safety of macitentan compared with concurrent control therapies across PH phenotypes and to explore whether treatment effects differ according to PH classification. Methods: PubMed, Embase, and the Cochrane database were searched from inception through June 2026. Randomized and non-randomized comparative studies of patients with PH receiving macitentan were eligible. Prespecified efficacy outcomes were 6-minute walk distance (6MWD), pulmonary vascular resistance (PVR), mean pulmonary arterial pressure (mPAP), and cardiac index; prespecified safety outcomes included mortality and adverse events. Random-effects meta-analyses were performed using mean differences (MDs) for continuous outcomes and risk ratios (RRs) for dichotomous outcomes. Results: Fourteen studies met the eligibility criteria. Macitentan was associated with a greater reduction in PVR (MD, -134.50 dyn.s.cm; 95% CI, -226.10 to -42.86",
+     "authors": "Gurram, S.; MP, V.; Avula, S. T.; Subramanian, V.; Natarajan, H. A.; Byreddy, H.; Palakodeti, S."
+    },
+    {
+     "title": "RNA Splicing of the REST Gene by SRRM4 in Vascular Smooth Muscle Cells Promotes Abdominal Aortic Aneurysm Development",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.21.26363614",
+     "doi": "10.64898/2026.09.21.26363614",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background: The progression of abdominal aortic aneurysm (AAA) is closely associated with the phenotypic switch of vascular smooth muscle cells (VSMC). While members of the Serine/Arginine-rich splicing factor (SRs) superfamily are increasingly acknowledged for their pivotal role in modulating cell phenotype, the specific contribution of these factors to AAA development has remained underexplored. Methods: Through integrated analyses the whole transcriptome of human and murine AAA tissues derived from clinical samples and animal models, we identified serine-arginine repeat matrix 4 (SRRM4) as a candidate gene regulating AAA formation. To investigate the role of SRRM4 in AAA formation, we used global and VSMC-specific SRRM4-knockout mice to construct AAA mouse models in two different ways. The impact of SRRM4 on AAA was further investigated in in vivo and in vitro models Results: Elevated levels of SRRM4 mRNA and protein were observed in VSMC from both human and murine AAA tissues. Targeted silencing of SRRM4 in VSMC (but not in endothelial or myeloid cells) significantly attenuated AAA formation in both AngII-and CaCl2-induced mouse models. Our results identify the RE1 silencing tr",
+     "authors": "Li, Y.; Wang, Y.; Ni, Q.; Yang, S.; Qi, H.; Yao, Y.; Wang, H.; Xu, W.; Yuan, K.; Lv, L.; Guo, X.; Ye, M.; Xue, G.; Tang, W. H.; Pu, J.; Zhang, L."
+    },
+    {
+     "title": "Social Isolation and All-Cause and Cause-Specific Mortality in the UK Biobank: The Modifying Role of Non-Commute Transportation Mode",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363514",
+     "doi": "10.64898/2026.09.21.26363514",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background: Social isolation (SI) is an established risk factor for chronic disease and mortality. How people travel, including the modes of transportation they use, may shape opportunities for social interaction and influence the impacts of SI. This study assessed heterogeneity of the association between SI and mortality across primary modes of non-commute transportation. Methods: We analyzed cohort data from the UK Biobank, following participants aged 40-69 years from 2006 to 2022. SI at baseline was derived from three items and dichotomized. Cox models were used to estimate the association between SI and mortality, adjusting for socioeconomic factors, health behaviours, and comorbidities. Effect modification by participants' primary mode of non-commute transportation was assessed using interaction terms with SI. Results: There were 490,114 participants with complete baseline exposure data. SI was associated with increased hazard of all-cause (Hazard Ratio [HR] = 1.34, 95% Confidence Interval [CI]: 1.31-1.38) and cardiovascular mortality (HR = 1.49, CI: 1.41-1.57). The association with cardiovascular mortality was stronger among participants who only used public transport compare",
+     "authors": "Hum, E. D.; Lapointe, Y.; Baumgartner, J.; Manaugh, K.; Mamiya, H."
+    },
+    {
+     "title": "Nipah vaccine and monoclonal antibody introduction: Understanding endemic and at-risk country perspectives to inform demand forecasting",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363632",
+     "doi": "10.64898/2026.09.21.26363632",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background: Nipah virus (NiV) is a zoonotic pathogen in the Henipavirus genus that causes severe, often fatal disease in humans. The World Health Organization and the Coalition for Epidemic Preparedness Innovations (CEPI) have designated NiV as a priority pathogen with pandemic potential. While CEPI is funding research on medical countermeasures, including vaccines and monoclonal antibodies (mAbs), there remains limited understanding of how at-risk countries will use them. This study aims to address this gap through targeted interviews and demand forecasting for 10 countries: Australia, Bangladesh, Cambodia, India, Indonesia, Malaysia, the Philippines, Singapore, Thailand, and Vietnam. Methodology/Principal Findings: Interviews with country and global stakeholders gathered data on regional sentiment, financing, and affordability. Profiles were developed to summarize each country's perceived outbreak risk and their likely use of countermeasures. Demand was estimated by integrating these perspectives into models of likely country-level responses to three NiV outbreak scenarios: Expected, Amplified, and Extended. In the Expected scenario, countries focused on reactive use with global ",
+     "authors": "Dinkel, K. A.; Ruisch, A.; Mathur, I.; Bowe, R. T.; Windus, P.; Nonvignon, J.; Walker, D. G.; Torkelson, A. A."
+    },
+    {
+     "title": "Childhood and adolescent immunisation intentions post-COVID-19 in Lusaka, Zambia",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363608",
+     "doi": "10.64898/2026.09.21.26363608",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background: Since the COVID-19 pandemic, parental delays and refusals of well-established, safe, and effective childhood vaccinations have contributed to the resurgence of infectious diseases. This raises concerns that COVID-19 vaccine hesitancy may also extend to novel vaccines for children when introduced in the future. This study examined caregivers, who included healthcare workers (HCWs), perceptions of novel vaccinations for children ages 0-17 years old and intentions to vaccinate children and adolescents ages 12-17 years against COVID-19. Methods: We conducted a secondary data analysis of a larger cross-sectional survey administered to parents/caregivers of children ages 0-17 years in Lusaka, Zambia, between 13 November and 15 December 2023. Vaccination intention for COVID-19 was specifically focused on caregivers of adolescents ages 12-17 years, following COVID-19 vaccination guidelines during the study. Descriptive statistics were used to explore demographic characteristics, vaccination history, and caregivers COVID-19 vaccination status, along with their childrens routine childhood vaccine histories and perceptions of COVID-19 and novel vaccinations. Results: Among 277 car",
+     "authors": "Nyasa, M.; Sharma, A.; Kerkhoff, A. D.; Ngosa, D.; Shamoya, B.; Sikombe, K.; Simbeza, S.; Zulu, N.; Geng, E. H.; Pry, J. M.; Tourneau, N."
+    },
+    {
+     "title": "Caregiver knowledge and Attitudes toward Human Papillomavirus Vaccination among adolescent girls living with HIV in Sierra Leone: A health facility-based cross-sectional study",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363609",
+     "doi": "10.64898/2026.09.21.26363609",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Objective To assess the knowledge, willingness and barriers to human papillomavirus (HPV) vaccination among caregivers of adolescent girls living with HIV in Sierra Leone. Methods This cross-sectional study examined HPV vaccine knowledge, willingness, and barriers among 249 caregivers of adolescent girls living with HIV in Sierra Leone. Data were collected through structured questionnaires at public tertiary hospitals and high-volume HIV clinics, and associations were assessed using chi-square tests, logistic regression, and Kruskal-Wallis analyses. Results Only 32.1% (80/249) of caregivers had heard of HPV, with even fewer aware of its link to cervical cancer (24.4%, 60/246) or prevention methods of cervical cancer (31.9%, 79/248). Misconceptions were prevalent; 16.3% (36/221) erroneously linked oral contraceptives to cervical cancer, and 61.1% (44/72) of caregivers unwilling to vaccinate cited distrust in vaccine efficacy. While tertiary-educated caregivers exhibited the highest level of knowledge (45.5%, p < 0.001), their willingness to vaccinate (50%, 33/66) was comparable to that of less-educated groups, highlighting a knowledge-action gap. Structural barriers dominated, with ",
+     "authors": "Jiba, D. F.; Baldeh, M.; Turay, P.; Kanu, S.; Kamara, M. N.; Farma-Grant, L. M. L.; Barrie, U.; Awonuga, W. O.; Baio, M. M.; Sesay, D.; Shehab, D.; Sinnah, R.; Namanga, E. S.; Johnson, P. M. D.; Lakoh"
+    },
+    {
+     "title": "Potential five-year life years associated with stage IV reductions in NHS Galleri Trial",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363618",
+     "doi": "10.64898/2026.09.21.26363618",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background The NHS-Galleri trial did not reach its prespecified primary endpoint of a reduction in combined stage III and IV cases, but reported fewer stage IV cancers after annual multi-cancer early detection screening. We estimated the potential five-year life-years associated with the cancer-specific stage IV differences observed during the two incident screening rounds. Methods We used intervention and control stage IV counts for ten prespecified cancers reported in the NHS-Galleri trial. For each cancer, the randomized-arm count difference was multiplied by the difference in five-year restricted mean survival time between stage III and IV, estimated from England stage-specific five-year net survival using a constant-hazard fit. Adverse cancer-specific differences remained in the model. Results were annualized across the two incident rounds and scaled per million people screened. Sampling intervals used an independent Poisson approximation for arm-specific counts. Findings Across the ten evaluable cancers, the intervention and control arms had 180 and 239 stage IV diagnoses during the incident rounds. The conditional projection was 66.3 potential life-years over five years in t",
+     "authors": "Starasvetskaya, N.; de Lima Lopes Junior, G."
+    },
+    {
+     "title": "A national-scale digital atlas of recorded care patterns across more than 1000 diagnostic categories using real-world health data: a retrospective observational study",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.16.26363186",
+     "doi": "10.64898/2026.09.16.26363186",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background Routinely collected health data can reveal recorded care around diagnosis, but disease-specific curation does not scale across thousands of conditions. We scaled a previously developed automated framework that reduces heterogeneous clinical events into standardised, diagnosis-centred summaries of real-world care patterns. Methods In this retrospective observational study, we used EST-Health-30, a pseudonymised 30% random sample of Estonian residents with health-care records from 2012 to 2024. We constructed cohorts for ICD-10 three-character diagnostic categories using the first eligible observed diagnosis after a 3-year diagnosis-free observable lookback. For each category, we summarised recorded clinical events from a 90-day pre-index window, a 30-day post-index window, and a 365-day post-index window. An enrichment-based workflow compared earlier self-comparator periods and matched population controls, then filtered and aggregated concepts across clinical domains. Diagnosis-concept relationships were assessed by rubric-guided language-model classification, and atlas plausibility and utility by ten experts. Findings Of 1645 observed diagnostic categories, 1080 met incl",
+     "authors": "Haug, M.; Mooses, K.; Oja, M.; Heinsar, S.; Lotman, E.-M.; Pold, M.; Pauklin, P.; Loo, L.; Ilves, P.; Ruus, T.; Grents, G.; Uuskula, A.; Arrak, M.; Reisberg, S.; Vilo, J.; Kolde, R."
+    },
+    {
+     "title": "Immunophenotyping of B- and T-cell alterations in patients with autoimmune premature ovarian insufficiency following rituximab treatment",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.22.26363548",
+     "doi": "10.64898/2026.09.22.26363548",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background: Premature ovarian insufficiency (POI) is a condition affecting female fertility e.g., in the context of autoimmune disease. A recent proof-of-concept study showed that B-cell depletion with rituximab (RTX) temporarily restored ovarian function in patients with autoimmune POI. However, the underlying immunological mechanisms behind this response is unknown. Objectives: To characterize B- and T-cell phenotypes before and after RTX therapy in the above-mentioned patients and associations with autoantibody levels and treatment response. Methods: Cryopreserved cell samples were available from six autoimmune patients with POI, four of whom were positive for autoantibodies against steroidogenic enzymes (21OH, 17OH and/or SCC). Patients received RTX and blood samples were collected at baseline, second infusion (2 weeks), 3, 8 and 12 months. Peripheral B- and T-cell phenotypes were analysed using spectral flow cytometry and correlated with autoantibody levels. Results: At baseline, patients displayed signs of B-cell activation by alteration in subset composition compared to matched controls. Upon closer analysis, patients positive for steroidogenic enzyme autoantibodies had sign",
+     "authors": "Wangriatisak, K.; Hooijsma, A.; Amnehagen, K.; Faustini, F.; Guillen, M. A.; Bjornsdottir, S.; Bensing, S.; Kampe, O.; Hirschberg, A. L.; Gunnarsson, I.; Malmstrom, V."
+    },
+    {
+     "title": "Comparative safety and sedation-related outcomes of fospropofol disodium versus propofol for adult sedation outside general anaesthesia induction or maintenance (including ICU and procedural sedation): a systematic review, meta-analysis and trial sequential analysis",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.22.26363627",
+     "doi": "10.64898/2026.09.22.26363627",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background. Fospropofol disodium is a water-soluble prodrug of propofol that avoids a lipid emulsion carrier. It may therefore reduce injection pain, cardiorespiratory depression and lipid exposure. In May 2021 it was approved in China (H20210017) for induction of general anaesthesia in adults. Randomised trials have since tested it for sedation outside the operating room, but this setting has not been systematically reviewed. Methods. We followed PRISMA 2020 and PRISMA-S and searched Europe PMC, PubMed, Embase, Cochrane CENTRAL, Web of Science and the Chinese databases CNKI, Wanfang and VIP (the last accessed through the XJMU Library database proxy) from inception to 2026. Eligible patients were adults receiving sedation for purposes other than general anaesthesia induction or maintenance, including continuous sedation during ICU mechanical ventilation and procedural sedation. These uses are referred to here as sedation outside the operating room. We included randomised controlled trials with propofol as the comparator and excluded trials of general anaesthesia induction or maintenance to avoid overlap with the published induction meta-analysis. Binary outcomes were pooled with a ",
+     "authors": "Xu, G.; Shi, Y.; Wang, Y.; Simayi, A.; Qu, L."
+    },
+    {
+     "title": "Cumulative disease-course phenotypes in Crohn's disease: a retrospective single center FAMD clustering study",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.22.26363649",
+     "doi": "10.64898/2026.09.22.26363649",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background and aims: Crohn s disease (CD) is a highly heterogeneous disease. Patients with similar characteristics at baseline may end up on very different therapeutic and surgical paths. We aimed to identify disease-course trajectory phenotypes from a mix of clinical, treatment, surgical and comorbidity variables, and evaluate whether information already available at diagnosis could anticipate which trajectory a patient would follow. Methods: We analysed a retrospective cohort of 98 unique CD patients enrolled at the IRCCS Ca Granda Policlinico Hospital, Milan. Factor analysis of mixed data (FAMD) was applied to 30 disease- course variables spanning demographic and Montreal descriptors, extra-intestinal manifestation burden, individual advanced-therapy drug exposures, surgical burden and comorbidity/symptom burden; clusters were then ranked by treatment burden using a line-weighted therapy score built separately from drug line positions and therapeutic-class weights. Clustering itself was carried out in the retained FAMD coordinate space, and cluster robustness was checked with silhouette metrics and bootstrap Jaccard stability. Baseline-associated variables were assessed separate",
+     "authors": "Caridi, B.; Amoroso, C.; Pozzi, L.; Noviello, D.; Arcidiacono, A.; Baldari, L.; Boni, L.; Prati, M.; Costa, S.; Oreggia, B.; Facciotti, F.; Caprioli, F."
+    },
+    {
+     "title": "Integrating multiparametric imaging and electrophysiology reveals thalamic pathology",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.07.28.26359146",
+     "doi": "10.64898/2026.07.28.26359146",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "The thalamus is increasingly recognized as a key node within epileptogenic networks, yet how recurrent seizure activity shapes its tissue integrity remains poorly understood. Existing evidence has largely relied on individual structural, functional, or electrophysiological modalities, limiting an integrated understanding of thalamic pathology. Here, we combined quantitative sodium, structural, and functional 7 Tesla MRI with stereotactic electroencephalography (SEEG) and clinical characterization to establish a multimodal framework for investigating thalamic involvement in drug-resistant focal epilepsy. Multiparametric MRI revealed widespread increases in total sodium concentration, providing the first evidence of altered thalamic sodium homeostasis in focal epilepsy, together with focal elevations of the short T2* sodium signal fraction within lateral thalamic regions and increased regional homogeneity. Integrating these complementary measures identified a robust MRI profile that distinguished patients from controls and independently identified patients with SEEG-defined epileptogenic thalami. Reduced thalamic volume was associated with greater ictal thalamic recruitment, whereas ",
+     "authors": "Haast, R. A.; Makhalova, J.; Gauer, L.; Knight, J.; El-Mendili, M. M.; Dary, H.; Medina Villalon, S.; Ranjeva, J.-P.; Zaaraoui, W.; Bartolomei, F.; Guye, M."
+    },
+    {
+     "title": "A multimodal investigation of altered cortical metabolism in patients with disorders of consciousness",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.17.26363105",
+     "doi": "10.64898/2026.09.17.26363105",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Disorders of consciousness (DoC) are characterised by marked reductions in cerebral glucose metabolism, but the specific cellular and neurochemical processes driving this impairment remain unclear. To elucidate these mechanisms, a multimodal imaging approach combining [18F]-fluorodeoxyglucose positron emission tomography (FDG-PET) and magnetic resonance spectroscopy (MRS) was applied to the posterior medial cortex (PMC) in 15 DoC patients and 14 healthy controls. Regional FDG metabolic index (FDG-MI) values and MRS concentration estimates of glutamate plus glutamine (Glx), {gamma}-aminobutyric acid (GABA+), total N-acetylaspartate (tNAA), total creatine (tCr), and total choline (tCho) were compared between groups and evaluated against Coma Recovery Scale-Revised (CRS-R) scores at baseline and follow-up (mean 127 days). Patients demonstrated reductions within the PMC in Glx, tCr, and tNAA concentrations, as well as a reduced Glx/GABA+ ratio. Local FDG-MI was substantially reduced in patients and correlated positively with tNAA and tCr. Furthermore, baseline tCho concentrations positively predicted long-term clinical recovery, as indexed by changes in CRS-R scores at follow-up. These",
+     "authors": "Duncan, N. W.; Huang, L.; Lee, C.; Wu, Y.-C.; Yang, C.-M.; Chen, D. Y.-T.; Lane, T. J."
+    },
+    {
+     "title": "Type 2 Deiodinase in Cancer-Associated Fibroblasts: A Potential Therapeutic Target in Many Types of Cancer",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.14.26362848",
+     "doi": "10.64898/2026.09.14.26362848",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background: Cancer-associated fibroblasts (CAF) are major regulators of the tumor microenvironment (TME), yet the pathways governing CAF function remain incompletely understood. Type 2 deiodinase (DIO2, D2), which converts thyroxine (T4) to the active thyroid hormone triiodothyronine (T3), has not been systematically investigated in CAF across different solid tumors. Methods: We analyzed DIO2 expression using single-cell RNA sequencing (scRNA-seq) from primary thyroid tumors, a large integrated scRNASeq thyroid cancer atlas, and publicly available scRNA-seq datasets representing six additional solid tumor types. Bulk RNA sequencing data from the Oncology Research Information Exchange Network (ORIEN) database were used to examine correlations among DIO2, CAF subtype markers, and overall survival (OS). A genetically engineered TPO-CreERT2/BrafV600E/Trp53-deficient (TBP) mouse model was evaluated for CAF-specific Dio2 expression and pharmacologic inhibition of D2 activity. TBP mice were crossed with Dio2-/- (Dio2 KO) mice to investigate the role of Dio2 in cancer development and progression. Results: DIO2 expression was highly restricted to CAF and was largely absent from epithelial-d",
+     "authors": "Carroll, M. G.; Mukhtar, N.; Calhoun, J.; Garza, B.; Loberg, M. A.; Chen, H.-C.; Sheng, Q.; Staley, A.; Fonseca, T. L.; Bianco, A. C.; Ringel, M. D.; Brock, P.; Gunderson, A. J.; Tarhini, A. A.; Cress"
+    },
+    {
+     "title": "Shared Clinical and Immunological Features of Post-Acute COVID-19 and Post-Acute COVID-19 Vaccination Syndromes",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.18.26363380",
+     "doi": "10.64898/2026.09.18.26363380",
+     "published": "2026-09-23",
+     "importance": 8.5,
+     "abstract": "Background: Post-acute COVID-19 syndrome (PACS) can cause persistent disability involving fatigue, post-exertional malaise, neurocognitive symptoms, and autonomic manifestations. A clinically overlapping condition has been reported following COVID-19 vaccination and termed post-acute COVID-19 vaccination syndrome (PACVS), but its underlying mechanisms remain poorly understood. We investigated whether immune dysregulation, autoreactivity, antigen persistence, and viral reactivation mechanisms implicated in PACS are also present in PACVS. Methods: This cross-sectional study included 28 PACS patients, 29 PACVS patients, and 16 convalescent controls (CCG). Clinical manifestations were assessed using ME/CFS-related symptom questionnaires and the Bell Score. T-cell phenotypes and T cells reactive to SARS-CoV-2 Spike, {beta}1/{beta}2-adrenergic receptor, and M3/M4 muscarinic receptor antigens were analyzed by multicolor flow cytometry. Circulating Spike protein and GPCR autoantibodies were quantified by ELISA, and EBV load by qPCR. Results: PACS and PACVS showed substantial clinical overlap, although several symptoms were more severe in PACS. GPCR autoantibody profiles were comparable bet",
+     "authors": "Dinser, J.; Anft, M.; Wiemers, L.; Skrzypczyk, S.; Kohut, E.; Kurek, J.; Stervbo, U.; Seibert, F. S.; Westhoff, T. H.; Rosiewicz, K.; Babel, N."
+    },
+    {
      "title": "The anthropogenic fingerprint on emerging infectious diseases",
      "title_zh": "人类活动对新兴传染病的影响研究",
      "summary_zh": "本研究探讨了新兴传染病的爆发风险，发现这种风险在全球范围内普遍存在，尤其是在人员、牲畜与破碎自然生态系统共存的地区。研究指出，尽管这些地区的传染病风险较高，但由于医疗服务获取的不平等，当前对疫情的检测和数据收集仍然有限。这一发现强调了改善医疗平等性的重要性，以便更有效地应对新兴传染病的威胁。",
@@ -3072,340 +3339,74 @@
      "authors": "Samuel Long, Abigail Long"
     },
     {
-     "title": "The human skeleton’s unique adaptations relied on gene regulatory changes",
-     "title_zh": "人类骨骼独特适应依赖基因调控变化",
-     "summary_zh": "本研究探讨了与细胞外基质分子生产相关的基因变异如何促进人类与其他类人猿之间的骨骼适应。通过基因组分析，研究发现这些变异可能在骨骼发育和功能上起到了关键作用，进而使人类在形态和生理上与其他类人猿显著不同。这些发现揭示了基因调控变化在塑造人类独特生物学特征中的重要性，为理解人类进化提供了新的视角。",
-     "source": "Nature",
-     "tier": "mainstream",
-     "field": "生命科学",
-     "url": "https://www.nature.com/articles/d41586-026-02775-z",
-     "doi": "10.1038/d41586-026-02775-z",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Nature, Published online: 23 September 2026; doi:10.1038/d41586-026-02775-z Variants in genes involved in the production of extracellular matrix molecules could have enabled the skeletal adaptations that distinguish humans from other great apes.",
-     "authors": "Audrey M. Arner"
-    },
-    {
-     "title": "A widespread agricultural practice is an unexpected CO 2 sink",
-     "title_zh": "广泛农业实践意外成为二氧化碳汇",
-     "summary_zh": "长期以来，施用石灰以降低土壤酸度被认为是二氧化碳的来源。然而，在北美最大的河流流域中，这一做法却导致了大气碳的净捕获。研究表明，施用石灰不仅改善了土壤健康，还促进了土壤中有机碳的积累，从而在一定程度上抵消了温室气体的排放。这一发现挑战了传统观念，提示农业管理实践在应对气候变化中可能发挥意想不到的积极作用。",
-     "source": "Nature",
-     "tier": "mainstream",
-     "field": "地球气候",
-     "url": "https://www.nature.com/articles/d41586-026-02646-7",
-     "doi": "10.1038/d41586-026-02646-7",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Nature, Published online: 23 September 2026; doi:10.1038/d41586-026-02646-7 ‘Liming’ to reduce soil acidity has long been considered a carbon dioxide source, but in North America’s largest river basin, it has resulted in net capture of atmospheric carbon.",
-     "authors": "G. Philip Robertson"
-    },
-    {
-     "title": "Project will harness technology to track Amazon biodiversity in real time",
-     "title_zh": "项目将利用技术实时追踪亚马逊生物多样性",
-     "summary_zh": "一项耗资1亿美元的计划旨在通过自动检测方法和计算机模型监测亚马逊地区物种的趋势。该项目的领导者将利用先进的技术手段，实时收集和分析生物多样性数据，以便更好地理解和保护这一重要生态系统。通过对物种分布和数量变化的监测，研究团队希望能够识别出潜在的环境威胁，并为保护措施提供科学依据。这一努力不仅有助于提升对亚马逊生物多样性的认识，也为全球生态保护提供了新的思路和方法。",
-     "source": "Science",
-     "tier": "mainstream",
-     "field": "地球气候",
-     "url": "https://www.science.org/content/article/project-will-harness-technology-track-amazon-biodiversity-real-time",
-     "doi": "10.1126/science.zd89k6y",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Leaders of $100 million effort will use automated detection methods and computer models to monitor species’ trends",
-     "authors": "Warren Cornwall"
-    },
-    {
-     "title": "Can an AI feel pain? It can at least act like it does",
-     "title_zh": "人工智能能感知疼痛吗？至少可以表现得像有感觉",
-     "summary_zh": "本研究重新引发了关于机器是否能够感知情感的辩论。研究对象为人工智能系统，采用了行为观察和模拟实验的方法，探讨其在特定情境下的反应。研究发现，尽管人工智能无法真正体验疼痛，但它能够通过编程表现出类似于疼痛反应的行为。这一发现引发了对机器意识和情感的深入思考，挑战了传统对机器能力的理解。研究结果表明，人工智能的行为可能会误导人类对其感知能力的判断。",
-     "source": "Science",
-     "tier": "mainstream",
-     "field": "AI计算机",
-     "url": "https://www.science.org/content/article/can-ai-feel-pain-it-can-least-act-it-does",
-     "doi": "10.1126/science.z09gp5z",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Study reignites debate over what, if anything, machines can feel",
-     "authors": "Tom Howarth"
-    },
-    {
-     "title": "Fractal Colonization of Prebiotic Niches: Mechanical Budding of Nano-vesicles and Kinetic Resource Depletion as an Oncological Atavism",
-     "title_zh": "前生物生态位的分形殖民：纳米囊泡的机械芽生与资源耗竭",
-     "summary_zh": "早期地球的周期性机械作用，如月球潮汐（约10小时周期）、放射性间歇泉（约15分钟）和冯卡门涡旋脱落（约1秒），可能在与其松弛时间相当的时间尺度上加载脂肪酸前细胞膜。我们提出了一个最小模型，其中父囊泡在周期性强迫下以时间常数τ松弛，在每次超过芽生阈值时释放一个纳米囊泡。释放的纳米囊泡通过一个非线性汇聚，耗竭周围生态位的自由脂肪酸池，受限于临界胶束浓度（CMC）。耗竭方程在释放事件之间有精确解，数值积分显示，离散的、张力门控的释放产生了一个准稳态单体水平的阶梯，池子向CMC发展。我们讨论了匹配窗口fτ = O(1)作为可能的古物理选择标准，并提出了一个假设，即与肿瘤生态位中囊泡介导的营养竞争的类比。",
-     "source": "chemRxiv",
+     "title": "The Impact of Using a Patient Health Passport on Health Outcomes among Adults with Diabetes. A Systematic Review and Meta-Analysis.",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
      "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009389/v1",
-     "doi": "10.26434/chemrxiv.15009389/v1",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.17.26363334",
+     "doi": "10.64898/2026.09.17.26363334",
      "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Periodic mechanical forcing of the early Earth, from lunar tides (period of about 10 h) and radiogenic geysers (about 15 min) to von Kármán vortex shedding (about 1 s), may have loaded fatty-acid protocell membranes on time scales comparable to their relaxation times. We present a minimal model in which the tension of a parent vesicle, relaxing with time constant τ under rectified periodic forcing, releases one nano-vesicle at each upward crossing of a budding threshold. The shed nano-vesicles deplete the free fatty-acid pool of the surrounding niche through a non-linear sink bounded by the critical micelle concentration (CMC). The depletion equation has an exact solution between shedding events, and numerical integration with illustrative parameters shows that the discrete, tension-gated release produces a staircase of quasi-steady monomer levels that the pool follows towards the CMC. We discuss a matching window fτ = O(1) as a possible paleophysical selection criterion and, as a hypothesis not tested here, an analogy with vesicle-mediated nutrient competition in tumour niches.",
-     "authors": "Peter Mikuláš"
+     "importance": 8.0,
+     "abstract": "Introduction: Current evidence suggests that patient health passports may improve care for patients with chronic illnesses. This systematic review aimed to evaluate the impact of patient health passports on health outcomes in adults with diabetes. Methods: A systematic review was conducted in February 2025 following PRISMA 2020 guidelines, using Ovid MEDLINE, Ovid EMBASE, EBSCO CINAHL, Web of Science and Scopus. The review included studies of adult diabetic patients using paper or digital patient health passport as part of their care in comparison with the standard of care. Data were analysed using meta-analysis and a thematic analysis where appropriate; otherwise, the data are presented narratively. Quality appraisal was undertaken using the Cochrane Collaboration tool for assessing risk of bias and Evidence-based librarianship checklist. The certainty of the evidence was assessed using the Grading of Recommendations Assessment, Development and Evaluation. Results: Eleven studies (n=14,350) were included. Seven studies were randomised controlled trials, two were retrospective in nature, one was a qualitative and one was a pre-post study. Overall, the studies are limited in design,",
+     "authors": "Morais, L.; Wilson, H.; Moore, Z.; Patton, D.; Avsar, P."
     },
     {
-     "title": "Closing the Loop Between Synthetic and Living Cells",
-     "title_zh": "合成细胞与活细胞之间的闭环研究",
-     "summary_zh": "合成细胞正逐步超越分隔的微反应器，成为与宿主生物网络物理和化学融合的集成组件。现有综述通常按发射模式、化学性质或结构分类，侧重于构造而非其效应。本文从接收者的角度出发，探讨活细胞如何机械探测其合成伙伴并在代谢上适应。我们通过反馈回路的闭合程度（感知-执行）来考虑生物-合成界面，并提出将研究归入四个层次的证据：开环、半闭环、部分反馈和闭环。在所调查的十八项研究中，十五项为半闭环，三项达到部分反馈，且没有研究实现闭环。所有三种部分反馈系统通过代谢拦截工作，现有分类中没有相应类别。最接近闭环操作的构造中并不包含活细胞。我们还追踪单细胞耦合如何扩展为混合原型组织，作为病理微环境的发现平台，并概述这些构造在进入临床前必须克服的转化障碍。",
-     "source": "chemRxiv",
+     "title": "Multiparametric CT Phenotypes Identify Risks of Early Neurological Deterioration and 90-Day Disability in Minor Stroke",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
      "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009350/v1",
-     "doi": "10.26434/chemrxiv.15009350/v1",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363615",
+     "doi": "10.64898/2026.09.21.26363615",
      "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Synthetic cells are moving beyond compartmentalised microreactors to become integrated components of biological networks that physically and chemically merge with their hosts. Existing reviews classify this field by mode of emission, by chemistry, or by architecture, and so describe the construct rather than its effect. This review takes the receiver's side, treating the functional adaptation of the living host as the readout of bio-hybrid function: how living cells probe their synthetic partners mechanically and adapt to them metabolically. We consider the bio-hybrid interface by how far the feedback loop (sensing-actuation) is closed and set out the evidence that would place a study in each of four tiers: open-loop, half-loop, partial feedback, and closed-loop. Read against these criteria, fifteen of the eighteen studies surveyed here are half-loop, three reach partial feedback, and none is closed-loop. All three partial-feedback systems work the same way, by metabolic interception, which the existing taxonomies have no category for. The one construct that comes closest to closed-loop operation contains no living cell at all. We then trace how single-cell coupling is scaling into",
-     "authors": "Ion Ioannou"
+     "importance": 8.0,
+     "abstract": "Background: Minor ischemic stroke is heterogeneous, and low NIHSS does not reliably identify patients at risk of deterioration or disability. We investigated whether integrating CT perfusion and angiographic vessel status identifies prognostically distinct phenotypes in a consecutive stroke-code cohort. Methods: We analyzed consecutive adults with ischemic stroke, baseline NIHSS 0-5, prestroke modified Rankin Scale (mRS) [ ]2, presentation within 24 hours of symptom onset or last known well, and emergency multiparametric CT. Patients were classified as no perfusion deficit/no vessel occlusion (PF-/VO-), perfusion deficit without visible occlusion (PF+/VO-), or perfusion deficit with vessel occlusion (PF+/VO+). The primary outcome was mRS [ ]3 at 90 days; early neurological deterioration (END), defined as an NIHSS increase [ ]2 points by 24 hours, was secondary. Multivariable logistic regression adjusted for prespecified covariates and additional variables associated with each outcome in univariable analysis. Results: Of 2211 patients evaluated through the stroke-code pathway, 534 met inclusion criteria; 391 (73.2%) were PF-/VO-, 61 (11.4%) PF+/VO-, and 82 (15.4%) PF+/VO+. END occur",
+     "authors": "Purroy, F.; Saureu-Rufach, E.; perez-girona, L.; Freixa, A.; Martinez-Leza, A.; Pereira, C.; Peguera, A.; Salvany, S.; Mijana, R.; Arque, G.; Gallego-Sanchez, Y. P.; Vicente-Pascual, M.; Fernandez-Ber"
     },
     {
-     "title": "Quantification of Levoglucosan in Biomass Burning Particulate Matter Using a Glucometer Test Strip",
-     "title_zh": "利用血糖仪试纸定量生物质燃烧颗粒物中的脱乙酰葡萄糖",
-     "summary_zh": "脱乙酰葡萄糖（Levoglucosan, LG）在生物质热解产物中含量丰富，广泛用于环境科学中的生物质燃烧追踪。目前的分析标准依赖于气相或液相色谱联用质谱（GC/LC-MS），但这些方法成本高昂，因此亟需低成本替代方案。本研究探讨了使用商业血糖仪试纸通过加热和酸催化将LG转化为d-葡萄糖进行检测和定量。优化的水解条件为150°C，0.1 M H2SO4，持续60分钟，样品缓冲在pH 7.3以实现最佳检测。优化后，血糖仪试纸信号表现出线性响应，与d-葡萄糖的响应在统计上无显著差异。然而，在真实的生物质燃烧滤膜样品中，血糖仪法测得的浓度约为GC-MS测量值的两倍。这一差异可能是由于样品基质中干扰化合物的存在，它们在水解时也释放d-葡萄糖。总体而言，本研究为使用现成的血糖仪试纸检测LG提供了概念验证，同时突显了将该方法应用于复杂环境样品的独特挑战。",
-     "source": "chemRxiv",
+     "title": "Integrated genomic meta-analysis identifies cell-type-specific signatures and targets in early Alzheimer's disease",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
      "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009329/v1",
-     "doi": "10.26434/chemrxiv.15009329/v1",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26362150",
+     "doi": "10.64898/2026.09.21.26362150",
      "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Levoglucosan (LG) is highly abundant in biomass pyrolysate and is widely used as a tracer for biomass burning in environmental sciences. Current analytical standards rely on gas or liquid chromatography coupled with mass spectrometry (GC/LC-MS). Because these methods are expensive, there is a critical need for low-cost alternatives. This work explores using commercial glucometer strips to detect and quantify LG by first converting it into d-glucose with heat and acid. The hydrolysis condition was optimized to be at 150 °C, with 0.1 M H2SO4, for 60 min, while the sample was buffered at pH 7.3 for optimal detection. Following the optimization of the hydrolysis protocol, the glucometer strip signal exhibited a linear response, which was statistically indistinguishable from the response to d-glucose. However, when applied to authentic biomass burning filter samples, the glucometer method yielded concentrations approximately twice as high as GC–MS measurements. This discrepancy is likely due to interfering compounds in the sample matrix that also release d-glucose upon hydrolysis. Overall, this study establishes the proof-of-concept for using off-the-shelf glucometer testing strips for ",
-     "authors": "Amanda Hanashiro Moraes, Antonio Mirante, Dylan Long, Faisal Hossain, Michael Serpe, Ran Zhao"
+     "importance": 8.0,
+     "abstract": "Cellular mechanisms in early Alzheimer's disease (AD) remain poorly understood despite generation of extensive observational multiomic data. Weighted integration across diverse datasets can prioritise convergent mechanisms and targets. We conducted a systematic review to identify datasets profiling cell-type-specific changes in early AD. We integrated multiomic findings using Meta-Analysis by Information Content (MAIC), a computational method which combines genomic data from diverse experimental sources. Electron transport chain dysfunction in mitochondria emerged as a shared pathway in neurons, microglia, and astrocytes, and Wnt signalling was a prominent astrocyte-specific signature. Pathological neuro-glial signalling mechanisms included APP-CD74, APOE-SORL1, and WNT-FZD/LRP6. Integration with pharmacological data identified therapeutics already under investigation in AD, such as guanfacine, and candidates not previously prioritised, such as eltrombopag and encorafenib. We present a systematic analysis of cell-type-specific changes in early AD to prioritise pathways for investigation and therapeutics for repurposing.",
+     "authors": "Steinruecke, M.; Baillie, J. K.; Jiwaji, Z."
     },
     {
-     "title": "Origin of Reagent-Dependent Diastereoselectivity in Grignard Additions to a TADDOL-Derived α-Ketiminophosphonate",
-     "title_zh": "Grignard试剂对TADDOL衍生α-酮亚胺磷酸酯的立体选择性影响",
-     "summary_zh": "Grignard试剂对TADDOL衍生的α-酮亚胺磷酸酯的加成反应表现出显著的试剂依赖性立体选择性，其中甲基溴化镁的dr值为94:6，而2-萘基溴化镁的dr值为55:45。本研究通过密度泛函理论（DFT）计算，发现二聚体Grignard模型与底物的磷酰基和磺酰基区域配位，限制了C–P键的旋转，从而实现了面向选择性。Grignard试剂的性质调节了反应复合物的组织和竞争过渡态的相对稳定性，为不同的立体化学提供了机制上的解释。",
-     "source": "chemRxiv",
+     "title": "Association Between Continuous Glucose Monitoring - Derived Time in Range and Diabetic Kidney Disease: A Systematic Review and Meta-Analysis of current evidence",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
      "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009360/v1",
-     "doi": "10.26434/chemrxiv.15009360/v1",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363573",
+     "doi": "10.64898/2026.09.21.26363573",
      "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Grignard additions to a TADDOL-derived -ketiminophosphonate display pronounced reagent-dependent diastereoselectivity, with dr values of 94:6 for methylmagnesium bromide and 55:45 for 2-naphthylmagnesium bromide. In this study, we carried out DFT calculations showing that dimeric Grignard models coordinate to the phosphoryl and sulfonyl regions of the substrate, restricting C–P bond rotation and enabling facial differentiation. The nature of the Grignard reagent modulates the organisation of the reactive complex and the relative stability of the competing transition structures, providing a mechanistic rationale for the contrasting stereochemical",
-     "authors": "Adrián López-Francés, Javier Vicario, Abel de Cózar"
+     "importance": 8.0,
+     "abstract": "Background: Continuous glucose monitoring-derived time in range (TIR; glucose 70-180 mg/dL) has emerged as a complementary glycemic metric, but its association with DKD (Diabetic Kidney Disease) has not been systematically quantified. We aimed to synthesize the evidence on the association between CGM-derived TIR and DKD in adults with type 1 or type 2 diabetes by conducting a systematic review and meta-analysis of the current evidence. Methods: This systematic review and meta-analysis adhered to PRISMA guidelines. PubMed, Embase, Cochrane CENTRAL, and Scopus were searched through March 2026. Eligible studies were studies in adults with type 1 and type 2 diabetes that reported an association between CGM-derived TIR and any DKD outcome (albuminuria, eGFR decline, or composite nephropathy) with a quantifiable per-unit effect estimate. Random-effects meta-analysis (REML with Knapp-Hartung adjustment) pooled odds ratios per 10% TIR increment. Risk of bias was assessed using ROBINS-E and certainty of evidence using the GRADE framework. PROSPERO: CRD420261377763. Results: Eleven studies (n = 7,182; seven T2D, four T1D; ten cross-sectional, one retrospective cohort) were included. The pool",
+     "authors": "Lodha, S. M.; Kumar, S.; Acharya, S.; Dhamelia, P.; Garg, S."
     },
     {
-     "title": "Experimental Data Analysis and Improved Cytochrome P450 Site-of-Metabolism Prediction for Drug Discovery",
-     "title_zh": "改进的细胞色素P450代谢位点预测工具及实验数据分析",
-     "summary_zh": "细胞色素P450（CYP）酶介导大多数上市药物的氧化代谢，因此早期预测其代谢位点（SoMs）对解决代谢问题至关重要。本研究对我们的混合对接/量子力学SoM预测工具IMPACTS进行了重大更新，评估了新整理的、完全注释的数据集，这些数据集包含2400多个数据点，涵盖九个人类同种型，并以MOL2和JSON格式发布。技术实现包括：1）开发三维溶剂可接触表面积修正预计算的活化能；2）设计并集成高效的L-BFGS优化器；3）消除历史上用于去除无效结合模式的过滤器。通过对新整理的数据集进行广泛基准测试和分析，我们展示了九个同种型的全球Top-2准确率约为75%，且新优化器在九个同种型中八个的计算成本均低于每个代谢物1分钟。最后，我们展示了六个真实案例研究，涵盖已批准药物和停用临床候选药物，体现了该工具的实际价值。",
-     "source": "chemRxiv",
+     "title": "Distinct Somatic Mutational Landscapes in Paired Blood and Arterial Tissues in Coronary Artery Disease",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
      "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009130/v2",
-     "doi": "10.26434/chemrxiv.15009130/v2",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363617",
+     "doi": "10.64898/2026.09.21.26363617",
      "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Cytochrome P450 (CYP) enzymes mediate the oxidative metabolism of most marketed drugs, making early prediction of their sites of metabolism (SoMs) essential for addressing metabolic liabilities. In this work, we present a substantial update to our hybrid docking/quantum mechanics SoM prediction tool IMPACTS (J. Chem. Inf. Model., 2012, 52, 2471-2483). This update is evaluated on newly curated, fully annotated datasets containing over 2,400 datapoints and spanning nine human isoforms; these datasets are released to the community in MOL2 and JSON formats. Technical implementations presented in this work include 1) development of a three-dimensional solvent-accessible surface area correction to the precomputed activation energies, 2) design and integration of a highly efficient L-BFGS optimizer, and 3) elimination of a filter that had been historically used to remove unproductive binding modes. We follow these updates with extensive benchmarking and analysis on the newly curated datasets, where we show 1) achievement of a global Top-2 accuracy of ~75% across the nine isoforms and 2) the effective computational cost using the new optimizer was less than 1 minute per metabolite for eigh",
-     "authors": "Mihai Burai-Patrascu, Antoine Moitessier, Matej Janezic, Anne Labarre, Kevin Cusack, Joshua Pottel"
-    },
-    {
-     "title": "Reconfigurable Flow Reactors Assembled from 3DPrinted Self-Healing Hydrogel Modules",
-     "title_zh": "可重构流体反应器：3D打印自愈合水凝胶模块的组装",
-     "summary_zh": "本文介绍了一种由数字光处理（DLP）打印的自愈合水凝胶模块组装而成的毫米级流体反应器。该聚合物配方结合了光打印性和动态界面结合特性。打印模块包含直线、曲线、分支、环形和交叉通道，以及混合室。在常温下接触时，分离的模块形成液密接口，支持连续流动。连接的模块可以被分离、重新排列和再连接，以构建新的流体电路。最后，含有活性混合室的反应器用于进行竞争性硫醇-马来酰亚胺反应。仅改变两个竞争性硫醇进入反应器的位置，表观产物比例从95:5转变为17:83或94:6。这些结果确立了自愈合接口作为可逆流体连接，并提供了一种基于材料的策略来构建可重构流体反应器。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009341/v1",
-     "doi": "10.26434/chemrxiv.15009341/v1",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Here, we introduce millimeter-scale fluidic reactors assembled from digital-light-processing (DLP)-printed self-healing hydrogel modules. A poly(acrylic acid-co-2-acrylamidophenylboronic acid)/poly(vinyl alcohol) formulation combines photoprintability with dynamic interfacial association. Printed modules contain straight, curved, branched, looping, and crossing channels, as well as mixing chambers. When brought into contact under ambient conditions, separate modules form liquid-tight interfaces that support continuous flow. Joined elements can subsequently be separated, rearranged, and rejoined to construct new fluidic circuits from the same building blocks. Finally, reactors containing active mixing chambers are used to perform a competitive thiol–maleimide reaction. Changing only the position at which two competing thiols enter the reactor shifts the apparent product ratio from 95:5 to 17:83 or 94:6. These results establish self-healing interfaces as reversible fluidic connections and provide a materials-based strategy for constructing reconfigurable flow reactors.",
-     "authors": "Diego Ciardi, Youssef Elbishbishy, Piet J. M. Swinkels, Andreas Walther"
-    },
-    {
-     "title": "Hyperlocal PM2.5 Exposure and Health Burden Disparities Revealed by a Taxi-Based Mobile Monitoring Platform in Shenzhen",
-     "title_zh": "深圳出租车移动监测平台揭示超地方PM2.5暴露与健康负担差异",
-     "summary_zh": "尽管中国的细颗粒物（PM2.5）浓度在过去十年有所下降，但超地方尺度的暴露差异依然存在。我们在深圳开展了为期六个月的移动监测活动，使用四辆配备校准低成本传感器的出租车，收集了2460万次1 Hz测量数据（约3700小时），覆盖550平方公里和730万人口。我们开发了一种新颖的多源XGBoost（MS-XGB）框架，整合移动和固定监测站数据，重建了30米×1小时分辨率的道路网络PM2.5数据集，填补了98%的缺失观测。验证结果显示，与移动观测（R² = 0.97）和固定监管监测站数据（Pearson r = 0.82）高度一致。我们利用该数据集生成了100米×100米的人口网格暴露图，并与仅依赖固定监测站的传统暴露评估方法进行了基准比较。相较于MS-XGB，传统方法系统性低估了长期PM2.5暴露，网格级别差异高达15 μg/m³。城市村庄的人口加权平均暴露（16.51 µg/m³）高于其他城市区域（14.41 µg/m³），热点区域在城市村庄出现的可能性高出52.5%。在龙华区，高暴露主要集中在城市村庄，表明区级平均水平存在显著差异。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009050/v2",
-     "doi": "10.26434/chemrxiv.15009050/v2",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Although fine particles (PM 2.5 ) concentrations in China have declined over the past decade, exposure disparities persist at hyperlocal scales. We conducted a six-month mobile monitoring campaign in Shenzhen, where four taxis with calibrated low-cost sensors gathered 24.6 million 1 Hz measurements (~3,700 hours) across 550 km² and 7.3 million residents. We developed a novel application of a multi-source XGBoost (MS-XGB) framework that integrates mobile and fixed-site station data to reconstruct a road-network PM 2.5 dataset at 30 m × 1 h resolution, filling 98% of missing observations. Validation demonstrates strong agreement with both mobile observations (R 2 = 0.97) and data from fixed regulatory monitoring stations (Pearson r = 0.82). We used the road-network dataset to generate a 100 m × 100 m population grid exposure map and benchmarked it against two conventional exposure assessment approaches that rely solely on fixed-site regulatory stations. Relative to MS-XGB, conventional methods systematically underestimated long-term PM 2.5 exposure, with grid-level differences of up to 15 μg/m³. Population-weighted mean exposure was higher in urban villages (16.51 µg/m³) than in othe",
-     "authors": "Zilin Guo, Ziyang Jiang, Shutong Jiang, Tongshu Zheng, Yutong Liang"
-    },
-    {
-     "title": "Photo-oxidation of Dilute Methane in Dairy Barn Air: Pilot Scale Optimization",
-     "title_zh": "奶牛舍稀释甲烷的光氧化：试点规模优化研究",
-     "summary_zh": "低浓度（低于1000 ppm）甲烷排放来自牛舍等点源，仍是温室气体排放的重要来源，且难以减缓。此前提出了一种新方法，通过紫外光将氯气转化为氯自由基，从而氧化甲烷。本文展示了在丹麦一家奶牛场部署的甲烷消除光化学系统（MEPS）的首次实际实验结果。该系统利用电解产生的氯和紫外光，在一个封闭的光反应器中有效氧化甲烷，表现出0.32 kWh/gCH4的特定能量和在89 ppm进气浓度下75%的甲烷去除效率。通过在不同的甲烷浓度、紫外辐照度、气流速率和氯浓度下操作反应器，统计评估表明，增加紫外功率和Cl2浓度协同降低特定能量，同时最大化去除效率。实现低特定能量和高去除效率表明该系统的可行性。该技术为减缓大气甲烷和限制全球变暖提供了切实可行的途径。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009362/v1",
-     "doi": "10.26434/chemrxiv.15009362/v1",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Low concentration (below 1000 ppm) methane emissions from point sources such as cattle barns remain a significant source of greenhouse gas emissions, and have proven hard to mitigate. Previously, a novel method for methane photo-oxidation using UV light to produce chlorine radicals from chlorine gas, which subsequently oxidize methane, was proposed. Here we present the first real-world experimental results from a pilot scale Methane Eradication Photochemical System (MEPS) deployed at a dairy farm in Denmark. Utilizing electrolysis generated chlorine and UV light, chlorine radicals were produced in a confined photoreactor to effectively oxidize methane. The system demonstrated methane oxidation with a specific energy of 0.32 kWh/gCH4 and 75 % methane removal efficiency at an inlet concentration of 89 ppm. To better understand the operational parameters, the reactor was operated at a variety of different methane concentrations, UV irradiance, airflow rates, and chlorine concentrations. Statistical evaluation indicated that increasing UV power and Cl2 concentration synergistically minimizes specific energy while maximizing removal efficiency. The ability to achieve low specific energy",
-     "authors": "Morten Krogsbøll, Noah D. Weiss, Hugo S. Russell, Svend Bager, Nickie Fogde, Matthew S. Johnson"
-    },
-    {
-     "title": "ProtMutMap: Predicting Protein Binding Free Energy Changes Using Multiple-Mutation Networks",
-     "title_zh": "ProtMutMap：利用多重突变网络预测蛋白质结合自由能变化",
-     "summary_zh": "预测蛋白质-蛋白质界面上多重突变引起的结合自由能变化ΔΔG，需要考虑突变之间的非加性相互作用，这一点单突变的加性近似无法捕捉，同时也要考虑逐步引入突变的计算路径依赖性。本文提出了ProtMutMap，一种整合来自多个路径的信息的方法，网络的节点代表目标变体及其突变子集的变体，边表示残基替换的自由能扰动（FEP）计算。ProtMutMap通过Huber损失同时估计每个变体的结合ΔΔG。我们在30个评估点上将ProtMutMap与加性近似和逐步方法进行了比较，使用的数据集包含来自SKEMPI2的7个蛋白质复合物系统。ProtMutMap的均方根误差（RMSE）为1.13 kcal/mol，低于任何比较方法。ProtMutMap的预测误差也低于Rosetta flex ddG。这些与实验值的比较表明，通过包含目标突变子集的变体整合多个路径，能够改善多重突变蛋白变体的结合ΔΔG预测。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009337/v1",
-     "doi": "10.26434/chemrxiv.15009337/v1",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Predicting changes in binding free energy ΔΔ G caused by multiple mutations at protein−protein interfaces requires accounting for nonadditive interactions between mutations, which an additive approximation based on single mutations cannot capture, and for the dependence on the computational pathway in stepwise approaches that introduce mutations sequentially. Here, we propose ProtMutMap, a method that integrates information from multiple pathways in a network whose nodes represent target variants and variants containing subsets of their mutations, and whose edges represent free energy perturbation (FEP) calculations for residue substitutions. ProtMutMap simultaneously estimates the binding ΔΔ G of each variant from all edge values using Huber loss. We compared ProtMutMap with the additive approximation and the stepwise method at 30 evaluation points, including intermediate variants, using a multiple-mutation dataset comprising 7 protein complex systems derived from SKEMPI2. ProtMutMap achieved a root mean squared error (RMSE) of 1.13 kcal/mol, lower than that of either comparison method. ProtMutMap also yielded lower prediction errors than Rosetta flex ddG. These comparisons with e",
-     "authors": "Kairi Furui, Masahito Ohue"
-    },
-    {
-     "title": "GITT Evaluation with PyBaMM",
-     "title_zh": "使用PyBaMM评估GITT方法的准确性",
-     "summary_zh": "本研究系统评估了恒流间歇滴定技术（GITT）在确定固态锂扩散系数方面的准确性，采用Doyle–Fuller–Newman模型生成的合成数据进行分析。将GITT得到的扩散系数与生成数据时使用的已知值进行了比较，涵盖了广泛的材料特性。结果显示，GITT系统性低估了扩散系数，且在较高扩散率下绝对误差增大。对于优化电池，可靠的扩散系数测定通常限于D ≤ 10^-14 m²/s，而非优化电池的表现则更差。这些结果表明，GITT得到的扩散率在定量电池模型参数化时应谨慎使用。然而，当电池设计和分析条件保持一致时，GITT仍然对材料比较评估具有实用价值。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009346/v1",
-     "doi": "10.26434/chemrxiv.15009346/v1",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "The accuracy of the galvanostatic intermittent titration technique (GITT) for determining solidstate lithium diffusion coefficients was systematically evaluated using synthetic data generated with Doyle–Fuller–Newman model in PyBaMM. GITT-derived diffusion coefficients were compared with the known values used to generate the data across a broad range of possible material properties. GITT systematically underestimated the diffusion coefficient, with absolute errors increasing at higher diffusivities. For an optimized cell, reliable determination was generally limited to D ≤ 10 -14 m2/s, while a non-optimized cell provided much worse performance. These results demonstrate that GITT-derived diffusivities should be used with caution for quantitative battery-model parametrization. Nevertheless, GITT remains useful for comparative materials evaluation when cell design and analysis conditions are kept consistent.",
-     "authors": "Marcin Kwidziński"
-    },
-    {
-     "title": "BET Bromodomain Pan-D1-Biased Inhibitors with Improved Drug-Like Properties and hERG Profiles as Therapies for Inflammatory Liver Injury",
-     "title_zh": "改良药物特性和hERG谱的BET溴结构域抑制剂用于炎症性肝损伤治疗",
-     "summary_zh": "BET溴结构域抑制剂作为抗炎化合物具有良好疗效，但因非选择性抑制导致的剂量限制毒性影响临床应用。本文报告了基于先前报道的4-甲基-1,2,3-三唑抑制剂DW34的化合物16和26。化合物16的BRD4 BD1 Ki为10 nM，对BRD4 BD1与其他BD2结构域具有13-38倍的选择性，且其hERG亲和力为4.24 µM，优于DW34。化合物26是16的双环丙烷类似物，进一步增强了BD1对BD2的选择性（26-203倍），但表现出更强的hERG抑制。化合物16在肝脏和血浆清除率上优于DW34，且在肝脏具有良好的生物分布，在小鼠肝炎模型中显示出92 nM的细胞内靶向结合亲和力，并降低了Ccl2、Cxcl1、AST和ALT水平。化合物16为治疗炎症性肝病提供了有用的先导化合物，具有更好的特异性、药物样特性和降低的hERG亲和力。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009359/v1",
-     "doi": "10.26434/chemrxiv.15009359/v1",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "BET bromodomain inhibitors are efficacious as anti-inflammatory compounds, but clinical translation is hampered by dose-limiting toxicities from non-selective inhibition. We herein report compounds 16 and 26, based on previously reported 4-methyl-1,2,3-triazole-based inhibitor, DW34. 16 has a BRD4 BD1 Ki of 10 nM, and up to 13–38-fold selectivity for BRD4 BD1 over other BD2 domains, and an improved hERG affinity of 4.24 µM over DW34. 26, A biscyclopropyl analog of 16 showed further enhancement of BD1 selectivity over BD2 (26–203-fold), but exhibited more potent hERG inhibition. Compound 16 had improved liver and plasma clearance over DW34, with good biodistribution to the liver, and had an intracellular target-engagement affinity Ki of 92 nM, with reduction of Ccl2, Cxcl1, AST, and ALT in in vitro and in vivo mouse models of liver inflammation. 16 represents a useful lead for treating inflammatory liver diseases, with improved specificity, drug-like properties, and reduced hERG affinity.",
-     "authors": "Nora R. Vail, Luke C. Doskey, Elliott J. Peterson, Cole R. Scholtz, Ricardo Gallardo-Macias, Shalil Khanal"
-    },
-    {
-     "title": "Integrating Pathway Engineering and FoTO1-Mediated Oxidation for Taxadien-5α-ol Production",
-     "title_zh": "整合途径工程与FoTO1介导氧化以生产Taxadien-5α-醇",
-     "summary_zh": "微生物重构紫杉醇生物合成受到税烯（1）供应有限和首次氧化步骤选择性差的限制。本研究通过整合增强的税烯（1）生物合成与选择性氧化，工程化大肠杆菌以高效新生生产Taxadien-5α-醇（2）。协调工程化税烯合酶表达、前体供应、途径调控和香叶基二磷酸合酶，使1的浓度提高了7.5倍，从20.3 mg L−1增加到152.6 mg L−1。然而，CYP725A4-细胞色素P450还原酶融合体仅产生2.2 mg L−1的2，占检测到的氧化税烯的7.4%。共表达税烯氧化促进因子1（FoTO1）显著改变了氧化谱，使2的比例提高到94.2%，浓度增加20.8倍至45.5 mg L−1。后续发酵优化使浓度提高至74.0 mg L−1，添加15%（v/v）正十二烷覆盖层进一步提高产量至179.9 mg L−1。我们认为这是在异源微生物宿主中报告的单独定量Taxadien-5α-醇（2）的最高浓度。这些结果强调了前体供应与氧化选择性控制相结合的重要性，并建立了进一步重构微生物紫杉醇生物合成的高效平台。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009335/v1",
-     "doi": "10.26434/chemrxiv.15009335/v1",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Microbial reconstruction of paclitaxel biosynthesis is hindered by limited taxadiene (1) supply and poor selectivity in the first oxidative step. Here, we engineered Escherichia coli for the efficient de novo production of taxadien-5α-ol (2) by integrating enhanced taxadiene (1) biosynthesis with selective oxidation. Coordinated engineering of taxadiene synthase expression, precursor supply, pathway regulation, and geranylgeranyl diphosphate synthase increased the titer of 1 7.5-fold, from 20.3 to 152.6 mg L−1. However, the CYP725A4–cytochrome P450 reductase fusion produced only 2.2 mg L−1 of 2, representing 7.4% of the detected oxygenated taxanes. Coexpression of facilitator of taxane oxidation 1 (FoTO1) markedly redirected the oxidation profile toward 2, increasing its proportion to 94.2% and its titer 20.8-fold to 45.5 mg L−1. Subsequent fermentation optimization increased the titer to 74.0 mg L−1, and addition of a 15% (v/v) n-dodecane overlay further increased production to 179.9 mg L−1. To our knowledge, this represents the highest reported titer of individually quantified taxadien-5α-ol (2) in a heterologous microbial host. These results highlight the importance of coupling ",
-     "authors": "Haixin Li, Shuyao Xu, Mingyu Yue, Lianchun Deng, Hui-Min Xu, Hongwei Chen"
-    },
-    {
-     "title": "Treatise on Present Practice and Perspectives of MDGC",
-     "title_zh": "多维气相色谱（MDGC）的现状与展望",
-     "summary_zh": "目前多维气相色谱（MDGC）的现状仅是二维气相色谱（2D-GC）的实现，具体表现为GCxGC。自1991年引入以来，尽管经过35年的努力，GCxGC仍未能实现预期的能力。2008年的定量研究表明，其分离性能未能与良好管理的一维气相色谱（1D-GC）竞争。本文强调了GCxGC的进一步局限性，包括操作不当及其无法满足基本要求，即若化合物可通过1D-GC分析，则应能通过MDGC分析。多重相互关联的问题凸显了GCxGC的自我限制特性。尝试通过放宽绑定条件来克服限制，反而使GCxGC回归到数十年前的形式，仍未摆脱障碍。整体不利的局面促使我们考虑其他概念的可行性，重点在于避免GCxGC的错误与陷阱，同时满足MDGC的基本要求。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009340/v1",
-     "doi": "10.26434/chemrxiv.15009340/v1",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "The state of affairs of multidimensional gas chromatography (MDGC) at present is no more than an implementation of a two-dimensional form (2D-GC) reducing the domain to the setup known as GCxGC. Introduced in 1991 with great expectation, however, GCxGC still happen to fall short of realizing the anticipated capabilities despite continuous efforts made over the elapsed 35 years. This got quantitative formulation in regard of separation performance as early as 2008, proving that it failed to be competitive with a well-governed 1D-GC. The present paper highlights further limitations of GCxGC: inadequate operation burdened with shortcomings are presented via examples taken from GCxGC literature; crowning the list with the inability to meet fundamental requirement that if a compound can be analyzed by 1D-GC it must remain analyzable by MDGC. The repertoire of the intertwining issues, each of which unavoidably rigs or even hamstrings the others, highlights that GCxGC has a built-in self-limiting feature. Attempts to overcome confinements via loosening the binding conditions turned GCxGC back to the form it emerged from decades ago, yet without getting rid of the hampering curbs. The unfa",
-     "authors": "E. Fuggerth"
-    },
-    {
-     "title": "Accelerated Hygrothermal Aging of an Epoxy Barrier Coating: Correlating Laboratory Degradation with Performance",
-     "title_zh": "环氧防护涂层的加速湿热老化研究",
-     "summary_zh": "本研究探讨了环氧防护涂层的湿热老化行为。涂层在20–80 °C下经历了长达14个月的水浸和干热暴露，监测了水分吸收、拉伸性能和热转变的变化，采用了重力测量、拉伸测试、动态力学分析（DMA）和差示扫描量热法（DSC）。结果显示，经过两个月的水和高温联合暴露，拉伸模量和强度的降低程度大于干燥老化，而干燥显著恢复了机械性能，表明湿气引起的塑化和膨胀是早期性能损失的主要原因。更长时间的暴露导致更严重的机械劣化，在60 °C下，材料在八个月内持续增重，随后出现减重，表明水分吸收由扩散控制向降解相关行为转变。与此相比，DMA和DSC的玻璃转变温度随老化温度变化不大。研究结果表明，机械测量比Tg更敏感地指示了该涂层的湿热性能。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009241/v2",
-     "doi": "10.26434/chemrxiv.15009241/v2",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "This study investigates the hygrothermal aging behavior of an epoxy barrier coating. The coating was subjected to water immersion and dry-heat exposure at 20–80 °C for up to 14 months, and changes in water uptake, tensile properties, and thermal transitions were monitored by gravimetric measurements, tensile testing, dynamic mechanical analysis (DMA), and differential scanning calorimetry (DSC). After two months, combined water and elevated-temperature exposure produced larger reductions in tensile modulus and strength than dry aging, while drying substantially restored the mechanical properties. This indicates that moisture-induced plasticization and swelling account for a major fraction of the early property loss. Longer exposure produced more severe mechanical deterioration, and at 60 °C the material continued to gain mass for up to eight months before subsequent weight loss, consistent with a transition from predominantly diffusioncontrolled water uptake toward degradation-associated behavior. In contrast, DMA and DSC glass-transition temperatures varied only modestly with aging temperature. The results show that mechanical measurements provide a more sensitive indicator of hyg",
-     "authors": "Parastou Kharazmi"
-    },
-    {
-     "title": "Dynamic Ni–Fe Interfaces Regulate Stimulated Geological Hydrogen Production",
-     "title_zh": "动态镍-铁界面调控刺激地质氢气生成",
-     "summary_zh": "地质氢（Geo-H2）通过水-岩氧还原反应生成，能够利用地下矿物中储存的还原当量，扩展低碳氢资源。刺激性Geo-H2生产的工程化仍然困难，因为连接岩石中Fe2+释放与H2生成的反应序列尚不完全明确。本研究支持一种界面序列，连接橄榄石Fe2+释放、Fe(II)含氢氧化物中间态、Fe3O4产物生长及镍在富铁界面上的重分布。在橄榄石富集岩石、玄武岩和Fe(OH)2模型系统中，微量溶解的Ni2+在所考察的温度下增强了H2的生成速率，达到之前报道的Geo-H2系统的两倍以上，且在相同添加剂条件下，溶解的Ni2+优于固体Ni添加剂。Fe归一化对照显示，单独的溶解Fe2+生成的H2远低于转化为Fe(OH)2的Fe2+，支持Fe(II)-氢氧化物化学作为形成磁铁矿途径的有效通道。电子显微镜、光谱学和横截面EDS连接了橄榄石Fe重分布与富铁改性产物及镍的招募，而第一性原理计算表明，吸附的Ni-Fe位点对解离氢的稳定性更强。镍的反应是有限的，过量负载。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009395/v1",
-     "doi": "10.26434/chemrxiv.15009395/v1",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "Geological hydrogen (Geo-H2) generated by water-rock redox reactions could expand low-carbon hydrogen resources by tapping reducing equivalents stored in subsurface minerals. Stimulated Geo-H2 production remains difficult to engineer because the reaction sequence connecting rockhosted Fe2+ release to H2 evolution is incompletely constrained. Here, we support an interfacial sequence linking olivine Fe2+ release, an Fe(II)-bearing hydroxide intermediate state, Fe3O4bearing product growth, and Ni redistribution at evolving Fe-rich interfaces. Across olivine-rich rocks, basalt, and Fe(OH)2 model systems, trace dissolved Ni2+ enhanced H2 evolution over the examined temperatures, reaching rates more than two orders of magnitude above previously reported Geo-H2 systems at comparable temperatures, and dissolved Ni2+ outperformed solid Ni additives under matched additive-form comparisons. Fe-normalized controls show that dissolved Fe2+ alone produced far less H2 than Fe2+ converted to Fe(OH)2, supporting Fe(II)-hydroxide chemistry as a productive gateway to the magnetite-forming pathway. Electron microscopy, spectroscopy, and cross-sectional EDS connected olivine Fe redistribution with Fe-r",
-     "authors": "Yifan Gao, Jakob Krogh Nielsen, Seok Hee Han, Ming Lei, Haihui Lan, Yuheng Wu"
-    },
-    {
-     "title": "Intramolecular N-Alkylation of O-Aryloximes Facilitates N–O Homolysis and Iminyl Radical Cyclization",
-     "title_zh": "O-芳氧肟的分子内N-烷基化与亚氨基自由基环化研究",
-     "summary_zh": "本研究旨在改善微波促进的亚氨基自由基环化级联反应，以靶向Securinega生物碱virosinine A。结果表明，在Finkelstein条件下，该过程可以在较低温度（66°C对比100°C）下启动。机制实验和密度泛函理论（DFT）计算表明，Finkelstein溴化或碘化反应促进了分子内N-烷基化。这降低了底物的N–O键断裂能（BDE），使得在比之前观察到的更低温度下发生均裂反应成为可能。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009361/v1",
-     "doi": "10.26434/chemrxiv.15009361/v1",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "An attempt to improve a microwave-promoted iminyl radical cyclization cascade targeting the Securinega alkaloid virosinine A revealed that the process could be initiated at lower temperatures (66 °C versus 100 °C) under Finkelstein conditions. Mechanistic experiments and DFT calculations indicate that Finkelstein bromination or iodination facilitates intramolecular N-alkylation. This lowers the N–O BDE of the substrate and permits homolysis at lower temperatures than previously observed.",
-     "authors": "Osasere J. Osayawe, Joshua D. Morgan, Benjamin T. Melton, Ethan P. Downing, Jesus A. Botello, Alexander Ramos"
-    },
-    {
-     "title": "Acoustic Optimization and Standardized Fabrication of a Biomimetic Liver Phantom for Quantitative Multimodal Imaging",
-     "title_zh": "生物仿生肝脏模型的声学优化与标准化制造",
-     "summary_zh": "我们之前开发了一种由海藻酸盐单元组成的结构仿生肝脏模型，能够再现肝小叶的规模和组织。本研究优化了非脂肪性基线配方和制造流程，以更准确地再现超声、CT和MRI下的正常肝脏特性。更新的配方通过临床成像系统进行评估，并进行了定量水槽特性测试，测量声速（SoS）和衰减系数（AC）。增加海藻酸盐浓度并在海藻酸盐相和氯化钙交联浴中加入甘油，降低了SoS不匹配，同时保持了仿生结构。使用3D打印模具标准化制造，以精确控制模型体积和成分比例。更新后的配方在临床系统中实现了约1540 m/s的SoS和约0.4 dB/cm/MHz的AC，CT衰减约为44 HU，MRI-PDFF约为2.5%，T2*约为41 ms。定量浸没特性测试独立确认了与肝脏相关的声学特性，SoS约为1557 m/s，AC约为0.34 dB/cm/MHz（在3.5 MHz下）。这些值在非脂肪性肝脏的报告范围内。该平台提供了可重复的、标准化的多模态基线。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009390/v1",
-     "doi": "10.26434/chemrxiv.15009390/v1",
-     "published": "2026-09-23",
-     "importance": 7.5,
-     "abstract": "We previously developed a structurally biomimetic liver phantom composed of alginate units that reproduce the scale and organization of hepatic lobules. Here, we optimized the non-steatotic baseline formulation and fabrication workflow to more closely reproduce normal liver properties across ultrasound, CT, and MRI. The updated formulation was evaluated using clinical imaging systems, followed by quantitative water-tank characterization of speed of sound (SoS) and attenuation coefficient (AC). Increasing alginate concentration and incorporating glycerol into both the alginate phase and calcium chloride crosslinking bath reduced the SoS mismatch while preserving the biomimetic architecture. Fabrication was further standardized using 3D-printed molds to precisely control phantom volume and component ratios across clinical-imaging and water-tank configurations. On clinical systems, the updated formulation achieved a SoS of ~ 1540 m/s and AC of ~ 0.4 dB/cm/MHz, together with CT attenuation of ~ 44 HU, MRI-PDFF of ~ 2.5 % and T2* ~ 41 ms. Quantitative immersion-based characterization independently confirmed liver-relevant acoustic properties with a SoS of ~ 1557 m/s and AC of ~ 0.34 dB/",
-     "authors": "Vatan Sipahi, Tara Movaghar, Anbarin Khalid, Shariq Ali, Liqiang Ren, Yue Zhang"
-    },
-    {
-     "title": "A methanogen hydrolase reveals the structure of archaeal peptidoglycan",
-     "title_zh": "甲烷菌水解酶揭示古菌肽聚糖结构",
-     "summary_zh": "本研究识别并表征了来自人类肠道微生物群主要成员Methanobrevibacter smithii的ArmA，发现其是一种特异性水解甲烷菌细胞壁的糖苷水解酶。研究揭示了一种意想不到的古菌肽聚糖化学结构，其中包含一种先前未被识别的糖。这一发现为理解古菌细胞壁的组成和功能提供了新的视角。",
-     "source": "Nature",
-     "tier": "mainstream",
-     "field": "生命科学",
-     "url": "https://www.nature.com/articles/s41586-026-11028-y",
-     "doi": "10.1038/s41586-026-11028-y",
-     "published": "2026-09-23",
-     "importance": 7.0,
-     "abstract": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11028-y ArmA from Methanobrevibacter smithii, a dominant member of the human gut microbiome, is identified and characterized as a glycosyl hydrolase specific for cleaving the cell wall of methanogens, revealing an unsuspected chemical structure of archaeal peptidoglycan that includes a previously unidentified sugar.",
-     "authors": "Robert Smith"
-    },
-    {
-     "title": "Lsp2 links mTORC1 to TOP mRNA translation and lifespan in Drosophila",
-     "title_zh": "Lsp2在果蝇中连接mTORC1与TOP mRNA翻译及寿命",
-     "summary_zh": "本研究探讨了在果蝇中，饮食必需氨基酸诱导的蛋白质Lsp2作为mTORC1的关键生理效应因子。研究发现，缺失Lsp2基因的突变果蝇表现出TOP mRNA翻译减少和寿命延长。这表明Lsp2在调控mTORC1信号通路及其对果蝇寿命的影响中发挥重要作用。",
-     "source": "Nature",
-     "tier": "mainstream",
-     "field": "生命科学",
-     "url": "https://www.nature.com/articles/s41586-026-11029-x",
-     "doi": "10.1038/s41586-026-11029-x",
-     "published": "2026-09-23",
-     "importance": 7.0,
-     "abstract": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11029-x In Drosophila, the protein Lsp2, which is induced by dietary essential amino acids, is a key physiological effector of mTORC1, and mutant flies that lack the Lsp2 gene exhibit reduced translation of TOP mRNAs and improved longevity.",
-     "authors": "Jun Wang"
-    },
-    {
-     "title": "Estimand Divergence Between Static Docking and Molecular Dynamics as a Triage Filter for Antimalarial Leads",
-     "title_zh": "静态对接与分子动力学的估计差异用于抗疟药物筛选",
-     "summary_zh": "本研究探讨了静态对接与分子动力学模拟之间的估计差异，以评估其在抗疟药物筛选中的有效性。通过对一系列潜在抗疟药物的计算分析，比较了两种方法在结合亲和力预测上的一致性。结果显示，静态对接与分子动力学的估计存在显著差异，尤其在结合位点的动态变化方面。研究表明，结合这两种方法的结果可以作为筛选抗疟药物的有效策略，从而提高药物发现的成功率。此方法为未来抗疟药物的开发提供了新的思路。",
-     "source": "chemRxiv",
-     "tier": "preprint",
-     "field": "化学材料",
-     "url": "https://doi.org/10.26434/chemrxiv.15009345/v1",
-     "doi": "10.26434/chemrxiv.15009345/v1",
-     "published": "2026-09-23",
-     "importance": 7.0,
-     "abstract": "",
-     "authors": "Myke Vital SAO TEMGOUA, Jean-Pierre TCHAPET NJAFA, Penabei SAMAFOU, Fon Wilfred MBACHAM, Serge Guy NANA ENGO"
+     "importance": 8.0,
+     "abstract": "Background: Clonal hematopoiesis of indeterminate potential (CHIP) is associated with ageing and atherosclerotic coronary artery disease (CAD), but evidence has largely come from peripheral blood. Whether somatic mutational profiles differ between arterial tissue and blood, and whether hematopoietic clones are represented in arterial tissue, remain poorly understood. Methods: We performed deep whole-exome sequencing on 302 blood granulocytes and 263 arterial tissues from patients undergoing coronary artery bypass graft surgery, including 221 matched blood-tissue pairs, with mean sequencing depths of 130.5X and 120.8X, respectively. Somatic variants were identified using Mutect2. Associations with age and CAD complexity, assessed using SYNTAX score, were evaluated using multivariable regression. Primary analyses focused on variants with variant allele fractions of 10-25%. Results: CHIP was detected in 24/302 (7.9%) blood granulocytes, predominantly involving DNMT3A, TET2, and ASXL1. In contrast, somatic mutations in CHIP-associated genes in arterial tissues showed a distinct profile dominated by CALR, SETDB1, and PDSS2. Somatic mutation carrier status increased with age in blood ({b",
+     "authors": "Lau, Z. C.; Md. Zanzibul, T.; Sim, K. S.; Lin, X. Y.; Wu, H.; Naaz, A.; Muniasamy, U.; Khor, C. C.; Koh, W.-P.; Sorokin, V. A.; Dorajoo, R."
     }
    ]
   },
@@ -30212,27 +30213,27 @@
  },
  "monthly": {
   "2026-09": {
-   "count": 13510,
+   "count": 13753,
    "by_field": {
-    "AI计算机": 5168,
-    "物理天文": 1873,
-    "医学健康": 1638,
-    "数学基础理论": 1527,
-    "化学材料": 1424,
-    "生命科学": 859,
-    "神经认知": 465,
-    "地球气候": 304,
-    "未分类": 252
+    "AI计算机": 5193,
+    "物理天文": 1881,
+    "医学健康": 1741,
+    "数学基础理论": 1533,
+    "化学材料": 1444,
+    "生命科学": 907,
+    "神经认知": 476,
+    "地球气候": 312,
+    "未分类": 266
    },
    "by_tier": {
-    "mainstream": 749,
-    "alt": 2039,
-    "preprint": 10722
+    "mainstream": 757,
+    "alt": 2151,
+    "preprint": 10845
    },
    "topics": [
     [
      "learning",
-     927
+     934
     ],
     [
      "quantum",
@@ -30240,43 +30241,43 @@
     ],
     [
      "language",
-     435
+     441
     ],
     [
      "framework",
-     402
+     409
     ],
     [
      "detection",
-     280
+     285
     ],
     [
      "large",
-     271
+     274
     ],
     [
      "neural",
-     266
-    ],
-    [
-     "agents",
-     262
+     270
     ],
     [
      "evaluation",
-     257
+     265
+    ],
+    [
+     "agents",
+     263
     ],
     [
      "prediction",
-     254
+     259
     ],
     [
      "optimization",
-     251
+     253
     ],
     [
      "dynamics",
-     245
+     248
     ],
     [
      "generation",
@@ -30284,11 +30285,11 @@
     ],
     [
      "control",
-     231
+     235
     ],
     [
      "across",
-     217
+     228
     ]
    ],
    "top_items": [
@@ -31756,90 +31757,90 @@
  },
  "yearly": {
   "2026": {
-   "count": 13661,
+   "count": 13904,
    "by_field": {
-    "AI计算机": 5173,
-    "物理天文": 1874,
-    "医学健康": 1682,
-    "数学基础理论": 1527,
-    "化学材料": 1426,
-    "生命科学": 926,
-    "神经认知": 486,
-    "地球气候": 311,
-    "未分类": 256
+    "AI计算机": 5198,
+    "物理天文": 1882,
+    "医学健康": 1785,
+    "数学基础理论": 1533,
+    "化学材料": 1446,
+    "生命科学": 974,
+    "神经认知": 497,
+    "地球气候": 319,
+    "未分类": 270
    },
    "by_source": {
     "arXiv:cs.LG": 2258,
     "arXiv:cs.AI": 2024,
-    "MDPI": 1716,
+    "MDPI": 1797,
     "arXiv:quant-ph": 1257,
     "arXiv:cs.CL": 890,
-    "chemRxiv": 733,
-    "medRxiv": 667,
+    "chemRxiv": 747,
+    "medRxiv": 746,
     "arXiv:math.PR": 580,
     "arXiv:math.NT": 450,
     "arXiv:astro-ph.GA": 432,
     "arXiv:cond-mat.mtrl-sci": 429,
-    "bioRxiv": 359,
+    "bioRxiv": 389,
     "arXiv:stat.ME": 356,
     "PNAS": 276,
-    "PLOS ONE": 245,
-    "Nature": 241,
-    "eLife": 136,
+    "PLOS ONE": 275,
+    "Nature": 247,
+    "eLife": 137,
     "arXiv:physics.chem-ph": 112,
     "JAMA": 105,
     "NEJM": 85,
     "Lancet": 60,
     "arXiv:physics.ao-ph": 56,
     "Cell": 40,
-    "arXiv:q-bio.NC": 37,
-    "Science": 35
+    "Science": 37,
+    "arXiv:q-bio.NC": 37
    },
    "field_trend": {
     "AI计算机": {
      "2026-07": 2,
      "2026-08": 3,
-     "2026-09": 5168
+     "2026-09": 5193
     },
     "物理天文": {
      "2026-08": 1,
-     "2026-09": 1873
+     "2026-09": 1881
     },
     "医学健康": {
      "2026-07": 2,
      "2026-08": 42,
-     "2026-09": 1638
+     "2026-09": 1741
     },
     "数学基础理论": {
-     "2026-09": 1527
+     "2026-09": 1533
     },
     "化学材料": {
      "2026-08": 2,
-     "2026-09": 1424
+     "2026-09": 1444
     },
     "生命科学": {
      "2026-07": 8,
      "2026-08": 59,
-     "2026-09": 859
+     "2026-09": 907
     },
     "神经认知": {
      "2026-07": 1,
      "2026-08": 20,
-     "2026-09": 465
+     "2026-09": 476
     },
     "地球气候": {
      "2026-08": 7,
-     "2026-09": 304
+     "2026-09": 312
     },
     "未分类": {
      "2026-08": 4,
-     "2026-09": 252
+     "2026-09": 266
     }
    },
    "topics": [
     [
      "learning",
-     927
+     934
     ],
     [
      "quantum",
@@ -31847,43 +31848,43 @@
     ],
     [
      "language",
-     438
+     444
     ],
     [
      "framework",
-     402
+     409
     ],
     [
      "detection",
-     281
+     286
     ],
     [
      "large",
-     271
+     274
     ],
     [
      "neural",
-     268
-    ],
-    [
-     "agents",
-     262
+     272
     ],
     [
      "evaluation",
-     257
+     265
+    ],
+    [
+     "agents",
+     263
     ],
     [
      "prediction",
-     254
+     259
     ],
     [
      "optimization",
-     251
+     253
     ],
     [
      "dynamics",
-     247
+     250
     ],
     [
      "generation",
@@ -31891,22 +31892,26 @@
     ],
     [
      "control",
-     233
+     237
     ],
     [
      "across",
-     221
+     232
     ],
     [
      "clinical",
-     206
+     214
     ],
     [
      "machine",
-     204
+     210
     ],
     [
      "networks",
+     206
+    ],
+    [
+     "through",
      203
     ],
     [
@@ -31914,28 +31919,24 @@
      203
     ],
     [
-     "through",
-     200
+     "evidence",
+     199
     ],
     [
      "inference",
      199
     ],
     [
-     "evidence",
-     192
+     "review",
+     195
     ],
     [
      "beyond",
-     188
+     189
     ],
     [
-     "review",
-     182
-    ],
-    [
-     "efficient",
-     179
+     "molecular",
+     181
     ]
    ],
    "top_items": [
