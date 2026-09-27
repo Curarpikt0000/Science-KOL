@@ -1,22 +1,527 @@
 {
  "_meta": {
-  "built_at": "2026-09-27",
-  "total": 15464,
+  "built_at": "2026-09-28",
+  "total": 15536,
   "undated": 202,
-  "days": 58,
+  "days": 59,
   "months": 3,
   "years": 1
  },
  "daily": {
-  "2026-09-26": {
-   "count": 38,
+  "2026-09-27": {
+   "count": 35,
    "by_field": {
-    "医学健康": 37,
-    "神经认知": 1
+    "医学健康": 22,
+    "生命科学": 10,
+    "神经认知": 3
    },
    "by_tier": {
-    "mainstream": 18,
-    "preprint": 20
+    "preprint": 35
+   },
+   "items": [
+    {
+     "title": "Different hippocampal subfield volumes predict source memory performance and general cognitive ability in an adult lifespan sample",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "神经认知",
+     "url": "https://doi.org/10.64898/2026.09.25.754488",
+     "doi": "10.64898/2026.09.25.754488",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "Modest positive associations between episodic memory performance and whole hippocampal and hippocampal subfield volumes have been reported in numerous prior studies. A smaller number of studies have reported associations between hippocampal volume and performance on tests of non-mnemonic cognition. The present study examined whether these associations were evident in a lifespan sample of cognitively healthy adults. Of particular interest was whether any identified associations were sensitive to age, and whether associations between subfield volumes and mnemonic and non-mnemonic performance were subfield dependent. We acquired high-resolution T1- and T2-weighted structural images from 163 adults (18-87 years of age). Participants also undertook a comprehensive neuropsychological test battery and an in-scanner test of source memory. Principal components analysis was employed to reduce the neuropsychological test scores to 5 cognitive components. Two components reflected memory performance while the other three reflected different aspects of non-mnemonic cognition. Hippocampal subfields (Cornu Ammonis (CA)1, CA2-3, dentate gyrus (DG) and subiculum) were segmented and measured with the",
+     "authors": "Anandan, A.; de Chastelaine, M.; Kidwai, A.; Hou, M.; McIntyre, C.; Rugg, M. D."
+    },
+    {
+     "title": "A single-nucleus multi-omic atlas of gene regulation across 21 adult human tissues",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.25.754561",
+     "doi": "10.64898/2026.09.25.754561",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "Diverse human cell types establish specialized functions through lineage- and context-specific regulatory programs. Interpreting non-coding genetic risk requires integrated multi-omic reference maps that directly connect regulatory DNA to cellular expression across human tissues. Here we present a single-nucleus multi-omic atlas comprising 459,856 transcriptomic and chromatin accessibility profiles from 21 adult human tissues and four donors, including paired measurements from 160,688 nuclei. The atlas resolves nine cell lineages, 61 broad cell types and 313 subclusters, and identifies 1,085,062 candidate cis-regulatory elements (cCREs), including 161,270 novel elements absent from ENCODE. Regulatory activity was dominated by cell identity but refined by tissue context. Joint profiling enabled 871,177 cCRE-gene associations and revealed lineage-specific regulatory architectures. Cross-tissue accessibility further identified lineage-restricted and constitutively inaccessible chromatin domains, the latter showing preferential hypomethylation across human cancers. Furthermore, we leverage this dataset to train sequence-to-function models to predict chromatin-accessibility effects for ",
+     "authors": "Fan, K.; Sule, A.; Guillaumet-Adkins, A.; Zhang, R.; Yu, T.; Cao, Z.; Zhang, X.; Durand, N.; Tellier, M.; Domenech, L.; Aguet, F.; Buenrostro, J. D.; Ardlie, K. G."
+    },
+    {
+     "title": "TFAM Dependent Mitochondrial Fitness Limits CD8⁺ T Cell Immunopathology and Sustains Protective Immunity during Viral Pneumonia",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.24.754254",
+     "doi": "10.64898/2026.09.24.754254",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "During respiratory virus infection, CD8 T cells kill infected cells and establish antigen-specific memory, but mechanisms regulating these functions remain incompletely understood. Here, we identify mitochondrial transcription factor A (TFAM)-dependent mitochondrial fitness as a regulator of CD8 T cell function during influenza infection. Human CD8 T cells exhibited an age-associated decline in TFAM expression and mitochondrial function. To model this physiologically relevant decline and determine its consequences for antiviral immunity, we generated CD8 T cell-specific TFAM-haploinsufficient mice. TFAM insufficiency disrupted mitochondrial integrity and bioenergetics and increased mitochondrial DNA and oxidative stress. During influenza infection, TFAM-insufficient CD8 T cells exhibited increased cytotoxic and inflammatory activity associated with lung immunopathology without improved viral control. This early phenotype was followed by loss of effector function, diminished antigen-specific responses, reduced protection following adoptive transfer, and impaired heterosubtypic recall immunity. Thus, TFAM-dependent mitochondrial fitness is a cell-intrinsic regulator that limits immun",
+     "authors": "Navaeiseddighi, Z.; Guo, K.; Hasan, S. S.; Wang, Z.; Mishra, R.; Schmit, T.; Ahsan, J.; Moser, E. J.; Hur, J.; Yount, J. S.; Mathur, R.; Zhou, L.; Khan, N."
+    },
+    {
+     "title": "Gasdermin E couples mitochondrial stress to STING-driven neuronal pyroptosis during Chandipura virus encephalitis",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.25.754282",
+     "doi": "10.64898/2026.09.25.754282",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "Neurotropic RNA viruses are major causes of fatal encephalitis worldwide, yet how infected neurons transition from antiviral defense to inflammatory cell death is not well characterized. Chandipura virus (CHPV), an emerging neurotropic rhabdovirus, causes acute, rapidly progressive encephalitis with high case fatality in children, but the mechanisms underlying its neuropathogenesis remain poorly defined. Here, we demonstrate that CHPV suppresses canonical RNA virus sensing early but subsequently switches to a mitochondria-driven innate immune program that culminates in inflammatory cell death. Early infection of neuronal cells with CHPV was marked by reduced levels of the mitochondrial antiviral adaptor protein, MAVS and attenuation of type I and III interferon responses. As infection progressed, mitochondrial dysfunction promoted accumulation of mtROS, mitochondrial accumulation of cleaved GSDME and cytosolic mtDNA release, triggering STING activation, which coincided with robust neuroinflammation and pyroptotic cell death. Pharmacological inhibition or genetic silencing of STING markedly attenuated inflammatory signaling, prevented pyroptotic membrane rupture and protected neuron",
+     "authors": "Mukherjee, P.; Kumari, N.; Dutta, S.; Priyadarsini, A.; Biswas, J.; Roy, S.; Samanta, S.; Chakraborty, S.; Roy, J.; Basu, A.; Mukhopadhyay, D.; Saha, A."
+    },
+    {
+     "title": "A hydrogen-producing mitochondrion in an anaerobic eukaryotrophic rhizarian",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.23.753574",
+     "doi": "10.64898/2026.09.23.753574",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "Diverse eukaryotes thrive under low oxygen conditions, in part through highly modified mitochondrion-related organelles (MROs) that use alternate metabolic pathways to support ATP production and cofactor recycling. Anaerobic lifestyles have evolved repeatedly across the eukaryotic tree of life, each providing an independent opportunity to understand how eukaryotes adapt to life in low oxygen conditions. Here, we use single-cell transcriptomics to reconstruct the MRO metabolism of PCE SSF, a benthic eukaryotrophic flagellate and the first cultivated representative of Novel Clade 12 (NC12; Rhizaria), an independently anaerobic rhizarian lineage. PCE SSF possesses an anaerobic hydrogen-producing mitochondrion capable of hydrogenosome-type substrate-level phosphorylation. It also retains a nearly complete but likely branched tricarboxylic acid pathway that lacks citrate synthase and malate dehydrogenase. The function of citrate synthase may instead be fulfilled by the typically cytosolic ATP citrate lyase, previously reported in this context only in the anaerobic cercozoan, Brevimastigomonas motovehiculus. Unlike B. motovehiculus, however, PCE SSF retains only Complex II and the NuoE/N",
+     "authors": "Lawton, M.; Eglit, Y.; Stairs, C. W.; Gawryluk, R. M. R."
+    },
+    {
+     "title": "Sex-specific metabolic regulation by the Drosophila RNA-binding protein Nab2",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.25.754360",
+     "doi": "10.64898/2026.09.25.754360",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "Conserved RNA binding proteins (RBPs) regulate key steps of gene expression including mRNA processing, export, localization, stability and translation. Human ZC3H14 is a conserved RBP that regulates pre-mRNA processing in neurons and loss of ZC3H14 leads to neurological defects. Studies of Nab2, the Drosophila orthologue of ZC3H14, have identified potential target RNAs involved in metabolism, suggesting Nab2 may influence neurometabolic circuitry. Here, we show a female-specific increase in dilp2 and dilp5 mRNA levels. The dilps encode insulin-like peptides that signal from the brain insulin producing cells (IPCs) to peripheral tissues. Nab2null females have enlarged lipid droplets in the fat body, a tissue analogous to human adipose tissue and liver. Notably, neuronal depletion of Nab2 increases lipid droplet size while neuronal expression of Nab2 in Nab2null female rescues this phenotype supporting a role for Nab2 in a neuronal circuit that regulates dilp levels. Furthermore, depletion of dilp2 or dilp5 from IPCs rescues the enlarged lipid droplet phenotype in Nab2null females indicating that elevated dilp2/dilp5 contributes to enlarged lipid droplets. Together, these data suppor",
+     "authors": "Goldy, J. N.; Dunlop, H.; Patel, D. D.; McSweeney, R. M.; Leung, S. W.; Gorkin, D. U.; Corbett, A. H.; Moberg, K."
+    },
+    {
+     "title": "Not all TOP RNAs are created equal: 3'UTR length and TSS selection predict the translational regulation of LARP1-bound mRNAs in CD4+ T cells",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.25.754325",
+     "doi": "10.64898/2026.09.25.754325",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "Naive T cells are poised for activation and contain a pool of translationally repressed ribosomal protein (RP) mRNA prepared to induce ribosome biogenesis to support protein synthesis, cell growth and proliferation. RP mRNA are the prototypical members of a class of transcripts initiating at cytosine followed by a CU rich element called terminal oligo pyrimidine (TOP) RNAs. TOP RNAs are regulated by an RNA binding protein LARP1, which promotes transcript stabilisation and translational repression. We investigated LARP1 function in T cell activation by generating cross-linking immunoprecipitation (CLIP) datasets detailing the LARP1-RNA interactions in naive and activated CD4+ T cells and identifying novel TOP RNAs. TOP RNAs identified by this analysis were functionally diverse. RP mRNAs were typified by high stability, and translational repression in naive T cells followed by MTORC1-dependent translation increases following T cell activation. However, other TOP RNAs varied in these aspects of their regulation. Notably, TOP RNAs with longer 3'UTRs had a relaxed dependency on LARP1 for stability and a reduced dependency on MTORC1 for their translation. Transcription start site heterog",
+     "authors": "Galloway, A.; Cowling, V. H."
+    },
+    {
+     "title": "Extracorporeal Shock Wave Therapy for Wound Management: Clinical Evidence, Energy Delivery Parameters and Mechanistic Insights - A Systematic Review",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.1101/2025.07.28.25332291",
+     "doi": "10.1101/2025.07.28.25332291",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "Background/Objectives: Chronic wounds such as diabetic foot ulcers, venous leg ul-cers and burns are a major health-care burden. Extracorporeal shock wave therapy (ESWT) is a non-invasive treatment that promotes angiogenesis and tissue regenera-tion. This review synthesizes the clinical evidence for ESWT in wound management, and asks how contemporary reviews reflect it. Methods: PubMed and Ovid/Embase were searched from inception to 1 September 2026 according to PRISMA, regardless of wound type, study design or ESWT modality. Fifty-one clinical studies and 46 prior re-views were analyzed. Heterogeneity confined the primary synthesis to a qualitative one; an exploratory pooled analysis was performed for the one endpoint reported con-sistently enough to permit it. Results: None of the 46 previously published reviews covered the original evidence in its full breadth: each cited a median of 19.4% of the clinical studies available at its reference date (range 0-90.9%), and systematic reviews covered no more than narrative ones. Most studies reported improved healing across all four modalities. In seven controlled trials reporting complete healing as events and denominators, the pooled r",
+     "authors": "Nussbaum-Krammer, C.; Musolf, B. M.; O'Neal, M.; Wuerfel, T.; Maffulli, N.; Schmitz, C."
+    },
+    {
+     "title": "Reporting Odds Ratio Analysis of Gemcitabine-Based Chemotherapy Regimens for Biliary and Pancreatic Cancer: Population-Level Toxicity Signals and Hypotheses for High-Altitude Generalizability",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.24.26363686",
+     "doi": "10.64898/2026.09.24.26363686",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "Background: Gemcitabine-based chemotherapy is first-line for advanced biliary tract cancer (BTC) and pancreatic ductal adenocarcinoma (PDAC), but toxicity patterns are poorly defined at high altitude (>2,000 m). Clinical observations of heightened treatment toxicity at our high-altitude institution (Xining, ~2,261 m) prompted this population-level baseline study of gemcitabine toxicity signals. The present analysis uses only publicly available, de-identified FAERS data; institutional clinical experience motivates but does not validate the signals reported here. Methods: Four-metric disproportionality analysis (ROR primary, PRR, IC BCPNN, EBGM MGPS) of FAERS 2014-2026 (18.37M reports) across five non-exclusive gemcitabine groups (monotherapy, +ICI, +TKI, triple, BTC/PDAC disease-specific). Liver toxicity stratified into three MedDRA PT groups; fatal toxicity analyzed with dual definitions. BTC/PDAC queried via correct patient.drug.drugindication field. BH-FDR post hoc. EBGM used two implementations: a non-standard single-pair gamma(1,1) closed-form approximation (positivity-screening column in S1) and the standard openEBGM two-component MGPS. Complete-MGPS EB05 > 2 is the primary Ba",
+     "authors": "Dang, Z.; Dan, J.; Li, S.; Yanan, L.; Su, W.; Ren, G.; Wang, Z.; Lv, M.; Dong, H.; Niu, Z.; Zhang, H.; Fan, Y.; Li, L.; Dang, Y.; Gao, J."
+    },
+    {
+     "title": "Clinical history shapes the predictive value of polygenic risk",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.25.26364029",
+     "doi": "10.64898/2026.09.25.26364029",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "For most diseases, whether PRS improves prediction beyond clinical data remains unknown, as existing evidence is concentrated in a handful of conditions with established risk models. Using 900,000 participants from UK Biobank and FinnGen, we developed and validated models for predicting 150 diseases and all-cause mortality. Genetic information provided the largest predictive gains in metabolic, cardiovascular, autoimmune, and neurological disease, but added little for genitourinary and respiratory conditions. All significant PRS-clinical risk interactions were negative, with predictive power gains from genetic data larger at lower clinical risk, suggesting that PRS may reveal susceptibility not yet apparent clinically. For example, in atherosclerotic cardiovascular disease, PRS expanded the clinically identified high-risk subgroup by 40%, and this reclassified subgroup had 4.9-fold higher incidence during the follow-up than those remaining low-risk. Our interpretable clinical-genetic models generalized across three biobanks and are publicly available through PrognosIQ.",
+     "authors": "Usoltsev, D.; Molotkov, I.; Kolosov, N.; Reeve, M. P.; Ukhatov, A.; FinnGen,  ; Rotar, O.; Kostareva, A.; Konradi, A.; Ripatti, S.; Palotie, A.; Daly, M. J.; Artomov, M."
+    },
+    {
+     "title": "Falling short: Inadequate target attainment in guideline-based therapy of nontuberculous mycobacterial disease",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.24.26363927",
+     "doi": "10.64898/2026.09.24.26363927",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "Nontuberculous mycobacterial (NTM) infections are a scourge that affect growing patient populations due to the rise of risk factors associated with these opportunistic pathogens. Cure rates are unacceptably low despite intensive multidrug and multi-year therapy. The issue of poor drug exposure relative to inferior potency of repurposed antibiotics against NTM pathogens is broadly recognized as a major factor underlying dismal success rates. Yet, a quantitative and systematic evaluation of probabilities of pharmacokinetic-pharmacodynamic (PK-PD) target attainment (PTA) is lacking. Here, we leveraged published population PK models and minimum inhibitory concentration distributions across large patient populations to generate PTAs for standard of care antibiotics used in the treatment of NTM infections. PTAs of tuberculosis drugs were included in our analysis as a baseline since tuberculosis cure rates are excellent compared to NTM diseases. We found that PK-PD target attainment for NTM was low overall and that PTAs were generally consistent with reported clinical outcomes. Specifically, drugs for which genetic resistance is associated with worse outcome showed favorable PTAs, consist",
+     "authors": "Shoaf, T. J.; Dierckman, T.; Strawhacker, N.; Surani, M. d. L. M.; Nair, M.; Bawab, E.; Escalante, P.; Dick, T.; Dartois, V. A.; Pienaar, E."
+    },
+    {
+     "title": "Race and ethnicity in the landmark hypertrophic cardiomyopathy trials: representation against population, site-catchment, and disease-referenced expectations",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.24.26363977",
+     "doi": "10.64898/2026.09.24.26363977",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "BACKGROUND: Hypertrophic cardiomyopathy (HCM) is a pan-ethnic disease, at least as common in Black as in White Americans, yet Black patients reach specialist care later, undergo septal reduction less often, and die sooner. Whether the defining trials enrolled representatively is unknown. We sought to measure Black participation in the landmark HCM trials against three expectations of increasing stringency, and to test whether trial site geography or quantitative eligibility thresholds account for the shortfall. METHODS: Of 197 registered interventional HCM trials, 32 met prespecified landmark tiers; demographics were extracted for 16 and 13 reported race. The Black share of Black plus White participants was pooled by random-effects meta-analysis and compared with the US adult population, with each trial?s own site counties, and with a disease-referenced echocardiographic expectation. Site geography and eligibility thresholds were tested using site addresses, census data, and NHANES. RESULTS: Across 13 trials, 70 of 1,780 Black or White participants were Black. The pooled Black share was 3.98% (95% CI 2.68-5.86), against a population expectation of 16.5%, giving a participation-to-p",
+     "authors": "Kim, D. S.; Wescott, A. P.; Petek, B. J.; O'Sullivan, J. W.; Moussavi-Harami, F.; Owens, D.; Lawrie, A.; Kramer, C. M.; Rader, F.; Parikh, V. N.; Wheeler, M. T.; Yang, E.; Ashley, E. A.; Masri, A."
+    },
+    {
+     "title": "Effect of HPV Vaccine Introduction at 9-10 years: A Randomized Clinical Trial",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.24.26363898",
+     "doi": "10.64898/2026.09.24.26363898",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "Importance: In the US, Human papillomavirus (HPV) related cancers cause significant morbidity and mortality, yet HPV vaccine is underutilized. Vaccination is recommended routinely at age 11-12 years but can be given at 9 years. There is controversy about whether earlier introduction would increase completion of the HPV series before by age 13 years or whether it might decrease rates of delivery of other routinely recommended vaccines at 11-12-years [quadrivalent meningococcal conjugate (MenACWY) vaccine, and tetanus-diptheria-acellular pertussis (Tdap) vaccine]. Objective: To determine whether introduction of the HPV vaccine at ages 9-10 versus 11-12 years, results in earlier median age of series completion (primary outcome) and higher rates of initiation and completion by age 13 years. We also examined the effect of earlier introduction of HPV on rates of Tdap and MenACWY initiation and completion by age 13 years. Design: Two-arm cluster-randomized trial involving 31 pediatric practices in Colorado and California between 10/2021-4/2026. Practices were randomized using covariate constrained randomization within each state to Intervention (introduction of HPV vaccination at ages 9-1",
+     "authors": "Kempe, A.; Vangala, S.; Albertin, C.; O'Leary, S.; Beaty, B.; Saville, A. W.; Gurfinkel, D.; Humiston, S.; Nagel, S.; Singh, J.; Golden, C.; Woo, H.; Clark, E.; Szilagyi, P. G."
+    },
+    {
+     "title": "Partner-inflicted brain injury may cognitively age survivors by over a decade",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "神经认知",
+     "url": "https://doi.org/10.64898/2026.09.24.26363984",
+     "doi": "10.64898/2026.09.24.26363984",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "More than a third of women in the United States are estimated to experience abuse from an intimate partner, in which blows to the head, strangulation, and therefore brain injuries are common. Among 207 survivors of such physical violence, two-thirds reported a partner-inflicted brain injury. These women performed substantially worse than the general population across most cognitive measures, including memory and reaction time. Cognitive performance declined as injury count increased. Translated into cognitive age, survivors with the most partner-inflicted brain injuries performed over two decades older than the general population, and a decade older than survivors with no history of brain injury. Importantly, the cognitive assessment discards scores it judges unreliable, yet these came primarily from the most impaired women, suggesting that the true harm is likely greater than reported here. Such cognitive deficits may limit these women's capacity to live to their potential, including keeping safe from abuse. These findings underscore partner-inflicted brain injury as a major, under-recognized source of cognitive harm, potentially affecting more women than brain injury in professio",
+     "authors": "McFarland, C. W.; Valera, E. M."
+    },
+    {
+     "title": "FRANK: a pan-cancer RNA-seq classifier for childhood tumors with data-efficient learning",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.23.26355605",
+     "doi": "10.64898/2026.09.23.26355605",
+     "published": "2026-09-27",
+     "importance": 8.5,
+     "abstract": "Accurate characterization of tumor subtype is of paramount importance in guiding treatment decisions in pediatric cancers. Here, we present FRANK (Fully-connected RNA-based Augmentation Neural Klassifier), a machine learning approach for classifying pan-cancer pediatric tumors. We curated a set of 11,467 transcriptomes to build a high-quality training dataset representing 181 distinct childhood tumor and normal tissue types. We used extensive data augmentation techniques with a hierarchical penalty term to train a neural network capable of detecting tumor types with as few as three training examples. To evaluate the generalization of the trained model, we perform validation on nine datasets spanning 16,398 samples, achieving an overall accuracy of 98.3%. Furthermore, we demonstrated that FRANK outperformed other published pediatric pan-cancer RNA-seq classifiers on an external dataset. To evaluate the robustness, we showed that FRANK remained accurate when applied to long-read RNA-sequencing data, as well as to noisy and low-quality data.",
+     "authors": "Sablauskas, K.; Kiselova, T.; Bardina, L.; Nartisa, I.; Zucenka, A.; Viluma, A.; Gailite, L.; Jakaitiene, A.; Rots, D."
+    },
+    {
+     "title": "Validating Artificial Intelligence Guidance for Ultrasound Acquisition and Remote Interpretation",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.07.16.26356882",
+     "doi": "10.64898/2026.07.16.26356882",
+     "published": "2026-09-27",
+     "importance": 8.0,
+     "abstract": "Background: Venous thromboembolism (VTE), including deep vein thrombosis (DVT), remains a major global health burden. Diagnostic pathways rely on ultrasound but are limited by availability and prolonged time-to-imaging. Novel artificial intelligence (AI) guidance systems have been designed to enable non-ultrasound-trained operators to acquire proximal lower extremity compression ultrasounds for remote clinician interpretation. Methods: This multicenter, double-blinded, prospective, nonrandomized study evaluated the performance of an AI guidance system (ThinkSono Guidance, ThinkSono, GmbH). Patients underwent AI-guided ultrasound(s) and standard of care ultrasound(s). Primary and secondary endpoints were image quality, sensitivity and specificity for proximal DVT, and prioritization specificity, a measure of specificity in identifying patients requiring standard of care ultrasound after AI-guided scan. Results: Of 634 recruited subjects, 594 were analyzed, with 67 DVTs across 700 scans. 86.83% of AI-guided scans achieved diagnostic image quality. Triage sensitivity was 92.86%, triage specificity 39.12%, prioritization specificity 97.96%. Standard of care ultrasounds could be avoided",
+     "authors": "Maldonado, T.; Muluk, S.; Rali, P.; Soni, N.; Nathanson, R.; Kuttab, H.; VandeHei, M.; Michels, C.; Swietlik, J.; Speranza, G.; Schaffer, O.; Collaborating Investigators Group,  ; Al Noor, F.; Mischke"
+    },
+    {
+     "title": "A Structure-Aware Self-Supervised Framework for Transferable Fetal Ultrasound Screening",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26361576",
+     "doi": "10.64898/2026.09.21.26361576",
+     "published": "2026-09-27",
+     "importance": 8.0,
+     "abstract": "Accurate prenatal screening from ultrasound imaging is severely constrained by the extreme spatial heterogeneity of fetal structures and the data scarcity inherent to rare congenital anomalies. To overcome these computational bottlenecks, we present RadarMAE, a data-efficient self-supervised representation learning framework tailored for fetal ultrasound analysis. By employing a novel, structure-aware masking strategy, RadarMAE enables robust pre-training on highly limited clinical datasets. Benchmarking the framework on first-trimester screening for trisomy 21 (Down syndrome), our model achieved exceptional diagnostic performance on an internal cohort, with an area under the curve (AUC) of 0.99, 97% accuracy, 94% sensitivity, and 98% specificity. Crucially, through domain-adversarial adaptation, the framework demonstrates robust cross-institutional generalization under extreme source-target data imbalance, bounding performance degradation to less than or equal to 0.04 across all key metrics in external testing. Furthermore, by integrating spatial registration with explainable AI, we constructed the first population-level facial risk atlas for trisomy 21. This data-driven interpret",
+     "authors": "Zhu, Y.; Wu, J.; Gao, L.; Zhang, N.; Wu, L.; Li, H.; Chen, K.; Luo, H.; Sun, C.; Lu, D.; Wu, Q.; Chen, H."
+    },
+    {
+     "title": "OPA1 controls mitochondrial dysfunction-driven liver fibrosis in MASLD",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.24.753666",
+     "doi": "10.64898/2026.09.24.753666",
+     "published": "2026-09-27",
+     "importance": 7.5,
+     "abstract": "Progressive hepatic fibrosis is the principal determinant of morbidity and mortality in metabolic dysfunction-associated steatotic liver disease and steatohepatitis (MASLD/MASH). Mitochondrial dysfunction is a hallmark of MASH, and the release of mitochondrial damage-associated molecular patterns (mito-DAMPs) from injured hepatocytes can promote fibrosis. However, how mitochondrial dynamics and quality control shape the fibrotic response in MASLD/MASH remains unclear. Here, through large-scale genomic analyses of mitochondrial genes governing mitophagy, fusion and fission in human MASLD, with a power-equivalent sample size of approximately 700,000 individuals, we identify a strong association between hepatic fibrosis and the mitochondrial fusion factor dynamin-like GTPase optic atrophy 1 (OPA1). OPA1 transcripts and protein abundance in the liver epithelium were progressively dysregulated with advancing fibrosis. In mice, hepatocyte-specific OPA1 loss alone was sufficient to induce hepatic stellate cell activation and fibrosis in zone 3, promoted the release of mito-DAMPs into the circulation and exacerbated fibrosis in experimental MASH. These findings identify OPA1 as a central r",
+     "authors": "Yu, X.; Huang, P.; Justice, A.; Hakim, A.; Nanki, Y.; Abilov, Z.; O'Neill, E. B.; Cruz Rodriguez, J.; Cabrera, E.; Sagatelian, M.; Shankar, C. S.; Flam, B. R.; Al Khalloufi, K.; Sesaki, H.; Rong, S.; "
+    },
+    {
+     "title": "Lactate Promotes an Anti-Inflammatory Phenotype in Activated Microglia",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.25.754340",
+     "doi": "10.64898/2026.09.25.754340",
+     "published": "2026-09-27",
+     "importance": 7.5,
+     "abstract": "Microglial activation is a central component of neuroinflammatory responses in many brain pathologies. Increasing evidence indicates that microglial phenotype is tightly linked to cellular metabolism, with pro-inflammatory activation associated with enhanced glycolytic flux. Lactate, traditionally considered a metabolic substrate, has recently emerged as a signaling molecule capable of modulating immune responses. However, its direct impact on microglial inflammatory activation remains incompletely understood. In the present study, we investigated the effects of lactate on microglial phenotype under inflammatory conditions using primary rat microglial cultures stimulated with lipopolysaccharide (LPS). Microglial activation was assessed through the expression of phenotypic markers, cytokine production, and secreted chemokine profiles. LPS stimulation induced a strong pro-inflammatory response characterized by increased CD86 expression, elevated TNF-alpha secretion, and enhanced release of several pro-inflammatory chemokines. Post-treatment with sodium L-lactate significantly attenuated these inflammatory responses, reducing pro-inflammatory marker expression and cytokine secretion, ",
+     "authors": "Omar Ibrahim, I.; Bouzier-Sore, A.-K.; Frezals, J.; Goudeneche, P.; Roumes, H.; Laroche-Traineau, J."
+    },
+    {
+     "title": "Adult Patient Perspectives on Psychiatric Polygenic Risk Scores",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.24.26363942",
+     "doi": "10.64898/2026.09.24.26363942",
+     "published": "2026-09-27",
+     "importance": 7.5,
+     "abstract": "Polygenic risk scores (PRS) are rapidly developing, enabling estimates of genetic risk for developing psychiatric disorders. Psychiatric PRS are also increasingly entering consumer and clinical settings. Yet, little is known about how adults with psychiatric disorders perceive their potential use. Here, we conducted semi-structured interviews with 29 adults with psychiatric disorders to examine their perspectives on hypothetically receiving psychiatric PRS for themselves and their current or future children. Key themes emerged around perceived utility, motivations and deterrents to genetic testing, interpretation of PRS, and anticipated responses to results. In particular, participants expressed hope that PRS could support self-understanding, inform better psychiatric care, and enable earlier recognition of difficulties for their children. Participants however raised multiple concerns, including those of privacy, stigma, discrimination, eugenics, and the risk of self-fulling prophecies. Together, these findings offer critical empirical evidence to inform guidance on the responsible use of psychiatric PRS in clinical and consumer settings.",
+     "authors": "McFarland, C. W.; Merner, A.; Trotter, P. M.; Martinez, A. C.; Ginn, L. A.; Frumovitz, J.; Ayton, D. M.; Soda, T.; Storch, E. A. W.; Pereira, S.; Lazaro-Munoz, G."
+    },
+    {
+     "title": "Benchmarking large language models on the Ukrainian Krok 2 licensing examination in physical therapy: accuracy, consistency, and agreement",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363368",
+     "doi": "10.64898/2026.09.21.26363368",
+     "published": "2026-09-27",
+     "importance": 7.5,
+     "abstract": "Aim. To evaluate the accuracy, run-to-run consistency, and agreement of large language models on the Ukrainian Integrated Licensing Examination Krok 2 for the Specialty of Physical Therapy. Materials and Methods. Five cloud-based LLMs (ChatGPT-5.5, Claude 5 Sonnet, Gemini 3.5 Flash, Grok 4, DeepSeek-V3) were evaluated using 150 Ukrainian-language multiple-choice questions from the official Krok 2 database. Each model completed two independent runs with identical inputs. Accuracy (with 95% confidence intervals, Wilson method), run-to-run consistency, and agreement were assessed. Statistical analysis included Cohen's {kappa}, Cochran's Q and pairwise McNemar tests with Holm-Bonferroni correction. Results. All models achieved >80% accuracy in both runs, exceeding the passing threshold of [ ]64%. In the first run, accuracy ranged from 80.00% (DeepSeek-V3) to 93.33% (Gemini 3.5 Flash); in the second run, from 82.67% (Claude 5 Sonnet) to 88.67% (Gemini 3.5 Flash). In the first run significant differences were observed between Gemini 3.5 Flash and Grok 4 (93.33% vs 84.00%; p=0.0022) and DeepSeek-V3 (93.33% vs 80.00%; p=0.0001). There were no statistically significant differences between m",
+     "authors": "Filak, Y. F.; Mykhalko, Y. O.; Sabadosh, M. V."
+    },
+    {
+     "title": "Cell type specific astrocytic feedback regulates excitation inhibition balance and cortical network dynamics",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "神经认知",
+     "url": "https://doi.org/10.64898/2026.09.26.754623",
+     "doi": "10.64898/2026.09.26.754623",
+     "published": "2026-09-27",
+     "importance": 7.0,
+     "abstract": "Astrocytes actively regulate synaptic transmission and neuronal excitability, yet their role in orchestrating macroscopic cortical network regimes and slow-wave oscillations remains an active area of reasearch. This study investigates how bidirectional neuron astrocyte interactions shape emergent population dynamics using a computational network model of excitatory and inhibitory neurons coupled to an astrocyte. The results identify astrocytic feedback topology, rather than astrocytic coupling strength alone, as a key determinant of emergent cortical network dynamics. By systematically dissecting pathway-specific connectivity, it has been shown that the neuronal population driving astrocytic activation and the neuronal population receiving gliotransmission jointly determine whether the network occupies asynchronous irregular (AI), synchronous irregular (SI), synchronous regular(SR), asynchronous regular(AR) or quiescent regimes.Directing gliotransmission selectively onto excitatory neurons consistently promotes population synchrony regardless of the population influencing astrocytic dynamics, whereas selective modulation of inhibitory interneurons induces network quiescence via str",
+     "authors": "Garcia, D. W.; Jacquir, S."
+    },
+    {
+     "title": "Breaking the link between demyelination and axon loss: SARM1 inhibition as a neuroprotective strategy for multiple sclerosis",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.25.754536",
+     "doi": "10.64898/2026.09.25.754536",
+     "published": "2026-09-27",
+     "importance": 7.0,
+     "abstract": "Axonal degeneration is a principal driver of irreversible neurological disability in multiple sclerosis (MS), yet current treatments fail to target this neurodegenerative phase directly. Sterile alpha and TIR domain-containing protein 1 (SARM1) has emerged as an executioner of programmed axon destruction and is overexpressed in grey and white matter MS tissue, making its inhibition a promising therapeutic strategy. However, the effects of SARM1 inhibition on localized neurodegeneration versus systemic and central inflammation remain poorly understood in complex autoimmune environments like MS. Here, we investigated SARM1 pathology using global SARM1-/- knockout (SARM1-/-) mice, AAV-mediated CRISPR knockdown and overexpression of SARM1 in retinal ganglion cells (RGCs), and the small-molecule SARM1 inhibitor 5-iodoisoquinoline (5IIQ), across optic nerve crush (ONC) and experimental autoimmune encephalomyelitis (EAE) models. While global SARM1-/- did not alter the overall clinical course of EAE, it revealed a complex phenotype characterized by an altered peripheral inflammatory cytokine profile and persistent CNS immune infiltration, alongside preserved axonal and myelin integrity. RG",
+     "authors": "Feri, M.; Peterson, S.; Rezanejad, M.; Cardenas, F.; Anderson, A.; Poole, B.; Ajayi, M.; Kim, S. H.; Katzenellenbogen, J.; Tiwari-Woodruff, S. K."
+    },
+    {
+     "title": "A founder population reveals genetic variation with major effect on serious mental illness",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.25.26363706",
+     "doi": "10.64898/2026.09.25.26363706",
+     "published": "2026-09-27",
+     "importance": 6.5,
+     "abstract": "Genetic studies of serious mental illness (SMI, including schizophrenia and bipolar disorder) have implicated two classes of risk variant: common variants1-3, each of small effect but collectively accounting for most population-level risk, and ultra-rare coding variants4,5 which confer large risk in a small number of individuals. Most such studies cannot directly assess the impact of specific variants on SMI, transdiagnostically, as the phenotypic information that they collect is focused on a single diagnosis. Here we report results of association analysis of predicted deleterious variants from exome sequencing of 21,958 cases (SMI and severe major depressive disorder) and 19,826 controls from the Mision Origen biobank in the Paisa genetic isolate of Colombia. We identified transdiagnostic associations to seven genes, three at an exome-wide and four at a false discovery rate significance threshold. Five of these genes have not previously been implicated in SMI (ADAP1, WIPI1, NFE2L1, FBXO10, and HLA-DPB1 ); for the first four of these the association is driven by variants enriched in the Paisa due to a founder effect, filling the gap between ultra-rare and common variants. The stron",
+     "authors": "Gerdes, G.; Tozzo, V.; Service, S. K.; Frydman-Gani, C.; Diaz-Zuluaga, A. M.; Valencia-Echeverry, J.; Arias, A.; Bicks, L. K.; Ramirez-Diaz, A. M.; Sealock, J. M.; Liao, C.; Howrigan, D. P.; Liu, C.; "
+    },
+    {
+     "title": "Nasopharyngeal aspirates and stool sample collection for molecular tuberculosis testing in children with severe pneumonia - a mixed methods study",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.24.26363964",
+     "doi": "10.64898/2026.09.24.26363964",
+     "published": "2026-09-27",
+     "importance": 6.5,
+     "abstract": "Background: Child-friendly sample collection methods are needed to improve microbiological tuberculosis diagnosis in children. We assessed the feasibility, diagnostic yield, safety, tolerability, and acceptability of nasopharyngeal aspirates (NPA) and stool sample collection for XpertMTB/RIF Ultra (Ultra) testing in children 3 years. Individual interviews investigated nurses and parents/caregivers perceptions and experiences of both procedures. Results: Of 542 children enrolled, 541 (99.8%) and 423 (75.5%) had NPA and stool samples successfully collected, respectively; 8 (1.5%) had positive Ultra on any sample, 8 (1.5%) on NPA, and 3 (0.6%) on stool samples. Nurses reported that NPA was difficult to collect in 27 (5.0%) children. 130 (24%) children had bloodstained NPA samples and <5% experienced transient heart rate deceleration, digestive or respiratory distress during NPA. Median nurse-assessed tolerability scores were 1/10 [0,3] before and 5/10 [2,6] during NPA. Although most respondents perceived NPA as painful, all appreciated that NPA aimed to improve child health. Nurses reported that NPA and stool collection was quicker, less invasive than gastric aspiration. Parents/careg",
+     "authors": "Bhatta, B.; Bunnet, D.; Coleman, M.; Massom, D. M.; Djaha, J.; Banga, M.-F. L.; Kaing, S.; Voss de Lima, Y.; Mbalazi, K.; Komena, E.; Kwedi-Nolna, S.; Cumbe, S.; Natukunda, N.; Shankalala, P.; Nanfuka"
+    },
+    {
+     "title": "Genetic architecture of immune-mediated thrombotic thrombocytopenic purpura in Han Chinese individuals",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363596",
+     "doi": "10.64898/2026.09.21.26363596",
+     "published": "2026-09-27",
+     "importance": 6.0,
+     "abstract": "Thrombotic thrombocytopenic purpura (TTP) is a rare, life-threatening thrombotic microangiopathy caused by a severe deficiency of the ADAMTS13 protease. We performed the first large-scale genome-wide association study (GWAS) of TTP in 1,344 individuals of Han Chinese ancestry, comprising a discovery cohort (n = 913) and a validation cohort (n = 431). We identified two independent susceptibility loci, including the known locus 6p21 and the novel locus 14q32. At the known locus 6p21, the lead signal rs2187668 is near HLA-DQA1 and strongly associated with TTP risk (P = 5.35e-10; Odds Ratio [OR] = 3.94). At the novel locus 14q32, the lead SNP rs1024350 (P = 1.01e-10; OR = 1.90) is located between LINC00221 and MIR5195. Fine-mapping prioritized rs2187668 as the leading signal at 6p21, whereas HLA imputation and stepwise conditional analysis further pinpointed amino acid position 74 of HLA-DRB1 as the primary driver of the broader MHC association (P = 2.28e-10), superseding classical allele-based models. Structural analysis revealed that position 74 lines pocket 4 of the HLA-DRB1 peptide-binding groove; the risk-conferring Leu/Arg residues at this position carried by HLA-DRB1*08:03 and D",
+     "authors": "Gan, Z.; Hao, X."
+    },
+    {
+     "title": "K-space Optimized Spatial Temporal Architecture for Low Latency in Interventional Cardiac MRI",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363257",
+     "doi": "10.64898/2026.09.21.26363257",
+     "published": "2026-09-27",
+     "importance": 6.0,
+     "abstract": "Purpose: To develop and evaluate a recurrent neural network that operates directly on undersampled golden-angle radial k-space, enabling low-latency cardiac cine reconstruction for interventional cardiac MRI (iCMR). Methods: KOSTAL (K-space Optimized Spatial Temporal Architecture for Low latency) combines a per-coil k-space convolutional gated recurrent unit (convGRU), which learns a mask-conditioned view-sharing rule over the accumulated k-space, with an image-space recurrent module. It was trained and tested on the open-access multi-coil OCMR dataset using 10 simulated golden-angle spokes per frame against a 1000-spoke reference. Ablations varied recurrent module architecture and placement; temporal behavior was assessed using a imaging-plane transition test. Generalization was evaluated without retraining in 23 pediatric patients prospectively scanned during free-breathing using a radial golden-angle bSSFP sequence with binned XD-GRASP and clinical breath-held cine serving as references. Results: At 10 spokes per frame, KOSTAL reached a median SSIM of 0.907 (gridding: 0.622) in under 34 ms of processing time per frame. Image quality (IQ) matched gridded results formed from 7-11 ",
+     "authors": "Buckup, M.; Mahajan, N.; Rodriguez-Soto, A. E.; Blood, J.; Hegde, S.; Schuchardt, E. L.; Printz, B.; Narayan, H. K.; Gordon, B. L.; Contijoch, F."
+    },
+    {
+     "title": "Unifying Vision and Language: Benchmarking End to End Transformer Model Against the ClipCap Framework",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.24.26363914",
+     "doi": "10.64898/2026.09.24.26363914",
+     "published": "2026-09-27",
+     "importance": 6.0,
+     "abstract": "Background and purpose: Accurate identification of cardiac MRI volume orientations is essential for reliable image interpretation and for enabling downstream automated analysis pipelines. However, orientation labels and commonly assigned manually, making the process time-consuming and prone to variability. Recent advances in vision-language models offers new opportunities for automated label generation by jointly modeling visual and semantic information. Methods: In this study, we systematically compare a conventional end-to-end transformer-based captioning model with a CLIPCap architecture for automated cardiac MRI view labelling. Both models were evaluated on a dataset of 1184 de-identified cardiac MR images spanning across six clinically relevant orientations: short axis, two-, three-, four-chamber views, left and right ventricular outflow tract views. The caption transformer was trained from scratch, whereas CLIPCap leveraged pretrained CLIP image embeddings combined with lightweight mapping network and a frozen language model. Results: Experimental results demonstrate a substantial performance advantage from CLIPCap, which achieved an overall accuracy of 98% compared to 68% fo",
+     "authors": "Anand, S.; M S, D.; Dekker, A.; Wee, L. Y."
+    },
+    {
+     "title": "Temporal control of mitochondrial mutagenesis reveals the fate of mtDNA mutations with age",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.24.754271",
+     "doi": "10.64898/2026.09.24.754271",
+     "published": "2026-09-27",
+     "importance": 5.5,
+     "abstract": "Mutations in the mitochondrial genome (mtDNA) play a critical role in the aging process and a wide variety of age-related diseases. However, it remains unclear when the mutations that drive physiological decline arise. To answer this question, we generated a new mouse model in which mitochondrial mutagenesis can be confined to a defined window of time. Surprisingly, we found that mutations that arise during the first two months of life are sufficient to drive a wide variety of age-related pathologies, and that the severity of this pathology is broadly regulated by distinct, tissue-specific selective pressures that control the fate of mtDNA mutations with age. Further, we found that selection against deleterious variants can be modulated by manipulation of mitochondrial fusion in vitro and in vivo. These observations raise the possibility that in some tissues, the pace of aging is pre-determined by events that occur early in life and that interventions targeting mitochondrial fusion may be able to slow down or reverse the expansion of these pathogenic variants. These results carry far-reaching implications for strategies aimed at preventing or delaying age-related decline.",
+     "authors": "Shemtov, S. J.; Hwang, E.; Chung, C. S.; Anson, H.; Carrillo, L.; Lee, S.; Vorobyova, I.; Wan, J.; Kennedy, S. R.; Vandiver, A. R.; Verheijen, B. M.; Cohn, W.; Benayoun, B. A.; Thorwald, M. A.; Cohen,"
+    },
+    {
+     "title": "Socioeconomic position and cardiometabolic risk factors in children and adolescents with obesity: findings from the Bern Obesity in Childhood and Adolescence Biorepository (BOCAB)",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.24.26362616",
+     "doi": "10.64898/2026.09.24.26362616",
+     "published": "2026-09-27",
+     "importance": 5.5,
+     "abstract": "Purpose: In high-income countries, lower socioeconomic position (SEP) is linked to higher childhood obesity prevalence but its association with cardiometabolic risk in those presenting in pediatric weight management services remain underexplored. Methods: In the Bern Obesity in Childhood and Adolescence Biorepository (BOCAB), we used the Swiss neighborhood index of SEP (0-100, 100=highest SEP) to assess cross-sectional associations with obesity severity and cardiometabolic risk factors, mediation by behavioral lifestyle factors and longitudinal associations between SEP and percentage of the 95th BMI percentile (%BMIp95) and waist circumference-to-height ratio (WHtR), adjusted for age and sex. Results: Among 886 participants (52% male, mean age 11.2 years [SD 3.1]), mean %BMIp95 was 124% (SD 17%). A 10-unit higher SEP was associated with lower %BMIp95 ({beta} -2.57; 95% CI -3.84 to -1.31) and lower WHtR ({beta} -0.006; -0.010 to -0.001), both partially mediated by weekly physical activity and screen time. Higher SEP was also associated with lower odds of insulin resistance (OR 0.80; 0.65 to 0.98), low HDL-cholesterol (OR 0.81; 0.67 to 0.98), elevated non-HDL-cholesterol (OR 0.74; 0.",
+     "authors": "Koch, A.; Giachino, C.; Agbaje, A. O.; Juonala, M.; Magnussen, C. G.; Burgner, D. P.; Longmore, D. K.; Leuenberger, L. M.; Kuehni, C. E.; Tschumi, S.; Kopp, M. V.; Janner, M.; Saner, C."
+    },
+    {
+     "title": "Timing matters: when do primiparous and multiparous pregnant women initiate folic acid supplementation, and who initiates it too late?",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.25.26363991",
+     "doi": "10.64898/2026.09.25.26363991",
+     "published": "2026-09-27",
+     "importance": 5.5,
+     "abstract": "Background: Women are recommended to take folic acid supplements (FAS) periconceptionally to prevent neural tube defects, but the low levels of FAS uptake are poorly understood. This study aimed to determine how parity, pregnancy planning and other maternal factors affect the timing of FAS initiation. Method: We used data from a representative sample of 966 pregnant women from the Northern Ireland Baby Hearts study. Questionnaire responses on health behaviours, including FAS, were linked to maternity and area-based deprivation data. Logistic regression assessed determinants of FAS initiation preconception. Time-varying Cox regression assessed associations between initiation postconception and pregnancy-related milestones. Results: Forty-one per cent of women initiated FAS preconception. Lower odds of preconception initiation were associated with multiparity (adjusted OR 0.47 (0.32 to 0.68)), unplanned pregnancy (adjusted OR 0.08 (0.05 to 0.13)), deprivation and consuming a low folate diet. Higher odds were associated with fertility treatment and previous pregnancy loss. Forty-seven per cent of women initiated FAS postconception, mainly after pregnancy recognition (median 5 weeks), ",
+     "authors": "Ebong, U.; Given, J.; Casey, F.; Loane, M.; Dolk, H."
+    },
+    {
+     "title": "Strategies to improve uptake of adolescent family planning and post-abortion care services in Northern Uganda: a qualitative descriptive study",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.24.26363969",
+     "doi": "10.64898/2026.09.24.26363969",
+     "published": "2026-09-27",
+     "importance": 5.0,
+     "abstract": "Introduction: Adolescents in low- and middle-income countries continue to face barriers to family planning (FP) and post-abortion care (PAC), including stigma, limited confidentiality, inadequate information, and health-system constraints. This study explored adolescents and key stakeholders perspectives on strategies to improve uptake of adolescent FP and PAC services in Lira District, Northern Uganda. Methods and Materials: An exploratory qualitative descriptive study was conducted using 13 focus group discussions (FGDs) with 65 adolescent citizen scientists aged 10-19 years and 13 key informant interviews (KIIs) with stakeholders involved in adolescent sexual and reproductive health and PAC. Data were collected using semi-structured guides, audio-recorded with consent, and supplemented by field notes, then analyzed thematically using Braun and Clarkes six-phase framework. Results: Five interconnected themes emerged, including strengthening school, community, and faith-based SRH education; strengthening the health system and service delivery; policy, legal, and institutional clarity; community engagement and trust building; and integration of FP and PAC. Participants prioritized ",
+     "authors": "Anyolitho, M. K.; Omech, B.; Kigongo, E.; Acheka, E.; Akello, J. A.; Ongom, M. C.; Udho, S.; Odette, M.; Acup, W."
+    },
+    {
+     "title": "Reframing the traditional sports injury paradigm: Exhibition-as-intervention in elite sport",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.21.26363415",
+     "doi": "10.64898/2026.09.21.26363415",
+     "published": "2026-09-27",
+     "importance": 5.0,
+     "abstract": "This article critically considers how exhibition, as a modality for research evidence delivery, can be mobilised in the largely positivist and biomedical world of elite sport for the purpose of system change. Our interdisciplinary team composed of a health geographer and rehabilitation scientist together with non-academic specialists in athlete health and performance innovation, conceptualised an exhibition-as-intervention to reframe gender disparities in sports injury from being biologically induced to also socially influenced. Here, we reflect on our experience creating and implementing More Than Medals: Gendered Environments of Sports Injury Uncovered - a research-based, online, multimedia exhibition exploring the gendered environments of sports injury through the first-hand experiences of female athletes. Using evaluation interviews with both sports staff and athletes, we assess the impacts of our exhibition-as-intervention. We conclude that exhibition offers a novel way to bridge social and biomedical paradigms, innovate on evidence delivery in elite sport, and close the gap between social sciences research and practice.",
+     "authors": "Coen, S. E.; Downie, V.; Follett, L.; McCaig, S.; Parsons, J. L."
+    },
+    {
+     "title": "Retailers Perspectives on Stocking Healthy Food in Urban Poor Areas of Kuala Lumpur, Malaysia: A Qualitative Study",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.24.26363967",
+     "doi": "10.64898/2026.09.24.26363967",
+     "published": "2026-09-27",
+     "importance": 5.0,
+     "abstract": "High calorie intake of unhealthy foods are the main factor of overweight and obesity. In food environment, food retailers are the biggest player in shapping consumers purchase pattern. In this South East Asia Obesogenic Food Environment (SEAOFE) study, we aimed to to explore retailer perspectives on stocking decisions and barriers to stocking healthy food products in urban poor areas of Kuala Lumpur, Malaysia. The study was conducted using purposive sampling at three parliaments which have the highest urban poor population. 35 retailers who involved in procurement, retail operations, and product placement, with at least one year of experience, were selected as participants of this study. The interview were conducted face-to-face and been transcribed verbatim for data analysis. Nine key themes emerged regarding factors affecting stocking decisions: 1) consumer demand, 2) consumer satisfaction and feedback, 3) profitability, 4) forecast software, 5) fast-moving products, 6) product healthiness, 7) availability, 8) seasonality, and 9) e-commerce; while four key barriers in stocking healthy food products included 1) price, 2) shelf life, 3) consumer demand and preferences, and 4) avail",
+     "authors": "MOHD SAKRI, A. M.; Mohd Sakri, A. M.; Mohd Jamil, S.; Wel, C. A. C.; Cheah, Y. K.; You, H. W.; Saptari, A. F.; Phulkerd, S.; Borazon, E. Q.; Poh, B. K."
+    },
+    {
+     "title": "Protocol: WorkoutCPP - a pilot series of N-of-1 trials evaluating RL-generated adaptive exercise recommendations for pelvic pain management",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.25.26356699",
+     "doi": "10.64898/2026.09.25.26356699",
+     "published": "2026-09-27",
+     "importance": 5.0,
+     "abstract": "Introduction: Chronic pelvic pain disorders (CPPDs) affect up to one in four reproductive-age women and are characterized by fluctuating, heterogeneous symptoms that complicate engagement in regular physical exercise. Standard programs rarely adjust to daily symptom variability. WorkoutCPP is a pilot series of N-of-1 trials evaluating the feasibility of an adaptive mobile-health (mHealth) intervention using reinforcement learning (RL) to personalize exercise for individuals with CPPDs. Methods and Analysis: This pilot study consists of a series of N-of-1 trials employing a randomized ABAB or BABA design, in which 45 participants (aged 18-55 years) with CPPDs each serve as their own control. Each participant completes one baseline week followed by four alternating 2-week intervention phases (A = generic exercise guidance; B = adaptive RL-generated recommendations), totaling 9 weeks. The RL agent integrated into the ehive app suggests daily exercise recommendations based on participant-reported pain and prior exercise behavior. Primary outcomes are exercise recommendation adherence rate and participant retention rate; safety and additional feasibility indicators are also monitored. S",
+     "authors": "Tricoche, B. T.; Konigorski, S.; Clarke, R.; Vedder, J. E.; Danieletto, M.; Landell, K.; Rodrigues, J.; Kim, A.; Olivo, C.; Ona, G.; Dorsey, A.; Holtzman, S.; Khalil, S.; Ensari, I."
+    }
+   ]
+  },
+  "2026-09-26": {
+   "count": 75,
+   "by_field": {
+    "医学健康": 46,
+    "生命科学": 25,
+    "神经认知": 3,
+    "化学材料": 1
+   },
+   "by_tier": {
+    "mainstream": 23,
+    "preprint": 52
    },
    "items": [
     {
@@ -174,6 +679,20 @@
      "authors": "Maxim Topaz, Nir Roguin, Pallavi Gupta, Zhihong Zhang, Laura-Maria Peltonen"
     },
     {
+     "title": "Joint Clinical Assessments — A New Chapter in European Pharmaceutical Policy",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2607902?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMp2607902",
+     "published": "2026-09-26",
+     "importance": 10.0,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Huseyin Naci and Beate Wieseler"
+    },
+    {
      "title": "[Department of Error] Department of Error",
      "title_zh": "肝切除术与维持治疗在肝细胞癌中的比较研究",
      "summary_zh": "Sun H-C等人开展了一项多中心、开放标签、随机的3期临床试验，研究了在局部晚期肝细胞癌患者中，阿特珠单抗和贝伐单抗后进行肝切除术与维持治疗的效果（TALENTOP）。研究结果显示，肝切除术组与维持治疗组在主要终点的p值为0·23。该研究的结果对局部晚期肝细胞癌的治疗策略提供了新的见解。该修正已于2026年9月24日更新至在线版本。",
@@ -273,8 +792,8 @@
     },
     {
      "title": "Diagnosing antimicrobial stewardship needs in a pluralistic health system in India: Why Local Evidence Must Guide Implementation",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "印度多元卫生系统中抗生素管理需求的诊断",
+     "summary_zh": "目的。通过三角测量提供者知识与实践、政府医疗机构处方指标及患者报告的治疗体验，识别印度恰蒂斯加尔邦三个地区的抗生素管理目标。方法。我们分析了三个独立抽样的横断面组件：提供者调查（171名提供者）、世界卫生组织和国际合理用药网络评估（在20个政府医疗机构的600次就诊）及患者退出访谈（371次咨询）。我们使用描述性指标和多变量序数或二元逻辑回归。发现。在提供者中，149名中的163名（91.4%）认识到抗生素耐药性，但131名（80.4%）报告对至少部分患者提供感冒或喉咙痛的抗生素。指南熟悉度与提供频率无显著关联（调整后的共同比值比[aOR]，1.13；95%置信区间[CI]，0.57-2.24；P=0.725）。政府医疗机构在600次就诊中开具抗生素的比例为54.8%（329次），机构间范围为16.7%-80.0%。在退出访谈中，142次非正式提供者咨询中有131次（92.3%）涉及注射；非正式提供者占181次报告注射的131次（72.4%）。明确或非常明确的指示与患者满意度相关（aOR: 13.66；95% CI: 6.37-29.28；P<0.001）。结论。高意识水平。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -287,8 +806,8 @@
     },
     {
      "title": "A within-host-informed event-time framework linking epidemiological delay distributions",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于宿主内信息的事件时间框架与流行病学延迟分布的关联",
+     "summary_zh": "理解病原体如何在人与人之间传播对于传染特征的描述、监测数据的解读以及有效控制措施的设计至关重要。然而，潜伏期、 incubation period、世代间隔和序列间隔等关键流行病学延迟难以估计，因为感染、传染性、症状出现和传播等关键事件很少被直接观察。当前方法通常使用灵活的统计分布来估计这些延迟，而不是通过生成它们的基本过程明确关联，导致对生物学的解读困难。本文开发了一种基于动态宿主内病原体生长模型的随机事件时间框架，将流行病学延迟视为共享生物过程的耦合结果。该框架通过将关键事件表示为关联的随机事件，生成内部一致的延迟分布，并在假设的宿主内模型条件下推断具有机制解释的参数。该框架还通过统一观察模型处理被删失和部分观察的感染及症状出现时间。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -301,8 +820,8 @@
     },
     {
      "title": "New-Onset Heart Failure in Patients with Obesity using Tirzepatide or Semaglutide",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "肥胖患者使用Tirzepatide或Semaglutide的新发心力衰竭研究",
+     "summary_zh": "背景：Tirzepatide和Semaglutide在肥胖及射血分数保留的心力衰竭患者中改善功能状态和心力衰竭事件。与Semaglutide相比，Tirzepatide在控制心脏代谢风险因素方面效果更佳。本研究探讨Tirzepatide是否能降低肥胖患者新发心力衰竭的风险。方法：采用回顾性队列研究，数据来源于TriNetX平台，筛选2021年6月4日至2026年8月13日期间接受Tirzepatide或Semaglutide治疗的肥胖患者，进行1:1倾向评分匹配，形成两个研究队列。计算并比较两组的新发心力衰竭一年发生率。结果：形成两个匹配良好的队列（各424,269人）。Tirzepatide组新发心力衰竭发生率为1.0%，低于Semaglutide组的1.3%（绝对风险差-0.3%，95% CI -0.35至-0.26；HR 0.9，95% CI 0.86至0.93）。Tirzepatide组的全因死亡风险也较低。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -315,8 +834,8 @@
     },
     {
      "title": "Identification of Transcriptional Hippo Response Signature Connecting Inflammatory Bowel Disease and Colorectal Cancer Progression",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "识别连接炎症性肠病与结直肠癌进展的Hippo转录响应特征",
+     "summary_zh": "背景：炎症性肠病（IBD）与结直肠癌（CRC）风险增加2至8倍相关。然而，尚不清楚哪些特定基因连接肠道失调与致癌转录重编程。Hippo/YAP通路是肠上皮稳态的重要调节因子，其效应因子YAP在CRC中被过度激活，但其在IBD黏膜中的转录参与及与特定癌症风险基因的关联尚未彻底绘制。方法：整合了来自两个独立队列的bulk RNA-seq数据：GSE235236（IBD结肠黏膜；UC/CD与健康对照；n = 56）和TCGA-COAD/READ（按YAP活性分层的CRC肿瘤；n = 592）。在每个队列中分别进行差异表达分析，并计算YAP转录活性。结果：IBD黏膜显示2,848个显著失调基因（FDR < 0.05）。与CRC队列比较，识别出120个表现出一致失调的基因。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -329,8 +848,8 @@
     },
     {
      "title": "Extracting smoking history from clinical notes for lung cancer screening decision support: comparing a structured-judgment model with general-purpose large language models",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "从临床笔记中提取吸烟史以支持肺癌筛查决策",
+     "summary_zh": "目的：比较一种低成本、非生成性的结构化判断模型与四种通用大型语言模型（LLMs）在提取临床笔记中的吸烟状态、吸烟年数和戒烟日期方面的准确性、成本和速度，以支持肺癌筛查（LCS）临床决策支持（CDS）。方法：我们构建了一个包含3000份门诊笔记的合成基准，分为三种情况：1000份模板生成的笔记、1000份由LLM根据结构化事实生成的“杂乱”笔记，以及1000份需要复杂计算以确定吸烟年数和戒烟日期的“杂乱”笔记。结果：在三种情况下，Jev的正确筛查决策率分别为99.1%、99.9%和94.4%，而Haiku为97.8%、98.4%和98.1%，Sonnet为100.0%、99.6%和99.8%，Luna为99.7%、98.8%和98.5%，Sol为100.0%、99.8%和99.6%。在复杂情况下，Jev每1000份笔记产生27个假阳性和14个假阴性筛查标记。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -343,8 +862,8 @@
     },
     {
      "title": "Computational Linguistic Alignment in Psychosis from Semi-Structured Clinical Interviews",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "精神病患者临床访谈中的计算语言学对齐研究",
+     "summary_zh": "背景：在与精神病患者的交流中，常常会感到某种“异常”，但这一现象尚未在双人对话层面量化。方法：我们对109名精神病患者（26名女性）和60名健康对照者（22名女性）进行了三层次的对话对齐分析，时间点为基线和12个月（n = 115）。使用词汇差异测量访谈者与参与者之间的词汇距离；基于嵌入的同步性测量语义轨迹耦合；每位发言者的内部一致性单独计算。结果：患者与访谈者之间的词汇-语义差异显著增加（d = 0.48, p < .001），基于嵌入的同步性显著降低（d = -0.59, p < .001），这两个效应在每个时间点均观察到，显示出部分稳定的特征。重要的是，访谈者在与患者对话时的内部一致性降低（d = -0.33, p = .016），表明这一语言现象超出了患者的言语，影响了互动本身。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -357,8 +876,8 @@
     },
     {
      "title": "MULTIMODHAL: a multicenter phase 3 randomized controlled trial - fMRI-based symptom capture for guiding rTMS treatment of drug-resistant hallucinations in patients with schizophrenia.",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "MULTIMODHAL：多中心三期随机对照试验 - 基于fMRI的症状捕捉指导rTMS治疗耐药性幻听",
+     "summary_zh": "背景：听觉-语言幻觉（AVHs）在优化抗精神病药物治疗后仍常持续存在。传统的低频重复经颅磁刺激（rTMS）在T3P3头皮位置的疗效有限，MULTIMODHAL试验评估了fMRI引导的rTMS是否优于传统靶向治疗耐药性AVHs。方法：本多中心双盲对照试验招募73名耐药性AVHs成人，随机接受10次活性1-Hz rTMS，采用个性化fMRI引导神经导航或传统T3P3定位。主要结果为治疗后一个月的听觉幻觉评分量表（AHRS）变化。次要结果包括患者报告的强度和频率、其他严重程度量表及3、6、12个月的AHRS随访。机制分析评估了rTMS诱导的电场模型和基线静息态功能连接特征。结果：fMRI引导的rTMS在一个月时AHRS评分显著降低（平均差异，-5.43；95% CI，-8.92至-1.94），并在三个月和六个月时持续获益。神经引导rTMS的治疗需求数为3.5。临床反应与AVH相关网络的电场重叠程度更大相关。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -370,9 +889,261 @@
      "authors": "Jardri, R.; Yger, P.; Amor, Z.; Plaze, M.; Amad, A.; Roman, D.; Szaffarczyk, S.; Lefebvre, S.; Pins, D.; Cuenca, M.; Coudriet, G.; Cachia, A.; Labreuche, J.; Cailliau, E.; Delmaire, C.; Outteryck, O.;"
     },
     {
-     "title": "Long-term mortality rate changes and inverse patterns for pandemic and post-pandemic excess mortality",
+     "title": "Serotonin Syndrome",
      "title_zh": "",
      "summary_zh": "",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2607537?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMicm2607537",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Hiro Takefuji and Junpei Komagamine"
+    },
+    {
+     "title": "The Mayor",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2603393?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMp2603393",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Michael A. Incze and Laura Stolebarger"
+    },
+    {
+     "title": "Vaping for Crypto — Smart Devices, Risky Business",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2606580?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMp2606580",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Amanda M. Palmer Tracy T. Smith and Benjamin A. Toll"
+    },
+    {
+     "title": "Opioid-Settlement Funds — Lessons from Tobacco",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2608276?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMp2608276",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Benjamin D. Scher and Heather H. Howard"
+    },
+    {
+     "title": "Synaptic GABA dysfunction of thalamocortical neurons impairs sleep spindle morphology and fear extinction.",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "神经认知",
+     "url": "https://doi.org/10.64898/2026.05.28.728431",
+     "doi": "10.64898/2026.05.28.728431",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "The neural mechanisms which control the characteristic waxing and waning shape of sleep spindles and their dysregulation in neuropsychiatric illnesses are unresolved. Recent, sparse research shows post-traumatic stress disorder (PTSD) presents with abnormal spindle morphology and dysfunctional synaptic GABAA receptors in midline thalamic regions. We modeled this GABAA receptor dysfunction by localized CRISPR-Cas9-knockdown in mice. In contrast to a control group with intact GABAA receptors, mice with synaptic GABAA receptor knock-down in thalamocortical (TC) neurons lost the characteristic waxing and waning shape of sleep spindles and exhibited a failure to diminish conditioned contextual fear responses. Our results suggest that abnormally shaped sleep spindles may be a marker of synaptic GABA dysfunction in TC neurons and an indicator of disrupted fear extinction.",
+     "authors": "Katsuki, F.; Bauer, M. C.; Vaughn, M. J.; Lombardi, V. A.; Brown, R. E.; Haas, J. S.; Basheer, R.; Uygun, D. S."
+    },
+    {
+     "title": "Fixing cells with light and DNA-binding fluorophores",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.03.27.714905",
+     "doi": "10.64898/2026.03.27.714905",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "Light has become of paramount importance for the spatiotemporal control of cell labeling, activity and death. We found that palmatine, a DNA-binding alkaloid, mediates the fixation of live cells upon visible light irradiation. Fixation takes a few seconds or minutes depending on the power used, is accompanied by nuclear fluorescent labeling in target cells, exhibits a high degree of control from cell islets to single cells, yielding cells with intact nucleus and membrane boundaries. 'Optofixation' relies on palmatine-DNA interaction, singlet oxygen photogeneration and lipid peroxidation, producing fixing levels of endogenous aldehydes. We also establish that many commonly used nuclear dyes exhibit optofixation properties across the UV-far red spectrum. Comprising the straightforward inactivation and labeling of native target cells by small fluorophores, this unprecedented, comparatively simple technology has the potential for major applications in biological research.",
+     "authors": "Carraz, M.; Bosch, S.; Mangeat, T.; Cantaloube, S.; Amarh, V.; Duval, R."
+    },
+    {
+     "title": "D-serine suppresses one-carbon metabolism by competing with mitochondrial L-serine transport",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.1101/2024.09.03.610855",
+     "doi": "10.1101/2024.09.03.610855",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "L-serine serves as a central metabolic node that integrates glycolytic flux, lipid metabolism, and one-carbon metabolism. In the mature central nervous system, L-serine is actively stereo-converted to D-serine, which functions as a neurotransmitter. However, the role of D-serine in cellular metabolism remains unclear. Here, we show that D-serine competes with mitochondrial L-serine transport, thereby suppressing one-carbon metabolism. Metabolomic analysis revealed that D-serine reduces intracellular glycine and formate levels, indicating inhibition of the initial step of the one-carbon pathway. Molecular dynamics simulations and enzymatic assays revealed that D-serine has low affinity for serine hydroxymethyltransferase 2 (Shmt2), which catalyzes the first step in mitochondrial one-carbon metabolism, and does not directly inhibit its activity. Instead, membrane transport assays demonstrated that D-serine competes with mitochondrial L-serine transport, depleting the substrate of Shmt2. Functionally, under L-serine poor conditions in vitro and ex vivo, D-serine inhibited the proliferation of immature and undifferentiated neural cells including glioblastoma stem cells, which depend hi",
+     "authors": "Suzuki, M.; Adachi, K.; Wiriyasermukul, P.; Fukumura, M.; Tamura, R.; Hirano, Y.; Aizawa, Y.; Miyamoto, T.; Taniguchi, S.; Toda, M.; Homma, H.; Kanekura, K.; Yasuoka, K.; Kanai, T.; Sugimoto, M.; Naga"
+    },
+    {
+     "title": "FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.1101/2024.10.23.619960",
+     "doi": "10.1101/2024.10.23.619960",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "Proteins are the principal architects of life, fueling advances in bioengineering, drug discovery, and synthetic biology. The integration of generative AI with computational protein science has revolutionized protein design while also posing dual-use risks, such as enabling the creation of pandemic-capable proteins that require strong biosecurity safeguards. Here, we introduce FoldMark, a first-of-its-kind watermarking strategy leveraging distributional and evolutionary principles tailored for protein generative models, balancing watermark capacity and structural quality. FoldMark achieves over 95% watermark bit accuracy at 32 bits with minimal impact on structural quality (>0.9 scTM scores) for leading models including AlphaFold3, ESMFold, RFDiffusion, and RFDiffusionAA. For user tracing, FoldMark can successfully trace up to 1 million users. To validate FoldMark in wet lab, we applied it to structure-based design of EGFP and CRISPR-Cas13, showing wildtype-level function (98% fluorescence, 95% editing efficiency) and >90% watermark detection, demonstrating its practical utility for safeguarding AI-driven protein research.",
+     "authors": "ZHANG, Z.; Jin, R.; Liu, J.; Xu, G.; Wang, X.; Zitnik, M.; Zhao, H.; Cong, L.; Wang, M."
+    },
+    {
+     "title": "Cytosolic MagLOV Magnetofluorescence in Mammalian Cell Lines and Primary Neurons",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.08.750273",
+     "doi": "10.64898/2026.09.08.750273",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "Magnetic fields can influence the outcome of photochemical reactions through the radical pair mechanism, but whether this sensitivity extends to standard experimental conditions in mammalian cells has remained unclear. Here, we quantify the cytosolic magnetofluorescence of MagLOV, a genetically encoded, flavin-binding fluorescent protein, in mammalian cells, validated against extensive artifact controls. Excitation intensity and magnetic field strength differentially tune response kinetics and amplitude, respectively, with amplitude saturating above approximately 8 mT. Magnetic field-effect amplitude is further modulated by cellular culture state. This response generalizes across HEK293T, HeLa, U2OS, and A549 cells and primary mouse cortical neurons, with plateau amplitudes ranging from 1.4% to 2.7%. Together, these results establish that genetically encoded spin-dependent photochemistry can be quantitatively interrogated under standard mammalian live-cell imaging conditions, and generalizes across mammalian cell types.",
+     "authors": "Li, H.; Plastina, F.; An, H.; Hidalgo, E. C.; Pavlic, A.; Zhong, B. L.; Wu, D.; Shapiro, M. G."
+    },
+    {
+     "title": "Mitochondrial priming in human germ cell tumors is dependent on MCL1 and BCL2L1",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.22.752028",
+     "doi": "10.64898/2026.09.22.752028",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "Germ cell tumors (GCTs) are highly sensitized to cell death in response to DNA damaging agents, a property that underlies the success of current chemotherapeutic regimens. To address the molecular basis for this, known as apoptotic priming, we evaluated how different BCL2 family members modulate the heightened sensitivity of GCTs to therapy. Our analysis of human GCTs finds consistently high expression of the pro-survival factors MCL1 and BCL2L1 (BCLX) in a cohort of primary tumors and in their embryonic precursor cells, frequently accompanied by copy number gains of these loci and reciprocal losses of their pro-apoptotic interaction partners and inhibitors, PMAIP1 (NOXA) and BAD. We find that co-inhibition of MCL1 and BCLX using selective BH3 mimetics results in a potent synthetic lethality in multiple GCT embryonal carcinoma cell lines. When these cell lines were cultured with the DNA damaging agents cisplatin or etoposide, inhibition of MCL1 or BCLX potentiated their apoptotic effect in undifferentiated embryonal carcinoma cell lines, but not in retinoic acid-differentiated cells. The inhibition of MCL1 also heightened cisplatin sensitivity in p53-deficient or -mutant cell lines",
+     "authors": "Anniko, S.; Khan, S.; Morton, J. R.; Iftikhar, W.; Teixeira, A. A.; Willis, C. R.; Riches-Suman, K.; Poterlowicz, K.; Shnyder, S. D.; Mitchell, R. T.; El-Khamisy, S. F.; Allison, S. J.; Nicholls, P. K"
+    },
+    {
+     "title": "Germ granules act as repositories for RNA and protein molecules essential for zebrafish germline development",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.01.748510",
+     "doi": "10.64898/2026.09.01.748510",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "Germ granules are conserved, phase-separated ribonucleoprotein condensates enriched in germline determinants, yet their precise function remains unclear. Using quantitative live imaging, translational reporters, and targeted disruption of germ granule assembly in zebrafish primordial germ cells, we show that germ granules are dispensable for germ cell fate, migration, and gamete production. Instead, granules act as reservoirs, sequestering transcripts and releasing them gradually for cytoplasmic translation. Under heat stress or translational inhibition, granules further accumulate mRNAs and canonical stress granule factors, indicating a role in buffering RNA and regulatory protein availability rather than serving as sites of localized translation, as previously proposed. Consistent with this reservoir model, cytoplasmic expression of the germline determinants Nanos3 and Dead end is sufficient to direct somatic cells toward a germline fate even in the absence of germ granules. Correspondingly, germ cells lacking granules develop normally but show reduced persistence of germline RNA expression and impaired fertility. Together, these findings establish zebrafish germ granules as prot",
+     "authors": "Wegner, J. W.; Ophaus, M.; Schmidthuis, L.; Westerich-Fellner, K. J.; Limon Tejeda, T.; Bellec, M.; Dufourt, J.; Tarbashevich, K.; Raz, E."
+    },
+    {
+     "title": "Optimizing the connectivity of protein conformations to untangle ensemble refinement",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.17.752399",
+     "doi": "10.64898/2026.09.17.752399",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "Proteins naturally adopt multiple conformations in mediating cellular processes, and ensemble models are used to fit X-ray crystallography data that captures this heterogeneity. In practice, ensemble refinement produces only minor improvements in agreement with experimental data (R-free) over single-conformation models. It has recently been shown that ensemble models are universally trapped, or \"tangled\"; refinement algorithms strain each individual conformation in the model to fit the electron density in its immediate vicinity, missing more harmonious ways to arrange the collection of protein conformations to fit the electron density. Here, we demonstrate that this type of trap may be escaped by formulating the construction of low-energy conformations from individual conformer coordinates as an integer linear programming problem. The method successfully recovered the two original protein conformations from a previously published synthetic dataset that traps current refinement methods. Inclusion of the method in an automated refinement procedure with real data is shown to improve R-free and reduce geometric strain in a four-conformation model by comparison with controls. Applying t",
+     "authors": "Passmore, S. K.; Holton, J. M.; Zatsepin, N. A.; Martin, A. V."
+    },
+    {
+     "title": "DNA Methylation Signatures in Breast Cancer: A Systematic Review and Meta-Analysis",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.1101/2022.10.15.512358",
+     "doi": "10.1101/2022.10.15.512358",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "Epigenetic changes are involved in the onset and progression of cancer, and the detection of DNA methylation signatures may foster the improvement of diagnosis and prognosis. While the emergence of innovative technologies has fostered numerous studies in breast cancer, many lack statistical power due to the small sample sizes generally involved. In this study, we present a novel meta-analysis that identifies a common pattern of DNA methylation in all breast cancer subtypes. We obtained DNA methylation signatures at the gene and biological function level, identifying those significant groups of genes and functional pathways affected. To achieve this, we conducted a thorough systematic review following PRISMA statement guidelines for the selection of studies on DNA methylation in breast cancer. In total, we gathered four studies (GSE52865, GSE141338, GSE59901 and GSE101443) that were split into 13 comparisons comprising a set of 144 individuals. We discovered that most breast cancer subtypes share a significant deregulation in the immune system and alterations to the cell cycle. This integrative approach combines all available information from public data repositories and possesses g",
+     "authors": "Trasierras-Fresco, A. M.; Andreu, Z.; Dolader Rabinad, B.; Hidalgo, M. R.; Hernandez-Ramirez, R. A.; Salvador-Guerrero, S.; Gomez-Cabanes, B.; Romero, A.; Lopez-Guerrero, J. A.; de la Iglesia Vaya, M."
+    },
+    {
+     "title": "Pop-Corn: Predicting Perturbation Phenotype Effects Across Single-Cell and Spatial Contexts",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.25.754560",
+     "doi": "10.64898/2026.09.25.754560",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "Genetic perturbations can reshape cell populations by altering the relative abundance of specific cell types and states within the profiled population, including increases, decreases and states that become detectable after perturbation. Pooled single-cell screens, such as Perturb-seq, measure such responses at scale. However, only a small fraction of possible perturbations can be tested experimentally. A central challenge is therefore to predict compositional shifts induced by unseen perturbations. Many perturbation-prediction methods do not directly optimize for this outcome; instead, they predict gene-expression responses and infer cell-type and cell-state composition downstream. Surprisingly, we find that even models that accurately predict perturbation-induced changes in average gene expression perform poorly at forecasting these compositional shifts. To address this gap, we present Pop-Corn, a method that directly predicts how a perturbation reshapes cell-type composition without reconstructing gene expression. In the primary T-cell benchmark, Pop-Corn predicted the overall cell-state composition of held-out perturbations more accurately than the evaluated expression-predictio",
+     "authors": "Chen, J.; Cui, Y.; Shao, Y.; Sun, N.; Martinez, M. R."
+    },
+    {
+     "title": "A feed-forward UHRF1 read-write mechanism supports H3 multi- mono-ubiquitination and DNA methylation maintenance at CpG-sparse regions",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.25.754493",
+     "doi": "10.64898/2026.09.25.754493",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "The epigenetic inheritance of mammalian DNA methylation requires DNMT1 and its E3 ligase cofactor UHRF1. At newly replicated chromatin, UHRF1 recognition of hemi-methylated DNA and histone H3 N-terminal tails directs catalysis of H3K14, H3K18, and/or H3K23 mono-ubiquitination to recruit DNMT1. While it is appreciated that UHRF1 can deposit multiple mono-ubiquitin marks on a single H3 tail and that DNMT1 recognizes this state through tandem ubiquitin interacting motifs, the mechanism that promotes successive ubiquitination and the biological function of multi-mono-ubiquitination are unknown. Here, we show that UHRF1 directly binds its mono-ubiquitinated H3 products through a previously uncharacterized LGDDSL loop in Tudor 2 of its tandem Tudor domain (TTD) to promote further ubiquitin deposition. Disruption of this ubiquitin reading activity impairs H3 multi-mono-ubiquitination and accelerates DNA methylation loss within late-replicating, CpG-sparse genomic regions that are characteristic of partially methylated domains (PMDs) in cancer and aging cells. These methylation defects overlap those observed by disruption of UHRF1 ubiquitin ligase activity, providing convergent evidence th",
+     "authors": "Hrit, J. A.; Tiedemann, R. L.; Sartori, V. J.; Wiseman, A. K.; Dickson, B. M.; Worden, E. J.; Rothbart, S. B."
+    },
+    {
+     "title": "Innate immune stress pathway activation underlies heterochromatin dysfunction pathology",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.23.753861",
+     "doi": "10.64898/2026.09.23.753861",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "Heterochromatin loss disrupts nuclear architecture, gene regulation and repetitive element silencing, and is associated with diverse human diseases. However, mechanisms linking heterochromatin dysfunction to pathological phenotypes remain unclear. Using genetic interaction screening and genomic analyses in C. elegans, we identify secondary activation of the Intracellular Pathogen Response (IPR), an innate immune stress pathway, as a major contributor to heterochromatin mutant phenotypes. Constitutive IPR activation phenocopies slow growth and indirect transcriptional changes observed in these mutants. Depletion of genetic enhancers further increased, whereas suppressor RNAi attenuated IPR activation, with direct heterochromatin targets remaining substantially deregulated. Notably, many suppressors encode active chromatin components, and mild reduction of RNA polymerase II activity ameliorates growth defects in C. elegans HP1 mutants and human HP1-deficient cells. Our findings reveal secondary stress response activation as an important mechanism linking heterochromatin dysfunction to pathology and identify transcriptional dampening as a potential therapeutic strategy for mitigating ",
+     "authors": "Pradhan, R.; Townley, A. F.; Protasio, A. V.; Danac, J. M.; Dong, Y.; Fang, Y.; Appert, A.; Carelli, F. N.; Han, S.; Vaikkinen, H.; Tchasovnikarova, I.; Ahringer, J."
+    },
+    {
+     "title": "Discrepancies between ChIP-seq and CUT&Tag histone mark profiles are explained by GC content and chromatin accessibility",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.22.753564",
+     "doi": "10.64898/2026.09.22.753564",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "Chromatin profiling methods, such as ChIP-seq (chromatin immunoprecipitation followed by sequencing), are used to characterize the genomic localization of DNA-associated proteins. While ChIP and ChIP-seq have been used for decades, an orthogonal approach, CUT&Tag (Cleavage Under Targets and Tagmentation), is gaining popularity as an efficient and cost-effective alternative. Although previous comparative studies note discrepancies in signal-to-noise ratios and detection bias at certain genomic regions, many differences between ChIP-seq and CUT&Tag results remain largely unreconciled. Here, we systematically investigate the disagreeing signals captured by these two methods across well annotated genomic regions. We assess multiple histone mark profiles generated by different groups in two cell lines (K562 and MCF-7). Overall, our analysis indicates that compared to ChIP-seq, CUT&Tag may have limited sensitivity in low-GC environments and, as previously observed, increased signal in hyper-accessible chromatin. Notably, within GC-poor regions of active gene bodies and Polycomb-repressed domains, CUT&Tag exhibits a loss of H3K36me3 and H3K27me3 signal, respectively, where occupancy of th",
+     "authors": "Modolo, E.; Patel, L.; Ram, O.; Simon, I.; Mendenhall, E.; Heinz, S.; Benner, C.; Goren, A."
+    },
+    {
+     "title": "Behavioral profiles associated with adherence to adjuvant endocrine therapy in breast cancer: a retrospective population-based cohort study",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.05.25.26353903",
+     "doi": "10.64898/2026.05.25.26353903",
+     "published": "2026-09-26",
+     "importance": 8.5,
+     "abstract": "Purpose: Adjuvant endocrine therapy (AET) substantially reduces recurrence and mortality in hormone receptor-positive breast cancer but requires sustained daily adherence over 5 to 10 years. Approximately one-third of patients fall short of recommended adherence in the first year alone, largely due to distinct combinations of attitudes, barriers, and circumstances. Existing studies have catalogued individual risk factors but lack the scale and breadth to characterize how these factors co-occur within patients, or to distinguish behavioral drivers from confounding by clinical and demographic context. We sought to characterize the behavioral and social heterogeneity underlying AET adherence in a national real-world cohort. Moving beyond population-average risk factors, we identify the distinct patient profiles, and the differing drivers within them, that any effective adherence strategy must address. Methods: We conducted a retrospective cohort study of US women with invasive breast cancer diagnosed between 2016 and 2025, linking two large-scale, individual-level datasets through privacy-preserving tokenization: Surgo Health's BehavioralPulse, which provides modeled individual-level ",
+     "authors": "Dibner-Dunlap, A.; Sutermaster, S.; Smittenaar, P.; Sgaier, S."
+    },
+    {
+     "title": "Long-term mortality rate changes and inverse patterns for pandemic and post-pandemic excess mortality",
+     "title_zh": "疫情及后疫情期过剩死亡率的长期变化研究",
+     "summary_zh": "COVID-19疫情及其应对措施可能带来长期影响。本文分析了38个具有可靠死亡登记数据的人群在2020-2025年的过剩死亡情况，采用细致的年龄分层。通过与2017-2019年均值比较的模型（Fa）及考虑2003年后死亡率变化的趋势模型，估算出不同人群的死亡率变化。结果显示，2020-2025年间，4个国家（卢森堡、爱尔兰、瑞典、新西兰）出现了累计死亡缺口，而6个国家（智利、保加利亚、日本、希腊、斯洛伐克、意大利）则有超过4%的过剩死亡。2020-2023年差异更为明显，33个国家在2024-2025年出现死亡缺口。总的过剩死亡人数为0.92-2.49百万，2020-2023年为1.99-2.88百万，2024-2025年为0.39-1.08百万的缺口。缺乏年龄分层及使用不变线性趋势的基线模型严重偏倚了过剩死亡估算。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -385,8 +1156,8 @@
     },
     {
      "title": "The Vanishing White Matter registry: a unique source of natural history data",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "消失性白质登记：独特的自然历史数据来源",
+     "summary_zh": "消失性白质（VWM）登记是一个单中心数据库，包含来自470多名未经治疗的VWM患者的纵向调查数据，这些患者的DNA和MRI均已确认。VWM是一种罕见的遗传性脑白质疾病，在荷兰的活产发生率约为每10万人1例，患病率为每100万人1.3例。该登记提供了系统收集的关于该疾病的广泛信息，促进了对VWM自然历史的关键研究，并为临床试验的对照组提供了宝贵资源。数据自2004年起以纸质形式收集，2018年起转为电子维护，包含经过验证的量表和涵盖临床、功能及心理社会领域的定制问卷。调查包提供八种语言，每年发送1至4次，具体取决于患者年龄。内置的有效性检查和儿科及成人神经科医生的审核确保了数据质量。数据集持续更新，问卷扩展其范围，并为VWM研究的分析和再利用而结构化。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -398,9 +1169,93 @@
      "authors": "Postema, M. C.; van Voorst, R. J.; Hamilton, E. M. C.; Schoenmakers, D. H.; Stellingwerff, M. D.; Steenweg, M. E.; Verbeek, R. J.; van der Knaap, M. S."
     },
     {
-     "title": "The Network Landscape of Non-Clinical Eating Behaviors in India",
+     "title": "Plasmodium berghei is resistant to aryl amino acetamides that inhibit P. falciparum growth by targeting the phospholipid transfer protein PfSTART1.",
      "title_zh": "",
      "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.22.753445",
+     "doi": "10.64898/2026.09.22.753445",
+     "published": "2026-09-26",
+     "importance": 8.0,
+     "abstract": "In a previous screen for compounds that inhibit Plasmodium falciparum merozoite invasion of red blood cells, we identified the Medicines for Malaria Venture compound MMV006833. This compound inhibits PfSTART1, a protein implicated in the expansion of the nascent parasitophorous vacuole membrane following invasion, to accommodate the developing ring-stage parasite. Live-cell lattice light-sheet microscopy of invading merozoites revealed that mNeonGreen-tagged PfSTART1 is released from structures within the merozoite into the nascent parasitophorous vacuole approximately 109 seconds after invasion. Expansion microscopy of PfSTART1-HA merozoites further showed that these punctate PfSTART1-containing structures do not colocalise with known secretory organelles (rhoptries, micronemes and dense granules). Although analogues of MMV006833 are highly potent against P. falciparum, they were previously found to be ineffective against P. berghei parasites in the mouse malaria model. Here, we demonstrate that PbSTART1 is highly resistant to MMV006833 and its analogues when expressed in P. falciparum, indicating that structural differences between the orthologous proteins reduce inhibitor potenc",
+     "authors": "Barnes, C. B.; Chowdury, M.; Ling, D. B.; McClean, T.; Literski, A. H.; Counihan, N. A.; Looker, O.; Jonsdottir, T. K.; Boulet, C.; Nguyen, W.; Dans, M.; Mao, E. Y.; Cowman, A. F.; Geoghegan, N. D.; R"
+    },
+    {
+     "title": "Cerebra: a computationally efficient framework for accurate protein structure prediction",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.1101/2024.02.02.578551",
+     "doi": "10.1101/2024.02.02.578551",
+     "published": "2026-09-26",
+     "importance": 8.0,
+     "abstract": "Remarkable progress has been made in the field of protein structure prediction. Representative methods like AlphaFold and RoseTTAFold achieve prediction accuracy close to experimental structural determination, but at the cost of heavy computational consumption for model training. In this work, we propose a new framework, Cerebra, for improving the computational efficiency of protein structure prediction. In this network architecture, multiple sets of atomic coordinates are predicted parallelly and their mutual complementarity is leveraged to rapidly improve the quality of predicted structures through a new attention mechanism named Path Synthesis Attention (PSA). Consequently, Cerebra markedly reduces the computational consumption, achieving evident acceleration on both model training and inference, in comparison to OpenFold, the academic version of AlphaFold2. When evaluated on the CAMEO 2025 dataset, the Cerebra model trained on a limited number of GPUs shows a comparable performance to the published OpenFold model that has been thoroughly optimized using a plethora of computational resources. Moreover, ablation studies confirm that the PSA mechanism efficiently accelerates the n",
+     "authors": "Hu, J.; Wang, W.; Zhang, B.; Cao, Y.; Gong, H."
+    },
+    {
+     "title": "Automated language impairment screening in acute stroke using connected speech",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.08.14.26360474",
+     "doi": "10.64898/2026.08.14.26360474",
+     "published": "2026-09-26",
+     "importance": 8.0,
+     "abstract": "Connected speech is essential for everyday communication, but clinical constraints and patient fatigue limit detailed evaluation in acute stroke (<1-week post-stroke). Bedside assessments may sample discourse but rarely quantify language impairment (LI) in connected speech, leaving patient communication poorly characterized. We analyzed brief story retellings from 86 patients with left-hemisphere stroke (~4 days post-stroke; 63 classified with LI using composite clinical and naming criteria). From transcripts generated with automatic speech recognition, we derived discrete linguistic features and embeddings with Large Language Models (LLMs). An ensemble of embedding-based classifiers distinguished patients with and without LI with 90% balanced accuracy (79% sensitivity, 100% specificity), outperforming independent embedding and discrete-linguistic-based classifiers, showing distinct LLMs contributed complementary information. Adding the discrete-linguistic-based classifier to the ensemble did not improve balanced accuracy but modestly increased sensitivity at the expense of specificity. We provide proof of concept for a fast, largely automated discourse screener of acute LI.",
+     "authors": "Pugalenthi, L. S.; Schnur, T. T."
+    },
+    {
+     "title": "Mitochondria remodel near synapses to boost metabolic capacity and fuel plasticity",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.1101/2025.08.27.672715",
+     "doi": "10.1101/2025.08.27.672715",
+     "published": "2026-09-26",
+     "importance": 7.5,
+     "abstract": "Brain synapses are hotspots of energy consumption, and the synaptic plasticity underlying learning sharply increases this demand. Because most synapses lie far from their cell body, their energy demands must be met locally. A dendritic mitochondrion can extend ~30 m and span many spines, yet ramps up ATP synthesis only near spines undergoing plasticity, providing immediate and sustained energy. Whether structural changes in these juxtaspinal mitochondrial regions (2 m segments at spine bases) support this response is unknown; resolving their energy-producing architecture poses substantial challenges. Compared with the lamellar cristae of axonal mitochondria, dendritic mitochondrial cristae form complex, tubular, and interconnected networks that require multiple high-resolution tomograms to characterize. We therefore developed a correlative light and electron microscopy (CLEM) pipeline with a custom deep-learning model that simultaneously segments five distinct 3D suborganellar structures from limited training data, enabling quantitative analysis across 42 tomograms at 2 nm pixel resolution. We find that juxtaspinal mitochondrial regions are larger than non-juxtaspinal regions withi",
+     "authors": "Shah, M.; Ghosh, I.; Shree Ramesh, N.; Pishos, L.; Pancani, T.; Villani, V.; Yasuda, R.; Loomba, S.; Sun, C.; Kamasawa, N.; Rangaraju, V."
+    },
+    {
+     "title": "A postmeiotic route to polyploidy",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.02.20.706944",
+     "doi": "10.64898/2026.02.20.706944",
+     "published": "2026-09-26",
+     "importance": 7.5,
+     "abstract": "Polyploidy, the presence of multiple chromosome sets within a genome, is widespread and has played a major role in genome evolution in plants, fungi, and animals. Although polyploidization is generally attributed to mitotic genome doubling or unreduced gamete fusion, the mechanisms underlying ploidy increases, particularly triploid formation, remain unclear. Here, we identify a novel route to autopolyploidization in Saccharomyces cerevisiae, termed Sporulate-Endoreplicate-Mate (SEM), in which one gamete, or spore, undergoes postmeiotic endoreplication and subsequently mates with a nearby non-endoreplicated sibling spore after ascus breakdown, increasing ploidy by one haploid genome. We experimentally demonstrate stepwise transitions from diploidy to triploidy and from triploidy to tetraploidy. Intact asci can spontaneously generate new triploid and tetraploid strains upon one or two successive SEM cycles. Natural polyploids exhibit genomic signatures consistent with SEM being a major natural route to polyploidization in yeast. SEM establishes triploids as central intermediates in yeast polyploidization, analogous to the triploid bridge described in plants, and raises the possibilit",
+     "authors": "Gomez-Munoz, C.; Vittorelli, N.; Gaudin, M.; Agier, N.; Delmas, S.; Corbeau, Y.; Cosentino Lagomarsino, M.; Liti, G.; Llorente, B.; Fischer, G."
+    },
+    {
+     "title": "Developmental Dynamics of Naturalistic Social Behavior Revealed by Longitudinal Multi-Animal Tracking",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "神经认知",
+     "url": "https://doi.org/10.64898/2026.09.18.752544",
+     "doi": "10.64898/2026.09.18.752544",
+     "published": "2026-09-26",
+     "importance": 7.5,
+     "abstract": "Early-life social experiences with parents and littermates are critical for the development of social behavior and cognition in social species. Yet, how naturalistic social interactions evolve across development remains poorly understood, because reliable tracking of multiple freely interacting animals is challenged by frequent occlusion and body overlap. To address this challenge, we developed Move-Altogether (MovAl), a multi-animal pose estimation pipeline integrating video object segmentation and contour-guided preprocessing that improved identity stability and pose accuracy compared with widely used methods. Using MovAl-derived pose sequences, we established a denoising autoencoder (DAE)-based framework to map longitudinal home-cage behavior within a common three-dimensional space defined by inter-animal spacing, social orientation, and interaction dynamics. Within this space, control mice showed progressive reorganization of group behavior from 3 to 8 weeks of age, establishing a developmental reference for naturalistic social organization. Against this reference, prenatal valproic acid (VPA) exposure produced prominent alterations in social behavior organization at 3-5 weeks ",
+     "authors": "Kim, S.; Jeong, Y.; Lin Thant, H.; Choi, H.; Chung, A."
+    },
+    {
+     "title": "The Network Landscape of Non-Clinical Eating Behaviors in India",
+     "title_zh": "印度非临床饮食行为的网络结构研究",
+     "summary_zh": "本研究针对印度的非临床饮食行为进行网络分析，样本量为1,508人（男性48.9%，女性50.7%，年龄范围18-65岁），基于35项经过验证的生物心理社会测量工具。混合图形模型揭示了一个高度优化的小世界系统，具有双层次的层级结构。文化和生活条件（宗教、居住类型）作为地方行为锚点（影响力最高），而社会经济因素（就业、教育）和自尊则作为结构性桥梁（中介中心性最高），整合了生物心理社会系统。值得注意的是，形体和体重关注高度可预测，但作为地方集群节点而非全球整合者，直接挑战了西方以身体形象为中心的模型。研究的局限性包括横断面设计，无法推断因果关系，以及需要在印度背景下持续验证西方衍生测量工具。这些发现表明，在发展中经济体中，较广泛的心理社会结构因素可能比个体因素更能维持饮食障碍症状。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -413,8 +1268,8 @@
     },
     {
      "title": "Directed effective connectivity between the SCN-containing hypothalamus and pineal gland varies by chronotype in bipolar disorder",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "双相障碍中SCN-含量下丘脑与松果体的有效连接与生物钟类型相关",
+     "summary_zh": "昼夜节律紊乱是精神疾病的跨诊断特征，尤其在双相障碍（BD）中，晚间生物钟类型与症状严重性相关。上交叉核（SCN）通过已知的前馈通路调节松果体（PG）褪黑激素合成。此外，褪黑激素也能相位移SCN，形成功能反馈。我们应用交叉谱动态因果建模（DCM）分析了431名UK Biobank参与者的静息态fMRI数据，包括健康对照（HC, N=136）、BD（N=78）、重性抑郁障碍（MDD, N=154）和精神病障碍（PY, N=63）。随机效应贝叶斯模型选择比较了完全连接模型与简化架构模型，以及前馈（SCN[- ]PG）与反馈（PG[- ]SCN）模型。每个受试者的对数贝叶斯因子差异（dF）用于评估方向偏好，并通过ANCOVA检验与诊断、生物钟类型及其交互的关系。结果显示，完全连接模型被强烈偏好（后验概率=97.8%，保护超越概率[PXP]=1.00），前馈架构占主导（70% vs 30%，PXP=1.00）。诊断未显著影响结果。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -426,9 +1281,23 @@
      "authors": "Mehrdadi, I.; Kuster, S.; Rohrer, J.; Seifritz, E.; Chatelain, C.; Chan, G.; Homan, P.; Tahedl, M."
     },
     {
-     "title": "Neuro-Symbolic AI for Automated Pathology Quality Measurement",
+     "title": "How many crystal structures do you need to trust your docking results?",
      "title_zh": "",
      "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "化学材料",
+     "url": "https://doi.org/10.1101/2025.09.19.677428",
+     "doi": "10.1101/2025.09.19.677428",
+     "published": "2026-09-26",
+     "importance": 7.0,
+     "abstract": "Structure-based drug discovery relies on the prediction of protein-bound poses of new molecule designs, the accuracy of which can impact downstream prioritization. While it is expected that crystal structures of similar molecules would provide the best template for predicting the poses of new designs, the time and cost required motivates identifying a point of diminishing returns for collecting new structures. Using 403 crystal structures of SARS-CoV-2 main protease from the open science COVID Moonshot project, we explore the tradeoff between the cost and utility of obtaining crystal structures for accurately predicting poses of designed molecules. We observe that similar reference ligands enable superior pose prediction and show that success plateaus after approximately five crystal structures per generic Bemis-Murcko scaffold, exceeding 95% for the campaign's lead series. This work provides practical recommendations for resource allocation in structure-enabled drug discovery campaigns.",
+     "authors": "Payne, A. M.; Kaminow, B.; MacDermott-Opeskin, H.; Pulido, I.; Scheen, J.; Castellanos, M. A.; Fearon, D.; Chodera, J. D.; Singh, S."
+    },
+    {
+     "title": "Neuro-Symbolic AI for Automated Pathology Quality Measurement",
+     "title_zh": "神经符号人工智能在自动化病理质量测量中的应用",
+     "summary_zh": "背景：临床质量测量通常依赖于手动抽取医疗记录，这种方法成本高、负担重，且对需要解读叙述文本的指标往往不可行。我们评估了神经符号人工智能（NSAI）是否能够从叙述病理报告中可靠地抽取复杂的质量指标。方法：NSAI系统将每个指标分解为基本问题，并通过案例基础的迭代人机协作过程与现实报告对齐。使用2000份独立双重抽取的报告，我们将NSAI抽取与经过训练的人类抽取者在美国病理学会设定的四个病理质量指标上进行了比较。结果：NSAI系统与裁定的金标准一致性（Cohen's kappa = 0.95）与经过训练的人类抽取者的结果相当或略有超出（kappa = 0.92），在胃肠道化生（CAP 43）上表现尤为突出。组件分析显示，案例基础的细化带来了最大的准确性提升（kappa提升至0.25）。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -441,8 +1310,8 @@
     },
     {
      "title": "Public awareness of the hearing loss-dementia link and self-reported behavioral changes in middle- to older-aged Canadians",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "加拿大中老年人对听力损失与痴呆关联的认知及行为变化",
+     "summary_zh": "听力损失是痴呆的潜在风险因素，但公众对这一关联及其行为影响的认知仍不充分。本研究通过横断面调查，收集了1,404名年龄在44至97岁之间的加拿大人的认知、主观听力与认知、与痴呆相关的关注、对关联的看法及人口统计信息。结果显示，28%的人意识到听力损失与痴呆之间的关联，其中17%的人更倾向于寻求或继续接受听力损失治疗。在健康参与者子样本中，意识和自我报告的行为反应的比例超过两倍。教育水平、对痴呆的关注、年龄较大和女性性别与意识相关。对于已意识到这一关联的参与者，痴呆关注、主观认知较差和对理解关联的信心与治疗倾向相关，但教育水平并无显著影响。因此，意识受社会经济和人口统计因素影响，但这些因素并不足以确保行为改变。沟通可能需要超越健康参与群体，优先考虑准确理解而非仅仅是意识。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "神经认知",
@@ -455,8 +1324,8 @@
     },
     {
      "title": "Intrathoracic Adipose Tissue and Airway Structure, Lung Function, and Respiratory Symptoms: The Framingham Heart Study",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "胸腔脂肪组织与气道结构、肺功能及呼吸症状的关系研究",
+     "summary_zh": "背景：肥胖与气道疾病相关，但特定胸腔脂肪储存的贡献尚不明确。本研究探讨了胸腔内脂肪组织（ITAT）与气道表型的关系。方法：纳入了具有CT测量的Framingham心脏研究参与者，使用多变量回归评估ITAT与CT基础气道壁和腔径测量、肺功能及呼吸症状的横断面关联。主要分析使用性别特异的ITAT z-score，并调整腰围以考虑中央肥胖。结果：在2825名参与者中（52.0%为女性），调整腰围后，每增加1个标准差的ITAT与更大的段支气管壁厚度（0.010 mm）和亚段支气管壁厚度（0.006 mm）、更窄的段支气管腔径（-0.049 mm）、较低的FEV1预测百分比（-1.92个百分点）以及更高的喘息（OR: 1.16）和呼吸困难（1.22）的几率相关。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -468,9 +1337,37 @@
      "authors": "Zhang, J.; Bosch, N. A.; Law, A. C.; Choi, S. H.; Wilson, K. C.; Dupuis, J.; Washko, G. R.; Cho, M. H.; O'Connor, G. T."
     },
     {
-     "title": "Assessing respiratory rates and signs of air hunger using the PneumoRator sensor.",
+     "title": "Treatment-Resilient Lipid Remodeling Defines Temozolomide Resistance and Failure of Simvastatin Sensitization in Glioblastoma",
      "title_zh": "",
      "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.03.19.712341",
+     "doi": "10.64898/2026.03.19.712341",
+     "published": "2026-09-26",
+     "importance": 6.0,
+     "abstract": "Temozolomide (TMZ) resistance remains a major barrier to durable control of glioblastoma (GB). Our previous studies showed that simvastatin can enhance TMZ-induced cell death in non-resistant GB cells by disrupting autophagosome-lysosome fusion and engaging stress-response pathways, whereas established TMZ-resistant cells maintain impaired autophagy flux and remain refractory to TMZ, simvastatin, and their combination. Here, we asked whether this loss of therapeutic responsiveness is accompanied by a treatment-resilient lipid state. Targeted LC-MS quantified 304 lipid species across 25 analytical classes in non-resistant (NR) and TMZ-resistant (R) U251-mKate cells under control, simvastatin (ST), TMZ, and TMZ-ST conditions. Global heatmap, principal-component, volcano, and exploratory PLS-DA analyses demonstrated persistent NR/R lipidomic separation across all four treatment states. Resistant cells recurrently displayed enrichment of lysophospholipids, selected sphingolipids/glycosphingolipids, and cholesteryl esters, with depletion or redistribution of several glycerophospholipid and diacylglycerol pools. A family-resolved analysis across 19 lipid families showed that resistance s",
+     "authors": "Naghibzadeh, K.; Cho, H.; Barzegar Behrooz, A.; Kavoosi, M.; Cordani, M.; Los, M. J.; Pecic, S.; Vitorino, R.; Vitorino, C.; Ravandi, A.; Shojaei, S.; Ghavami, S."
+    },
+    {
+     "title": "Wild chimpanzee groups increase social connectivity prior to risky collective action",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.06.15.732266",
+     "doi": "10.64898/2026.06.15.732266",
+     "published": "2026-09-26",
+     "importance": 6.0,
+     "abstract": "Cooperation is foundational to complex sociality, yet presents profound evolutionary dilemmas - costs and benefits are rarely distributed evenly and the decision to collaborate or defect can involve a complex contextual calculus. These challenges are compounded when cooperation scales from pairs to groups. Group-level cooperation is fundamental to many species success, but how is it sustained and regulated in nature? One promising route to addressing this question is to examine how individuals reorganise their affiliative interactions in anticipation of group-level cooperation. We examine such pre-cooperative reorganisation using long-term data (2013-2018) from three neighbouring groups of wild chimpanzees at the Tai National Park, Cote dIvoire, who routinely cooperate as a collective to defend their territory against other groups. We found that chimpanzees adjusted the distribution of their social contacts in anticipation of risky and proactive territorial defence by forming more broadly connected, yet more diffuse, affiliative networks. Specifically, adult chimpanzees groomed and played with more group members on days of proactive territorial defence, and this pattern was tempora",
+     "authors": "Brooks, J.; Mundry, R.; Crockford, C.; Wittig, R. M.; Wessling, E. G.; Samuni, L."
+    },
+    {
+     "title": "Assessing respiratory rates and signs of air hunger using the PneumoRator sensor.",
+     "title_zh": "使用PneumoRator传感器评估呼吸频率与缺氧感",
+     "summary_zh": "本研究旨在评估PneumoRator可穿戴传感器在成人（包括有无呼吸模式障碍者）中对呼吸频率（RR）和缺氧感（SAH）的准确性。研究设计为一项初步的横断面观察研究，参与者为18-40岁健康成年人，共招募30名，29名提供了完整数据。参与者在静坐休息状态下连续佩戴PneumoRator传感器10分钟。主要结果显示，PneumoRator测得的RR与随机1分钟的手动计数之间无显著差异（p=0.89），SAH检测方法之间也无显著差异（p=0.17）。研究表明，PneumoRator传感器在评估呼吸频率和缺氧感方面具有潜在的应用价值。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -483,8 +1380,8 @@
     },
     {
      "title": "Deep Time-to-Event Models for Intrapartum Fetal Monitoring",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "深度时间事件模型用于产程胎儿监测",
+     "summary_zh": "及时检测产程中的胎儿窘迫是现代产科护理的核心任务。主要的监测手段是胎心率和宫缩监测（心电图监测或CTG），提供产程中的连续信号。大多数机器学习在CTG上的应用假设在分娩前有30到60分钟的窗口，这一假设不切实际，因为分娩时间并不明确。本研究将问题重新定义为时间事件预测任务，开发深度时间事件模型来预测即将分娩和胎儿酸中毒的联合概率，后者是通过脐带气体在分娩后收集的胎儿缺氧生物标志物。我们提出了一种框架，结合深度离散时间生存方法和标记点过程，适应这一特定设置。我们的方法“标记深度Hit”在多个时间节点上准确估计分娩时间，测试集AUROC在产程6小时和12小时分别为0.837和0.935。我们的模型在接近分娩时表现出竞争力，优于专门训练于追踪结束的先前模型。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -497,8 +1394,8 @@
     },
     {
      "title": "Perspective independence, more than personas, drives LLM teams - and where they reverse",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "视角独立性驱动大型语言模型团队的表现",
+     "summary_zh": "本研究探讨了多智能体提示对大型语言模型（LLM）的影响，特别是专家角色与视角独立性之间的关系。我们比较了单次直接调用、在一个上下文中使用五个角色，以及由主持人整合的五个孤立代理，针对87个CPC案例、406个MedCaseReasoning案例和364个急诊科接诊案例进行了五次重复实验，使用经过临床医生验证的LLM评估。结果显示，团队在外部基准测试中超越了单次调用，在预设的召回指标上（前3名提高3.0分，p = 0.0079；前5名提高3.9，p = 3.8 x 10^-5），增益归因于独立生成与调节综合，而非专家角色。在真实急诊表现中，效果则相反（前1名40.1%对比34.3%，p < 0.0001），由专家角色列表推动并保留了额外的客观结果。部署应关注具体问题及当前输入。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -510,9 +1407,37 @@
      "authors": "Feng, J.; Jiao, Y.; Li, Y.; Xie, L.; Peng, W.; Sun, X."
     },
     {
-     "title": "Performance of protein panels is inflated across many biomarker studies",
+     "title": "Detection of zoonotic Cryptosporidium parvum in invasive beavers from southern Tierra del Fuego, Chile",
      "title_zh": "",
      "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.1101/2025.11.13.688090",
+     "doi": "10.1101/2025.11.13.688090",
+     "published": "2026-09-26",
+     "importance": 5.5,
+     "abstract": "Since their introduction to Tierra del Fuego in 1946, invasive beavers have expanded their population and caused extensive environmental degradation across the subantarctic region. Beaver dams have profoundly impacted peatlands, mature sub-Antarctic forests, and watercourses. Here, we report a pathogen in invasive beavers in Patagonia and discuss their potential role as a reservoir of waterborne zoonotic pathogens. We detected Cryptosporidium through microscopy using the Ziehl-Neelsen staining technique in beaver collected from southern Tierra del Fuego. Out of the 105 beavers examined, three tested positive to optical microscopy, which were then identified molecularly as Cryptosporidium parvum by sequence analysis of the 18S ribosomal DNA (rDNA). Given the potential impacts of Cryptosporidium parvum upon native species, wildlife, and human health, this finding highlights the potential risks associated with the ongoing expansion of beavers into other areas of the sub-Antarctic region. A potential role of invasive beavers as reservoirs of zoonotic Cryptosporidium spp. in Patagonia emphasizes the unknown consequences of human-introduced exotic species on pristine ecosystems.",
+     "authors": "Aguilar, P. A. L.; Contreras, G.; Cabrera, G.; Arredondo, C.; Federici, F.; Briceno, C."
+    },
+    {
+     "title": "RosaSeed: Faster and Accurate Short Read Alignment Using a Configurable Seeding Strategy",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.20.753062",
+     "doi": "10.64898/2026.09.20.753062",
+     "published": "2026-09-26",
+     "importance": 5.5,
+     "abstract": "Conventional short read DNA alignment algorithms, such as widely used BWA-MEM2, devote a substantial fraction of their execution time to seed generation. We present RosaSeed, a short read alignment algorithm, based on a configurable seeding framework, that significantly accelerates alignment while maintaining accuracy comparable to that of BWA-MEM2. RosaSeed replaces the BWA-MEM2 seeding kernel and directly supplies candidate seeds to the existing BWA-MEM2 chaining and alignment extension pipeline, producing standard SAM output suitable for downstream variant analysis. RosaSeed was evaluated on both simulated and real short read datasets, and its seeding time, fastq-to-SAM time, alignment accuracy, and memory footprint were compared against BWA-MEM2, Minimap2, Bowtie2, and the Enumerated Radix Tree (ERT) algorithm. We also compared against ERT2, a proposed simplified variant of ERT that sacrifices a small amount of alignment accuracy to significantly increase the alignment throughput. With single-threaded software execution, our recommended RosaSeed configuration achieves 13.06x and 3.85x speedups in seed processing and fastq-to-SAM time, respectively, over BWA-MEM2. Corresponding ",
+     "authors": "Gandhi, S. M.; Cockburn, B. F."
+    },
+    {
+     "title": "Performance of protein panels is inflated across many biomarker studies",
+     "title_zh": "蛋白质面板在生物标志物研究中的表现被高估",
+     "summary_zh": "数据泄漏是生物标志物发现研究中普遍存在但被低估的缺陷。通过模拟和真实的蛋白质组学数据，我们展示了典型的研究流程普遍容易受到这一问题的影响，导致性能估计被高估、泛化能力差以及假阳性过多。我们进一步介绍了两种工具，用于在代码和手稿层面检测数据泄漏，为更严格和可重复的生物标志物报告提供了实用路径。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -525,8 +1450,8 @@
     },
     {
      "title": "Spatial clustering of undervaccination amplifies local measles transmission but limits geographic spread: South Carolina, 2025-2026",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "南卡罗来纳州2025-2026年麻疹疫情的空间聚集分析",
+     "summary_zh": "2025年南卡罗来纳州爆发的麻疹疫情是美国二十多年来最大的疫情，确认病例达997例，主要发生在斯巴坦堡县一个疫苗接种不足的社区。为支持南卡罗来纳州公共卫生部的麻疹应对工作，我们开发了一个随机代理模型，以预测疫情轨迹并实时评估干预策略，整合了三个空间尺度的传播数据，并基于地理编码的家庭、学校入学记录和人口普查数据。模型预测总感染病例中位数为1,020例（90%预测区间：840-1,273）。如果没有积极的接触追踪和隔离，反事实模拟预测中位数为2,432例感染（90%预测区间：1,867-3,185），比模型预测的基线（1,020例）高出约138%。模型的准确性要求高度本地化的学校间接触结构；更广泛的接触假设显著高估了病例数和地理传播。模拟的区域引入确认疫情仅在接种不足的连接聚集区附近发生，而接种良好的地区保持稳定。模型在应对的第9、17和34周前瞻性部署，为资源分配决策提供了依据。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -539,8 +1464,8 @@
     },
     {
      "title": "Adiposity and sex steroid hormones: evidence on direct measures and changes over time -- a systematic review and meta-analysis.",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "肥胖与性激素：直接测量及时间变化的系统评估与荟萃分析",
+     "summary_zh": "引言：关于体脂变化及其分布与不同基质（血液、组织、尿液等）中性激素测量的文献综述不足。方法：使用PubMed和Web of Science识别截至2026年6月的相关研究。进行了随机效应荟萃分析，并根据持续更新项目标准评估证据强度。结果：在筛选的16,875篇文献中，140项研究被认为相关：96项涉及39个减重干预（手术和生活方式）的循环血液生物标志物，60项观察性研究直接测量体脂分布（如DEXA、MRI），20项研究尿液或其他排泄基质中的生物标志物（如唾液、尿液、乳腺导管冲洗），以及25项组织基础研究（如脂肪、乳腺、子宫内膜、皮肤）。减重与总睾酮和游离睾酮的减少及性激素结合球蛋白（SHBG）的增加相关。尽管未发现减重与绝经前雌二醇、脱氢表雄酮硫酸盐和雄烯二醇的显著关联，绝经后女性观察到总雌二醇和雌酮的减少。观察性研究的发现一般支持这些结果，以及关于雌激素的组织基础研究。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -550,6 +1475,104 @@
      "importance": 5.0,
      "abstract": "Introduction: The evidence synthesis on literature characterizing changes in body fatness and adiposity distribution with sex steroid measurements in different matrices (blood, tissue, urine and other excreted matrices) is lacking. Methods: PubMed and Web of Science were used to identify eligible studies published until June 2026. Random-effects meta-analyses were conducted, and the strength of evidence was determined based on the Continuous Update Project criteria. Results: Of 16,875 screened references, 140 studies deemed relevant: 96 on circulating blood biomarkers from 39 weight loss intervention (surgical and lifestyle) and 60 observational studies reporting direct measure of adiposity distribution (e.g., DEXA, MRI), 20 studies on biomarkers measured in urine or other excreted matrices (i.e., saliva, urine, breast ductal lavage), and 25 tissue-based studies (e.g., adipose, breast, endometrial, skin). Weight loss was associated with a reduction of total and free testosterone, and an increase in sex hormone binding globulin (SHBG). While no significant associations were found between weight loss and premenopausal estradiol, dehydroepiandrosterone sulfate, and androstenedione. De",
      "authors": "Kebede, M. M.; Spahits, H.; Dutta, S.; Turzanski Fortner, R.; Le Cornet, C."
+    },
+    {
+     "title": "Parents' neural dynamics in response to their children's speech",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.25.754219",
+     "doi": "10.64898/2026.09.25.754219",
+     "published": "2026-09-26",
+     "importance": 5.0,
+     "abstract": "The development of speech in human children is a protracted process that depends on social experience. From early life, young children produce vocalizations in the presence of others, which affords unique opportunities for feedback about how to communicate successfully. However, for feedback to happen, young childrens speech needs to effect change in the brains of their caregivers. Using dual-brain functional near-infrared spectroscopy (fNIRS) to measure real-time communication between caregivers and their 2- to 3-year-old children (n = 56), we found that children's vocalizations selectively modulated caregivers' brain activity. Parents' brains showed a rapid response to children's production of speech that was communicatively advanced (multiword utterances) vs. less advanced (babble). The findings imply that if part of learning to talk is figuring out how to get your communication partner to listen, then early conversations likely present continuous opportunities for feedback that guide children toward advances in spoken language.",
+     "authors": "Elmlinger, S.; Rosenberg, E.; Jaffe-Dax, S.; Nencheva, M. L.; Lee, C.; Kosie, J. E.; Lew-Williams, C."
+    },
+    {
+     "title": "Impaired cortical encoding of prosodic prominence in single multisyllabic words for adults with dyslexia",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.09.25.754341",
+     "doi": "10.64898/2026.09.25.754341",
+     "published": "2026-09-26",
+     "importance": 5.0,
+     "abstract": "Developmental dyslexia is associated with impaired cortical tracking of continuous speech and difficulties in perceiving within-word prosodic structure in children and adults. For adults and continuous speech, both low-frequency delta- and theta-band impairments and high-frequency gamma- and beta-band differences are found. To date, perceptual difficulties with intra-word prosody have not been studied in direct relation to neural speech encoding. Here neurotypical adults and adults with dyslexia listened to multisyllabic words. EEG was recorded, and cortical encoding was quantified using temporal response function (TRF) modelling. Four speech representations were explored: lexical stress pattern (intra-word prosodic prominence), the low-frequency speech envelope, word onsets and syllable onsets. Adults with dyslexia showed significantly reduced encoding of intra-word prosodic prominence (delta band) and of the speech envelope (delta and theta bands). In contrast, encoding of word and syllable onsets was preserved. Pinpointing delta-band cortical tracking as central to encoding intra-word prosodic prominence opens new avenues for research.",
+     "authors": "Keshavarzi, M.; Moore, B. C. J.; Goswami, U."
+    },
+    {
+     "title": "The cerebellum specializes for language even in the absence of contralateral neocortical inputs",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.08.19.745757",
+     "doi": "10.64898/2026.08.19.745757",
+     "published": "2026-09-26",
+     "importance": 5.0,
+     "abstract": "Long considered a structure dedicated primarily to motor control, the cerebellum is now known to contain regions that respond selectively to language. However, how cerebellar language specialization emerges during development remains unknown. The prevailing proposal is that cerebellar functional specialization critically depends on inputs from the contralateral neocortex, received through well-established reciprocal cortico-cerebellar connections. Here, we test this proposal in two individuals with atypical brain development: EG, a right-handed woman who lacks most of her left temporal lobe (presumably from birth) and whose neocortical language network resides in her right hemisphere, and C1, an individual missing the entire left cerebral hemisphere from birth. Using precision functional MRI in EG and a cohort of 74 typically-developing adults, we find that EG's cerebellar language network shows a strong left-hemispheric bias, mirroring the atypical lateralization of language in her cerebral cortex, while preserving canonical topography and response profiles of the language-dominant cerebellar regions. Critically, however, EG's right cerebellar hemisphere also responds to language ",
+     "authors": "Wang, B.; Tuckute, G.; Kean, H.; Asaridou, S. S.; Goldin-Meadow, S.; Levine, S. C.; Fedorenko, E.; D'Mello, A. M."
+    },
+    {
+     "title": "Physiological robustness of MScanFit to simulated motor unit loss and remodelling",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.08.28.747933",
+     "doi": "10.64898/2026.08.28.747933",
+     "published": "2026-09-26",
+     "importance": 5.0,
+     "abstract": "Introduction: MScanFit estimates motor unit number and size from compound muscle action potential (CMAP) scans, but its accuracy may depend on the physiological processes that shape motor unit loss and remodelling. We reproduced the general dynamic remodelling framework used in the original MScanFit simulation and expanded it to test MScanFit robustness across physiologically heterogeneous conditions. Methods: Generative computational models simulated CMAP scans from motor unit pools undergoing progressive loss from 160 to 5 surviving motor units. Twelve remodelling conditions combined denervation pattern (random or selective), reinnervation method (random, distributive, or size-weighted), and neuromuscular resilience (20% or 60%); two additional conditions modelled denervation without collateral reinnervation. MScanFit estimates were compared with the known motor unit numbers and mean motor unit sizes used to generate each scan. Results: MScanFit reproduced the principal behaviour reported in the original simulation and generally tracked progressive motor unit loss across heterogeneous remodelling conditions. However, motor unit number estimation (MUNE) error changed systematicall",
+     "authors": "Ahmed, D.; Almokdad, M.; Jones, K. E."
+    },
+    {
+     "title": "Gaps in archaeological metadata reporting: a meta-analysis of human paleogenomic studies in Western Eurasia",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.1101/2025.07.16.665041",
+     "doi": "10.1101/2025.07.16.665041",
+     "published": "2026-09-26",
+     "importance": 5.0,
+     "abstract": "Paleogenomic research has dramatically increased our understanding of past demographic and adaptive processes, but has also been criticized for a perceived disconnect between geneticists and other parties involved in the study of the past. For interdisciplinary research to be productive, contextual metadata associated with paleogenomic samples should be accessible in the same publication. Here, we conduct a pilot study examining the extent of archaeological metadata reporting in 30 peer-reviewed human paleogenomic studies, based on genetic sequences from 3911 ancient humans predominately from Western Eurasia, published between 2013 and 2024. We show inconsistent reporting of archaeological data across studies, and have sought to identify the driving factors. Overall, we found no strong explanatory variables, though some metadata fields - like Geolocation - have improved in completeness over time. These inconsistencies mean that metadata reporting is often insufficient to directly investigate the relationship between patterns of cultural and genetic change on the basis of published data alone. We propose a minimum information checklist as a best-practice guideline for collecting and",
+     "authors": "Staniuk, R.; Lee, V. Y. K.; Timpson, A.; Kristiansen, K.; Shennan, S.; Racimo, F.; Thomas, M. G."
+    },
+    {
+     "title": "Torsion in motion: the visual system as a three-axis gimbal",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "bioRxiv",
+     "tier": "preprint",
+     "field": "生命科学",
+     "url": "https://doi.org/10.64898/2026.08.09.743586",
+     "doi": "10.64898/2026.08.09.743586",
+     "published": "2026-09-26",
+     "importance": 5.0,
+     "abstract": "Rigorously tracking eye and head behavior in space is key to building realistic models of the stimulus that reaches our retina. The motion structure of this stimulus or retinal flow - the substrate for self-motion processing - is created by the relative movement of the eyes with respect to the world. Characterizing this stimulus requires tracking the eye's three degrees of freedom in the head and the head's six degrees of freedom in the world. While vertical and horizontal eye rotations have been described during locomotion in the context of gaze stabilization, the component around the line of sight - torsion - has remained difficult to quantify, and how all three rotational components jointly contribute to retinal flow during self-motion remains largely unexplored. Here, we leveraged head-mounted technology to estimate eye torsion in ten subjects as they walked towards a distant target (from 14 to 4 meters away from the target). More specifically, we combined automatic feature tracking with gaze-constrained simulations of eye rotations and camera projection to recover torsion from image data. We then estimated the curl present in the optic-flow field in head and retina centered fr",
+     "authors": "Mendez, A. H.; Otero-Millan, J.; de la Malla, C.; Lopez-Moliner, J."
+    },
+    {
+     "title": "Spatial Accessibility to Hospital Capacity and the Concentration of Health-System Contributions in New Jersey",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.02.26362067",
+     "doi": "10.64898/2026.09.02.26362067",
+     "published": "2026-09-26",
+     "importance": 5.0,
+     "abstract": "Background: Hospital consolidation increasingly places multiple hospitals under common system control. However, spatial accessibility estimates alone do not indicate whether that accessibility is distributed across many health systems or concentrated within a few. Methods: We used the enhanced two-step floating catchment area (E2SFCA) method to estimate tract-level spatial accessibility to staffed beds at general hospitals reachable within 30 minutes by car. For tracts with positive E2SFCA scores, we aggregated hospital contributions by health system and calculated a Herfindahl-Hirschman Index (HHI) from each system's share of the tract's total E2SFCA score. We used Spearman rank correlations to examine associations with tract-level sociodemographic characteristics. Results: Of 163 reachable hospitals, 94 were outside New Jersey and accounted for 62.7% of staffed beds among these hospitals. Across 2,172 tracts, mean and median E2SFCA scores were 1.98 and 1.99 staffed hospital beds per 1,000 population, respectively. Among 2,161 tracts with positive E2SFCA scores, mean and median HHI values were 0.36 and 0.31. Using 2.0 for E2SFCA and 0.18 for HHI as descriptive reference values, 93",
+     "authors": "Zheng, Y."
     }
    ]
   },
@@ -2170,8 +3193,8 @@
     },
     {
      "title": "Direct Pan-Cancer Multi-Omic Analysis of Radiotherapy Response Reveals Coding and Regulatory Genomic Variation, and Extracellular Adaptive Programs Underlying Radioresistance",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "放疗反应的全癌种多组学分析揭示放射抗性机制",
+     "summary_zh": "放射抗性是有效放疗的主要障碍，其分子决定因素尚不完全明确。本研究分析了1,445名接受放疗的患者的基因组、转录组、免疫和临床特征，涵盖15种癌症类型，并记录了放疗结果。癌症类型特异的体细胞关联分析识别出132个显著候选变异，涉及六种癌症类型，包括TCF20、PTPN14和CADM1的三个未注释编码变异。功能注释显示，放射抗性肿瘤富含细胞质、蛋白质相关和代谢功能，而放射敏感肿瘤则富含核调控程序。转录组分析发现8种癌症类型中有107个差异表达基因，富含细胞外信号、分泌程序和肿瘤微环境相互作用。基因组和转录组分析揭示了有限的基因重叠，但在细胞适应和生存方面趋于一致。研究结果表明，放射抗性特征由互补的适应过程构成。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -2184,8 +3207,8 @@
     },
     {
      "title": "Maternal immune gene expression trajectories and dynamic genetic regulation throughout pregnancy",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "妊娠期间母体免疫基因表达轨迹及动态遗传调控",
+     "summary_zh": "妊娠期间，母体免疫系统经历显著变化，以同时容忍胎儿并保护母婴免受感染。本文研究了1,305名初产妇在妊娠12、20、28和36周的全血转录组（共3,776个样本），揭示母体免疫系统在早期妊娠（12至20周）经历了最显著的重塑。共表达基因模块显示，早期阶段免疫主导程序高度活跃，随后向细胞和代谢活动增加转变，反映了母体对生理需求增加的适应。通过顺式表达数量性状基因组（cis-eQTL）映射发现，随着妊娠进展，遗传调控效应逐渐偏离非妊娠状态。与全基因组关联研究（GWAS）共定位的结果揭示了与妊娠并发症遗传易感性相关的潜在机制，其中58%的共定位结果可被检测到。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "生命科学",
@@ -2198,8 +3221,8 @@
     },
     {
      "title": "Cost-effectiveness of a package to ensure safe prescription of 7-day high-dose primaquine for the radical cure of Plasmodium vivax in Indonesia",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "印尼高剂量青蒿素安全处方的成本效益分析",
+     "summary_zh": "根治恶性疟原虫（Plasmodium vivax）需治疗潜伏的肝脏阶段，使用青蒿素或他芬喹，但在葡萄糖-6-磷酸脱氢酶（G6PD）缺乏患者中存在严重溶血风险。为支持印尼安全根治，设计了新青蒿素治疗（NPT）方案，包括G6PD筛查、高剂量青蒿素治疗和早期临床评估。构建了决策树模型，基于个体数据，按照G6PD活性对患者进行7mg/kg青蒿素治疗：正常G6PD个体7天，G6PD中度缺乏者14天，严重缺乏者8周。模型考虑了成本、不良事件及P. vivax复发情况，时间范围为六个月。与印尼历史P. vivax复发数据比较，主要结果为避免的残疾调整生命年（DALYs）。从卫生系统和社会角度分析成本，并与印尼健康技术评估推荐的支付意愿阈值进行比较。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -2212,8 +3235,8 @@
     },
     {
      "title": "The Potential Public Health Benefit of mRNA-1010 for Influenza Among Older Adults >=65 Years in the United States",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "mRNA-1010在65岁及以上老年人流感中的潜在公共卫生益处",
+     "summary_zh": "背景/目标：老年人面临流感相关重症和并发症的高风险。当前推荐的高剂量灭活疫苗（HD-IIV）为基于鸡蛋的疫苗，可能受到鸡蛋适应性突变的影响。mRNA-1010是一种已获美国食品药品监督管理局批准的流感mRNA疫苗。本文分析了mRNA-1010与HD-IIV在65岁及以上人群中的临床影响。方法：本研究使用决策分析模型预测每种疫苗在一年内的流感负担。疫苗覆盖率、HD-IIV疫苗有效性（VE）及流感流行病学数据基于疾病控制与预防中心的数据。mRNA-1010与HD-IIV的相对有效性（rVE）基于临床试验和文献数据进行建模。结果：基线分析表明，与HD-IIV相比，mRNA-1010可能额外预防232,200例流感症状感染、130,000例门诊病例、21,100例流感相关住院和2,200例流感相关死亡。预防一例住院所需接种人数为514（mRNA-1010对比无疫苗）和404（HD-IIV对比无疫苗）。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -2226,8 +3249,8 @@
     },
     {
      "title": "Validity Gates Expose Limits of Longitudinal Multimodal Parkinson Disease Prediction",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "有效性门限揭示纵向多模态帕金森病预测的局限性",
+     "summary_zh": "多模态帕金森病模型可以在内部改进，但掩盖了患者差异的原因及其可部署性。我们分析了1,058名帕金森进展标志倡议参与者的临床轨迹、生物来源、观察过程以及相对年龄加权的多种证据，包括多巴胺能、损伤/胶质、认知共病和溶酶体负担，共计5,404个切点。DaT-SPECT和MoCA历史产生了小幅的12个月运动变化增益（Delta R^2=0.015；delta MAE=-0.060），未满足预设的幅度和严格日历标准。连续证据保留了重叠支持，但未显示超出原始来源的可检测预测增量。源感知区间实现了90.6%的参与者覆盖率，但未能进行选择性预测，结果为ABSTAIN。在8,000个半合成实验中，该门限将无效推广限制在0.35%，检测到泄漏并阻止了94.75%的日历反转；PDBP临床转运和多模态资格未能实现。该框架揭示了状态支持、过时或缺失的证据，以及不合理的预后、不确定性或转运主张。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -32544,27 +33567,27 @@
  },
  "monthly": {
   "2026-09": {
-   "count": 15107,
+   "count": 15179,
    "by_field": {
     "AI计算机": 5820,
     "物理天文": 2051,
-    "医学健康": 1898,
+    "医学健康": 1929,
     "数学基础理论": 1695,
-    "化学材料": 1540,
-    "生命科学": 955,
-    "神经认知": 515,
+    "化学材料": 1541,
+    "生命科学": 990,
+    "神经认知": 520,
     "地球气候": 346,
     "未分类": 287
    },
    "by_tier": {
-    "mainstream": 796,
+    "mainstream": 801,
     "alt": 2385,
-    "preprint": 11926
+    "preprint": 11993
    },
    "topics": [
     [
      "learning",
-     1026
+     1027
     ],
     [
      "quantum",
@@ -32572,55 +33595,55 @@
     ],
     [
      "language",
-     480
+     484
     ],
     [
      "framework",
-     460
+     463
     ],
     [
      "detection",
-     326
+     327
     ],
     [
      "agents",
      302
     ],
     [
+     "large",
+     295
+    ],
+    [
      "evaluation",
      295
     ],
     [
-     "large",
-     294
+     "neural",
+     290
     ],
     [
-     "neural",
-     289
+     "prediction",
+     279
     ],
     [
      "optimization",
      279
     ],
     [
-     "prediction",
-     278
+     "dynamics",
+     271
     ],
     [
-     "dynamics",
-     268
+     "control",
+     253
     ],
     [
      "generation",
      253
     ],
     [
-     "control",
-     252
-    ],
-    [
      "across",
-     249
+     251
     ]
    ],
    "top_items": [
@@ -34088,15 +35111,15 @@
  },
  "yearly": {
   "2026": {
-   "count": 15262,
+   "count": 15334,
    "by_field": {
     "AI计算机": 5825,
     "物理天文": 2052,
-    "医学健康": 1946,
+    "医学健康": 1977,
     "数学基础理论": 1695,
-    "化学材料": 1542,
-    "生命科学": 1022,
-    "神经认知": 536,
+    "化学材料": 1543,
+    "生命科学": 1057,
+    "神经认知": 541,
     "地球气候": 353,
     "未分类": 291
    },
@@ -34106,22 +35129,22 @@
     "MDPI": 1998,
     "arXiv:quant-ph": 1375,
     "arXiv:cs.CL": 969,
-    "medRxiv": 796,
+    "medRxiv": 822,
     "chemRxiv": 770,
     "arXiv:math.PR": 640,
     "arXiv:math.NT": 504,
     "arXiv:cond-mat.mtrl-sci": 477,
     "arXiv:astro-ph.GA": 472,
+    "bioRxiv": 430,
     "arXiv:stat.ME": 391,
-    "bioRxiv": 389,
     "PLOS ONE": 305,
     "PNAS": 276,
     "Nature": 257,
     "eLife": 140,
     "arXiv:physics.chem-ph": 124,
     "JAMA": 105,
+    "NEJM": 91,
     "Lancet": 89,
-    "NEJM": 86,
     "arXiv:physics.ao-ph": 58,
     "arXiv:q-bio.NC": 42,
     "arXiv:physics.geo-ph": 41,
@@ -34140,24 +35163,24 @@
     "医学健康": {
      "2026-07": 2,
      "2026-08": 46,
-     "2026-09": 1898
+     "2026-09": 1929
     },
     "数学基础理论": {
      "2026-09": 1695
     },
     "化学材料": {
      "2026-08": 2,
-     "2026-09": 1540
+     "2026-09": 1541
     },
     "生命科学": {
      "2026-07": 8,
      "2026-08": 59,
-     "2026-09": 955
+     "2026-09": 990
     },
     "神经认知": {
      "2026-07": 1,
      "2026-08": 20,
-     "2026-09": 515
+     "2026-09": 520
     },
     "地球气候": {
      "2026-08": 7,
@@ -34171,7 +35194,7 @@
    "topics": [
     [
      "learning",
-     1026
+     1027
     ],
     [
      "quantum",
@@ -34179,51 +35202,51 @@
     ],
     [
      "language",
-     483
+     487
     ],
     [
      "framework",
-     460
+     463
     ],
     [
      "detection",
-     327
+     328
     ],
     [
      "agents",
      302
     ],
     [
+     "large",
+     295
+    ],
+    [
      "evaluation",
      295
     ],
     [
-     "large",
-     294
+     "neural",
+     292
     ],
     [
-     "neural",
-     291
+     "prediction",
+     279
     ],
     [
      "optimization",
      279
     ],
     [
-     "prediction",
-     278
-    ],
-    [
      "dynamics",
-     270
-    ],
-    [
-     "control",
-     254
+     273
     ],
     [
      "across",
-     253
+     255
+    ],
+    [
+     "control",
+     255
     ],
     [
      "generation",
@@ -34231,7 +35254,7 @@
     ],
     [
      "clinical",
-     234
+     238
     ],
     [
      "reasoning",
@@ -34247,7 +35270,7 @@
     ],
     [
      "evidence",
-     221
+     222
     ],
     [
      "networks",
@@ -34259,7 +35282,7 @@
     ],
     [
      "review",
-     215
+     217
     ],
     [
      "beyond",
