@@ -244,6 +244,12 @@ def verify_attribution(row: dict) -> tuple[bool, str]:
     return True, "仅 ORCID 命中，建议人工抽查"
 
 
+# 扩源渠道名（sources_extra / sources_podcast 产出），用于把历史条目带进当日快照
+#   ★ 播客也必须在这里：第 3 步按人替换当日条目，不带进来的话第 3b 步追加的播客言论
+#     在同日重跑或次日第 3 步时会被冲掉。
+NEWS_CHANNELS = {"媒体采访", "署名文章", "播客"}
+
+
 def main() -> int:
     only_field = sys.argv[1] if len(sys.argv) > 1 else None
     roster = json.loads(ROSTER.read_text(encoding="utf-8"))
@@ -254,11 +260,46 @@ def main() -> int:
           + (f"（门类 {only_field}）" if only_field else "") + "\n")
 
     all_rows, rejected = [], []
+    # ★ 扩源（Chao 2026-09-25 批「接」）：媒体采访/署名文章，四道闸（全名/同人/原话/论点方向）。
+    #   单人失败只警告，不掀翻整轮；SK_NO_NEWS=1 可关闭（排障用）。
+    use_news = os.environ.get("SK_NO_NEWS") != "1"
+    sx = None
+    known_urls: set = set()
+    # ★ 历史新闻条目必须带进当日快照：日文件是「全量快照」，而下面合并时对每个人
+    #   用本轮结果替换旧条目；新闻源只返回没见过的链接（省 LLM）。不带进来的话，
+    #   昨天抓到的新闻言论今天就从快照里消失，同日重跑也会丢。
+    prior_news: dict = {}
+    for f in sorted(OUT_DIR.glob("*.json")):
+        try:
+            rows_f = json.loads(f.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        for x in rows_f:
+            known_urls.add(x.get("url"))
+            if x.get("channel") in NEWS_CHANNELS and x.get("url"):
+                prior_news.setdefault(x.get("person_id"), {})[x["url"]] = x
+    if use_news:
+        try:
+            import sources_extra as sx
+        except Exception as e:  # noqa: BLE001
+            print(f"[WARN] 扩源模块加载失败，本轮只跑原两路：{e}")
+            use_news = False
+    n_news = 0
     for i, p in enumerate(people, 1):
         rows = europepmc_statements(p)
         time.sleep(1.0)
         rows += the_conversation_statements(p)
         time.sleep(1.0)
+        news_rows = []
+        if use_news and sx is not None:
+            try:
+                news_rows, news_rej = sx.news_quote_statements(p, days=60, known_urls=known_urls)
+                rejected.extend(news_rej)
+            except Exception as e:  # noqa: BLE001
+                print(f"  [WARN] {p.get('name_en')} 新闻源异常，跳过：{e}")
+        n_fresh = len(news_rows)
+        fresh_urls = {r["url"] for r in news_rows}
+        news_rows += [r for u, r in prior_news.get(p["id"], {}).items() if u not in fresh_urls]
 
         kept = []
         for r in rows:
@@ -270,10 +311,14 @@ def main() -> int:
         for r in kept:
             _, note = verify_attribution(r)
             r["attribution_note"] = note
+        # 新闻源已过四道闸，不再走 EuropePMC 的正文门槛
+        kept.extend(news_rows)
+        n_news += n_fresh
         all_rows.extend(kept)
         oc = "ORCID" if p.get("orcid") else "姓名"
         print(f"  {i:2d}. {p.get('name_en', '')[:26]:28s} {len(kept):3d} 条 "
-              f"({oc}锚) 剔除 {len(rows) - len(kept)}")
+              f"({oc}锚) 剔除 {len(rows) - (len(kept) - len(news_rows))}"
+              + (f"｜新闻新增 +{n_fresh}" if n_fresh else ""), flush=True)
 
     # 去重（同 DOI / 同 URL）
     seen, uniq = set(), []
@@ -316,6 +361,7 @@ def main() -> int:
                         encoding="utf-8")
 
     hi = sum(1 for r in uniq if r["attribution_confidence"] == "high")
+    print(f"新闻源本轮新增 {n_news} 条" + ("" if use_news else "（新闻源未启用）"))
     print(f"\n本轮 {len(uniq)} 条（高置信 {hi}，低置信 {len(uniq) - hi}）"
           f" + 保留其他门类 {kept_other} 条 = 当日 {len(final)} 条")
     print(f"剔除 {len(rejected)} 条（已留痕 {REJECTED.name}）")
