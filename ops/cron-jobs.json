@@ -1,0 +1,57 @@
+[
+  {
+    "name": "science-kol-daily",
+    "schedule_cron": "45 6 * * *",
+    "no_agent": true,
+    "script": "science_kol_daily.sh",
+    "model": null,
+    "provider": null,
+    "workdir": null,
+    "deliver": "origin",
+    "enabled_toolsets": null,
+    "skills": [],
+    "prompt": null
+  },
+  {
+    "name": "science-kol-selfheal",
+    "schedule_cron": "25 * * * *",
+    "no_agent": true,
+    "script": "science_kol_selfheal.sh",
+    "model": null,
+    "provider": null,
+    "workdir": null,
+    "deliver": "origin",
+    "enabled_toolsets": null,
+    "skills": [],
+    "prompt": null
+  },
+  {
+    "name": "science-kol-context-distill",
+    "schedule_cron": "40 5 * * *",
+    "no_agent": false,
+    "script": "collect_topic_conversation.py",
+    "model": "claude-sonnet-5-5",
+    "provider": "custom",
+    "workdir": "<PROJECT_ROOT>",
+    "deliver": "local",
+    "enabled_toolsets": [
+      "file",
+      "terminal"
+    ],
+    "skills": [],
+    "prompt": "你是 Science-KOL 项目的上下文归档器。上方注入的是过去约一天里 Telegram 上的真实人机对话原文（已过滤子任务噪音）。\n\n如果对话内容是 \"NO_NEW_CONTENT\" 开头，说明今天没有新对话，直接回复 [SILENT]，不要做任何事。\n\n否则：把今天关于 Science-KOL 的对话压缩成结构化归档，追加写入 <PROJECT_ROOT>/docs/context-log.md，格式：\n\n## YYYY-MM-DD\n### 决策\n（Chao 拍板的口径/规则，逐字保留他的原话要点）\n### 做了什么\n（实际完成的工作与真实数字）\n### 踩坑与教训\n（遇到的问题、真因、修法）\n### 待办\n（未完成事项）\n\n规则：\n- 只记真实发生的事，不臆造\n- 数字必须来自对话中的真实输出\n- 写完回复一行确认即可，不要复述全文\n\n写完后 git 不用 push。"
+  },
+  {
+    "name": "science-kol-digest",
+    "schedule_cron": "0 9 * * *",
+    "no_agent": true,
+    "script": "science_kol_digest.py",
+    "model": null,
+    "provider": null,
+    "workdir": null,
+    "deliver": "origin",
+    "enabled_toolsets": null,
+    "skills": [],
+    "prompt": null
+  }
+]
