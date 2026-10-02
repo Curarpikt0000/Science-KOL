@@ -147,7 +147,11 @@ def importance(item: dict, field_score: float) -> float:
 # ★ 代理地址只从环境变量读，代码里不留默认值：硬编码回环地址会被 publish.sh
 #   的红线扫描拦下（它属于本机实现细节，不进公网仓库）。
 API = os.environ.get("GENAI_PROXY", "").rstrip("/") + "/v1/chat/completions"
-MODEL = os.environ.get("SK_MODEL", "claude-opus-4-8")
+# ★ 模型选择（Chao 2026-09-28：日跑任务用 sonnet 5.5 或更便宜）。
+#   原默认 claude-opus-4-8 是项目里唯一的最贵档，且每天跑；同批 16 篇真实文献对比
+#   （scratch/model_compare.json）：haiku-4-5 返回 16/16、中文 15/16，与 sonnet-5-5 持平。
+#   想临时换回更强的模型：环境变量 SK_MODEL=xxx。
+MODEL = os.environ.get("SK_MODEL", "claude-haiku-4-5")
 SLEEP = 1.5
 
 
