@@ -1,6 +1,6 @@
 {
  "_ssot": "data/kol_registry.json",
- "count": 126,
+ "count": 127,
  "people": [
   {
    "id": "dean_radin",
@@ -6914,6 +6914,36 @@
    "rating_pct": 15.1,
    "removal_reason": "近 18 个月无可追踪的观点型发表（已用与抓取脚本相同的查询复核，非抓取遗漏）",
    "removed_on": "2026-09-14"
+  },
+  {
+   "id": "kirk_sorensen",
+   "name_zh": "柯克·索伦森",
+   "name_en": "Kirk Sorensen",
+   "field": "物理天文",
+   "bio": "Flibe Energy 创始人，现任总裁兼董事长，同时任首席技术官（官网头衔 President & Chairman / Chief Technologist）；2011 年创办 Flibe，主导液态氟化物钍反应堆（LFTR）研发；2000-2010 年任 NASA 马歇尔太空飞行中心工程师，2010 年任 Teledyne Brown Engineering 首席核技术专家；2006 年创办 energyfromthorium.com，并创造 LFTR 这一术语；犹他州立大学机械工程学士，佐治亚理工航空航天工程硕士，田纳西大学诺克斯维尔分校核工程硕士（论文研究曼哈顿计划时期的钍技术）；两场 TEDx 演讲。门类说明：Science-KOL 无「能源/核能」门类，物理天文为最近邻（核反应堆物理）。用户转述「Flibe Energy 总裁兼首席技术官」与官网一致（官网另写 Chairman）。",
+   "affiliation": "Flibe Energy（总裁兼董事长、首席技术官）",
+   "affiliation_verified": true,
+   "country": "US",
+   "alive": true,
+   "active": true,
+   "origin": "manual-chao-2026-10-02",
+   "origin_note": "Chao 2026-10-02 转发《訪談精華》钍反应堆访谈简介后要求加入；批准归物理天文",
+   "official_url": "https://flibe-energy.com/company",
+   "search_terms": [
+    "Kirk Sorensen"
+   ],
+   "sources": "https://flibe-energy.com/company | https://en.wikipedia.org/wiki/Liquid_fluoride_thorium_reactor（Flibe Energy 段）",
+   "score_A": null,
+   "score_B": null,
+   "score_C": null,
+   "score_D": null,
+   "weighted_score": null,
+   "rating": null,
+   "rating_pct": null,
+   "rating_reason": "无 ORCID；OpenAlex 仅 h=7、30 篇、被引 143，学术指标不适用于企业创始人型倡导者，故四维评分留空，不硬套公式。Wikipedia 无独立词条（重定向到 LFTR 条目）。",
+   "controversies": "",
+   "statements": [],
+   "added_on": "2026-10-02"
   }
  ],
  "_migrated_from_fc": {
@@ -6921,5 +6951,5 @@
   "count": 10,
   "note": "只复制未删除；FC 侧摘除需 Chao 单独确认"
  },
- "active_count": 122
+ "active_count": 54
 }

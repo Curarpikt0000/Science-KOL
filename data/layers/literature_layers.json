@@ -1,7 +1,7 @@
 {
  "_meta": {
-  "built_at": "2026-10-03",
-  "total": 25894,
+  "built_at": "2026-10-04",
+  "total": 25916,
   "undated": 302,
   "days": 66,
   "months": 4,
@@ -9,18 +9,20 @@
  },
  "daily": {
   "2026-10-03": {
-   "count": 14,
+   "count": 20,
    "by_field": {
-    "医学健康": 14
+    "医学健康": 19,
+    "神经认知": 1
    },
    "by_tier": {
-    "mainstream": 14
+    "mainstream": 14,
+    "preprint": 6
    },
    "items": [
     {
      "title": "[Editorial] Peripheral arterial disease: counting what matters",
-     "title_zh": "",
-     "summary_zh": "指出外周动脉疾病是全身性动脉粥样硬化表现，易被误诊为衰老或肌肉骨骼病，强调其系统性健康威胁而非局部腿部疾病。",
+     "title_zh": "外周动脉疾病：关注重要指标",
+     "summary_zh": "外周动脉疾病是由动脉粥样硬化引起的，影响四肢供血，通常被视为局部腿部疾病，尤其在无症状时被认为相对良性。然而，这种看法并不准确。外周动脉疾病实际上是全身性动脉粥样硬化的表现。当症状出现时，常常被归因于衰老或肌肉骨骼疾病，只有少数患者报告经典的间歇性跛行——运动引起的腿部疼痛在休息时缓解，这是临床医生被教导要关注的症状。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -33,8 +35,8 @@
     },
     {
      "title": "[Comment] Combining immunotherapy with stereotactic body radiation therapy in localised non-small-cell lung cancer",
-     "title_zh": "",
-     "summary_zh": "评析S1914试验结果：阿特珠单抗联合立体定向放疗对高危不可手术早期非小细胞肺癌患者的总生存期改善效果。",
+     "title_zh": "免疫治疗与立体定向体部放疗联合治疗局部非小细胞肺癌的研究",
+     "summary_zh": "在过去十年中，放疗与免疫治疗的结合成为全球研究的重点。Megan E Daly及其同事在《柳叶刀》上发表的3期随机临床试验（SWOG/NRG S1914）评估了在美国进行的研究，探讨了在高风险、医学上无法手术的早期非小细胞肺癌（NSCLC）患者中，围手术期使用阿特珠单抗（新辅助、同步及辅助）联合立体定向体部放疗（SBRT）是否能改善治疗效果。主要目标是比较接受阿特珠单抗加SBRT（n=210）与单独SBRT（n=207）患者的总体生存率。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -47,8 +49,8 @@
     },
     {
      "title": "[Department of Error] Department of Error",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "靶向MEK在癌症治疗中的机制与机会",
+     "summary_zh": "Chan WY等研究了靶向MEK在癌症及其他领域的应用。在NEMO试验中，binimetinib组的客观反应率应为15%（95% CI：11–20），而Combi-v试验中，trametinib + dabrafenib组的客观反应率应为64%（95% CI：59–69）。NEMO试验中，binimetinib组的中位无进展生存期应为2.8个月（95% CI：2.8–3.6），而dacarbazine组为1.5个月（95% CI：1.5–1.7）。这些数据为MEK靶向治疗提供了重要的机制洞察和治疗机会。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -61,8 +63,8 @@
     },
     {
      "title": "[Comment] Offline: Can time be tamed?",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "人工智能是否能被驯服？",
+     "summary_zh": "安全科学家Evan Hubinger在社交媒体上发布了一个引人注目的预言，称人工智能在未来十年内杀死所有人类的可能性超过10%。医学作为一门学科，对预言有一定的了解。医生通过学习疾病的自然史来指导患者应对疾病的可能发展。临床研究者则通过随机试验来评估所开处方的治疗的安全性和有效性。这一讨论引发了对人工智能潜在风险的关注，强调了在技术快速发展的背景下，科学界对未来的预判和应对策略的重要性。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -75,8 +77,8 @@
     },
     {
      "title": "[Correspondence] Cardiometabolic disease: the role of internal medicine",
-     "title_zh": "",
-     "summary_zh": "心脏代谢疾病患者同时患有肥胖、糖尿病、慢性肾病等多种疾病，但分别就诊多个专科，接收不同指南建议，尽管存在共同生物学途径。",
+     "title_zh": "心脏代谢疾病：内科的角色",
+     "summary_zh": "兰塞特的社论指出，心脏代谢疾病在临床实践中日益成为挑战：肥胖、2型糖尿病、慢性肾病、代谢功能障碍相关脂肪肝病和心血管疾病的患者常常需要就诊多个专科门诊，并根据不同的指南接受建议，尽管这些疾病之间存在共同的生物学途径和治疗方法。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -89,8 +91,8 @@
     },
     {
      "title": "[Correspondence] Distinguishing AYA oncology from early-onset cancer",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "区分青少年及年轻成人肿瘤学与早发癌症",
+     "summary_zh": "我们欢迎《柳叶刀》的社论，强调年轻人中癌症负担的上升。然而，青少年及年轻成人（AYA）肿瘤学与早发癌症应有所区分：这两个概念虽然有重叠，但并不完全相同。青少年及年轻成人肿瘤学专注于特定年龄段的癌症，而早发癌症则涵盖更广泛的早期发病情况。明确这一区分有助于更好地理解和应对不同人群的癌症挑战。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -103,8 +105,8 @@
     },
     {
      "title": "[Perspectives] Surviving a migration journey and border policies in the central Mediterranean",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "中地中海迁徙旅程与边境政策的生存现状",
+     "summary_zh": "本研究关注非政府组织“开放之翼”在中地中海的救援行动。该组织在其第129次救援任务中，在意大利的搜救区内进行了两次救援行动，成功将101人带至安全地带。然而，意大利当局指定的下船港口要求救援船航行数天至北意大利的港口，导致救援人员在海上等待超过700 nautical miles to the port of Savona transformed the deck of the Open Arms from an emergency scene into a place。此现象反映了当前边境政策对难民救助的影响。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -117,8 +119,8 @@
     },
     {
      "title": "[Correspondence] Advances in primary sclerosing cholangitis care – Authors' reply",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "初级硬化性胆管炎治疗进展的作者回复",
+     "summary_zh": "我们感谢Kevin M Johnson及其同事关于口服万古霉素在初级硬化性胆管炎中的信件。我们承认，目前的证据尚未明确显示在接受口服万古霉素的初级硬化性胆管炎患者中，万古霉素耐药肠球菌的发生率增加，尽管在所有研究中并未系统评估万古霉素耐药肠球菌。然而，我们认为核心问题超出了万古霉素耐药肠球菌的范畴。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -131,8 +133,8 @@
     },
     {
      "title": "[Correspondence] Advances in primary sclerosing cholangitis care",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "原发性硬化性胆管炎护理的进展",
+     "summary_zh": "我们欢迎Erik von Seth及其同事对研讨会的更正，明确指出在接受口服万古霉素治疗的原发性硬化性胆管炎患者的已发表研究中未发现耐万古霉素肠球菌。研讨会中最初报告的发生率为8.7%，现已更正为0%。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -145,8 +147,8 @@
     },
     {
      "title": "[Department of Error] Department of Error",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "Gavi疫苗联盟在117国的健康影响量化研究",
+     "summary_zh": "本研究由Gaythorpe KAM等人进行，旨在量化Gavi疫苗联盟在117个国家的健康影响，采用建模方法分析各亚地区的健康数据。研究发现，Gavi的疫苗接种项目显著降低了疫苗可预防疾病的发病率，提升了整体公共健康水平。通过对不同国家和地区的比较，研究揭示了疫苗接种对健康结果的相对影响，为未来的公共卫生政策提供了重要依据。研究结果强调了持续投资疫苗项目的重要性，以进一步改善全球健康。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -159,8 +161,8 @@
     },
     {
      "title": "[World Report] NHS campaigners target Palantir",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "NHS活动人士针对Palantir的行动日",
+     "summary_zh": "随着对英国国家医疗服务体系（NHS）与科技公司Palantir之间合同的担忧加剧，活动人士举行了一天的行动。抗议者们表达了对数据隐私和透明度的关注，认为Palantir的技术可能对患者信息安全构成威胁。活动的目的是提高公众对这一问题的认识，并呼吁政府重新审视与Palantir的合作关系。此次行动吸引了大量支持者，强调了在数字健康时代保护个人隐私的重要性。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -173,8 +175,8 @@
     },
     {
      "title": "[World Report] Fiji declares HIV a national emergency",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "斐济宣布艾滋病为国家紧急事件",
+     "summary_zh": "斐济卫生部长宣布，由于艾滋病病例激增，该国将艾滋病视为国家紧急事件，并承诺采取全政府的应对措施。此举旨在应对日益严重的公共卫生危机，确保各部门协同合作，提升艾滋病预防和治疗的效率。具体措施尚未详细披露，但政府表示将优先关注高风险人群，并加强宣传教育，以降低新感染率。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -187,8 +189,8 @@
     },
     {
      "title": "[World Report] Barriers to care: how new immigration rules are reshaping the US health workforce",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "新移民政策如何影响美国医疗劳动力",
+     "summary_zh": "美国的移民政策波动且限制性强，导致医疗和社会护理领域的人员配置问题引发关注。研究表明，新的移民法规使得医疗行业面临人力资源短缺，尤其是在护士和其他医疗专业人员方面。通过分析移民政策变化对医疗行业的影响，发现许多外籍医疗工作者因签证限制而无法进入美国市场，进而影响了患者的护理质量和可及性。结论指出，亟需政策调整以确保医疗服务的持续性和有效性。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -201,8 +203,8 @@
     },
     {
      "title": "[Correspondence] Advances in primary sclerosing cholangitis care",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "原发性硬化性胆管炎护理的进展",
+     "summary_zh": "我们赞扬Erik von Seth及其同事对原发性硬化性胆管炎的全面研讨。然而，我们希望讨论关于肝脏移植的两个关键点，这些点可能需要更新的视角。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -212,32 +214,116 @@
      "importance": 8.5,
      "abstract": "We commend Erik von Seth and colleagues for their comprehensive Seminar on primary sclerosing cholangitis.1 However, we wish to discuss two key points regarding liver transplantation that might benefit from an updated perspective.",
      "authors": "Zhi Qu, Moritz Schmelzle"
+    },
+    {
+     "title": "Validation of Machine Learning Models for classification of bladder dysfunction and risk of hydronephrosis in patients with Spina Bifida using videourodynamic data",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.30.26364423",
+     "doi": "10.64898/2026.09.30.26364423",
+     "published": "2026-10-03",
+     "importance": 8.5,
+     "abstract": "Purpose: Videourodynamics (VUDS) are used to assess bladder dysfunction and risk of upper urinary tract deterioration in patients with spina bifida (SB), but interpretation is subject to interrater variability. Machine learning models have previously classified bladder dysfunction severity and predicted incident hydronephrosis using VUDS data. This study evaluated the performance of adapted versions of these models in an independent external cohort. Materials and Methods: VUDS data were collected from SB patients who underwent VUDS at a single institution between 2016 and 2025. Previously developed machine learning frameworks were adapted for implementation in the independent dataset. Three models were utilized: a deep learning convolutional neural network model using pressure-volume data, a deep learning imaging model using fluoroscopic imaging data, and an ensemble model that averaged the risk data from the pressure-volume and fluoroscopic data. The models were evaluated for prediction of incident hydronephrosis and classification of bladder dysfunction severity compared to expert pediatric urologist reviewers. Results: 70 patients were included in the hydronephrosis cohort, of w",
+     "authors": "Weaver, J. K.; Logan, J.; Klock, J. A.; Dortche, K.; Bukhari, H. A.; Buchinsky, D. S.; Burns, M."
+    },
+    {
+     "title": "Predicting Cognitive Functioning in ADHD Using Population-Based MRI Across Large and Small Samples",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "神经认知",
+     "url": "https://doi.org/10.1101/2025.07.17.25331721",
+     "doi": "10.1101/2025.07.17.25331721",
+     "published": "2026-10-03",
+     "importance": 8.5,
+     "abstract": "Machine learning offers a promising framework for transforming neuroimaging into predictive tools for psychiatric phenotypes. However, a major translational challenge is whether models trained on large, heterogeneous population cohorts can generalize to clinical populations without dataset-specific tuning. Here, we tested the generalizability of neuroimaging-based cognitive prediction models to children with attention-deficit/hyperactivity disorder (ADHD). Using baseline data from the Adolescent Brain Cognitive Development (ABCD) Study (n = 11,747), we trained prediction models across 81 MRI-derived feature sets spanning task-based fMRI contrasts, functional connectivity, structural MRI, and diffusion measures and their multimodal stacking combinations. We tested performance separately in non-ADHD participants and across increasingly stringent ADHD tiers, and further evaluated external generalization in an independent ADHD cohort (Lytle et al., 2020; n=79) without retraining. Internally, the stacked model integrating all feature sets achieved the highest predictive accuracy (r=.57) and reproduced observed group-level cognitive differences, while maintaining comparable performance a",
+     "authors": "Lal Khakpoor, F.; van der Vliet, W.; Tetereva, A.; Wang, Y.; Pat, N."
+    },
+    {
+     "title": "Assessing AI and Neurologist Diagnostic Reasoning Against Neuropathological Ground Truth",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.07.07.26356930",
+     "doi": "10.64898/2026.07.07.26356930",
+     "published": "2026-10-03",
+     "importance": 8.5,
+     "abstract": "BACKGROUND Accurate differential diagnosis of complex neurological disorders remains challenging due to overlapping clinical features and heterogeneous disease presentations. Although large language models (LLMs) show promise in clinical reasoning, prior studies have benchmarked performance against clinician consensus rather than biological ground truth. Evaluation of diagnostic AI in neurology requires benchmarks grounded in neuropathological findings. METHODS We introduce NeuroBench, a curated benchmark of complex neurological cases with neuropathologically confirmed reference-standard diagnoses, and DIAGNO, a confidence-aware LLM-based system for neurological diagnosis. NeuroBench comprises 791 retrospective case summaries and corresponding autopsy-confirmed diagnoses across three independent health systems: 500 cases from the Massachusetts General Hospital (MGH) Brain Cutting Conference; 200 cases from the Mount Sinai Health System; and 91 cases from the University of Texas Health Science Center at San Antonio (UTHSA). Across all cases, DIAGNO generated top-3 differential diagnoses, employing retrieval-augmented generation for lower-confidence cases. In a subset of 203 complex ",
+     "authors": "Leng, Y.; Noori, A.; He, Y.; Favaro, A.; Dickson, J. R.; Serrano-Pozo, A.; Avetisyan, M.; Rodriguez, D.; Rosenberg, E. S.; Oakley, D. H.; Khurana, V. S.; Maslinski, J.; Glicksberg, B. S.; Syed, M.; Ku"
+    },
+    {
+     "title": "Reinforcement Learning for Chronic Care Pathway Optimization: A Unified Framework across Three Clinical Goal Types",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.07.03.26357209",
+     "doi": "10.64898/2026.07.03.26357209",
+     "published": "2026-10-03",
+     "importance": 8.5,
+     "abstract": "Chronic care requires sequential treatment under competing biomarker, safety, and cost constraints, yet clinical goal structures differ across diseases. This version asks whether one physiology-informed reinforcement-learning paradigm can be written once and then instantiated for three goal structures (treat-to-target, multi-marker cruise, and bounded cycle completion) without a disease-specific policy architecture. Gout, chronic kidney disease, and PCOS-mediated fertility treatment are the three instances. Training is behaviour cloning followed by proximal policy optimization on 500 simulated trajectories per disease. Evaluation uses paired seeds (N = 50 primary; N = 500 bootstrap 95% confidence intervals), multi-seed offsets 42-51, ablation, and out-of-distribution profiles. PCOS (cycle completion): PPO 72.0% against the doctor baseline 54.0% at N = 50; at N = 500, PPO 69.8% [65.6, 73.8] against doctor 52.8% [48.8, 57.2]. Gout (treat-to-target): PPO 88.0% against 90.0% (McNemar p = 1.0). CKD (cruise): doctor 32.0%, BC/PPO 38.0%. This v2 withdraws three bibliographic coordinates that appeared in v1 and that do not match any recoverable source. The withdrawn comparison is replaced ",
+     "authors": "Wang, R.; Chen, H.; Wu, Y.; Li, Z.; Shen, R.; He, F.; Zhao, S.; Zheng, N."
+    },
+    {
+     "title": "Change in irritable bowel syndrome symptom severity among members of a multi-omic digital food-as-medicine program: a retrospective single-arm cohort study with estimates corrected for regression to the mean",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.10.01.26364558",
+     "doi": "10.64898/2026.10.01.26364558",
+     "published": "2026-10-03",
+     "importance": 7.5,
+     "abstract": "Background: Real-world evidence on food-as-medicine programs for irritable bowel syndrome (IBS) is scarce, and single-arm evaluations overstate improvement because of regression to the mean (RTM). We estimated change in the IBS Symptom Severity Scale (IBS-SSS, 0-500) in a multi-omics personalized digital health food-as-medicine program, unadjusted and RTM-corrected. Methods: Retrospective single-arm cohort. Of 15,933 members with a valid baseline, 2,254 had a follow-up reading and 1,683 one at least 14 days after baseline. Change at 4, 12 (primary) and 26 weeks was estimated by baseline severity stratum, unadjusted and RTM-corrected by analysis of covariance. A responder fell by at least 50 points (the minimal clinically important difference benchmark). Sensitivity analyses covered equity, inverse-probability weighting and tipping-point analyses for members without a reading in each landmark window, a negative-control stratum and medication. The association of weight loss and dietary nutrient density with symptom change was evaluated within and between members. Results: At 12 weeks (n = 430) IBS-SSS fell by 43.88 points unadjusted (95% confidence interval [CI] -52.44 to -35.32; p <",
+     "authors": "Pedroso, I.; Kumbhare, S.; Saravanan, S.; Sinha, R.; Almonacid, D.; Sinha, R."
+    },
+    {
+     "title": "Sequencing for a Lifetime: Professional Perspectives on the Value and Feasibility of Lifelong Genomic Medicine",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.04.29.26352046",
+     "doi": "10.64898/2026.04.29.26352046",
+     "published": "2026-10-03",
+     "importance": 7.0,
+     "abstract": "Introduction. Lifelong genomic medicine, in which stored genomic data informs a lifetime of care, is moving from vision toward reality, with dozens of newborn sequencing projects underway worldwide and reanalysis of data already in clinical practice. Professional perspectives on its value and feasibility have not been examined. Methods. We conducted and thematically analyzed semi-structured interviews with 52 US-based professionals, including clinical geneticists, genetic counselors, primary care clinicians, laboratory personnel, and genomic screening implementers. Interviews explored delivery setting, longitudinal clinical relationships, data reanalysis and recontact, consent, data stewardship, privacy, and the pediatric-to-adult transition. Analysis combined deductive domains with inductive coding, with attention to similarities and differences across stakeholder groups. Results. Participants in all five groups saw clinical value in lifelong genomic medicine, citing the relevance of genomic information at multiple life stages, the ability to requery the genome as circumstances change, and the capacity to act on evolving knowledge. A minority contested this value, favoring more ta",
+     "authors": "Lewis, A. C. F.; Holm, I. A.; Buchanan, A. H.; Goldenberg, A. J.; Knoppers, B. M.; McGuire, A. L.; Green, R. C."
     }
    ]
   },
   "2026-10-02": {
-   "count": 1794,
+   "count": 1810,
    "by_field": {
     "AI计算机": 971,
     "物理天文": 289,
     "数学基础理论": 174,
-    "化学材料": 111,
-    "医学健康": 96,
+    "化学材料": 112,
+    "医学健康": 110,
     "生命科学": 73,
     "神经认知": 45,
-    "地球气候": 27,
+    "地球气候": 28,
     "未分类": 8
    },
    "by_tier": {
     "mainstream": 12,
     "alt": 203,
-    "preprint": 1579
+    "preprint": 1595
    },
    "items": [
     {
      "title": "Biomarker Integration in the Perioperative Management of Early-Stage Non-Small-Cell Lung Cancer",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "早期非小细胞肺癌围手术期生物标志物整合管理",
+     "summary_zh": "个性化医学的理念在非小细胞肺癌（NSCLC）管理中逐渐得到应用，尤其是通过肿瘤生物学和精准肿瘤学指导的策略。研究表明，许多切除的NSCLC肿瘤中存在可靶向的驱动突变，这为围手术期整合靶向治疗提供了可能。辅助表皮生长因子受体和间变性淋巴瘤激酶抑制剂的成功应用，确立了生物标志物驱动治疗的框架，并强调了诊断时进行全面分子检测的重要性。同时，围手术期免疫检查点抑制剂的策略为适当选择的患者扩展了治疗选择，进一步突显了分子分析的重要性。然而，实施过程中仍存在分子检测不完整、结果延迟、组织取样不足、工作流程碎片化及获取资源不平等等问题。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -250,8 +336,8 @@
     },
     {
      "title": "Assessment of TLR3-TRIF-NF-κB Innate Immune Signaling Pathway Induced by Newcastle Disease Virus and Construction of TLR3-Deficient BHK-21 Cells",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "评估新城疫病毒诱导的TLR3-TRIF-NF-κB免疫信号通路及构建TLR3缺失BHK-21细胞",
+     "summary_zh": "先天免疫系统在抑制病毒感染和增殖中发挥重要作用。为探讨新城疫病毒（NDV）在BHK-21细胞中诱导的先天免疫反应信号通路，通过转录组测序、qRT-PCR和ELISA检测了TLR3、TLR7、TLR8、NOD2等模式识别受体及TNF-α、IL-6、IL-1β、IL-10、IL-17、TRIF、TRAF3和NF-κB等细胞因子的mRNA表达水平。结果表明，NDV LaSota株主要诱导BHK-21细胞中的TLR3-TRIF-NF-κB信号通路。随后使用NF-κB抑制剂、TLR3抑制剂和TRAF3抑制剂，测定了感染NDV LaSota株的病毒滴度，结果显示抑制TLR3或NF-κB有效增加了NDV的病毒滴度。利用CRISPR/Cas9系统构建了TLR3缺失的BHK-TLR3—细胞克隆，评估了细胞形态、密度、活力和遗传稳定性。最终，感染NDV LaSota株的结果显示，BHK-TLR3—细胞系是一个稳定的细胞系，显著增强了NDV LaSota株的产量。此外，TLR3基因的敲除显著抑制了IFN-α、IFN-β、IL-1β和TNF-α的表达。",
      "source": "MDPI",
      "tier": "alt",
      "field": "生命科学",
@@ -264,8 +350,8 @@
     },
     {
      "title": "Saccharopine and α-Aminoadipic Acid as Potential Biomarkers for Mitochondrial Stress in Neurons",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "作为线粒体压力潜在生物标志物的糖醇和α-氨基己二酸",
+     "summary_zh": "红氧化应激及随后的代谢重编程是神经元暴露于线粒体毒素的已知后果。本研究使用人类神经元培养，定量分析细胞内外氨基酸的变化模式，以探讨这些变化是否能作为呼吸链损伤引起的神经毒性机制的生物标志物。采用靶向代谢组学方法，量化了氨基酸池及其时间动态。数据来自于暴露于复合物I抑制剂（如小檗碱、1-甲基-4-苯基吡啶（MPP+）和特布芬脲）及非线粒体毒素（如MG-132、RSL3和青霉素）的LUHMES分化神经元。线粒体抑制引起的还原应激在氨基酸代谢的特征性重定向中得以体现，包括Asn/Asp和Gln/Glu比率的增加，以及神经元中电子受体脯氨酸的上调。最显著的是赖氨酸代谢物糖醇（sacc）和α-氨基己二酸（α-AAA）的显著增加，这两个潜在的神经元线粒体毒性生物标志物未受到其他类型毒素的影响。",
      "source": "MDPI",
      "tier": "alt",
      "field": "神经认知",
@@ -278,8 +364,8 @@
     },
     {
      "title": "Irisin in Cardiovascular Health and Disease: A Review of Its Function as a Biomarker and Therapeutic Target in Atherosclerosis and Related Conditions",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "Irisin在心血管健康与疾病中的作用综述",
+     "summary_zh": "动脉粥样硬化性心血管疾病（ASCVD）是全球主要死亡原因，急需新的生物标志物和治疗靶点。Irisin是一种源自FNDC5的肌肉细胞因子，因其多重效应而受到关注，但其在心血管健康中的作用存在争议。本文综述了Irisin在ASCVD中的分子机制、作为临床生物标志物的潜力及其治疗应用的挑战。前临床研究表明，Irisin具有多方面的心脏保护作用：通过增强线粒体质量控制和抑制细胞凋亡及焦亡来减轻细胞压力；通过促进血管生成和防止病理重塑来维持血管完整性；并增强再生干细胞治疗的疗效。大多数临床研究显示循环Irisin水平与ASCVD、心力衰竭及相关炎症状态的存在和严重程度呈负相关。然而，这些研究主要为观察性且多为横断面研究，样本量通常较小，并且在某些代谢状态和急性心脏损伤中出现矛盾的升高。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -292,8 +378,8 @@
     },
     {
      "title": "Genome-Wide Identification and Evolution Analysis of the bHLH Gene Family in Cucurbita pepo L.",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "葫芦科植物Cucurbita pepo L. bHLH基因家族的全基因组鉴定与进化分析",
+     "summary_zh": "基本螺旋-环-螺旋（bHLH）基因家族是植物中最大的转录因子家族之一，在生长、发育及环境胁迫响应中发挥重要作用。然而，Cucurbita pepo L.中bHLH基因家族的成员及功能特征尚不清楚。本研究鉴定了175个Cucurbita pepo L.的bHLH基因，显示出蛋白质长度和结构特征的显著变异。系统发育分析将这些基因分为24个亚组，各亚组内具有保守的基序组成，但不同亚家族之间存在明显的分化，表明功能差异。基因重复分析显示，全基因组重复/片段重复是bHLH基因家族扩展的主要驱动力。顺式调控元件分析表明，CpbHLH基因主要与光响应及植物生长发育过程相关。此外，RNA-seq分析显示CpbHLH基因具有组织特异性表达模式及对冷胁迫的动态响应，定量实时PCR（qRT-PCR）分析证实了其组织特异性表达模式，提示其在花发育和胁迫适应中的潜在作用。总体而言，本研究为CpbHLH基因家族提供了全面的概述。",
      "source": "MDPI",
      "tier": "alt",
      "field": "生命科学",
@@ -306,8 +392,8 @@
     },
     {
      "title": "Beyond Genotype: Integrating Phenoconversion into Pharmacogenetic Decision-Making in Psychiatry",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "超越基因型：将表型转化纳入精神科药物基因决策",
+     "summary_zh": "个体间在精神药物反应上的差异导致治疗失败、不良药物反应及反复调整用药。药物基因组学通过识别与药物代谢、疗效和耐受性相关的遗传变异，支持精准处方，并为多种精神药物提供了基于证据的建议。然而，基因型预测的是代谢能力，而非实际在体内表达的酶活性或特定时间内的系统药物暴露。本文回顾了表型转化，即基因型预测与观察到的代谢表型之间的不匹配及其对精神药物治疗的影响。药物间相互作用、吸烟、炎症、生理变化及疾病相关因素可在基因型不变的情况下改变药物代谢酶活性或系统药物暴露。我们讨论了这些影响如何限制基于基因型的剂量推荐的适用性，并提出一个动态框架，将药物基因组学结果与同时用药、临床状况、生活方式因素、治疗药物监测及患者状态的纵向变化相结合。该框架可能还会改善治疗充分性的评估，因为处方剂量、持续时间和依从性并不一定能确保治疗的充分性。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -320,8 +406,8 @@
     },
     {
      "title": "Population PK/PD Modeling and Simulation to Predict the Comparative Long-Term Efficacy of Olokizumab in Rheumatoid Arthritis Patients",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于人群PK/PD模型预测Olokizumab在RA患者中的长期疗效",
+     "summary_zh": "背景/目的：Olokizumab（OKZ）是一种针对白介素-6（IL-6）的人源化单克隆抗体。在随机对照试验中，OKZ在活跃性类风湿关节炎（RA）患者中显示出相较于阿达木单抗（ADLM）和安慰剂的疗效，且在开放标签单臂扩展研究中确认了其在106周内的持续疗效。本分析旨在通过基于人群药代动力学/药效学（PK/PD）模型的虚拟临床试验模拟，预测每两周（q2w）和每四周（q4w）给药的OKZ 64 mg与ADLM和安慰剂的1年疗效。方法：使用III期研究的汇总数据开发非线性混合效应模型，应用最大抑制Imax型关系的周转模型。模拟临床试验用于估算52周的反应率，定义为达到低疾病活动性（DAS28-CRP ≤ 3.2）和缓解（CDAI ≤ 2.8）的患者比例。结果：对数转化的C反应蛋白（CRP）基线水平和地区被确定为显著协变量，影响RA活动评分的动态。OKZ和ADLM的预测疗效曲线相似，95%预测区间重叠。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -334,8 +420,8 @@
     },
     {
      "title": "From Thoracotomy to Robotic Platforms in Thoracic Surgery: Technical Evolution, Simulation-Based Training, and Surgical Outcomes",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "胸外科手术技术演变：从开胸到机器人平台",
+     "summary_zh": "胸外科手术逐渐从开放性开胸手术转向视频辅助和机器人辅助方法，减少了手术相关创伤，同时改变了肺切除手术的技术环境及教学方式。本文综述了开放性胸外科手术、视频辅助胸外科手术（VATS）和机器人辅助胸外科手术（RATS）的临床演变，重点关注其围手术期和肿瘤学结果的证据、微创手术的学习曲线及模拟训练的作用。随机试验提供了有力证据，表明在适当选择的早期非小细胞肺癌患者中，VATS相比开胸手术改善了术后恢复，且不影响长期肿瘤学结果。RATS与VATS的随机比较支持RATS作为一种肿瘤学上可接受的微创替代方案，并在特定技术指标上显示出优势，尤其是出血量和淋巴结回收，但在主要临床或生存结果上未表现出一致的优越性。学习曲线因先前经验、病例复杂性、监督、机构量和定义能力的终点而异，固定病例数量阈值无法完整衡量熟练程度。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -348,8 +434,8 @@
     },
     {
      "title": "Effectiveness of the 23-Valent Pneumococcal Polysaccharide Vaccine in Reducing Mortality Among Older Adults: A Real-World Retrospective Cohort Study in Guangzhou, China",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "23价肺炎球菌多糖疫苗对老年人死亡率的影响研究",
+     "summary_zh": "目的：评估23价肺炎球菌多糖疫苗（PPSV23）在降低60岁及以上成人的全因、肺炎相关及慢性阻塞性肺疾病（COPD）相关死亡率的实际效果。方法：本回顾性队列研究使用现有健康监测数据，追踪2020年1月1日年龄≥60岁的个体至2025年8月31日，并按PPSV23接种状态分类。采用1:1比例的倾向评分匹配（PSM）平衡性别、年龄、地区分布、城市化水平和流感疫苗接种状态。使用时间依赖的Cox比例风险模型估计风险比（HR）和疫苗有效性（VE），定义为（1 − HR）× 100%。结果：经过PSM后，共纳入453,500名个体，平均随访5.61年。接种者的全因死亡率为每千人年3.93，而未接种者为9.57。PPSV23接种显著降低全因死亡率（VE = 43.1%，95% CI: 41.2–45.0%）、肺炎相关死亡率（VE = 46.2%，95% CI: 39.6–52.1%）及COPD相关死亡率（VE = 33.5%，95% CI: 20.9–44.2%）（均p < 0.001）。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -362,8 +448,8 @@
     },
     {
      "title": "Patient Journey and Treatment Patterns of Non-Muscle-Invasive Bladder Cancer in Mexico",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "墨西哥非肌肉侵袭性膀胱癌患者就诊与治疗模式研究",
+     "summary_zh": "非肌肉侵袭性膀胱癌（NMIBC）占新诊断膀胱肿瘤的大多数，但在墨西哥的管理情况知之甚少，尤其是在巴氏抗结核菌素（BCG）短缺期间。本研究为一项回顾性多中心观察研究，分析了在墨西哥城三家三级医院接受治疗的NMIBC患者的临床和组织病理特征、诊断和治疗时间线，以及对指南推荐护理的遵循情况。共回顾221名2010年1月至2020年12月间诊断的成人患者记录。患者的中位年龄为68岁（四分位数范围[IQR] 59–75），男女比例为3:1。最常见的症状为血尿（83.3%）。四分之三的患者为T1肿瘤，6.3%伴有原位癌，84.6%为高分级肿瘤，92.8%为高复发或进展风险。症状出现到组织病理诊断的中位间隔为167天（IQR 81–329），不同中心间存在差异。诊断后，第二次切除的中位时间为67天（IQR 33.5–112），首次BCG灌注为92.5天（IQR 41.8–165.5）。66%的患者接受了辅助膀胱内治疗，主要为BCG。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -376,8 +462,8 @@
     },
     {
      "title": "From Algorithmic Detection to Adaptive Fisheries Governance: An AI-Enabled Compliance and Ecosystem Feedback Framework for IUU Fishing in the Yellow Sea",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "从算法检测到适应性渔业治理：黄海IUU捕鱼的AI合规与生态反馈框架",
+     "summary_zh": "人工智能（AI）能够从自动识别系统（AIS）、船舶监控系统（VMS）、雷达、光学影像和捕捞记录中推断出明显的捕鱼活动、船舶类型、遭遇情况及其他海洋模式。然而，更好的检测并不自动带来更好的渔业管理。本文探讨了在何种制度条件下，AI监测能够支持更有效的合规性和共享鱼类资源的可持续性，而不将概率信号转化为自动执法结果。以韩中黄海为案例，分析结合了最新的AI渔业文献、国际监测-控制-监督指导、基于生态的渔业研究、韩中渔业协议及截至2026年8月的可验证官方执法和资源管理进展。研究提出了一个五阶段的适应性渔业智能循环（AFIL）：观察、验证、响应、学习和适应。该模型要求对算法信号进行人工验证、共享信息的来源标签、执法结果的反馈，以及将合规模式与生态指标和管理措施连接的第二反馈渠道。应用于黄海，AFIL支持联合治理。",
      "source": "MDPI",
      "tier": "alt",
      "field": "AI计算机",
@@ -390,8 +476,8 @@
     },
     {
      "title": "BDNF Val66Met (rs6265) in Ankylosing Spondylitis: A Descriptive Genotype–Phenotype Study in a Romanian Cohort",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "BDNF Val66Met多态性与强直性脊柱炎的关联研究",
+     "summary_zh": "背景：强直性脊柱炎（AS）是一种慢性炎症性疾病，具有肌肉骨骼和关节外表现，并伴随心代谢合并症。脑源性神经营养因子（BDNF）参与疼痛处理、神经可塑性、炎症信号传导和代谢调节。功能性BDNF Val66Met多态性（rs6265）影响细胞内运输和依赖活动的BDNF分泌，但其在AS中的临床相关性尚不明确。本研究评估了BDNF Val66Met的分布，并探讨其与AS患者的疾病活动、炎症、疼痛、抑郁症状和代谢参数的关联。方法：本单中心横断面研究纳入81名AS患者，无健康对照组。采用四引物扩增耐突变体系聚合酶链反应（T-ARMS-PCR）进行基因分型。临床评估包括Bath强直性脊柱炎疾病活动指数（BASDAI）、基于C反应蛋白的强直性脊柱炎疾病活动评分（ASDAS-CRP）、疼痛数值评分（NRS）和医院焦虑抑郁量表抑郁子量表（HADS-D），以及CRP和代谢测量。ASDAS-CRP被指定为主要临床结果。统计分析包括Mann-Whitney U检验。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -404,8 +490,8 @@
     },
     {
      "title": "Artificial Intelligence in Quality Control of Welded Joints",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "人工智能在焊接接头质量控制中的应用",
+     "summary_zh": "焊接接头的质量对制造、能源、交通和造船等工程结构的安全性、可靠性和耐久性至关重要。非破坏性检测（NDT）的进展使得大量数字数据集的收集成为可能，为自动化焊接质量评估中的人工智能（AI）创造了新机遇。本文回顾了基于AI的焊接接头质量控制的最新研究，重点关注机器学习、深度学习、计算机视觉和实时监测。通过对近期科学文献的系统评审和批判性分析，探讨了焊接缺陷、主要NDT方法、数字数据集以及AI在缺陷检测、分类、分割和质量预测中的表现。研究发现，深度学习架构（如卷积神经网络、目标检测和分割模型、混合框架和迁移学习）能够显著提高焊接检查的速度、一致性和客观性，同时在不同NDT模式下实现高检测性能。然而，数据质量和可用性不足、类别不平衡、领域转移、模型泛化能力有限、缺乏标准化基准数据集以及需要符合工业标准的可解释和可信赖的AI等挑战限制了其工业应用。",
      "source": "MDPI",
      "tier": "alt",
      "field": "AI计算机",
@@ -418,8 +504,8 @@
     },
     {
      "title": "Current Evidence on Gene-Based and Epigenetic Therapeutic, Diagnostic, and Prognostic Strategies in Epithelial-Derived Carcinomas: A Scoping Review",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "上皮来源癌症的基因与表观遗传治疗策略综述",
+     "summary_zh": "背景：上皮来源的癌症因基因突变和表观遗传失调而表现出基因组不稳定性。DNA甲基化、组蛋白修饰和非编码RNA调控等机制可能导致肿瘤进展、免疫逃逸和治疗抵抗。目前，基因基础和表观遗传疗法（如CRISPR系统、RNA干扰和染色质修饰剂）在靶向癌症治疗中被认为有效。目的：本综述旨在梳理上皮来源癌症中基因技术的证据，包括治疗、诊断、预后、筛查和疾病模型应用，并识别分子靶点、转化结果及当前证据的空白。方法：根据PRISMA-ScR标准，检索2016至2026年间在PubMed、Embase和Google Scholar等数据库中发表的相关文献，纳入所有与上皮癌症中基因基础、RNA介导和表观遗传疗法相关的研究。共纳入36项符合条件的研究。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -432,8 +518,8 @@
     },
     {
      "title": "Presentation Delay After Symptom Recognition Among Breast Cancer Patients in Mongolia: A Retrospective Study",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "蒙古乳腺癌患者症状识别后的就诊延迟：回顾性研究",
+     "summary_zh": "背景/目的：在识别乳腺症状后延迟就医可能导致乳腺癌在更晚期被诊断。关于就诊延迟及其决定因素的证据在蒙古仍然有限。本研究旨在确定有症状的乳腺癌患者中就诊延迟的频率及相关因素，并考察其与诊断时肿瘤特征的关联。方法：本回顾性观察研究纳入了2022年至2024年在蒙古乌兰巴托国家癌症中心接受治疗的新诊断乳腺癌有症状患者。就诊延迟定义为从首次识别乳腺症状到首次就医咨询的时间≥1个月。根据就诊延迟比较社会人口学、临床和肿瘤特征。采用多变量逻辑回归分析与就诊延迟相关的因素及其与晚期疾病的关联。结果：共有169名（69.3%）患者的就诊延迟≥1个月。初始症状与就诊延迟独立相关。与乳腺肿块相比，长期乳腺肿块（调整后比值比[aOR] 7.92，95%置信区间[CI] 3.14–19.98）、乳腺疼痛（aOR 3.80，95% CI 1.89–7.66）和乳头变化（aOR 3.32，95% CI 1.20–9.）均与就诊延迟相关。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -446,8 +532,8 @@
     },
     {
      "title": "Integrated Cellular Stress Networks in Human‐Pathogenic Fungi: Evolutionary Origins, Ecological Adaptation, and Consequences for Infection",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "人类致病真菌的细胞压力网络：进化起源与生态适应",
+     "summary_zh": "本综述探讨了人类致病真菌的压力适应机制，结合进化、生态和分子视角。环境压力如温度波动、水分和养分限制、缺氧、微生物竞争、捕食及抗真菌药物暴露，能够在感染前或独立于感染地塑造真菌的压力反应能力。我们分析了参与真菌压力适应的主要分子系统，包括伴侣蛋白网络、HOG和细胞壁完整性信号、pH和缺氧反应、未折叠蛋白反应、自噬、氧化还原信号及线粒体逆行信号。这些系统通过共享的调节因子和生理输出相互作用，以维持细胞稳态。尽管核心成分通常保守，但其调节连接和表型输出在不同真菌谱系中可能存在显著差异。这些经过进化塑造并随后修饰的网络在宿主关联过程中支持对免疫、代谢、物理化学和治疗压力的适应。其对抗真菌耐受性和持久性的贡献应与稳定性抗性区分开来。",
      "source": "MDPI",
      "tier": "alt",
      "field": "生命科学",
@@ -460,8 +546,8 @@
     },
     {
      "title": "AI-Augmented Digital Diagnostics in Minimally Invasive Dentistry: A Case Report on Clinically Occult Approximal Caries",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "AI辅助数字诊断在微创牙科中的应用：隐匿邻面龋病例报告",
+     "summary_zh": "背景：邻面龋的早期病变常在完整的牙釉质表面下隐匿，给诊断带来挑战。本病例报告描述了一种结合口内放射影像、近红外光透照（NILT）和深度学习人工智能（AI）放射分析的多模式数字诊断工作流程的临床应用、局限性及决策差异。病例介绍：一名19岁女性患者上左侧出现冷和甜的敏感症状，临床检查显示牙齿25的牙釉质表面视觉上完好。为了解决主观症状与初步视觉发现不一致的问题，进行了根尖放射影像和NILT检查。诊断评估与管理：根尖放射影像和NILT显示牙齿24、25和26存在邻面去矿化。经过临床治疗方案的制定，放射影像还通过ClinicalAID进行平行研究分析，模型信心评分分别为100%、99%和98%。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -474,8 +560,8 @@
     },
     {
      "title": "Epigenetic Viral Mimicry in Neuroinflammation: Retrotransposons, cGAS–STING and Microglial Hysteresis",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "神经炎症中的表观遗传病毒拟态：逆转录转座子与小胶质细胞的关系",
+     "summary_zh": "内源性逆转录病毒（ERVs）、LINE-1元件及其他内源性活跃转座元件家族的研究，揭示了它们在表观遗传调控与先天免疫之间的潜在作用。本文讨论了ATRX–DAXX–H3.3和TRIM28–SETDB1–H3K9me3等抑制复合物的特定位点失效如何使这些元件进入包括双链RNA、DNA/RNA杂交分子、RNA–蛋白复合物、逆转录产物和RNA在内的独特分子状态。这些状态在持久性、结构特征及对传感器（如MDA5、RIG-I、cGAS–STING和ZBP1）及宿主限制通路的可接近性上各有不同。我们强调，单纯表达逆转录元件并不意味着其能够有效结合传感器或经历有效的逆转录转座。因此，需要提供证据以将特定传感器与特定逆转录元件产物关联。此外，逆转录元件活性引起的持续压力可能与多种细胞过程相互作用。",
      "source": "MDPI",
      "tier": "alt",
      "field": "生命科学",
@@ -488,8 +574,8 @@
     },
     {
      "title": "Spatial Metabolomics-Based Integrated Analysis Provides Evidence for the Mechanism of Salvianolic Acid A-Induced Mitochondrial Apoptosis in Non-Small Cell Lung Cancer via the ROS-Dependent Caspase Pathway",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于空间代谢组学的综合分析揭示丹参酚酸A诱导非小细胞肺癌线粒体凋亡机制",
+     "summary_zh": "丹参酚酸A（SAA）对非小细胞肺癌（NSCLC）具有抗肿瘤活性，但其代谢调控机制尚不完全清楚。本研究结合脱附电喷雾质谱成像（DESI-MSI）、网络药理学、分子对接和功能验证，探讨SAA对NSCLC的影响。结果显示，SAA抑制H1299细胞的活力、迁移和侵袭，并诱导凋亡。DESI-MSI分析显示，SAA处理后异种移植肿瘤组织的代谢显著改变，包括神经酰胺、甘油磷脂和花生四烯酸的变化。网络药理学和分子对接进一步提示氧化应激和凋亡相关通路的参与。功能实验表明，SAA增加细胞内ROS水平，损害线粒体功能，并降低线粒体膜电位。ROS清除剂NAC部分逆转了SAA诱导的ROS积累和细胞活力丧失，同时增加了切割型Caspase-9和Caspase-3的水平。西方印迹和免疫荧光分析显示Caspase-9和Caspase-3的浓度依赖性激活，而全Caspase抑制剂Z-VAD-FMK显著减弱了SAA诱导的细胞死亡和凋亡。这些发现提供了证据，表明SAA通过ROS依赖的Caspase通路诱导NSCLC细胞的线粒体凋亡。",
      "source": "MDPI",
      "tier": "alt",
      "field": "生命科学",
@@ -502,8 +588,8 @@
     },
     {
      "title": "In Vitro Terbinafine Susceptibility of Dermatophytes and Mycological Cure Outcomes from a Multicenter Phase III Onychomycosis Trial",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "体外特比萘芬对皮肤癣菌的敏感性及其临床疗效研究",
+     "summary_zh": "背景：皮肤癣菌感染，包括甲癣，影响全球数百万患者。特比萘芬作为一种烯胺类抗真菌药物，仍是治疗的基础方法。目的：评估在III期甲癣临床试验中，特比萘芬对患者分离的皮肤癣菌的体外抗真菌敏感性。方法：使用临床和实验室标准研究所（CLSI）M38-A3肉汤微稀释法测试506个可存活的皮肤癣菌基线分离株。比较随机治疗组（组1：特比萘芬，n=218；对照，n=108）与未治疗组（组2，n=180）的最小抑菌浓度（MIC）分布。此外，将组1的基线MIC与研究结束时的真菌学治愈结果关联，以确定MIC与真菌学治愈之间的关系。结果：特比萘芬表现出强效的抗真菌活性，整体MIC范围为0.001至≥0.5 µg/mL，MIC50为0.008 µg/mL，MIC90为0.016 µg/mL。组1和组2的MIC分布相似（p=0.98）。在所有基线MIC值范围内均实现了真菌学治愈。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -516,8 +602,8 @@
     },
     {
      "title": "Spiritual Well-Being, Treatment Adherence, and Self-Management in Hemodialysis Care: A Cross-Sectional Study",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "透析患者的精神健康、治疗依从性与自我管理研究",
+     "summary_zh": "背景/目的：血液透析要求患者持续参与复杂的治疗和自我管理。精神健康可能是与治疗依从性和自我管理相关的心理社会资源，但其独立关联性尚不明确。本研究探讨了精神健康与接受血液透析的成年人治疗依从性和自我管理之间的关系。方法：本研究为单中心横断面研究，纳入2025年3月至5月在土耳其一家公立医院接受维持性血液透析的72名成年人。使用精神健康量表、终末期肾病依从性问卷和慢性病自我管理量表评估精神健康、治疗依从性和自我管理。采用Pearson相关分析和两个多变量线性回归模型，调整了年龄、性别、透析时间和合并症数量。结果：精神健康与治疗依从性（r = 0.822, p < 0.001）和自我管理（r = 0.891, p < 0.001）呈正相关。在调整后的线性模型中，较高的精神健康与更高的治疗依从性相关（B = 4.338, 95%）。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -530,8 +616,8 @@
     },
     {
      "title": "The type VI secretion system governs strain maintenance in a wild mammalian gut microbiome",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "VI型分泌系统在野生哺乳动物肠道微生物组中的作用",
+     "summary_zh": "本研究探讨了VI型分泌系统（T6SS）在野生小鼠肠道微生物群落中Bacteroides属的作用。我们利用新开发的遗传工具和功能替代策略，发现野生分离株B. acidifaciens通过T6SS对抗共生的Bacteroidales。结果表明，T6SS功能的丧失会影响B. acidifaciens在微生物群落中的长期维持，但不影响其初始定植，确立了T6SS作为菌株持久性的决定因素。我们还发现T6SS位于一个整合与接合元素（ICE）上，ICE-seq分析显示T6SS-ICE在WildR微生物组中的特定Bacteroidales和Muribaculaceae物种间分布，并且最近发生了交换。此外，将T6SS-ICE转移至WildR分离株Phocaeicola vulgatus可在小鼠中带来短暂的定植优势，但最终与种群下降相关。",
      "source": "eLife",
      "tier": "alt",
      "field": "生命科学",
@@ -544,8 +630,8 @@
     },
     {
      "title": "Ubiquitination-Dependent Cyclin Regulation in Gastric Cancer and Emerging Targeted Therapies with Chinese Herbal Bioactive Compounds",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "胃癌中依赖泛素化的细胞周期蛋白调控及中药活性成分的靶向治疗",
+     "summary_zh": "胃癌（GC）是全球最常见的恶性肿瘤之一，因晚期诊断和治疗选择有限而导致高死亡率。细胞周期失调引起的异常细胞增殖是GC发病机制的特征。细胞周期蛋白作为细胞周期进程的核心调控因子，其蛋白表达模式受到泛素-蛋白酶体系统（UPS）的严格控制。在GC中，细胞周期蛋白因泛素化受损及随后的蛋白酶体降解而常常过表达。本文系统阐述了不同细胞周期阶段（G1、S、G2和M）中细胞周期蛋白（D、E、A和B型）的泛素化调控，并强调了E3泛素连接酶（如SCF复合物和APC/C）在GC进展中的关键作用。此外，讨论了非编码RNA失调和E3连接酶表达改变如何促进异常的细胞周期蛋白泛素化，从而推动GC细胞增殖、转移及预后不良。重要的是，越来越多的证据表明，传统中药中的活性成分可以通过直接下调细胞周期蛋白表达、调节E3连接酶活性或抑制26S/20S蛋白酶体功能，逆转这些异常，恢复细胞周期稳态并抑制GC生长。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -558,8 +644,8 @@
     },
     {
      "title": "Immunophenotypic Features of CD68 and CD163 Distribution in Oral Squamous Cell Carcinoma of Tongue and Lip",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "舌头和嘴唇口腔鳞状细胞癌中CD68和CD163的免疫表型特征",
+     "summary_zh": "背景与目的：口腔鳞状细胞癌（OSCC）是头颈部恶性肿瘤的一种。肿瘤微环境（TME）的成分已知会影响肿瘤进展。本研究比较了舌头和嘴唇OSCC中CD68+和CD163+巨噬细胞在肿瘤内和肿瘤周围的密度及空间分布。方法：纳入112例确诊为OSCC的患者，分为两组：舌头鳞状细胞癌（pT1）84例和嘴唇鳞状细胞癌（pT1）28例。采用标准免疫组化方法进行分析。结果：舌头OSCC在肿瘤周围基质中CD68+和CD163+巨噬细胞的积累显著高于肿瘤内区域（34.2 ± 8.1 vs. 48.1 ± 6.4 cells/mm2）。而在嘴唇OSCC中，肿瘤内区域CD68+巨噬细胞的密度更高。",
      "source": "MDPI",
      "tier": "alt",
      "field": "生命科学",
@@ -572,8 +658,8 @@
     },
     {
      "title": "Kappa‐Frameshift Background Mutations and Long‐Range Correlations of the Single‐Stand DNA/RNA Base Sequences",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "Kappa-框移背景突变及单链DNA/RNA序列的长程关联",
+     "summary_zh": "本研究提出了一种新型的单链(ss)DNA/RNA框移突变，称为Kappa-框移背景(KFB)突变，源于长度为N的ssDNA序列与长度为M的突变序列之间的信息交换，并遵循kappa加法符号⊕κ。我们发现，熵缺陷源于信息长度系统的相互依赖性。我们量化了由于信息交换导致的ssDNA/RNA信息长度基数(N)与(M)之间的关联。在熵缺陷存在的情况下，生物系统的兰道界限和最小代谢率发生了变化。不同的N和κ尺度在所提生物系统的双重进化中通过子系统关联得以体现。对于特定的kappa参数值，我们可以预期与单一生物聚合物相关的确定性法则在短期内成立；随着时间推移，聚合物将探索其所有可能的存在方式。",
      "source": "MDPI",
      "tier": "alt",
      "field": "生命科学",
@@ -586,8 +672,8 @@
     },
     {
      "title": "Infections Following Skin Graft Surgery in Australia: Incidence, Graft Type and Anatomical Site Associations and Microbiology",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "澳大利亚皮肤移植手术后感染的发生率及其相关因素研究",
+     "summary_zh": "背景/目的：皮肤移植术后感染可能影响移植物成活率并延长住院时间，但关于感染发生率、微生物学及移植物特定关联的现代数据有限。本研究旨在确定微生物学确认的术后皮肤移植感染的发生率及微生物学特征，探讨与移植物类型和解剖部位的关联，并描述抗菌药物的处方实践。方法：我们对2021年7月至2024年8月在澳大利亚新南威尔士州两家地区医院进行的977例皮肤移植手术进行了回顾性队列研究。感染定义为临床诊断的术后皮肤移植感染，并有病原体的微生物学确认。在患者聚类的修正泊松回归中探讨了移植物类型/部位与感染之间的关联。结果：在977例手术中，共发生66例微生物学确认的感染（6.8%；95% CI 5.3–8.5%）。感染病例的中位住院天数显著长于非感染病例（34天对3天；p 0.001）。涉及足部、脚趾及广泛肉芽组织区域的分层皮肤移植物感染发生率较高，而全层鼻部移植物的感染率较低。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -600,8 +686,8 @@
     },
     {
      "title": "Plasma Vitamin C, 25-Hydroxyvitamin D, and the Lactate-to-Albumin Ratio at PICU Admission in Survivors and Non-Survivors of Phoenix-Defined Pediatric Sepsis and Septic Shock: An Exploratory Prospective Cohort Study",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "PICU入院时维生素C、25-羟基维生素D与乳酸-白蛋白比率在儿童脓毒症中的研究",
+     "summary_zh": "背景：维生素C、25-羟基维生素D（25[OH]D）和乳酸-白蛋白比率（LAR）被提议作为脓毒症的预后标志物，但在儿童中的数据有限。本研究在儿童重症监护病房（PICU）入院时量化这些标志物，并评估其与死亡率的关联。方法：本单中心前瞻性队列研究遵循STROBE声明，招募了1个月至17岁疑似感染的儿童，Phoenix脓毒症评分至少为2；脓毒性休克需至少一项心血管评分。入院后1小时内采集血样，采用超高效液相色谱-质谱联用法分析抗坏血酸。终点为PICU出院前死亡率。结果：37名儿童中，33名（89.2%）为脓毒性休克，死亡率为29.7%。非幸存者的血浆维生素C水平较低。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -614,8 +700,8 @@
     },
     {
      "title": "Consequences of sustained modulation of VIP-expressing neurons in mouse corticolimbic regions on anxiety-related avoidance behaviors, social functioning, and associative fear learning",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "持续调节VIP表达神经元对小鼠焦虑行为的影响",
+     "summary_zh": "GABA能抑制神经元在网络动态中起核心作用，其功能障碍与多种精神、神经发育及神经疾病相关。近年来，研究发现表达血管活性肠肽（VIP）的抑制神经元（VIP+神经元）在这一电路中扮演重要角色。本研究系统评估了VIP+神经元对情感和社交行为的功能贡献。我们采用化学遗传学方法操控小鼠核心皮层边缘区域（包括内侧前额叶皮层、基外侧杏仁核和腹侧海马）中VIP+神经元的活动。观察到在这些区域激活或抑制VIP+神经元对小鼠在焦虑相关回避行为、社交兴趣和识别等行为任务中的表现产生显著影响。",
      "source": "bioRxiv",
      "tier": "preprint",
      "field": "神经认知",
@@ -628,8 +714,8 @@
     },
     {
      "title": "RasGRP1 promotes efficient intestinal tuft cell differentiation",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "RasGRP1促进肠道毛状细胞的有效分化",
+     "summary_zh": "肠道干细胞和平衡细胞在增殖和谱系承诺之间维持上皮稳态并适应环境挑战。毛状细胞是一种稀有的化学感受谱系，在蠕虫感染期间对细胞因子IL-13迅速扩增，但上皮前体状态如何影响这一反应尚不完全清楚。通过遗传小鼠模型、肠道类器官和单细胞方法，我们发现Ras鸟苷酸交换因子RasGRP1是有效毛状细胞分化的上皮内在促进因子。Rasgrp1在与Lgr5阳性干细胞不同的稀有隐窝上皮细胞中表达。一旦细胞进入毛状细胞分化轨迹，Rasgrp1缺失对毛状细胞成熟影响不大，包括Pou2f3转录因子的表达。相反，RasGRP1在前体阶段发挥作用，抑制EGFR驱动的增殖，并支持转录异质的过渡扩增状态。Rasgrp1缺失的小鼠表现出毛状细胞增生延迟和蠕虫清除效率低下。",
      "source": "bioRxiv",
      "tier": "preprint",
      "field": "生命科学",
@@ -642,8 +728,8 @@
     },
     {
      "title": "Synthetic inhibitors of pregnancy-associated plasma protein-A regulate IGF-1 signaling in vitro and in vivo",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "合成抑制剂调节妊娠相关血浆蛋白A的IGF-1信号通路",
+     "summary_zh": "胰岛素样生长因子（IGF）信号的失调与多种人类疾病相关。妊娠相关血浆蛋白A（PAPP-A）是一种分泌型金属蛋白酶，通过蛋白水解作用调节局部IGF信号，是一个有前景的治疗靶点。本研究首次设计了针对PAPP-A酶活性位点的合成抑制剂，采用IGFBP-5衍生的锚定序列。用磷酸酯或磷酸酯基团替代可切割键，获得了强效且选择性的PAPP-A抑制剂。冷冻电子显微镜揭示了抑制的分子基础及关键活性位点相互作用。这些化合物抑制了IGFBP-4和IGFBP-5的水解，抑制了A549肺癌细胞中的IGF-1信号，效果与内源性PAPP-A抑制剂stanniocalcin-1相当。在野生型和stc1a-/-突变斑马鱼中，这些化合物以剂量依赖方式抑制了Papp-aa依赖的IGF信号及细胞增殖。这些发现建立了首个合成选择性PAPP-A抑制剂的类别，能够调节IGF信号，为研究和调节病理提供了新的化学工具。",
      "source": "bioRxiv",
      "tier": "preprint",
      "field": "生命科学",
@@ -656,8 +742,8 @@
     },
     {
      "title": "Epithelial to mesenchymal transition and M2 macrophages drive aggressiveness in murine and human sarcomatoid urothelial carcinoma.",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "上皮-间质转化与小鼠及人类肉瘤样尿路上皮癌的侵袭性",
+     "summary_zh": "肉瘤样尿路上皮癌（SUC）患者通常预后不良，治疗选择有限，且针对稀有组织亚型的前临床资源较少。我们开发了三种新型变异亚型膀胱癌细胞系，发现来自接受N-丁基-N-(4-羟基丁基)-亚硝胺（BBN）处理的小鼠的基底膀胱肿瘤细胞最初在免疫功能正常的小鼠中无法生长，但在缺乏成熟B和T细胞的小鼠中经过传代后获得了肿瘤形成能力。三位泌尿肿瘤病理学家将BBN966鉴定为SUC，BBN964为SUC与鳞状细胞的混合型，BBN975为鳞状细胞，且各自具有独特的生长特性。通过公开数据集和我们对混合SUC和UC人类肿瘤的空间转录组分析，发现BBN966缺乏基底和腔道基因的表达，并且在所有三种回收的肿瘤细胞中，EMT通路的表达均有所增加，且与患者的总体生存率相关。",
      "source": "bioRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -670,8 +756,8 @@
     },
     {
      "title": "Spatially coordinated RTK-ERK signaling dynamics shape osteosarcoma single-cell drug response in the lung microenvironment",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "空间协调的RTK-ERK信号动态影响肺部骨肉瘤单细胞药物反应",
+     "summary_zh": "目的：肺转移是骨肉瘤患者死亡的主要原因，治疗反应因肿瘤与宿主组织环境的动态变化而异。本研究旨在探讨动态的肿瘤和宿主驱动的受体酪氨酸激酶（RTK）-ERK信号相互作用如何影响药物反应的表型异质性。方法：采用活细胞时间延迟显微镜和数据驱动的动态建模，分析了MCL1抑制剂处理后骨肉瘤肺转移的ERK活性、FOSL1/Fra-1报告基因表达及时空细胞命运。评估了RTK抑制剂在抑制适应性信号和增强MCL1抑制剂疗效方面的作用。结果：MCL1抑制导致肿瘤细胞大量死亡，但持久的ERK高表达/Fra-1高表达细胞在肿瘤-肺界面富集，表明适应性耐药性。实验和计算方法显示，肿瘤细胞溶解增强了邻近细胞的成纤维生长因子受体（FGFR）介导的ERK信号，促进了标志适应性ERK诱导和FOSL1/Fra-1表达的耐药状态。",
      "source": "bioRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -684,8 +770,8 @@
     },
     {
      "title": "Population reweighting and reporter distortion obscure ribosome regulation during translation inhibition",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "细菌翻译抑制中核糖体调控的复杂性研究",
+     "summary_zh": "细菌在生长条件变化时动态调整核糖体分配，但个体细胞内的调控机制尚不清楚。本研究利用谱系解析的单细胞显微镜技术，观察大肠杆菌在翻译抑制下的生长和核糖体报告动态，避免了生长依赖的谱系重加权。结果显示，氯霉素处理后，核糖体蛋白S2和L9的荧光融合蛋白荧光强度下降，而由核糖体启动子驱动的转录报告最初则增加。这种荧光强度的下降在多种荧光蛋白中持续存在，并在四环素处理时重现，表明其并非特定于某一荧光团、核糖体蛋白或翻译抑制剂。尽管一些融合报告在生理状态下与细胞生长保持关系，但这种关系并不稳定。",
      "source": "bioRxiv",
      "tier": "preprint",
      "field": "生命科学",
@@ -698,8 +784,8 @@
     },
     {
      "title": "Traveling brain waves support flexible storage of human working memory",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "旅行脑波支持人类工作记忆的灵活存储",
+     "summary_zh": "人类工作记忆使我们能够暂时存储和灵活利用信息。研究认为，信息在工作记忆中的保持有两种神经机制：工作记忆相关神经元的持续放电或在缺乏神经放电时的短期突触可塑性。然而，这两种机制在更新工作记忆内容时可能导致强烈的神经干扰。本文提出，信息可以以旅行波的形式灵活保持在工作记忆中，即在大脑组织中传播的时空神经活动模式。我们在人工神经网络中模拟了波的传播，通过在不同网络层间传递代表单项信息的瞬态神经放电模式。与持续神经放电相比，这些瞬态旅行波导致的突触可塑性最小，从而促进了工作记忆的更新而不产生显著的神经干扰。我们在人的颞叶的颅内记录中识别到了这种旅行波，发现其在信息编码时开始，并在维持和回忆过程中均匀持续，符合人工神经网络中的激活模式。",
      "source": "bioRxiv",
      "tier": "preprint",
      "field": "神经认知",
@@ -712,8 +798,8 @@
     },
     {
      "title": "Cellular and molecular coding of habit-driven behavior in the dorsal raphe nucleus",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "背侧缝核中习惯驱动行为的细胞与分子编码",
+     "summary_zh": "慢性压力对奖励寻求行为有显著影响，降低享乐驱动，同时使个体倾向于习惯性反应，牺牲目标导向行为。尽管以往研究已涉及皮质-纹状体回路的变化，但背侧缝核（DRN）作为调节动机状态的关键神经调节中心的作用仍不清楚。本研究确定了DRN神经元在应对压力引起的目标导向行为向习惯驱动行为转变中的关键角色。通过在清醒小鼠中使用双光子钙成像，我们发现DRN神经元编码努力支出和奖励获取的表征，并在单个神经元水平上整合。慢性压力选择性增强习惯驱动个体的奖励相关反应，且DRN神经元中奖励相关活动的缺陷预测慢性压力后的习惯形成。单核转录组分析显示，慢性压力驱动GABA能DRN神经元中与习惯相关的基因表达变化，包括突触功能和抑制信号相关基因的上调，并识别出潜在的药物治疗靶点。光遗传学抑制DRN GABA神经元可逆转压力对习惯形成的影响，导致操作反应的稳定变化，持续数天。",
      "source": "bioRxiv",
      "tier": "preprint",
      "field": "神经认知",
@@ -726,8 +812,8 @@
     },
     {
      "title": "BMP4 Restricts Axonal Ramification and Bouton Density in Cholinergic Projections from the Basal Forebrain",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "BMP4限制基底前脑胆碱能投射的轴突分支和突触密度",
+     "summary_zh": "轴突投射和精确的突触形成对功能性神经回路的建立至关重要，其失调与多种精神和神经退行性疾病相关。尽管周围组织分泌的多种细胞外信号调节轴突引导和突触形成，但神经元如何在其投射领域内局部调节末端模式尚不清楚。骨形态发生蛋白4（BMP4）是一种经典的形态发生因子，参与早期神经管的模式形成，但其出生后功能尚不明确。我们使用胆碱能神经元特异性Bmp4条件性敲除（Bmp4 cKO）小鼠研究BMP4在出生后胆碱能回路发育中的作用。结果显示，Bmp4 cKO小鼠在新皮层、海马和杏仁核中胆碱能轴突末端增加，且新皮层的轴突分支也显著增加，表明BMP4在目标神经支配后调节末端分化。",
      "source": "bioRxiv",
      "tier": "preprint",
      "field": "神经认知",
@@ -740,8 +826,8 @@
     },
     {
      "title": "One-carbon metabolism controls colorectal cancer cell state and chemosensitivity through chromatin remodeling",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "一碳代谢通过染色质重塑调控结直肠癌细胞状态与化疗敏感性",
+     "summary_zh": "叶酸与氟嘧啶类药物联合用于结直肠癌，以增强胸苷酸合成酶抑制作用，但其治疗效果在不同疾病和治疗环境中存在矛盾。研究表明，一碳代谢在治疗前重塑上皮身份，从而改变氟嘧啶的反应。叶酸恢复使结直肠癌细胞沿极性上皮轴从干样状态转向分化状态，而叶酸缺乏则倾向于相反的配置。这些预处理状态在5-氟尿嘧啶敏感性上显著不同。叶酸恢复提高了多种结直肠癌细胞系和患者来源的类器官的敏感性，而叶酸缺乏或甲氨蝶呤则增加了治疗诱导的衰老。状态依赖的敏感性并非仅由增殖解释，干样细胞在其S期占用最高的条件下反应最弱。机制上，叶酸恢复提高了甲基化潜力，支持EZH2依赖的H3K27me3重塑，重组染色质可及性和转录因子结合，降低经典WNT活性。在人类结直肠组织中，癌症的干样程序活性高于正常黏膜，而分化程序活性则较低，腺瘤介于两者之间。",
      "source": "bioRxiv",
      "tier": "preprint",
      "field": "生命科学",
@@ -754,8 +840,8 @@
     },
     {
      "title": "A disaggregated dynamic model of pulmonary and extrapulmonary tuberculosis for vaccine and booster-schedule evaluation: VPM1002 in India as a case study",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "肺结核与外肺结核动态模型评估疫苗与加强免疫方案：以印度VPM1002为例",
+     "summary_zh": "外肺结核（EPTB）在印度呈上升趋势，且其病死率高于肺结核（PTB）。VPM1002的三期临床试验未能达到主要复合终点，但次要终点显示出较强的EPTB信号（疫苗有效性42.3%，95% CI -9.1至69.4）。我们构建了一个包含1,152个群体区间的确定性模型，涵盖年龄、HIV状态、体重指数和社会经济状态，校准至2015-2024年WHO印度的发病率和死亡率。通过贝叶斯证据综合，分别推导出PTB和EPTB的有效性后验，并进行1,000次蒙特卡洛迭代。模型假设三剂疫苗在10年间隔接种，保护期为3或10年。结果显示，EPTB的后验中位有效性（42.9%）高于PTB（14.0%）。每100万名接受10年保护的目标人群中，三剂疫苗可避免5,218例病例、682例死亡和9,463个失能调整生命年（DALYs）。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -768,8 +854,8 @@
     },
     {
      "title": "Interaction Between Exercise Intensity and Sedentary Behavior on VO2max Change in Patients with De Novo Parkinson Disease: The Study in Parkinson Disease of Exercise (SPARX) Phase 2 Randomized Clinical Trial",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "运动强度与久坐行为对帕金森病患者VO2max变化的影响",
+     "summary_zh": "背景：帕金森病（PD）患者常伴随久坐时间增加和心肺适能降低，因此运动成为疾病管理的重要组成部分。尽管运动能改善心肺适能，但PD患者对运动的反应差异显著。久坐时间可能影响这种差异，但其是否会改变干预反应及不同运动强度的影响尚不明确。方法：本研究为SPARX二期随机临床试验的二次分析，纳入128名新诊断PD患者，随机分为高强度或中等强度跑步机运动组及常规护理组，持续6个月。通过线性回归模型评估随机分组与随机后6个月平均久坐时间的交互作用对VO2max变化的影响。结果：中等强度组与常规护理组的运动强度与久坐行为对VO2max变化的交互作用未显著（{beta}: -1.78, 95% CI: -3.76至0.20, p值: 0.08）。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -782,8 +868,8 @@
     },
     {
      "title": "Causal effect of loss to follow-up on mortality in a population-based tuberculosis cohort in Brazil",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "巴西结核病队列中失访对死亡率的因果影响",
+     "summary_zh": "背景：结核病治疗中的失访（LTFU）是一个主要的项目性缺口，但其导致的额外死亡率难以估计。方法与发现：我们对2013年至2023年间在巴西圣保罗州开始首次结核病治疗的171,048名15岁及以上人群进行了跟踪，链接了监测和死亡登记；其中20,830人（12.2%）失访。在失访者中，65%接受了直接观察治疗（DOT）。我们采用克隆审查权重目标试验模拟，比较了治疗开始后60个月内的两种策略：在前六个月内的任何时刻失访与持续接受治疗。滚动里程碑分析解决了失访的时机和特定原因死亡的额外情况。LTFU使标准化的五年死亡率增加了2.23个百分点（95% CI 1.88-2.51），其中结核病占61%。相对影响在年轻且住房稳定的个体中最大，其基线死亡率较低；绝对额外死亡率在HIV感染者中最大（4.49%）。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -796,8 +882,8 @@
     },
     {
      "title": "Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "科学还是垃圾？评估与减轻AI生成论文中的科学垃圾",
+     "summary_zh": "AI生成内容，通常被称为AI垃圾，在学术界日益普遍。然而，AI生成科学论文中的垃圾具有更复杂的模式，现有的基于标记的AI检测器难以轻易识别。我们通过结构、论证和文献三方面的六项指标对这些失败进行基准测试，构建了包含390篇AI生成论文的SciSlopBench，涵盖计算机科学及生命、社会和自然科学，每篇论文均与一篇人类撰写的论文在研究问题和贡献类型上相匹配。我们的指标以85.9%的准确率识别出每对中的AI论文，而Binoculars的准确率为68.7%。较高的科学垃圾与较低的ICLR评分相关，并在2017至2025年间区分被拒和被接受的论文。为减少这些模式，我们提出了SciSlopHarness，一个引导固定LLM在实验记录支持变更的情况下修订垃圾的框架。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -810,8 +896,8 @@
     },
     {
      "title": "Spatial Strategies, Not Actions: Vector-Quantized Geodesics as Tools for LLM-Driven Agents",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "空间策略与行动：向量量化测地线在LLM驱动代理中的应用",
+     "summary_zh": "基于大型语言模型（LLM）的代理常被批评缺乏空间理解，主要依赖统计文本模式。我们通过一种结合几何工具与LLM的架构，研究其空间理解能力。代理首先收集测地线轨迹，然后进行向量量化以提取代表性子集。LLM离线为每条选定轨迹关联自然语言描述，形成工具。在线时，LLM根据当前状态和目标选择合适工具，低级控制通过执行与工具关联的轨迹的原始动作来实现。从代理AI的角度看，该方法将学习分为两个层次：工具发现通过无监督量化轨迹进行，而推理和决策由LLM处理。我们在部分可观察的动态2D网格环境中测试该方法，结果表明，几何派生工具库与代理中心的缩放工具和碰撞检测工具的结合，使得快速的非推理配置在达成目标率上与更昂贵的思维链版本相匹配，同时将决策成本从分钟降低到秒。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -824,8 +910,8 @@
     },
     {
      "title": "Ontology-Grounded, Reasoner-Verified Benchmarks for Evaluating LLM Reasoning in Scientific AI",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于本体的推理验证基准评估科学AI中的LLM推理能力",
+     "summary_zh": "大型语言模型（LLMs）在科学AI应用中日益重要，尤其是在结构化知识推理方面，如生物医学问答和材料信息学。然而，它们的逻辑推理能力常常不足，导致在这些场景中产生不可接受的事实错误。可靠的评估仍然具有挑战性：手动数据集构建扩展性差，而基于LLM的生成可能嵌入其旨在测量的缺陷。我们提出了一种自动生成基于本体的多项选择题（MCQ）基准的流程，该基准从任何足够公理化的OWL 2本体生成，正确答案通过设计与本体相结合。通过扰动类定义公理的右侧类表达式生成干扰项，并通过OWL推理器进行形式验证。我们在三个本体上评估该流程：Pizza（小型，学术）、PMDco（复杂，材料科学）和DOID（大型，生物医学），分别生成112、2,491和15,216个MCQ。干扰项涵盖四种语义类别，支持特定推理失败的诊断评估。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -838,8 +924,8 @@
     },
     {
      "title": "OR for AI That Does OR: Routing LLMs up the Escalator inside the OSCAR Framework",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于OSCAR框架的优化建模与大语言模型的结合",
+     "summary_zh": "大型语言模型（LLMs）能够将业务描述转化为优化模型，但可执行代码可能会错误地表示约束或目标，导致求解器返回错误问题的最优解。即使解决方案满足预期的操作规则，仍可能存在更优的计划。针对重复使用优化建模的组织，基于LLM的框架应以低成本生成准确的模型，并理想情况下在本地运行。我们研究如何验证改进并在不同价格和能力的LLMs之间分配尝试。我们开发了OSCAR（优化建模模拟器、编码器和审查者），利用离线模拟器对标记决策示例进行认证，以比较候选者并在可行性之外继续搜索。在简化的已知先验设置中，我们给出了成本排序升级最优的条件。对于一般菜单，我们推导了无先验的竞争保证。在五个基准问题上，OSCAR在报告的设置下使用两个小型开放权重LLMs实现了95%至100%的准确率。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -852,8 +938,8 @@
     },
     {
      "title": "Network World Models as Environments for Algorithm Design on Complex Systems",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "网络世界模型在复杂系统算法设计中的应用",
+     "summary_zh": "世界模型模拟环境并预测其在行动下的变化，越来越多地应用于机器人等实际场景。复杂系统同样需要这种工具，因为行动的效果并非立竿见影。选择节点进行活动或免疫节点对疫情的影响，关键在于后续的结果。设计一个算法以最大化任务的预期表现本质上是迭代的，每个候选方案都需根据其产生的结果进行评分。获取结果依赖于模拟，而在多条采样轨迹上评估候选方案时，模拟成本成为瓶颈。我们提出了一种基于行动的网络世界模型，能够学习网络在干预下的扩散动态，应用每个行动并预测后续结果。该模型在算法设计循环中作为快速评估器，帮助编码代理设计和优化可执行算法。经过八个网络任务和五个扩散模型的测试，设计的算法在141个设置中有138个超越或匹配了最强基线，同时实现了比蒙特卡洛模拟快14.5倍的结果。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -866,8 +952,8 @@
     },
     {
      "title": "Beyond State-of-the-Art: Standardising Environmental Impact Metrics for AI Research",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "超越现有技术：标准化AI研究的环境影响指标",
+     "summary_zh": "随着大型语言模型（LLMs）能力和普及度的提升，其环境足迹也在增加。尽管有呼吁负责任的人工智能，但机器学习社区缺乏标准化的碳核算实践。我们对2025年NeurIPS会议接受的5,285篇论文进行了自动化文献综述，发现环境影响报告几乎不存在。为推动可持续AI的发展，我们定义了评估模型训练效率的标准化可持续性指标，并提供了简单的启发式方法来估算LLM推理的碳成本。我们在carbonbenchmark中实现了这些指标，这是一个用于跟踪和报告排放的即插即用软件解决方案。最后，为了应对在不成比例的环境成本下追求微小准确性提升的现象，我们正式提出了“完成任务的最小模型”（SMAJ）框架，挑战该领域在追求传统“现有技术”（SotA）准确性的同时，优先考虑计算效率和环境责任。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -880,8 +966,8 @@
     },
     {
      "title": "Learning to Ask: Information Acquisition for SLM-LLM Collaboration, under a budget",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "在预算限制下的SLM-LLM协作信息获取研究",
+     "summary_zh": "小语言模型（SLM）与大语言模型（LLM）之间的协作能够结合小模型的高效性与大模型的强大推理能力。现有方法主要将这种协作视为计算分配问题，决定由哪个模型处理推理过程的各个部分。然而，在基于黑箱API的设置中，这种范式可能因粗粒度的委派或模型切换时上下文的重复传输而效率低下。本研究将SLM-LLM协作重新构建为在API预算约束下的信息获取问题。SLM作为主要推理者，仅在必要时选择性地查询黑箱LLM顾问，发出针对性查询，而不是委托整个推理过程。我们开发了一个三阶段的RLVR框架，学习何时调用顾问、如何制定有用查询以及如何将协作整合到推理过程中。我们的方案在数学推理和编码任务中改善了性能与成本的权衡，并在某些设置中匹配或超越了理想问题级路由。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -894,8 +980,8 @@
     },
     {
      "title": "A Multi-Agent LLM Framework for Personalized Health Checkup Interpretation and Guidance",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "多智能体大语言模型框架用于个性化健康体检解读与指导",
+     "summary_zh": "个性化健康体检结果解读需要跨越纵向记录、医学知识、生活方式指导和医疗导航进行推理。我们提出了一种多智能体大语言模型（LLM）系统，该系统识别多个意图，将每个意图映射到特定任务的智能体，进行并行执行并综合其输出。我们在120个结合两到四个需求的韩国复合查询中比较了单智能体和多智能体设置生成的答案，使用合成的健康体检记录。多智能体的加权LLM评估分数从1.695提高到1.797（p = 0.027），另外三位LLM评审者也显示出一致的改善（$\\Delta$ = +0.111至+0.186，均p < 0.05）。这些提升源于有用性、一致性以及对复合查询中每个需求的处理，而数值准确性和基础数据仅在四位评审者中的一位显著改善，医疗安全性没有差异，关键失败发生率相似（单智能体15.0% vs. 多智能体13.3%）。两位人类评估者在66.7%和68.3%的配对比较中偏好多智能体。多智能体执行使延迟和成本分别增加了1.31倍和2.02倍。在探索性子组分析中，改善主要集中在涉及个人记录查找的查询中。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -908,8 +994,8 @@
     },
     {
      "title": "OpenMTB-Audit: Exposing Over-Refusal and Clinical Expert Perspectives in LLM-Based Molecular Tumor Board Safety Evaluation",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "OpenMTB-Audit：揭示LLM基础分子肿瘤委员会安全评估中的过度拒绝与临床专家观点",
+     "summary_zh": "分子肿瘤委员会整合基因组发现、临床背景和治疗证据以支持精准肿瘤学。随着人工智能进入这一工作流程，关键的安全挑战是区分真正不支持的建议与仍需肿瘤医生审查的证据支持选项。我们推出了OpenMTB-Audit，这是一个包含500个合成非小细胞肺癌病例的开源基准，涵盖五种对抗性错误类别和四个安全标签：支持、部分支持、不支持和信息不足。在八种大型语言模型配置中，我们发现普遍存在过度拒绝现象：所有LLM配置在83.3%-100%的真实部分支持案例中未能保留部分支持标签，导致通过标签合并而非临床校准推理获得高安全评分。为解决这一限制，我们开发了MTB-AuditAgent，一个确定性的七模块框架，分离证据验证、缺失信息检测、安全分类和弃权。它将过度拒绝降低至6.7%，并实现91.2%的准确率（95% CI：88.6-93.6%）。一项由两位肿瘤医生进行的注释研究发现，分歧集中在信息充分性与治疗优化的边界，强调了保持临床判断的重要性。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "医学健康",
@@ -922,8 +1008,8 @@
     },
     {
      "title": "The AI Assessment Sandbox Configurator: A Framework to Support Technical Assessment in AI Regulatory Sandboxes",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "AI评估沙箱配置器：支持AI监管沙箱技术评估的框架",
+     "summary_zh": "欧盟《人工智能法》要求所有成员国在2027年8月之前建立人工智能监管沙箱（AIRS），以便将国家主管机构、技术专家和被评估组织聚集在一起。当AIRS的参与包括结构化技术测试时，大规模运行此类测试需要专门的基础设施，但现有工具生态系统仍然结构性分散，异构工具产生的输出难以比较、追踪和重用。基于AIRS参与的程序条件和高风险系统的法律义务，我们提出了11项基础设施的架构和治理要求，以实现AIRS内的技术测试。为满足这些要求，我们推出了AI评估沙箱配置器，这是一个开源框架，结合了通过稳定插件API访问的测试和控制的精选目录、协调异构输出的共享数据模型、针对多学科解释的角色特定仪表板以及面向不同受众的报告。我们描述了该框架的架构和当前版本，并报告了一个早期阶段的试点，该试点在实际AIRS参与中测试了协调和报告层，并为官方退出报告做出了贡献。我们讨论了路线图及其引发的治理问题。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -936,8 +1022,8 @@
     },
     {
      "title": "Atoms to Processes: The Role of Artificial Intelligence and Machine Learning in Chemical Engineering",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "人工智能与机器学习在化学工程中的应用与发展",
+     "summary_zh": "人工智能（AI）和机器学习（ML）的快速发展正在深刻改变化学工程问题的制定、分析和解决方式。计算能力、数据可用性和学习算法的进步使得AI/ML方法在原子级模拟、材料与催化剂发现、传输与热力学、分离、过程系统工程及工业操作等领域产生了重要影响。本文探讨了近期的方法论发展及代表性应用，强调AI/ML工具如何与第一性原理模型结合，以应对预测准确性、数据稀缺、外推性、可解释性和模型生命周期管理等挑战。一个统一的趋势是从纯黑箱方法转向混合和物理信息驱动的框架，明确遵循守恒定律、热力学一致性和已知结构约束。这些方法不仅提高了鲁棒性和可靠性，还促进了人机协作，提供了适合任务和决策背景的信息。我们认为，AI和ML并未取代化学工程的核心原则，而是对其进行了增强。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -950,8 +1036,8 @@
     },
     {
      "title": "Mimir: Physics-Grounded LLM Agents for Long-Horizon Irrigation Control",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "Mimir：基于物理的长时段灌溉控制LLM智能体",
+     "summary_zh": "大型语言模型（LLM）智能体越来越多地结合推理、工具使用和行动，但大多数证据来自于具有相对即时反馈和重置失败的短期任务。长时间运行的物理控制在不同的环境中操作：行动改变未来状态，错误在决策中累积，智能体必须在不允许重写物理规则的情况下从经验中改进。我们通过灌溉研究这一环境，日常决策与整个生长季节的土壤-水动态相互作用。我们提出了Mimir，一个围绕两个修复时间尺度组织的基于物理的LLM智能体。在快速时间尺度上，结构化的物理接口和确定性模拟器将LLM输出转化为提案，并在执行前进行数值检查、修订和有限确定性行动选择。在慢时间尺度上，重复的失败模式被整合为持久的上下文原则，以调节未来提案，同时物理模型、评估器和执行约束保持不变。在多个地点、作物和年份的共同回顾评估下，Mimir在评估参考中实现了最低的综合控制成本，并使用比历史调度重放少约51%的灌溉量。消融研究显示，前向模拟时控制成本更高。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -964,8 +1050,8 @@
     },
     {
      "title": "Legal text classification in Korean sexual offense cases: from traditional machine learning to large language models with XAI insights",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "韩国性犯罪案件法律文本分类研究：从传统机器学习到大语言模型",
+     "summary_zh": "自然语言处理（NLP）的进步推动了法律领域基于人工智能的文本分类。然而，由于法律文本的复杂性和法律类别之间的细微差别，准确分类法律文件仍然具有挑战性。本研究评估了从传统机器学习技术到大语言模型（LLMs）的法律文本分类模型，使用了十类韩国性犯罪判例。结果表明，在法律数据上微调小规模模型如KLUE-BERT的表现优于通用模型如GPT-3.5和GPT-4.0，以及传统机器学习模型。KLUE-BERT达到了99.3%的最高准确率，表明领域适应和微调在法律文件分类中可能比模型大小更为重要。我们进一步采用可解释人工智能（XAI）技术分析模型预测和误分类案例，识别影响模型决策的语言特征及捕捉细微文本线索的局限性。使用与真实法律案件记录相似的KICS数据，我们评估了模型的泛化能力，发现其在解释隐含上下文线索方面存在困难。这些发现强调了法律AI中性能和可解释性的重要性，并展示了XAI如何改善透明度。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -978,8 +1064,8 @@
     },
     {
      "title": "Multi-Behavioral Evolved Substrates Through Neuromodulation and Activation Selection",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "通过神经调节与激活选择实现多行为进化基质",
+     "summary_zh": "开放式人工生命系统必须从单一进化基因型中获得多样化能力。生物大脑结合了神经调节和多种特定计算角色的神经元类型。我们通过超过10,000次实验，发现仅靠神经调节不足以实现目标：在进化搜索中，单调激活函数对奇偶任务施加了75%的上限，这一限制与容量、拓扑或种群规模无关。我们将神经调节与每任务激活函数选择相结合，将振荡原语匹配到奇偶任务，将单调函数匹配到阈值任务，从而产生多行为进化基质。结果显示，在所有30个种子中，5项任务的成功率达到100%（中位数14代）。这一结果在振荡激活类中具有普遍性：所有四个函数均达到100%（各30个种子）。单一机制均不足以解决问题，而多层深度提供了另一条路径。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "神经认知",
@@ -992,8 +1078,8 @@
     },
     {
      "title": "When the AI Leaves the Tailorshop: Measuring What an LLM Advisor Leaves Behind in Complex Problem Solving",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "AI在复杂问题解决中的影响：量化LLM顾问的作用",
+     "summary_zh": "复杂问题解决依赖于有效行动和对系统运作的理解。本文通过两个预注册实验比较了在模拟服装工厂管理中，有无LLM顾问的参与者。研究发现，AI支持的参与者在信心和理解上表现更佳，且付出更少努力。在第一个研究中（N=200），AI辅助提高了公司价值，但未显著改善预测准确性。撤回支持后，曾接受支持的参与者在重复选择的决策评分中表现优于对照组。AI支持组中，推荐修改频率与更好的独立表现相关。在第二个研究中（N=198），AI支持的参与者破产率较低，知识优势小，主要与保持偿付能力相关。推荐修改频率与AI支持组内的知识水平呈正相关。应用人机交互评估应同时考量用户的理解能力和独立能力。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1006,8 +1092,8 @@
     },
     {
      "title": "Towards Hierarchical Cyber Defense with Large Language Models: From Planning to Execution",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于大语言模型的分层网络防御研究",
+     "summary_zh": "自主网络防御者通常依赖于强化学习（RL）训练，限制了其在网络规模变化时的泛化能力。分层强化学习通过将战略目标与战术执行分离来降低决策复杂性，但仍需重新训练。我们研究了冻结的零-shot大语言模型（LLMs）在分层网络防御中是否能提供无重训练的控制，以及LLM控制从规划到执行的扩展对性能的影响。我们构建了一个控制器无关的规划-执行层次结构，规划者在固定时间内选择防御子网，执行者在该子网内选择防御行动。通过高保真Cyberwheel环境进行实验，比较了RL+RL、LLM+RL和LLM+LLM配置，使用的模型参数范围从3B到70B，包括两个网络安全专用模型。结果表明，仅用LLM替代规划者在网络规模增大时收益有限，而将LLM控制扩展到执行则显著提高了性能。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1020,8 +1106,8 @@
     },
     {
      "title": "Initialization Improves LLM-Driven Discovery",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "初始化提升大语言模型驱动的发现效率",
+     "summary_zh": "大语言模型（LLMs）已被用于算法、定理、药物等新颖发现，通过提示LLM迭代优化目标。本文研究了先前迭代的群体与最终发现成功之间的关系。我们对过去的工具设计进行了概括，开发了12种称为“模块化”的工具，并在5个不同的发现任务中评估其性能，发现发现成功对工具设计非常敏感且脆弱。我们揭示了模式崩溃现象，即迭代多样性的显著下降，作为一种常见的失败模式。流行的最先进工具和旨在延长崩溃的多样性干预措施效果不一致。我们的结果表明，早期发现的表现能够预测最终成功。因此，我们提出了一种普遍适用的干预措施，通过初始阶段的并行探索来初始化后续的迭代优化。我们的方法在多种工具和目标应用中提供了一致的收益，确认了初始化在LLM驱动发现中的重要性。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1034,8 +1120,8 @@
     },
     {
      "title": "Architecture Without an Architect? Global Governance of Artificial Intelligence in a Divided World",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "没有建筑师的建筑？全球人工智能治理的分裂世界",
+     "summary_zh": "人工智能为全球治理带来了异常复杂的问题。该技术发展迅速，跨越国界，且受到资源和能力可能与国家相当的参与者的影响。然而，国际响应仍然碎片化、代表性不均且大多不具约束力。因此，挑战不仅在于识别适当的规则或机构，还在于理解谁有能力和动机去创建、执行和调整这些规则。本文通过Matthijs Maas的《全球人工智能治理架构》探讨这些问题。Maas提出了一个雄心勃勃的框架，通过社会技术变革、治理中断和制度复杂性来思考人工智能治理。尽管他强调了碎片化和不断演变的治理架构的可能性，但文章认为，制度设计无法与权力分配分开。Maas常常提到“我们”应对人工智能采取的行动，但这一集体主体掩盖了国家、国际机构和科技公司之间的重要差异。国家在市场、基础设施、战略投入和企业本身方面仍然拥有强大的权力。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1048,8 +1134,8 @@
     },
     {
      "title": "Man and machine: artificial intelligence and judicial decision making",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "人工智能与司法决策的结合研究",
+     "summary_zh": "将人工智能（AI）融入司法决策，尤其是在预审、量刑和假释等领域，已引发大量文献研究。跨越计算机科学、经济学、法律、犯罪学和心理学等领域，研究者们探讨了AI辅助决策的可靠性、公平性及其现实影响。然而，这些文献仍显得零散，假设、概念和研究重点的差异使得评估已有知识变得困难。本文以刑事司法风险评估为重点，提出了一个概念框架，区分并关联三个核心问题：自动化风险评估工具的预测有效性、算法风险评估与人类预测的比较（AI与人类）、以及算法建议如何影响法官的决策（AI加人类）。通过该框架，我们综合了针对这些问题的实证证据，发现现有研究在预测有效性方面存在重要局限，同时对法官如何响应AI建议及其个体和决策环境的差异理解不足。现有证据表明，AI决策辅助工具迄今为止的影响有限。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1062,8 +1148,8 @@
     },
     {
      "title": "Probing an Embodied LLM: When Higher Observation Fidelity Hurts Problem Solving",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "探究具身大型语言模型：观察精度对问题解决的影响",
+     "summary_zh": "大型语言模型（LLMs）越来越多地被提议作为机器人系统的认知组件，但其决策过程的不透明性使得在闭环具身任务中解释成功或失败变得困难。我们采用实证人工智能方法，通过改变可用信息来研究具身LLM代理的行为，并测量行为变化。使用Lockbox这一具有隐藏相互依赖关系的顺序机械难题，我们在物理机器人设置中评估LLMs在RGB、RGB-D和真实符号观察下的表现，并通过仿真探究结果行为。出人意料的是，代理在原始RGB输入下表现最佳，而在完美的真实观察下表现最差。仿真中，我们通过随机翻转感知的行动结果探讨这一效应，发现适度噪声可以提高性能，在40%的翻转概率下成功率比无噪声基线提高2.85倍。进一步分析将这一增益与重复行动循环的减少联系起来。这些发现表明，仅凭成功率不足以评估LLMs，因为测量的表现可能反映感知错误与推理失败之间的相互作用，而非稳健的问题解决能力。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1076,8 +1162,8 @@
     },
     {
      "title": "WaLLM -- Understanding Use and Engagement with a General-Purpose LLM on WhatsApp",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "WaLLM：在WhatsApp上理解通用LLM的使用与参与",
+     "summary_zh": "大型语言模型（LLM）聊天机器人越来越多地通过消息平台（如WhatsApp）接触用户。然而，这些系统仍然主要是专有且不透明的，学术研究则集中于狭窄的领域特定助手。这使得人们如何使用通用LLM以及此类系统应如何设计的问题仍然开放。为填补这一空白，我们开发了WaLLM，一个通用LLM聊天机器人，并将其作为设计探针部署在WhatsApp上，以研究开放式AI的实际使用。我们的研究发现，健康和福祉占据了查询的最大比例，表明用户寻求WaLLM的建议和信息。参与特征在采用和使用模式上有所不同：主动沟通提升了服务的可见性，并与更高的用户活动相关，而社区列表则促进了内容发现。我们报告了这些特征如何适应WhatsApp的功能，并讨论了在消息平台上设计通用LLM服务的启示。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1090,8 +1176,8 @@
     },
     {
      "title": "Are AI Coders Snitches? An Empirical Study of Pretraining Data Detection on Code Large Language Models",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "AI编码器是否泄密？代码大语言模型预训练数据检测实证研究",
+     "summary_zh": "随着代码大语言模型（CodeLLMs）的进步，它们已成为现代软件工程中不可或缺的工具。然而，这些模型有时会生成包含专有或敏感代码片段的输出，导致对训练数据合规使用的担忧，并对隐私和知识产权构成风险。为确保CodeLLMs的负责任和合规部署，训练数据检测（TDD）成为一项关键任务。尽管近期的TDD方法在自然语言环境中表现出色，但在代码数据上的有效性仍未得到充分探索。为此，我们对七种最先进的TDD方法在源代码数据上的表现进行了全面实证研究，评估了它们在八个CodeLLMs上的性能。我们引入了CodeSnitch，一个包含9,000个代码样本的函数级基准数据集，明确标记为包含或不包含在CodeLLM训练中。此外，我们设计了针对性的变异策略，以测试TDD方法在三种不同设置下的鲁棒性，这些策略基于成熟的代码克隆检测分类法。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1104,8 +1190,8 @@
     },
     {
      "title": "ECHO: A Participatory Framework for Bias-Anchored AI Harm Anticipation",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "ECHO：一种参与式框架用于偏见引导的AI伤害预判",
+     "summary_zh": "人工智能（AI）系统在重要决策中日益发挥作用，既创造价值也可能对个人、社会群体和社会造成潜在伤害。这促使人们呼吁在AI生命周期早期采取主动的伤害预判方法。尽管先前研究已识别出AI偏见作为伤害来源，但特定生命周期偏见与伤害之间的关联仍不够明确。我们提出了\\texttt{ECHO}，一个系统性、情境敏感且参与式的框架，将早期伤害预判与生命周期偏见相结合，并引导其与潜在伤害的感知关联。\\texttt{ECHO}识别特定领域的利益相关者，通过情境实例化偏见，收集人类参与者和大型语言模型（LLM）的伤害判断，并将其组织成描述性和推理性伦理矩阵。在疾病诊断和招聘中应用\\texttt{ECHO}，揭示了非均匀、情境敏感的偏见-伤害模式，表明哪些伤害被视为特定AI偏见的合理后果。这些模式的理论可解释性和对特定关联的推理支持增强了映射的可信度。通过将利益相关者特定的预期伤害与生命周期偏见联系起来，\\texttt{ECHO}支持源级伤害预判，并为后续研究提供结构化输入。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1118,8 +1204,8 @@
     },
     {
      "title": "In Vino Veritas and Vulnerabilities: Examining LLM Safety via Drunk Language Inducement",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "酒后语言诱导与大型语言模型安全性研究",
+     "summary_zh": "人类在酒精影响下容易出现不当行为和隐私泄露。本文研究酒后语言，即在酒精影响下撰写的文本，作为大型语言模型（LLMs）安全失败的驱动因素。我们探讨了三种诱导LLMs酒后语言的机制：基于角色的提示、因果微调和基于强化的后训练。在对5个LLMs进行评估时，我们观察到在JailbreakBench上（即使有防御措施）和ConfAIde上的隐私泄露，LLMs对越狱攻击的易感性更高，且均为英语基准，相较于基础LLMs及以往报告的方法。通过手动评估与LLM评估器的结合，以及对错误类别的分析，我们的发现强调了人类醉酒行为与诱导酒后语言的LLMs之间的类人化对应关系。我们的酒后语言诱导方法简单高效，可能成为LLM安全调优的潜在对策，突显了LLM安全的重大风险。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1132,8 +1218,8 @@
     },
     {
      "title": "Capabilities Ain't All You Need: Measuring Propensities in AI",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "能力并非唯一需求：AI倾向性测量研究",
+     "summary_zh": "AI评估主要集中在测量能力上，越来越多地采用受项目反应理论（IRT）启发的正式方法。然而，倾向性——模型表现特定行为的倾向——在决定性能和安全结果中起着核心作用。传统IRT将模型在任务上的成功描述为模型能力和任务需求的单调函数，这种方法不适用于倾向性，因为过度和不足都可能导致问题。本文首次引入正式框架，通过双逻辑模型来测量AI倾向性，当模型的倾向性处于“理想区间”内时，成功概率较高。此外，我们使用新开发的任务无关评分标准估计理想区间的限制。对六类倾向性不同的LLM模型应用该框架，我们发现可以测量倾向性偏移的程度及其对任务的影响。重要的是，使用一个基准估计的倾向性能够成功预测在保留任务上的行为。此外，结合倾向性和能力的预测能力强于单独使用。我们的框架展示了如何进行严格的倾向性测量及其潜在价值。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1146,8 +1232,8 @@
     },
     {
      "title": "Clinical Note Bloat Reduction for Efficient LLM Use",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "减少临床笔记冗余以提高大型语言模型效率",
+     "summary_zh": "背景：临床笔记中存在大量模板、复制粘贴和自动填充字段的重复文本（“笔记冗余”），这稀释了临床信号，限制了纵向背景，并增加了大型语言模型（LLM）的成本。方法：TRACE利用笔记级电子健康记录（EHR）元数据识别模板和复制内容，缺乏元数据时采用基于频率的去重。我们通过盲审医生的回顾和金标准模板文本注释，评估了TRACE在多个健康系统的四个队列（530万条笔记）中的应用。结果：去除的文本中仅有0.3-6.6%被标记为作者生成；TRACE捕获了86%的注释模板字符。信息提取F1差异在各队列间平均范围为-0.009至+0.004；特定任务预测F1差异范围为-0.011至+0.018。在随机抽取的1000名斯坦福医疗患者中，TRACE减少了47.3%的图表文本（742.7M字符），每位患者平均减少220,167个标记。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1160,8 +1246,8 @@
     },
     {
      "title": "DynGhost: Temporally-Modelled Transformer for Dynamic Ghost Imagings",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "DynGhost：动态幽灵成像的时序建模变换器",
+     "summary_zh": "幽灵成像通过将结构化照明模式与标量强度测量相关联，从单像素探测器重建空间信息。尽管深度学习方法在静态场景中取得了良好效果，但仍存在两个关键限制：现有架构未能利用帧间的时间一致性，导致动态幽灵成像问题未得到解决；且假设的加性高斯噪声模型未能反映真实单光子硬件的泊松统计特性。我们提出了DynGhost（动态幽灵成像变换器），一种通过交替的空间和时间注意力模块解决这两个限制的变换器架构。基于物理准确的探测器模拟（SNSPDs、SPADs、SiPMs）和Anscombe方差稳定归一化的量子感知训练框架，解决了导致经典模型在现实硬件约束下失败的分布偏移。多项基准实验表明，DynGhost在动态和光子稀缺环境下显著优于传统重建方法和现有深度学习架构。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1174,8 +1260,8 @@
     },
     {
      "title": "TRIAGE: Dialectical LLM Reasoning for Explainable Risk Prediction on Irregularly Sampled Medical Time Series",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "TRIAGE：用于可解释风险预测的辩证LLM推理框架",
+     "summary_zh": "基于电子健康记录中不规则采样的医疗时间序列（ISMTS）构建的临床预警系统需要提供连续的风险评分和可供临床医生验证的解释性理由。大型语言模型（LLMs）在此方面具有独特优势，能够从输出概率中推导风险，并从医学知识中提取理由。然而，我们发现传统LLM推理将分级风险简化为过于自信的预测，削弱了患者间的可比性，称之为风险极化。为了解决这一问题，我们提出了TRIAGE框架，通过引导特定结果的理由，训练LLM进行辩证推理。该方法减轻了风险极化，使单个LLM能够同时提供明确的临床理由和可比的风险评分。在五个ISMTS基准测试中，TRIAGE的平均AUPRC提高了17.0%，平均校准误差降低了82.8%，并在平均AUPRC上超越了最强的ISMTS基准3.5%。",
      "source": "arXiv:cs.AI",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1188,8 +1274,8 @@
     },
     {
      "title": "Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "反向项目反应理论在癌症药物反应矩阵中的稀疏性稳健排序",
+     "summary_zh": "我们将反向项目反应理论（IRT）引入药物基因组学药物反应分析，将癌症类型视为具有抗药能力的潜在“受试者”，将药物视为具有逃避难度的“项目”。该模型应用于来自癌症药物敏感性基因组学（GDSC2）数据库的242,036个药物敏感性测量，估计癌症类型的体外抗药性和药物的广泛活性。验证结果显示，在四种缺失模式下，反向IRT比简单平均更好地恢复了完整数据的潜在排名，在60%缺失情况下，Delta-rho提高了+0.089至+0.095。保留预测确认IRT在五种评估方法中获得最佳Brier评分。Bootstrap置信区间显示28种癌症类型中有19种具有稳定的抗药/敏感分类。跨平台PRISM复制显示82%的方向一致性，但排名相关性较弱（rho = 0.25），表明该研究的贡献在于方法的稳健性，而非普遍的临床抗药性排行榜。",
      "source": "arXiv:cs.LG",
      "tier": "preprint",
      "field": "医学健康",
@@ -1202,8 +1288,8 @@
     },
     {
      "title": "Fixing a Model That Learned Worse Cancer Means Lower Risk: Monotonic Constraints in Bladder Cancer Recurrence Prediction",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "修正癌症模型：膀胱癌复发预测中的单调约束",
+     "summary_zh": "背景与目的：临床医生期望癌症严重程度与复发风险呈正相关。在一项英国多中心试验中，一个不受约束的XGBoost模型学习到更高的肿瘤分期和原位癌预测较低的复发风险，且其判别力、校准和SHAP均未察觉到这一点。我们开发了一个反事实测试框架来检测这种反转，并建立了一个单调约束框架以消除该问题而不影响性能。方法：BOXIT研究在51个英国站点招募了472名患者（2007-2012年），435名患者至少随访两年（153例复发，复发率35.2%）。我们开发了反事实方向测试和单调约束修正，约束方向来源于EORTC和EAU风险系统，并在50个交叉验证折叠中评估了这两者与不受约束的XGBoost和逻辑回归在18个预测因子（7个有向）上的表现。关键发现与局限性：肿瘤分期和原位癌与较低复发率相关，违背医学直觉；不受约束的模型在90.2%的情况下反转了原位癌的反事实，在74.3%的情况下反转了分期。判别力（$\\Delta$AUC 0.005, p=0.47）、校准和SHAP幅度均未察觉到这一反转。",
      "source": "arXiv:cs.LG",
      "tier": "preprint",
      "field": "医学健康",
@@ -1216,8 +1302,8 @@
     },
     {
      "title": "HADRec: A Hierarchy-Aware Drug Recommendation Framework by Fusing Molecular Knowledge and Electronic Health Record",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "HADRec：融合分子知识与电子健康记录的药物推荐框架",
+     "summary_zh": "准确的药物推荐对临床决策至关重要，直接影响治疗效果和患者安全。现有方法存在两个主要局限：药物常被抽象为离散标记，忽视其分子结构和药理机制；常用的“平面”推荐范式未能利用国际标准解剖治疗化学（ATC）分类系统的层次逻辑。为解决这些问题，本文提出HADRec，一个融合分子知识与电子健康记录（EHR）的层次感知药物推荐框架。HADRec使用LLaMA-7B对临床记录进行编码，以丰富患者表征，并利用ChemBERTa编码药物简化分子输入行条目系统字符串，构建全球分子知识库。通过交叉注意机制实现患者状态与药物特征的深度多模态融合。该框架还结合层次预测器和新颖的一致性约束损失，以严格遵循ATC逻辑依赖性。在MIMIC-III上的广泛实验表明，HADRec在Jaccard、F1和PR-AUC指标上达到了最先进的性能。MIMIC-IV的外部验证确认了其在分布变化下的强泛化能力，校准分析显示良好的校准效果。",
      "source": "arXiv:cs.LG",
      "tier": "preprint",
      "field": "医学健康",
@@ -1230,8 +1316,8 @@
     },
     {
      "title": "FastCI: Efficient GPU-Intensive CI for LLM Training Frameworks",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "FastCI：高效的GPU密集型大语言模型训练CI框架",
+     "summary_zh": "随着大语言模型（LLMs）规模和复杂性的不断增长，其训练框架也在快速演变。因此，持续集成（CI）对维护这些框架的质量和稳定性至关重要。然而，与传统软件不同，LLM训练框架的CI依赖于GPU密集型测试，通常涉及完整的模型训练或评估，这使得CI成为快速开发的新瓶颈。本文介绍了FastCI，一个提高LLM训练框架CI效率的框架。FastCI利用运行时证据选择受影响的测试，并修剪在等效上下文中执行更改代码的测试。然后，FastCI优先考虑高风险测试，以更早地暴露潜在故障，并在每个测试的预期验证范围之外优化测试工作负载。在我们LLM训练框架的CI工作负载评估中，FastCI将CI延迟减少了77.5%，GPU资源使用降低了63.9%，同时提高了修改代码覆盖率保留3.2%。FastCI现已集成到字节跳动的LLM训练框架CI管道中。",
      "source": "arXiv:cs.LG",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1244,8 +1330,8 @@
     },
     {
      "title": "AIR-LLM: Broadcasting AI Weights over Radio for Memory-Free Edge LLM Inference via RF Computing",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "AIR-LLM：通过无线广播实现无内存边缘LLM推理",
+     "summary_zh": "下一代大型语言模型（LLMs）正从云端扩展到普遍的边缘设备。然而，边缘设备通常缺乏存储日益增大的LLM权重的内存，或即使有足够的内存，也会在加载权重时消耗过多能量。为此，我们提出了AIR-LLM，一种针对边缘设备的LLM推理架构。该架构包括： (i) 一个中央无线电（如5G基站），将LLM权重广播到空中； (ii) 边缘用户接收权重，并使用射频混频器直接在射频域完成LLM推理的通用矩阵-向量乘法（GEMV）。为了进一步缩短空中传输时间，AIR-LLM利用MIMO空间复用，并提出了一种能效高的预编码-后编码对，以校准自身的无线信道。由于中央无线电对用户不可知，AIR-LLM具有用户可扩展性，使得一次广播可以服务于覆盖范围内的无限用户。我们在两个真实城市场景的NVIDIA Sionna光线追踪信道上实现了AIR-LLM，并对真实射频混频器进行了性能分析。AIR-LLM在LLaMA-3.1-8B上实现了WikiText-2困惑度下降4.0%，能量节省达到157.7倍/40.4倍。",
      "source": "arXiv:cs.LG",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1258,8 +1344,8 @@
     },
     {
      "title": "Neural Fourier Surrogates for Data Reuploading Quantum Neural Networks",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "用于数据重上传量子神经网络的神经傅里叶代理",
+     "summary_zh": "量子机器学习中，经典与量子优势之间的确切边界仍不清晰。量子神经网络（QNNs）与现有经典模型的直接比较常常未能提供深入的见解。受神经量子态和随机傅里叶特征技术的启发，本文提出了神经傅里叶代理（NFS），这是一种随机经典神经网络架构，能够高效学习与量子神经网络相同有限傅里叶级数支持上的系数。在一系列表格基准数据集上的测试表明，NFS是一种有效的分类器架构，与现有经典基线广泛竞争，包括相当的随机傅里叶特征模型，并且在性能上与数据重上传的QNNs相当；结合对合成数据中QNNs和NFS学习的傅里叶谱的额外分析，这些结果确立了NFS作为评估QNN性能的自然经典基线。",
      "source": "arXiv:cs.LG",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1272,8 +1358,8 @@
     },
     {
      "title": "Which LLM to pick? Online Active Model Selection for Large Language Models",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "在线主动模型选择：大语言模型的最佳选择",
+     "summary_zh": "大语言模型（LLMs）在处理流数据中应用日益广泛，实践者通常依赖基准测试来选择最佳模型，但这些信号仅能近似真实性能。尽管oracle注释能提供可靠反馈，但获取成本高且难以大规模实现。为解决这一挑战，我们提出了ONLINE LLM PICKER，这是首个针对在线环境的LLM主动模型选择框架。在给定任意查询流和有限注释预算的情况下，ONLINE LLM PICKER选择最具信息量的提示进行注释，以识别候选模型中的最佳LLM。在包括10个数据集的多个任务中，我们展示了ONLINE LLM PICKER能够将注释成本节省高达71.67%，同时可靠地识别流中的最佳或接近最佳模型。此外，我们还表明，使用返回的模型对未注释提示进行顺序生成可将遗憾降低至2.51倍，表明ONLINE LLM PICKER能够在处理所有流提示之前有效识别最佳或接近最佳模型。",
      "source": "arXiv:cs.LG",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1286,8 +1372,8 @@
     },
     {
      "title": "Towards a Cloud Fog Edge System for Smart Building",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "面向智能建筑的云雾边缘系统研究",
+     "summary_zh": "本文提出了一个去中心化系统的愿景和最新进展，该系统能够从建筑内的实时数据中学习，以支持可持续和保护隐私的智能环境。我们的方法将建筑本身视为数据中心，符合边缘计算的原则，以保护机密性并减少对外部云基础设施的依赖。这在数据主权、能源效率和基础设施限制至关重要的人道主义背景下尤为重要。我们详细介绍了一种轻量级的“Kubernetes-like”编排框架，用于在此类环境中部署人工智能服务，并展示了在低功耗、经济实惠的微控制器（如Arduino生态系统中的微控制器）上实现人工智能算法的进展。通过直接在传感器或微控制器上实现原位学习，我们的工作旨在为资源有限的环境带来智能服务，促进脆弱或服务不足社区的自主性、韧性和可持续发展。本文的贡献与我们的“嵌入式系统在线机器学习算法”项目及两个新在线算法的评估相关，同时我们设想了基于KOptim和FIWARE组件的云雾边缘架构，并提出了一种耦合方法论。",
      "source": "arXiv:cs.LG",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1300,8 +1386,8 @@
     },
     {
      "title": "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "AGO AI质量门：基于证据的检索增强生成发布决策",
+     "summary_zh": "采用检索增强生成（RAG）的企业面临一个反复出现的运营决策：提升、修订或阻止系统版本。由于证据不完整且指标来自易出错的大型语言模型（LLM）评估者，我们提出了AGO AI质量门（AGO），这是一个在工业RAG评估中部署的基于证据的质量门框架。AGO整合了四个关键组件：处理缺失数据和评估者错误的四状态决策模型；结合确定性检查、本地保护措施和结构化LLM评估的分层评分；量化回归风险的分层贝塔-二项门；以及在影响决策前验证LLM评估者的强制性元评估协议。我们在RAGBench上评估了评估者层，该基准包含12个数据集的10万条注释RAG轨迹。结果显示，低成本评估者（gpt-4.1-nano）在检测不符合答案时的表现仅略高于随机水平（AUROC 0.603），而gpt-4o的表现为0.783，尽管其每个领域的表现范围在0.62到0.88之间。",
      "source": "arXiv:cs.CL",
      "tier": "preprint",
      "field": "AI计算机",
@@ -1314,8 +1400,8 @@
     },
     {
      "title": "Trajectory-Aware Clinical Risk Prediction via Severity-Grounded Knowledge Graphs and Retrieval-Augmented Generation",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于轨迹的临床风险预测：严重性知识图谱与检索增强生成",
+     "summary_zh": "尽管电子健康记录（EHRs）提供了丰富的临床数据，但有效地结合异构外部知识以预测患者的临床风险仍然是一个重大挑战。现有方法未能充分捕捉疾病严重性、治疗反应和细微的临床进展，主要由于数据稀疏和对非结构化临床笔记的利用不足。为了解决这些问题，我们提出了TRACER（一个基于轨迹和临床基础的预测框架），其主要包括：（1）构建一个从医学文献中丰富的严重性信息的医学知识图谱；（2）从知识图谱中检索与临床相关的、加权严重性的患者进展路径；（3）从非结构化临床笔记中提取临床相关事件；（4）用相似的同伴案例增强患者背景。MIMIC-III和MIMIC-IV数据集的实验结果显示，与最先进的基线相比，死亡预测任务的Macro F1分数提高了28.5%，再入院预测任务提高了19.7%。",
      "source": "arXiv:cs.CL",
      "tier": "preprint",
      "field": "医学健康",
@@ -1328,8 +1414,8 @@
     },
     {
      "title": "Cosmological Time Dilation and the Hubble Tension in the meVSL Model",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "meVSL模型中的宇宙时间膨胀与哈勃张力关系研究",
+     "summary_zh": "本文探讨了在最小扩展变光速（meVSL）框架下，宇宙时间膨胀（CTD）、光子-重子解耦与哈勃张力之间的关系。我们采用广义宇宙时间（GCT）框架，将跨时代的时间标准化与局部相互作用法则区分开来。在早期宇宙的诊断计算中，氢的复合历史被视为类广义相对论（GR），而均匀的meVSL不透明度处方保留了与维度汤姆逊截面相关的b依赖性。汤姆逊截面的背景缩放并不意味着局部测量的无量纲精细结构常数α随宇宙时代变化。考虑到解耦条件下自由电子比例X_e(z)的快速变化，局部表示z_*约为1090 - 315b。重子拖曳光学深度由汤姆逊动量转移率kappa_dot/R决定，R = 3 rho_b/(4 rho_gamma)，并从当前时代累积到红移z。正的b值会使拖曳时代的红移略微向下移动。",
      "source": "arXiv:physics.gen-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1342,8 +1428,8 @@
     },
     {
      "title": "The impact of relativistic AGN jets on realistic galaxy cluster environments",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "相对论性活动星系核喷流对星系团环境的影响",
+     "summary_zh": "背景。低功率FRI型射电喷流主导了活动星系核（AGN）群体，但加热星系团内介质（ICM）的主要机制及其效率仍存在争议。目的。我们研究中等功率FRI型相对论性喷流对真实ICM内区域的影响，重点关注弱激波在加热和环境耦合中的作用。方法。我们进行了六个三维相对论性流体动力学模拟，模拟功率为(1e44 - 1e45) erg/s的FRI型喷流在从宇宙学GADGET-3运行中提取的真实ICM环境的中心区域传播。每个模拟跟踪20百万年的连续喷流活动，并考虑了辐射冷却。结果。尽管喷流的功率中等且注入时速度略为相对论性，但它们迅速减速至超声速速度（平均马赫数约为2.3），并产生主导能量传输的弱弓激波。大约80%的注入动能转化为周围ICM的内能，制动辐射冷却显著降低了膨胀的激波壳层温度。结论。我们的结果表明，即使在FRI型源中弱激波的情况下，星际和星系团介质的加热也非常高效。这一发现表明低功率喷流是解决长期存在的问题的可行方案。",
      "source": "arXiv:astro-ph.GA",
      "tier": "preprint",
      "field": "物理天文",
@@ -1356,8 +1442,8 @@
     },
     {
      "title": "Star Formation Mitosis: The Effects of Particle Splitting on the Star Formation Outcome",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "星际物质分裂对恒星形成的影响研究",
+     "summary_zh": "粒子分裂可以显著提高拉格朗日天体物理模拟的动态范围，但可能引入数值噪声，影响收敛速率，尤其在坍缩问题中可能人为抑制或增强碎片化。因此，有必要确定这些误差如何传播到关键量，并在可能的情况下进行修正或减轻。我们使用GIZMO的MFM-MHD方法，进行了约220次均匀密度湍流气体球体坍缩的模拟，系统地改变了云的质量和半径、反馈物理、初始分辨率、粒子分裂的速度和频率，以及吸积或单年龄恒星群体（SSP）粒子形成的方案。与不分裂的高分辨率对照运行相比，虽然未发现粒子分裂导致的人工碎片化，但分裂运行的密度场更平滑，导致密度和湍流统计的微小差异。然而，它们形成的总恒星质量与对照组相当，尽管质量谱略有不同。",
      "source": "arXiv:astro-ph.GA",
      "tier": "preprint",
      "field": "物理天文",
@@ -1370,8 +1456,8 @@
     },
     {
      "title": "The Impact of Simulation Resolution on Dwarf Galaxy Stellar Stream Populations in FIRE",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "模拟分辨率对矮星系恒星流的影响",
+     "summary_zh": "宇宙学模拟使我们能够研究星系前体的恒星流，并与观测结果进行比较，以约束星系形成物理过程。先前研究发现，FIRE中的现今星系前体流的近心点比银河系观察到的更大，这可能表明它们在更远的距离上受到潮汐破坏。一个可能的解释是，由于分辨率有限，它们潮汐破坏得过快。在较低分辨率下，低质量的矮星系可能更膨胀，更易受到破坏。我们在两个具有相同初始条件但不同粒子质量分辨率的FIRE-2宇宙学缩放模拟中构建并比较了矮星系流目录。高分辨率模拟产生了更大的矮星系流种群（22条流对比14条），主要因为它能够解析更低质量的流（低至$\\sim10^{5}$ $M_\\odot$）。两次模拟在<50 kpc的银河中心半径处形成流，但高分辨率的Triple Latte模拟在这些小半径处产生了更多流。我们发现高分辨率模拟中的矮星系在较小的近心点开始破坏。",
      "source": "arXiv:astro-ph.GA",
      "tier": "preprint",
      "field": "物理天文",
@@ -1384,8 +1470,8 @@
     },
     {
      "title": "Evidence for inefficient dust production in a massive, metal-rich galaxy at $z=7.13$ uncovered by JWST and ALMA",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "JWST与ALMA揭示$z=7.13$大质量金属丰富星系尘埃生成效率低下的证据",
+     "summary_zh": "近期观测显示，高红移星系的星际介质中宇宙尘埃快速积累，复杂的尘埃成分和大量存在于红移$z>6$的星系中。本文对高度放大（$\\mu = 9.6$）的尘埃“正常”星系A1689-zD1（$z=7.13$）进行了综合分析，结合了{\\em James Webb Space Telescope}（\\jwst）和阿塔卡马大型毫米/亚毫米阵列（ALMA）的观测数据。我们基于源的档案光度数据进行了详细的光谱-光度建模，并报告了新的光学强线测量和金属丰度估计。尽管A1689-zD1的尘埃质量为$M_{\\rm dust}\\sim 1.5\\times 10^{7}\\,M_\\odot$，但其尘埃与气体及尘埃与金属的质量比（${\\rm DTG} = (5.5^{+3.5}_{-1.2})\\times 10^{-4}$和${\\rm DTM} = (6.2^{+4.2}_{-2.6})\\times 10^{-2}$）显著低，原因在于其高金属丰度$12+\\log({\\rm O/H}) = 8.36\\pm 0.10$和较大的气体质量$M_{\\rm gas} = (2.8^{+0.2}_{-1.7})\\times 10^{10}\\,M_\\odot$。这些质量比比预期的本地宇宙中类似化学组成的星系低一个数量级。",
      "source": "arXiv:astro-ph.GA",
      "tier": "preprint",
      "field": "物理天文",
@@ -1398,8 +1484,8 @@
     },
     {
      "title": "Eight New Ultramassive Black Hole Masses confirm Best Correlation with Galaxy Core Sizes",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "八个新超大质量黑洞质量确认与星系核心尺寸最佳相关性",
+     "summary_zh": "我们分析了高质量端的黑洞尺度关系，特别关注超大质量黑洞（$\\mathrm{M}_\\mathrm{BH} > 10^{10}\\,\\mathrm{M}_\\odot$，UMBHs）的领域。在16个没有先前黑洞质量测量的最亮星团星系（BCGs）样本中，我们基于三轴施瓦茨希尔德模型的直接动力学检测发现了8个UMBHs。这一首次的三轴黑洞质量测定样本使已知UMBHs的数量增加了一倍，并显著增强了高质量端黑洞质量尺度关系的约束。我们发现BCGs在经典的黑洞-$\\sigma$关系中是异常值，而其耗竭核心的大小——中心光缺乏区域——是黑洞质量的更好无偏预测因子，应该在高质量端作为代理。BCGs与先前研究中已建立的巨大核心星系趋势平滑连接。这也适用于核心大小与影响半径、核心大小与核心密度之间的紧密相关性。这些关系强烈支持黑洞双星模型用于形成最大星系中心的观点。",
      "source": "arXiv:astro-ph.GA",
      "tier": "preprint",
      "field": "物理天文",
@@ -1412,8 +1498,8 @@
     },
     {
      "title": "Fractional-Dimension Gravity and the Milky Way Galaxy",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "分数维引力与银河系研究",
+     "summary_zh": "本研究聚焦于分数维引力（FDG）在我们家园银河系（MW）中的应用，使用最新的Gaia DR3数据及该星系的旋转曲线（RC）数据。FDG是一种替代引力模型（之前称为牛顿分数维引力-NFDG），不依赖于暗物质（DM）假说。通过使用可变的分数维度$D\\left (R\\right)$，成功重现了MW的观测旋转曲线，方法与之前对其他星系的研究一致。此外，还使用了基于质量-维度场方程的替代维度函数$D_{m}\\left(R \\right)$，但其拟合实验数据的准确性较低。研究还考虑了FDG度量在存在额外权重时对具有分数维度时空的特殊相对论结构的可能影响。一个显著但高度推测的结果是，在空间维度$D<3$的星系区域可能存在有效的超光速运动。",
      "source": "arXiv:astro-ph.GA",
      "tier": "preprint",
      "field": "物理天文",
@@ -1426,8 +1512,8 @@
     },
     {
      "title": "Black hole astrometric binaries in the Roman Galactic Bulge Time Domain Survey",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "罗曼银河核时间域调查中的黑洞天体测量双星",
+     "summary_zh": "南希·格雷斯·罗曼空间望远镜（罗曼）计划于2026年8月发射，作为其任务的一部分，罗曼将进行银河核时间域调查（GBTDS），为约$10^8$个源生成约50,000个高精度光度和天体测量数据点。罗曼GBTDS的天体测量精度与盖亚数据发布4相当，且在波长和天空位置上具有高度互补性。本文研究了GBTDS源的合成群体，以表征未分辨天体测量双星的可探测性，特别是那些具有紧凑天体伴星的双星。假设黑洞（BH）和中子星（NS）在恒星周围的AU尺度轨道上的发生率分别为$10^{-7}$和$10^{-6}$，并且罗曼实现了$1\\%$像素的天体测量精度，将能够探测到约$10$个BH+恒星和$10$个NS+恒星的分离双星。黑洞的质量测量中位数不确定度约为$25\\%$，将现有的分离天体测量黑洞双星样本增加三倍。",
      "source": "arXiv:astro-ph.GA",
      "tier": "preprint",
      "field": "物理天文",
@@ -1440,8 +1526,8 @@
     },
     {
      "title": "Finite-blocklength classical communication over the quantum erasure channel with and without classical feedback",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "量子擦除信道下有限块长度经典通信的成功概率研究",
+     "summary_zh": "本文研究了在有限次数使用量子擦除信道下，通过无噪声经典反馈传输固定数量经典消息的最优成功概率。对于输入维度$d$、擦除概率$p$、块长度$n$和$M$个等概率消息，最优成功概率为$E[\\min\\{1,d^K/M\\}]$，其中$K$服从参数为$n$和$1-p$的二项分布。对偶结果允许任意自适应量子编码器、量子存储器和接收仪器，主要通过固定经典控制而不依赖于发送者状态的条件化来证明无噪声量子通信的基本维度界限。我们提出的经典协议通过重复发送整数的基于$d$的数字，直到接收方确认接收或达到规定的块长度，能为每个整数$M$达到该界限。此外，我们建立了擦除信道输出的相对主导性质，并精确评估了假设检验的对偶结果，恢复了无反馈情况下相同的数值界限。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1454,8 +1540,8 @@
     },
     {
      "title": "Causal Trade-Offs in Superluminal Extensions of Relativity. A no-go theorem",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "相对论超光速扩展中的因果权衡：不可行定理",
+     "summary_zh": "近期，Dragan和Ekert提出了包含超光速参考系的相对论扩展，以调和相对论对称性与量子不确定性。本文建立了一个因果建模框架，正式研究该提案，并证明了一个不可行定理，表明允许超光速参考系的理论只有在严格限制可操作协议可达的时空区域、参考系选择具有可观察后果或自由变量不存在（或其存在依赖于参考系）时，才能避免超光速信号。我们的结果超越了超光速变换可能导致超光速信号的直觉，显示Dragan和Ekert提出的引入客观不确定性并不能单独消除这一冲突。实际上，由于在超光速参考系下可能通过放宽其他基本假设来避免超光速信号，所提议的客观不确定性可能根本不是必要的。我们的结果阐明了基于不确定性的解决方案的局限性及超光速相对论扩展所面临的因果权衡。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1468,8 +1554,8 @@
     },
     {
      "title": "Operator-language Feynman rules for driven-dissipative quantum systems: from mean field to non-Gaussian photon correlations",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "驱动耗散量子系统的算符语言费曼规则研究",
+     "summary_zh": "本文构建了林布拉德主方程的费曼规则，采用量子光学的算符语言，提出了一套固定的基本算符移动代数和闭合形式的传播子，用于关于大多数情况下可解的高斯生成子的微扰理论。扩展分为运动学部分（Wick有序本征算符$O_{mn}=:(c^\\dagger)^m c^n:$上的移位代数）和动态部分，后者通过未扰动生成子的 resolvent 进入，适用于任何稳定的对角可对角化高斯$L_0$，包括热和压缩储层及相关衰减。驱动的Kerr腔中，环路扩展为半经典扩展，级数为渐近形式。在强驱动的双能级原子中，着装线替代了有限半径的级数，准确深入饱和。对于Kerr环和链，成本在固定微扰阶数下为多项式增长。在三站环中，图形恢复了高斯累积闭合缺失的三光子关联的非高斯部分；在十阶时，它们在$U\\leq0.25\\kappa$的情况下提供了比较方法中最小的$g^{(3)}$误差，成本低于四阶闭合的代价。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1482,8 +1568,8 @@
     },
     {
      "title": "Negative quasiprobabilities redistribute (and complex ones reduce) the information in unabsorbed photons",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "负准概率在未吸收光子中重分配信息",
+     "summary_zh": "负的Kirkwood-Dirac准概率被认为是无交互测量和后选择计量的量子优势。我们测试了这一主张，研究无交互测量的任务：尽可能少地让样本吸收光。Kirkwood-Dirac路径和输出的分布对弱样本的线性响应：其实部响应于吸收，虚部响应于相位。对于纯单光子通过任意干涉仪，关于每个吸收光子的透射率的Fisher信息为直接透射值减去虚部平方和：没有干涉仪或读出能超越直接透射。负性仅在弱光输出中集中信息。Kirkwood-Dirac分布的虚部依赖于输出基，不依赖于样本，因此存在一个基使每个项为实数，这是最优的。单光子通过相位响应获得信息，需厚样本或不均匀展宽，或在多次通过时未计入吸收。对于检测弱吸收体，负性提供单次优势，但不在多次试验中累积；优势在于输出时累积。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1496,8 +1582,8 @@
     },
     {
      "title": "esQueranto: Differentiable Structured Quantum Light for Automated Scientific Discovery",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "esQueranto：可微分结构量子光用于自动化科学发现",
+     "summary_zh": "揭示自然中的新现象需要实验，传统上实验设计完全依赖人类。如今，人工智能和计算方法能够自主设计实验，开启了新的范式。实现这种自动化科学发现需要足够表达力的模拟器，以代表多样的物理过程和耦合。我们介绍了\\textsc{esQueranto}，一种可微分软件，将光子数量子光学和结构光传播统一描述，使光的空间演化直接影响非经典量子态及其干涉。该软件基于JAX实现，提供自动微分和硬件加速评估，支持优化和自动搜索。我们展示了该框架在广泛量子光学应用中的有效性，结合量子物理和结构光物理，\\textsc{esQueranto}朝着物理学基础模拟器的梦想迈出了重要一步。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1510,8 +1596,8 @@
     },
     {
      "title": "Conditioning on Subalgebras - Entropy Duality and Generalized Quantum Stein's Lemma in von Neumann Algebras",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "条件熵的对偶性及广义量子斯坦定理研究",
+     "summary_zh": "本文研究了任意冯·诺依曼代数的子代数相对条件熵的对偶关系，包括Umegaki相对熵、夹心散度和Petz-Rényi散度。即使在有限维情况下，这些结果也将条件熵的熟悉对偶性从张量积子系统扩展到一般子代数，同时将框架提升到完全无限维的环境。作为应用，我们建立了量子斯坦定理的无限维扩展，当备择假设为有限指标子代数的状态空间时，给出了相对熵在复合量子假设检验中的最佳渐近错误指数的操作性解释，这是首次超越有限维的结果。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1524,8 +1610,8 @@
     },
     {
      "title": "Remote state preparation of a single-spin state via hybrid spin-photon entanglement",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "通过混合自旋-光子纠缠实现单自旋态的远程状态制备",
+     "summary_zh": "远程状态制备是一种基本的量子信息协议，利用目标态的先验知识来减少量子态分发所需的通信资源。本文提出了一种针对静止电子自旋量子比特的远程状态制备协议，该协议利用电子自旋与通过自旋腔系统的自旋依赖反射生成的相干态光脉冲之间的混合纠缠。与单光子编码不同，相干态编码对光子损失具有天然的容忍性：损失通道会衰减相干态幅度，导致制备保真度逐渐降低，而不是概率性协议失败。通过将传输脉冲耦合到辅助自旋，避免了传统协议中对非正交相干态叠加的投影实现，从而实现了同相干检测和自旋投影测量。理想情况下，仅需一位经典通信即可实现特定类别目标态的确定性制备。我们分析量化了相干态非正交性、光纤损耗和自旋去相干对制备保真度的影响。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1538,8 +1624,8 @@
     },
     {
      "title": "A Quantum Phase Neural Network with Multi-Inputs/Single-Output",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "具有多输入单输出的量子相位神经网络",
+     "summary_zh": "本文提出了一种35输入/单输出的量子相位神经网络（QPNN），用于识别由7*5像素组成的英文字母“A”和“B”。每个QPNN节点的输入为0或1。通过归一化和量子相位编码，将35个0或1的数字输入编码为由35个量子相位描述的量子叠加态。然后，使用量子旋转门引入可调相位，并利用受控NOT门纠缠两个输入之间的相对相位。推导了网络的输入与输出之间的关系，并提出了具有自适应学习率的相位权重学习训练算法。设计了识别概率为1的解决方案，所有可调相位解的解析表达式并不唯一。实验性能在Qiskit平台上得到了验证。本文利用相位驱动将概率计算转化为具有可调旋转角度的解析多项式函数，避免了生成所有2^35个复杂指数幅度的瓶颈，为解决“指数墙”问题提供了有效途径，为多输入识别问题的实际应用提供了新的实现方案。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1552,8 +1638,8 @@
     },
     {
      "title": "Optimal initial states for quantum Fisher information in linearized cavity optomechanics",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "线性腔光机械系统的量子费舍尔信息最优初态",
+     "summary_zh": "我们研究了线性腔光机械系统中用于估计单光子耦合的最优初态。在线红移（光束分裂器）区域，系统的相互作用在两个模式之间交换激发，对于纯输入状态，费舍尔信息是激发交换算符方差的四倍，从而将优化问题简化为方差最大化，并得到了封闭形式的解。当机械模式处于福克态时，探测器是简并的：任何满足光子数约束的状态都是最优的，且具有多个声子的福克参考状态线性增强了每光子的灵敏度。对于任意固定的机械参考状态，它变为相位匹配的压缩真空。通过拉格朗日对偶论证获得的相干性精确界限，联合优化两个模式在固定总激发数下，量子费舍尔信息遵循海森堡界限，能量的二次关系由生成算子的两个极端本征态的等权叠加饱和。截断福克空间中的精确对角化验证了所有结果，熟悉的单光子输入是最简单的饱和情况。我们还探讨了三个扩展：蓝侧带具有无界的双模压缩特性。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1566,8 +1652,8 @@
     },
     {
      "title": "Experimental realization of Wheeler's delayed-choice experiment with dual selections",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "实验实现惠勒延迟选择实验的双重选择",
+     "summary_zh": "惠勒的延迟选择实验通过不同的马赫-曾德干涉仪实验配置展示了粒子的波粒二象性。在该实验的量子版本中，通过控制第二个 beam splitter 的存在与否，可以观察到光子的波粒行为。本研究基于纠缠光子实现了一个双重选择的延迟选择实验，实验中同时控制马赫-曾德干涉仪中的两个 beam splitter，通过路径编码同时控制第二个 beam splitter 的存在与否。我们的实验揭示了在不同的两个 beam splitter 配置下单光子的波粒行为。此外，我们进一步讨论了当两个 beam splitter 处于存在与不存在的量子叠加状态时，光子将处于波粒量子叠加态的情景。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1580,8 +1666,8 @@
     },
     {
      "title": "Loss-tolerant distributed lattice surgery using fusion networks",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "容错分布式晶格手术的融合网络研究",
+     "summary_zh": "基于物质的量子处理单元（QPUs）网络化为扩展容错量子计算机提供了有前景的途径。由于光子损失和概率性线性光学操作，分布式逻辑操作在光子链路上执行时噪声特性与局部QPUs显著不同且更强。测量和融合基础的量子计算设计为对抗损失和概率性光子操作，表明它们可以补充网络QPUs之间的电路基础纠错。我们利用ZX演算变换构建混合综合提取协议，并将其应用于分布式旋转表面码晶格手术，展示多个协议在局部噪声缺失时达到50%的接口擦除阈值，包括使用融合贝尔对的电路基础晶格手术和使用线性簇态的混合协议。相较于直接的贝尔对接口几何，混合协议将合并可观测接口距离从$d+1$提高至$2d+1$，并将垂直可观测接口距离从$\\lfloor(d+1)/2\\rfloor$恢复至$d$。我们计算了使用截断资源态时阈值的下降，并绘制了在资源态错误、局部电路噪声和融合擦除下的可纠正区域。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1594,8 +1680,8 @@
     },
     {
      "title": "Strong Simulation of 1D Quantum Circuits via Reduced Transition Matrices",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "通过简化转移矩阵强模拟一维量子电路",
+     "summary_zh": "张量网络是模拟量子多体系统的强大工具，但空间纠缠的增长严重限制了在混沌单位电路下纯态的直接演化。本文考虑一个更有针对性的任务：在有限相对精度下，近似强模拟一维混沌砖墙电路的指定输出概率。给定输入和输出比特串 $\\by$ 和 $\\bx$，我们使用基于简化转移矩阵（RTMs）的横向张量网络收缩算法——扫掠RTM算法，评估 $p(\\bx|\\by)=|\\bra{\\bx}U(T)\\ket{\\by}|^2$。该算法联合压缩左右时间边界态，寻求在空间切割和增加键维度时收敛的输出概率。对于固定相对目标精度的混沌一维砖墙电路，我们发现所需的键维度以亚指数方式增长，能够获得稳定估计。我们的研究为混沌量子电路的经典概率查询开辟了直接途径，具有基准测试和学习任务的潜在应用。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1608,8 +1694,8 @@
     },
     {
      "title": "One-Way Quantum Symmetric Private Information Retrieval Protocol From A Single Database Server Using NISQ Devices",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于NISQ设备的单数据库服务器单向量子对称私密信息检索协议",
+     "summary_zh": "对称私密信息检索（SPIR）允许询问者仅获取一个特定比特，而不泄露其索引信息给数据库拥有者。对于具有无限量子能力的参与者，单服务器情况下这一点是不可行的。我们展示了在服务器和用户仅持有噪声中等规模量子（NISQ）设备且没有长期量子存储的情况下，信息论安全性得以实现。用户在接收时测量每个量子比特，而窃听者仍然拥有强大的能力。服务器发送匿名地址，用户明确区分并知道一组随机比特。经过联合随机置换后，用户宣布一个私选块的确切位置，服务器对这些位置进行哈希并在每个块中取随机奇偶性。置换使得一组位置适配两个块的可能性呈指数级降低。我们证明了对窃听者的保密性、通过明确大小规则保证数据库隐私，以及用户在服务器准备BB84状态并真实宣布的情况下的隐私。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1622,8 +1708,8 @@
     },
     {
      "title": "Quantum impurity models: easy at equilibrium, universal in motion",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "量子杂质模型：平衡态易解，动态普适",
+     "summary_zh": "量子杂质模型描述了嵌入在自由费米子大浴中的小型相互作用子系统。本文研究了计算这些模型的基态能量、热平衡和动态性质的计算复杂性。研究发现，平衡态性质可以通过经典方法高效近似，而时间演化则能够实现普适的量子计算。具体而言，设$H$为具有$n$个费米模式和固定大小杂质的杂质模型的哈密顿量：（1）$H$的基态能量可以通过运行时间为$\\textsf{poly}(n,1/\\varepsilon)$的经典算法以加性误差$\\varepsilon$进行近似，优于已知最佳算法的准多项式运行时间；（2）在逆温度$\\beta$下，亥姆霍兹自由能和热场双态的经典描述可以在时间$\\textsf{poly}(n,\\beta,1/\\varepsilon)$内以精度$\\varepsilon$计算；（3）模拟时间演化$e^{-iHt}$是$\\textsf{BQP}$-完全的，前提是$H$是时间独立且具有固定常量杂质大小。我们的算法利用了在能量尺度和Krylov深度组织的基中多粒子浴激发的指数抑制。我们的普适性构造实现了一个静态量子处理器，其程序以流的形式到达。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1636,8 +1722,8 @@
     },
     {
      "title": "A Generalized quantum Stein lemma on von Neumann algebras",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "关于冯·诺依曼代数的广义量子斯坦引理",
+     "summary_zh": "我们证明了针对任意冯·诺依曼代数的独立同分布正态态的广义quantum Stein引理，适用于凸的、张量稳定的族。假设存在与零态具有有限相对熵的替代态，我们展示了在每个类型-I错误容忍度$\\varepsilon\\in (0,1)$下，最坏情况下的类型-II错误指数由正则化相对熵达到，并且具有强对偶性。证明结合了通过曲棍球棒散度的相对熵的积分表示、模测试界限和凸最小最大论证。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1650,8 +1736,8 @@
     },
     {
      "title": "Polynomial-time classical and quantum simulation of quantum impurity models",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "多项式时间经典与量子模拟量子杂质模型",
+     "summary_zh": "量子杂质模型是相互作用量子物质的典型模型，也是现代电子结构方法的关键计算原语。它们描述了一个与大规模非相互作用浴耦合的小子系统。我们对模拟杂质模型的计算复杂性进行了全面研究，划定了经典与量子可处理性之间的边界。我们的主要发现是，量子杂质模型的静态性质可以在经典计算机上高效计算。具体而言，我们提供了经典算法，能够在时间 $\\mathrm{poly}(n,\\delta^{-1})$ 内以加法精度 $\\delta$ 估计基态能量，并在时间 $\\mathrm{poly}(n,\\beta,\\delta^{-1})$ 内以相对精度 $\\delta$ 估计逆温度 $\\beta$ 下的配分函数。这些结果将基态能量估计的已知复杂性从准多项式时间提高到多项式时间，并首次为热平衡下的杂质模型模拟建立了严格的多项式时间保证。另一方面，我们发现模拟杂质模型的动态性质对经典计算机而言是困难的，但对量子计算机而言则是简单的。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1664,8 +1750,8 @@
     },
     {
      "title": "Quantum Information in High-Energy Physics: a top subject",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "高能物理中的量子信息：顶夸克研究综述",
+     "summary_zh": "本文作为《科学前沿奖》入围作品，概述了量子信息（QI）技术在高能物理（HEP）中的应用，特别聚焦于顶夸克这一典型案例。我们研究了在高能对撞机（如LHC）中顶-反顶夸克产生过程中的纠缠现象，这是量子力学最真实的特征之一。此外，我们分析了针对顶-反顶夸克对的量子断层成像协议的实验提案，最终导致ATLAS和CMS合作观察到的纠缠现象，这也是迄今为止最高能量的纠缠观察。我们讨论了本研究中发展出的概念和技术如何有效推动了高能物理领域中量子信息的广泛和丰富的发展。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1678,8 +1764,8 @@
     },
     {
      "title": "Correlation Imaging via Hybrid Entanglement between Microwave Photons and Surface Acoustic Wave Phonons",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于微波光子与表面声波的混合纠缠的相关成像",
+     "summary_zh": "建立不同量子场之间的有效空间相关性对于多物理量子传感至关重要。我们提出了一种基于微波光子与通过超导量子电路生成的微波表面声波声子之间混合纠缠的相关成像方法。在匹配的微波频率下，光子与声子的五个数量级波长差异提供了一种独特的量子纠缠资源，使得探测物体的最佳场与读取场可以不同。该资源实现了两种具有巨大空间缩放的成像模式：将宏观物体轮廓以$10^{-8}-10^{-6}$倍的缩小比例映射到微观声子芯片，以及将微观物体轮廓以$10^{4}-10^{6}$倍的放大比例映射到宏观光子读取设备。通过将自由空间长波长微波与芯片上短波长表面声波相结合，我们的相关成像方法为跨尺度量子传感提供了一个通用框架。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1692,8 +1778,8 @@
     },
     {
      "title": "Thin-capping layer epitaxial quantum dots for near-field quantum photonics",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "薄包层外延量子点用于近场量子光子学",
+     "summary_zh": "外延量子点（QDs）因其良好的稳定性、亮度、量子效率和相干性被广泛认为是最佳量子光源之一。为了实现这些特性，QDs通常被相对厚的包层保护，厚度通常超过50nm，这限制了近场效应的实现。本文报道了厚度为10nm、20nm和95nm的GaAs包层的InAs/GaAs QDs的生长和光学表征。值得注意的是，我们观察到的发射线宽比之前报道的结果小达5倍，同时激子寿命未受干扰。这些结果表明，即使发射体距离表面较近，外延QDs的高光学质量仍能保持，为探索具有相干性和稳定性的发射体的近场光-物质相互作用开辟了道路，适用于量子技术应用。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1706,8 +1792,8 @@
     },
     {
      "title": "Quantum squeezing cannot beat the standard quantum limit",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "量子压缩无法超越标准量子极限",
+     "summary_zh": "量子纠缠被认为能够实现一些在没有纠缠的情况下无法完成的任务。在量子传感和计量中，通常声称纠缠能够实现更高的测量精度。研究中存在两种不同的方法：一是创建对信号反应更快的纠缠态，二是与较低噪声和不确定性相关的状态，后者通常称为压缩态。本文表明，如果成功的定义是使用相同资源但没有纠缠时无法实现的精度，那么压缩态无法成功。我们展示了单个不可分离的压缩态在单位时间内提供的精度根本不优于单个粒子。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1720,8 +1806,8 @@
     },
     {
      "title": "Quantum dynamics of few-photon pulsed waveguide-QED with a single artificial atom: frequency-dependent scattering theory and time-dependent matrix product states",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "单个人工原子的少光子脉冲波导量子电动力学研究",
+     "summary_zh": "我们对在波导量子电动力学系统中，单个人工原子（由两能级系统或量子比特构成）散射少光子脉冲进行了量子动力学研究，比较了两种不同的量子理论模拟方法：（i）使用频率依赖散射矩阵的输入-输出散射方法；（ii）使用时间箱中的量子噪声算符和张量网络技术的矩阵乘积态（MPS）方法。我们首先展示了如何通过散射矩阵方法计算时间依赖的可观测量，包括激发量子发射体的人口动力学及线性和非线性贡献。我们提供了对称和手性TLS耦合的解。接着，我们展示了如何使用MPS更直接地计算量子比特和场的可观测量，并获得了在最近实验中观察到的两光子相关函数的特征鸟形状。我们比较了这两种方法在一光子和两光子激发脉冲下的结果，显示出良好的一致性。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1734,8 +1820,8 @@
     },
     {
      "title": "On the generic structures of the protocols for quantum auction and quantum summation and their relation",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "量子拍卖与量子求和协议的通用结构及其关系",
+     "summary_zh": "安全多方计算（SMC）解决了在揭示个体数据最小信息的情况下，共同计算私有输入的全局函数的问题。密封投标拍卖和安全多方求和是SMC任务的两个典型例子。现有的量子拍卖和量子求和方案大多独立发展，基于不同的应用和计算原语。本文建立了单项密封投标拍卖与安全求和之间的相互简化。在一个方向上，拍卖作为黑箱计算安全和：每个参与方投标一个从其输入中抽取的私有随机密钥，清算价格仅通过其总和$S$依赖于输入。该简化在抵御合谋的半诚实方时是完全私密的，使用$O(S^2\\log(1/\\delta))$次拍卖轮次，或在一致访问下为$O(S\\log(1/\\delta))$，是最优的。它可以通过对现有的无拍卖者量子拍卖进行一行修改来实现。反向简化中，随机输入的求和产生阈值析取，单次搜索复合密钥可定位最高投标和赢家，且不泄露其他信息。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1748,8 +1834,8 @@
     },
     {
      "title": "Circuit-Level Loss Performance of RHG and Foliated Floquet Color Codes in a Compound Photon--Atom Quantum Architecture",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "复合光子-原子量子架构中RHG与叶状Floquet颜色码的电路级损失性能比较",
+     "summary_zh": "容错量子计算的核心问题是哪些量子纠错码最适合特定硬件架构。本文比较了Raussendorf-Harrington-Goyal (RHG) 码、叶状Floquet颜色码 (FFCC) 和简化FFCC在复合光子-原子架构中的表现，该架构直接生成基于测量的量子计算资源，并具备近确定性的光子-原子CZ门。RHG作为自然基准，而FFCC变体则用于研究在考虑延迟预示和相关键损失传播的电路级损失模型下，简化图度是否能提高性能。我们构建了两种与复合硬件兼容的生成方案，并在周期边界条件下评估电路级阈值。RHG的电路级阈值最高，达到2.75%，且仅在模块间CZ连接存在大量额外损失时，其阈值才低于简化FFCC。RHG在大多数资源匹配比较中实现了最低的逻辑错误率，但某些低损失窗口则有利于简化FFCC。总体而言，当硬件支持MBQC所需的本地门和连接性时，较低图度的优势需与每种编码的内在IID损失容忍度、生成方案细节及硬件相关资源开销进行权衡。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1762,8 +1848,8 @@
     },
     {
      "title": "Horizons and Soft Quantum Information",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "黑洞与软量子信息的边界研究",
+     "summary_zh": "近期研究表明，黑洞会使其附近的量子叠加态发生退相干。这种退相干通过事件视界的软辐射介导，可以理解为外部量子态区分内部长程场的可区分态。为研究这一现象及其他相关问题，我们扩展了Tomita-Takesaki理论，以适应电磁和引力记忆效应中出现的软辐射态，并提供了一个通用框架来计算一般相干态的可区分性。通过应用无歧义态区分和近似量子纠错的方法，我们证明了一些关于量子态可区分性及软辐射量子信息内容的新关系，从而表明黑洞（或任何事件视界）使其环境发生退相干，仿佛其内部充满了最优观察者。",
      "source": "arXiv:quant-ph",
      "tier": "preprint",
      "field": "物理天文",
@@ -1776,8 +1862,8 @@
     },
     {
      "title": "Field closure, ice neurons, and when a dendrite is a motif",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "场闭合、冰神经元与树突的模式性",
+     "summary_zh": "树突轮廓是廉价的。池塘冰神经元、扩散限制聚集体、最小化布线的树状结构和生物神经元可以共享分支统计，因为它们共享一种生长不稳定性，而非功能相似性。我们将这一观察视为建模约束。冰神经元在结构上仅类似于生物神经元，生物神经元携带内部状态和生成的场，使几何、动力学和场相互雕刻。在我们的构建中，冰神经元是一个界面系统的零增益极限，其中FitzHugh--Nagumo状态存在于移动前沿，并反馈到驱动它的场中，具有无量纲增益$\\gamma$。在$\\gamma=0$时，形态和内部动力学解耦为Mullins--Sekerka生长带和阻尼振荡器。有限的$\\gamma$变形谱，移动选定的不稳定性，并在孤立Hopf阈值下打开振荡区域。在$\\gamma=0$下生长并冻结的树突上，场闭合增加了远端的持久性而不改变几何；其一阶效应在相同生长规则的重复实现中保持正值，并局限于一小组非电缆场捷径。非线性动力学在超出线性不稳定性时仍然有限：在阈值以下，闭合几乎是传输；在尖峰幅度下，i。",
      "source": "arXiv:q-bio.NC",
      "tier": "preprint",
      "field": "神经认知",
@@ -1790,8 +1876,8 @@
     },
     {
      "title": "Stochastic dynamics and synchronization in motif-based neuronal networks",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于模式的神经网络中的随机动力学与同步现象",
+     "summary_zh": "神经网络展现出复杂的动态特性，受连接性和随机输入的影响。实证研究表明，神经网络中存在重复的子图或模式，但不同模式类型在大规模随机网络中嵌入后的集体影响尚不明确。我们构建了一个由六种代表性结构类别组成的脉冲网络，研究内在噪声、耦合强度、模式间连接性、网络规模和神经元异质性如何影响同步性。结果显示，模式和网络层面的相干性在中等噪声强度下达到峰值，符合相干共振。双向耦合对（M2）和类型2递归前馈环（M3c）始终表现出高水平的模式相干性。重新连接这些模式而保持局部突触数量和强度，导致网络相干性显著降低，表明连接安排的影响超出了强局部耦合的作用。M2和M3c还表现出频繁的脉冲双峰，短间隔脉冲与相干性提升相关。与匹配度和权重的随机对照相比，模式结构网络在较弱噪声下达到更高的相干性。增加网络规模提升相干性，直到响应开始饱和，而施加电流的异质性则降低峰值相干性并改变最佳条件。",
      "source": "arXiv:q-bio.NC",
      "tier": "preprint",
      "field": "神经认知",
@@ -1804,8 +1890,8 @@
     },
     {
      "title": "Stochastic Dynamics of Large-Scale Motif-Embedded Spiking Neuronal Networks",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "大规模嵌入动机的随机脉冲神经网络动态研究",
+     "summary_zh": "我们研究了局部动机结构和全局网络拓扑如何共同影响随机神经网络中的脉冲动态。通过使用具有Erd\\H{o}s-R\\'enyi (ER)和无标度(SF)背景连接的Izhikevich神经元网络，我们比较了嵌入动机的网络与在噪声和刺激驱动协议下的突触计数匹配的非动机对照组。动机嵌入在两种拓扑中都增加了噪声引起的相干性，并在信号传输上提供了较小的改善，而基于SF的网络在绝对相干性上更高，信号传输速度更快且更可靠。动机重连实验表明，这一优势依赖于动机内连接的具体安排，而不仅仅是强局部连接：随机化动机骨架整体上降低了相干性，尽管重连非递归前馈环和双并行动机可以增加相干性。针对性消融实验表明，SF优势部分依赖于枢纽的完整性；移除高连接度的兴奋性神经元比随机节点或边的匹配移除更严重地损害相干性和信号传输。这些结果表明，局部动机和全局枢纽对相干脉冲动态做出了不同且互补的贡献。",
      "source": "arXiv:q-bio.NC",
      "tier": "preprint",
      "field": "神经认知",
@@ -1818,8 +1904,8 @@
     },
     {
      "title": "Synaptic placement reflects shared input in Drosophila descending neurons",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "突触位置反映果蝇下降神经元的共享输入",
+     "summary_zh": "网络拓扑描述神经元之间的连接，而突触位置则指定这些连接在单个细胞内的排列方式。我们研究了果蝇下降神经元（DNs）中，突触前神经元之间的连接如何反映在相对输入位置上。在独立重建的MaleCNS和FlyWire大脑中，来自与合作DN相接触的输入，平均比其他非DN输入在接收神经元的神经纤维上更靠近合作DN的输入，分别为9.4和8.0微米。当固定源输入位置并比较有无记录源输入的合作伙伴时，仍然保持相同的排序。在BANC和MaleCNS中，共享输入和测量的空间重叠为DN间连接提供了互补的预测信息。两个共享上行源的互连DN在识别的输出上存在差异。这些发现将三神经元的拓扑关系与相对输入位置联系起来，揭示了网络连接性与接收神经元内部空间组织之间的对应关系。",
      "source": "arXiv:q-bio.NC",
      "tier": "preprint",
      "field": "神经认知",
@@ -1832,8 +1918,8 @@
     },
     {
      "title": "A High-Density EEG Dataset for Stimulus-Driven Auditory Attention",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "高密度脑电图数据集用于刺激驱动的听觉注意力研究",
+     "summary_zh": "刺激驱动的听觉注意力决定了在没有明确听觉目标的情况下，多个声音源之间的优先级。本研究采用刺激驱动的听觉注意力（SAAD）范式，探讨无指令的听觉竞争，并开发了一个结合刺激导向声音优先级与试次特定脑电图（EEG）证据的神经生理学框架。使用Bradley-Terry模型的行为分析表明，从先前竞争中估计的声音优先级能够推广到未见的声音配对，AUC从0.577提高到0.718。EEG分析进一步揭示了与选择侧相关的中晚期中心-颞部侧化，神经信息在声学不对称性之外仍具预测性。基于这些发现，提出的模型首先为每个竞争声音估计潜在优先级，并通过它们的差异形成相对刺激证据。一个多尺度EEG通路提取试次特定的神经证据，并通过门控决策级整合进行结合。该框架通过镜像约束和配对保留协议进行评估。",
      "source": "arXiv:q-bio.NC",
      "tier": "preprint",
      "field": "神经认知",
@@ -1846,8 +1932,8 @@
     },
     {
      "title": "Neuromorphic Pseudo-Random Number Generators with a Low Power Hardware Implementation",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "低功耗硬件实现的神经形态伪随机数生成器",
+     "summary_zh": "伪随机数生成通常需要在质量、功耗和带宽之间进行权衡，以产生不可预测的数字序列。与此不同，大脑能够高效地产生不可预测的输出，依赖于高维状态中的复杂网络动态，这种状态被假设为混沌，并依赖于兴奋与抑制之间的平衡。本研究探讨了这些混沌平衡状态的计算模型是否可以用于低功耗硬件中的神经形态伪随机数生成器（NPRNG）。我们成功构建了一个由漏积分发放神经元组成的平衡脉冲神经网络模型，能够在低功耗FPGA中实现并用作NPRNG。原型NPRNG在运行时消耗3.24毫瓦，生成速率为120kbps。在硬件和软件实例中，NPRNG均产生高质量的随机数，符合随机数生成器质量测试的标准指标。",
      "source": "arXiv:q-bio.NC",
      "tier": "preprint",
      "field": "神经认知",
@@ -1860,8 +1946,8 @@
     },
     {
      "title": "Molecular architecture of TE-seeded chromosome-naive initiation networks of protein-protein interactions delineates the Human Protein Map of the assembly of multiprotein complexes",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "转座元件引导的蛋白质相互作用网络及其在人类蛋白质图谱中的应用",
+     "summary_zh": "本研究探讨了转座元件引导的DNA上，启动子转录因子如何激活内源性多蛋白复合物的混合组装路径（HAP）。通过分析154种人类细胞类型的细胞特异性蛋白单体池，阐明了蛋白质相互作用（PPI）级联的分子特征及其生物功能。研究发现，PPI级联的四个家族在细胞内蛋白组中的表现具有普遍表达、平衡代表性、普遍可用性和细胞特异性组装特征。通过细胞类型解析的多蛋白复合物参与分析，验证了PPI级联的生物学相关性，能够在154种人类细胞的蛋白组背景下生成51,830种蛋白二聚体。",
      "source": "arXiv:q-bio.BM",
      "tier": "preprint",
      "field": "生命科学",
@@ -1874,8 +1960,8 @@
     },
     {
      "title": "Approximation of Probability Geometries via Convex Families of Coordinate Charts",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "通过凸族坐标图近似概率几何",
+     "summary_zh": "在概率坐标几何中，限制在一个区间内的连续分布函数可以作为概率坐标图。通过这些坐标的平均定义概率重心及相关的Kolmogorov矩。由于可接受图的类是无限维的，本文发展了一种有限维近似理论。相对于固定的基图，同一区间上的每个图都可以通过单位区间的严格单调变形唯一表示。单调分段线性变形被证明是基本斜坡函数的精确凸组合，从而通过单纯形中的分配向量对概率几何进行参数化。这些几何在可接受类中是稠密的。我们研究了两种构造方案：斜坡插值和Bernstein近似。Bernstein近似还允许用平滑的beta原子进行斜坡字典表示，同时自动保持可接受性。变形映射的均匀近似为概率重心和初始Kolmogorov矩提供了明确的稳定性界限。对于变形的内在图，重心是一个分位数，其水平仅依赖于变形，将构造与基于图的分位数估计联系起来。确定性的数值示例展示了这两种近似方案的有效性。",
      "source": "arXiv:math.PR",
      "tier": "preprint",
      "field": "数学基础理论",
@@ -1888,8 +1974,8 @@
     },
     {
      "title": "Statistical inference for a multiscale stochastic model of enzyme kinetics via propagation of chaos",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于混沌传播的酶动力学多尺度随机模型统计推断",
+     "summary_zh": "我们研究了一类具有跳跃的随机微分方程（SDE），该方程模拟多阶段的米哈利斯-门腾酶动力学，其中底物通过一系列中间复合物逐步转化为产物。这些网络通常是高维的，并表现出多尺度行为，各个组分之间存在强耦合，带来了显著的分析和计算挑战。特别是，当系统状态的直接观察不可用，仅观察到产物形成时间的随机样本时，反应速率的统计推断问题变得尤为复杂。我们分两个阶段解决此问题。首先，在与准稳态近似（QSSA）一致的适当缩放范围内，我们严格建立了一个随机平均原理，得出了产物-底物动力学的简化模型。随后，我们构建了一个新颖的相互作用粒子系统（IPS），在粒子层面上近似产物-底物过程。该IPS在推断方法中发挥了关键作用，我们证明了该系统的若干非渐近界限和极限结果。这些结果为构建基于产物形成时间随机样本的近似似然估计器提供了便利。",
      "source": "arXiv:math.PR",
      "tier": "preprint",
      "field": "数学基础理论",
@@ -1902,8 +1988,8 @@
     },
     {
      "title": "Augmented Patient Preference Incorporated Reinforcement Learning (APP-RL) to Estimate the Optimal Dynamic Treatment Regime",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "增强患者偏好融入强化学习的动态治疗方案估计",
+     "summary_zh": "动态治疗方案（DTR）是根据患者的临床历程在每个治疗阶段个性化治疗的序列决策规则。现有文献通常考虑个体的医疗历史，但忽视患者的偏好。我们提出了一种方法，通过数据增强将患者的潜在偏好融入基于树的强化学习方法，以估计多阶段、多治疗设置下的最佳动态治疗方案。对于每位患者在每个阶段，我们根据问卷的反馈推导偏好的后验分布，并利用估计的偏好对多个结果进行加权，以识别最佳的阶段性个性化决策。在多阶段情况下，我们在每个阶段生长决策树，并使用反向归纳法递归实现算法。我们提出的方法称为增强患者偏好融入强化学习（APP-RL），具有稳健性和高效性，并能提供可解释的DTR估计。通过模拟研究，全面评估了该方法的有限样本表现。",
      "source": "arXiv:stat.ME",
      "tier": "preprint",
      "field": "医学健康",
@@ -10856,8 +10942,8 @@
    "items": [
     {
      "title": "[Correspondence] From isolation to burial: dignity in the Bundibugyo virus disease response",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "从隔离到安葬：Bundibugyo病毒病应对中的尊严",
+     "summary_zh": "2026年Bundibugyo病毒病疫情重新引发了人们对患者进入隔离、家庭面对死亡和安葬条件的关注。近期评论解释了隔离合法性的基础在于社会契约。未解决的问题更为具体：每个丝状病毒治疗中心在患者入院到出院或安葬过程中，应该被要求和资助提供哪些服务，并以此进行评估？",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -16015,8 +16101,8 @@
     },
     {
      "title": "[Series] Understanding peripheral arterial disease in the current era",
-     "title_zh": "",
-     "summary_zh": "强调动脉粥样硬化疾病研究应重视下肢外周动脉疾病的日益增长的全球疾病负担，而非仅关注心脑血管事件。",
+     "title_zh": "当前时代外周动脉疾病的理解",
+     "summary_zh": "动脉粥样硬化性心血管疾病是近年来全球人群早亡的主要原因。以往的死亡统计、相关文献和指南主要集中在心脏和脑血管不良事件及死亡原因上。然而，考虑到下肢外周动脉疾病的发病率不断上升及其对全球健康系统的负担加重，这种强调可能导致对更广泛的动脉粥样硬化风险的偏颇认知。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -16029,8 +16115,8 @@
     },
     {
      "title": "[Series] Current advancements in the care of peripheral arterial disease: modern approaches to medical, endovascular, and surgical treatment",
-     "title_zh": "",
-     "summary_zh": "综述外周动脉疾病医学、血管内及外科治疗进展：监督运动疗法改善间歇跛行患者步行能力，选择性血管重建用于重症缺血。",
+     "title_zh": "外周动脉疾病的最新治疗进展",
+     "summary_zh": "外周动脉疾病（PAD）患者面临极高的心血管事件风险，因此其管理的核心是通过药物治疗和行为改变来降低风险。无症状PAD或间歇性跛行患者的肢体丧失风险较低，只有少数患者发展为最严重的PAD形式：慢性肢体威胁性缺血。针对间歇性跛行患者，监督下的运动治疗被证明有效，可以改善其步行能力，并避免与血管重建手术相关的风险，以改善肢体血流。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -16043,8 +16129,8 @@
     },
     {
      "title": "[Series] Peripheral arterial disease: adverse impacts, disparities in outcomes, and the path ahead",
-     "title_zh": "",
-     "summary_zh": "阐述全球3亿人患外周动脉疾病导致的慢性疼痛、功能障碍、生活质量下降、失业和经济困难等严重个体和社会影响。",
+     "title_zh": "外周动脉疾病的影响、结果差异及未来展望",
+     "summary_zh": "本论文为外周动脉疾病（PAD）系列的第三篇。前两篇指出，PAD在全球影响超过3亿人，可通过非侵入性检测进行诊断，治疗需使用药物降低可改变的风险因素，并在特定患者中进行运动疗法和血管重建。本文描述了PAD对个体的严重影响，包括慢性疼痛、功能限制、失去独立性、身体和心理生活质量下降、失业及经济不稳定等问题。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -17660,8 +17746,8 @@
    "items": [
     {
      "title": "[Correspondence] Multicancer detection tests: holy grail or cautionary tale?",
-     "title_zh": "",
-     "summary_zh": "Grail公司14万人的Galleri试验未能证实多癌种血液检测能降低晚期癌症诊断率，提示该技术的临床应用需谨慎。",
+     "title_zh": "多癌症检测测试：梦想还是警示？",
+     "summary_zh": "单一血液检测能够识别大多数癌症仍然是癌症筛查的理想目标。美国生物技术公司Grail在开发可行的多癌症检测测试方面走在前列。2026年6月，在美国临床肿瘤学会（ASCO）年会上，许多人的期望被击碎：Grail的标志性Galleri试验随机将14万名英国居民分为常规护理加多癌症检测与单纯常规护理组，结果未能达到主要终点——晚期癌症的减少。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -28674,8 +28760,8 @@
    "items": [
     {
      "title": "[Comment] Compassionate care for patients with Ebola virus disease",
-     "title_zh": "",
-     "summary_zh": "评述刚果民主共和国邦迪布焦病毒疫情中的姑息关怀措施，确诊病例6686例、死亡率48.3%，医护人员感染率高。",
+     "title_zh": "对埃博拉病毒病患者的关怀护理",
+     "summary_zh": "当前在刚果民主共和国爆发的埃博拉病毒疫情由Bundibugyo病毒（BDBV）引起，疫情迅速扩展，成为历史上第二大埃博拉疫情。截至2026年9月6日，确认病例6686例，死亡3226例（粗死亡率48.3%）。医疗工作者也受到严重影响，截至2026年9月6日，共有47名医疗工作者死亡（死亡率28.1%），而截至同年8月9日，已有68名医疗工作者康复。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -30372,8 +30458,8 @@
    "items": [
     {
      "title": "[Comment] The US experiments with international reference pricing for prescription drugs",
-     "title_zh": "",
-     "summary_zh": "评论文章指出美国处方药价格是欧洲等高收入国家的3-5倍，美国正试验国际参考定价机制以降低医保成本。",
+     "title_zh": "美国试验处方药国际参考定价",
+     "summary_zh": "美国在同类品牌药物上的支出显著高于其他高收入国家，估计其价格是大多数欧洲国家的三到五倍。许多人，包括特朗普政府，认为这些高价格在全球制药市场中是不公平的。在特朗普的第一任期内，他指示医疗保险和医疗补助创新中心（CMMI）将医疗保险B部分药物价格与国际价格进行基准比较，作为国际参考定价的一种形式。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -30386,8 +30472,8 @@
     },
     {
      "title": "[Articles] Most-favoured-nation pricing for prescription drugs in US Medicare: a cohort study",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "美国医疗保险处方药最惠国定价的队列研究",
+     "summary_zh": "本研究探讨了在医疗保险中对品牌药物实施最惠国定价的影响。研究预测，这一政策将减少净支出。分析显示，潜在的医疗保险净支出减少将远大于参考国家的销售额，表明在实施该模型后，制造商行为的变化可能会降低预期的节省效果。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -38798,8 +38884,8 @@
     },
     {
      "title": "[Comment] Can wealth redistribution offset the collapse of aid?",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "财富再分配能否弥补援助崩溃的影响？",
+     "summary_zh": "官方发展援助（ODA）正以历史上最快的速度减少。美国、英国、日本、德国、法国和荷兰在2024至2025年间均减少了援助，预测显示到2026年及以后还将大幅下降。这一切发生在财富极度集中且不断上升的背景下：全球最富有的10%人口拥有75%的个人财富，而最贫困的50%仅拥有2%。在此背景下，Gonzalo Barreix Sibils及其同事在《柳叶刀》中提出了一个鲜有探讨的问题：重新分配即使是小部分财富，是否能够抵消人道主义和发展援助危机所造成的健康损害？",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -38826,8 +38912,8 @@
     },
     {
      "title": "[Articles] Wealth redistribution policies to mitigate the impact of development assistance defunding: a retrospective evaluation and forecasting analysis up to 2030",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "财富再分配政策应对发展援助资金削减的评估与预测",
+     "summary_zh": "本文评估了近期国际高层协议中提出的财富再分配政策的实施效果，旨在缓解当前官方发展援助（ODA）资金削减危机对健康的影响。研究表明，这些政策能够挽救数百万生命，并支持实现联合国可持续发展目标，尤其是与健康相关的目标。通过回顾性分析和2030年前的预测，结果显示，适当的财富再分配措施能够显著降低因资金不足导致的健康风险，从而促进全球健康水平的提升。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -38907,8 +38993,8 @@
     },
     {
      "title": "[Articles] Induction and consolidation atezolizumab with stereotactic body radiation therapy versus radiation alone in high-risk, early-stage non-small-cell lung cancer (SWOG/NRG S1914): a multicentre, open-label, superiority, phase 3, randomised controlled trial",
-     "title_zh": "",
-     "summary_zh": "第三期试验显示阿特珠单抗联合立体定向放疗对高危早期非小细胞肺癌患者整体生存期无改善，且毒性反应增加。",
+     "title_zh": "高危早期非小细胞肺癌中阿特珠单抗与立体定向放疗的比较研究",
+     "summary_zh": "本研究为首个全面报告的III期合作组试验，评估在不可手术的早期非小细胞肺癌（NSCLC）患者中，阿特珠单抗联合立体定向体部放疗（SBRT）与单独放疗的疗效。研究结果显示，阿特珠单抗加SBRT组的总体生存率未见改善，且该组报告的3级及以上不良事件发生率更高。这表明在高危早期NSCLC患者中，阿特珠单抗与SBRT的联合治疗并未带来预期的生存益处。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -39115,8 +39201,8 @@
     },
     {
      "title": "[Comment] High-quality mentorship can improve physician-scientist recruitment, retention, and career satisfaction",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "高质量指导可提升医师科学家的招聘与职业满意度",
+     "summary_zh": "医师科学家同时从事患者护理和科学研究，但在医师队伍中所占比例日益减少。2020年，美国仅有1.3%的医师将研究视为主要职业活动。2025年，英国临床学术人员仅占顾问队伍的3.2%。研究表明，高质量的指导能够改善医师科学家的招聘、留任和职业满意度，强调了在培养这一群体中的重要性。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -41363,8 +41449,8 @@
    "items": [
     {
      "title": "[Comment] Can physiotherapist-led care relieve the emergency physician bottleneck?",
-     "title_zh": "",
-     "summary_zh": "物理治疗师主导的护理模式可通过改变急诊科传统医生把关模式来缓解急诊科拥堵。",
+     "title_zh": "物理治疗师主导的护理能缓解急诊医生瓶颈吗？",
+     "summary_zh": "急诊科拥挤在许多国家已达到前所未有的水平，导致患者死亡率和发病率显著增加。尽管由于住院床位短缺造成的医院接入阻塞被广泛认为是急诊科拥挤的主要原因，但传统急救护理模式中的另一个关键瓶颈在于急诊医生作为几乎所有进入急诊科患者的主要把关者。此研究探讨了物理治疗师主导的护理是否能够缓解这一瓶颈，提供了对急诊科资源利用和患者流动性的潜在改善方向。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -41377,8 +41463,8 @@
     },
     {
      "title": "[Articles] Physiotherapist-led care for musculoskeletal conditions in the emergency department (RESHAP-ED): a randomised controlled trial with economic evaluation",
-     "title_zh": "",
-     "summary_zh": "物理治疗师主导的急诊科肌肉骨骼疾病护理模式显著缩短无并发症患者住院时间，同时降低成本且维持疗效。",
+     "title_zh": "急诊科物理治疗师主导的肌肉骨骼疾病护理研究",
+     "summary_zh": "本研究评估了急诊科物理治疗师主导的护理模式对无并发症肌肉骨骼疾病患者的影响。通过随机对照试验，结果显示该模式显著缩短了患者的住院时间，同时未影响健康结果或安全性。此外，经济评估表明该模式具有成本效益。这一发现为急诊科护理提供了新的思路，强调了物理治疗师在管理肌肉骨骼疾病中的重要角色。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -43062,27 +43148,27 @@
  },
  "monthly": {
   "2026-10": {
-   "count": 3837,
+   "count": 3859,
    "by_field": {
     "AI计算机": 2030,
     "物理天文": 667,
     "数学基础理论": 334,
-    "化学材料": 251,
-    "医学健康": 215,
+    "化学材料": 252,
+    "医学健康": 234,
     "生命科学": 165,
-    "神经认知": 94,
-    "地球气候": 59,
+    "神经认知": 95,
+    "地球气候": 60,
     "未分类": 22
    },
    "by_tier": {
     "mainstream": 47,
     "alt": 437,
-    "preprint": 3353
+    "preprint": 3375
    },
    "topics": [
     [
      "learning",
-     350
+     352
     ],
     [
      "quantum",
@@ -43098,11 +43184,11 @@
     ],
     [
      "reasoning",
-     107
+     108
     ],
     [
      "optimization",
-     102
+     103
     ],
     [
      "dynamics",
@@ -43110,22 +43196,22 @@
     ],
     [
      "framework",
-     87
+     88
+    ],
+    [
+     "large",
+     81
     ],
     [
      "generation",
      80
     ],
     [
-     "large",
-     79
+     "beyond",
+     76
     ],
     [
      "neural",
-     75
-    ],
-    [
-     "beyond",
      75
     ],
     [
@@ -43134,7 +43220,7 @@
     ],
     [
      "evaluation",
-     68
+     69
     ],
     [
      "efficient",
@@ -43144,8 +43230,8 @@
    "top_items": [
     {
      "title": "[Editorial] Peripheral arterial disease: counting what matters",
-     "title_zh": "",
-     "summary_zh": "指出外周动脉疾病是全身性动脉粥样硬化表现，易被误诊为衰老或肌肉骨骼病，强调其系统性健康威胁而非局部腿部疾病。",
+     "title_zh": "外周动脉疾病：关注重要指标",
+     "summary_zh": "外周动脉疾病是由动脉粥样硬化引起的，影响四肢供血，通常被视为局部腿部疾病，尤其在无症状时被认为相对良性。然而，这种看法并不准确。外周动脉疾病实际上是全身性动脉粥样硬化的表现。当症状出现时，常常被归因于衰老或肌肉骨骼疾病，只有少数患者报告经典的间歇性跛行——运动引起的腿部疼痛在休息时缓解，这是临床医生被教导要关注的症状。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -43158,8 +43244,8 @@
     },
     {
      "title": "[Comment] Combining immunotherapy with stereotactic body radiation therapy in localised non-small-cell lung cancer",
-     "title_zh": "",
-     "summary_zh": "评析S1914试验结果：阿特珠单抗联合立体定向放疗对高危不可手术早期非小细胞肺癌患者的总生存期改善效果。",
+     "title_zh": "免疫治疗与立体定向体部放疗联合治疗局部非小细胞肺癌的研究",
+     "summary_zh": "在过去十年中，放疗与免疫治疗的结合成为全球研究的重点。Megan E Daly及其同事在《柳叶刀》上发表的3期随机临床试验（SWOG/NRG S1914）评估了在美国进行的研究，探讨了在高风险、医学上无法手术的早期非小细胞肺癌（NSCLC）患者中，围手术期使用阿特珠单抗（新辅助、同步及辅助）联合立体定向体部放疗（SBRT）是否能改善治疗效果。主要目标是比较接受阿特珠单抗加SBRT（n=210）与单独SBRT（n=207）患者的总体生存率。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -43172,8 +43258,8 @@
     },
     {
      "title": "[Department of Error] Department of Error",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "靶向MEK在癌症治疗中的机制与机会",
+     "summary_zh": "Chan WY等研究了靶向MEK在癌症及其他领域的应用。在NEMO试验中，binimetinib组的客观反应率应为15%（95% CI：11–20），而Combi-v试验中，trametinib + dabrafenib组的客观反应率应为64%（95% CI：59–69）。NEMO试验中，binimetinib组的中位无进展生存期应为2.8个月（95% CI：2.8–3.6），而dacarbazine组为1.5个月（95% CI：1.5–1.7）。这些数据为MEK靶向治疗提供了重要的机制洞察和治疗机会。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -43186,8 +43272,8 @@
     },
     {
      "title": "[Comment] Offline: Can time be tamed?",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "人工智能是否能被驯服？",
+     "summary_zh": "安全科学家Evan Hubinger在社交媒体上发布了一个引人注目的预言，称人工智能在未来十年内杀死所有人类的可能性超过10%。医学作为一门学科，对预言有一定的了解。医生通过学习疾病的自然史来指导患者应对疾病的可能发展。临床研究者则通过随机试验来评估所开处方的治疗的安全性和有效性。这一讨论引发了对人工智能潜在风险的关注，强调了在技术快速发展的背景下，科学界对未来的预判和应对策略的重要性。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -43200,8 +43286,8 @@
     },
     {
      "title": "[Correspondence] Cardiometabolic disease: the role of internal medicine",
-     "title_zh": "",
-     "summary_zh": "心脏代谢疾病患者同时患有肥胖、糖尿病、慢性肾病等多种疾病，但分别就诊多个专科，接收不同指南建议，尽管存在共同生物学途径。",
+     "title_zh": "心脏代谢疾病：内科的角色",
+     "summary_zh": "兰塞特的社论指出，心脏代谢疾病在临床实践中日益成为挑战：肥胖、2型糖尿病、慢性肾病、代谢功能障碍相关脂肪肝病和心血管疾病的患者常常需要就诊多个专科门诊，并根据不同的指南接受建议，尽管这些疾病之间存在共同的生物学途径和治疗方法。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -43228,8 +43314,8 @@
     },
     {
      "title": "[Correspondence] Distinguishing AYA oncology from early-onset cancer",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "区分青少年及年轻成人肿瘤学与早发癌症",
+     "summary_zh": "我们欢迎《柳叶刀》的社论，强调年轻人中癌症负担的上升。然而，青少年及年轻成人（AYA）肿瘤学与早发癌症应有所区分：这两个概念虽然有重叠，但并不完全相同。青少年及年轻成人肿瘤学专注于特定年龄段的癌症，而早发癌症则涵盖更广泛的早期发病情况。明确这一区分有助于更好地理解和应对不同人群的癌症挑战。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -43284,8 +43370,8 @@
     },
     {
      "title": "[Perspectives] Surviving a migration journey and border policies in the central Mediterranean",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "中地中海迁徙旅程与边境政策的生存现状",
+     "summary_zh": "本研究关注非政府组织“开放之翼”在中地中海的救援行动。该组织在其第129次救援任务中，在意大利的搜救区内进行了两次救援行动，成功将101人带至安全地带。然而，意大利当局指定的下船港口要求救援船航行数天至北意大利的港口，导致救援人员在海上等待超过700 nautical miles to the port of Savona transformed the deck of the Open Arms from an emergency scene into a place。此现象反映了当前边境政策对难民救助的影响。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -43298,8 +43384,8 @@
     },
     {
      "title": "[Correspondence] Advances in primary sclerosing cholangitis care – Authors' reply",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "初级硬化性胆管炎治疗进展的作者回复",
+     "summary_zh": "我们感谢Kevin M Johnson及其同事关于口服万古霉素在初级硬化性胆管炎中的信件。我们承认，目前的证据尚未明确显示在接受口服万古霉素的初级硬化性胆管炎患者中，万古霉素耐药肠球菌的发生率增加，尽管在所有研究中并未系统评估万古霉素耐药肠球菌。然而，我们认为核心问题超出了万古霉素耐药肠球菌的范畴。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -43564,8 +43650,8 @@
     },
     {
      "title": "Biomarker Integration in the Perioperative Management of Early-Stage Non-Small-Cell Lung Cancer",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "早期非小细胞肺癌围手术期生物标志物整合管理",
+     "summary_zh": "个性化医学的理念在非小细胞肺癌（NSCLC）管理中逐渐得到应用，尤其是通过肿瘤生物学和精准肿瘤学指导的策略。研究表明，许多切除的NSCLC肿瘤中存在可靶向的驱动突变，这为围手术期整合靶向治疗提供了可能。辅助表皮生长因子受体和间变性淋巴瘤激酶抑制剂的成功应用，确立了生物标志物驱动治疗的框架，并强调了诊断时进行全面分子检测的重要性。同时，围手术期免疫检查点抑制剂的策略为适当选择的患者扩展了治疗选择，进一步突显了分子分析的重要性。然而，实施过程中仍存在分子检测不完整、结果延迟、组织取样不足、工作流程碎片化及获取资源不平等等问题。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -43578,8 +43664,8 @@
     },
     {
      "title": "Assessment of TLR3-TRIF-NF-κB Innate Immune Signaling Pathway Induced by Newcastle Disease Virus and Construction of TLR3-Deficient BHK-21 Cells",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "评估新城疫病毒诱导的TLR3-TRIF-NF-κB免疫信号通路及构建TLR3缺失BHK-21细胞",
+     "summary_zh": "先天免疫系统在抑制病毒感染和增殖中发挥重要作用。为探讨新城疫病毒（NDV）在BHK-21细胞中诱导的先天免疫反应信号通路，通过转录组测序、qRT-PCR和ELISA检测了TLR3、TLR7、TLR8、NOD2等模式识别受体及TNF-α、IL-6、IL-1β、IL-10、IL-17、TRIF、TRAF3和NF-κB等细胞因子的mRNA表达水平。结果表明，NDV LaSota株主要诱导BHK-21细胞中的TLR3-TRIF-NF-κB信号通路。随后使用NF-κB抑制剂、TLR3抑制剂和TRAF3抑制剂，测定了感染NDV LaSota株的病毒滴度，结果显示抑制TLR3或NF-κB有效增加了NDV的病毒滴度。利用CRISPR/Cas9系统构建了TLR3缺失的BHK-TLR3—细胞克隆，评估了细胞形态、密度、活力和遗传稳定性。最终，感染NDV LaSota株的结果显示，BHK-TLR3—细胞系是一个稳定的细胞系，显著增强了NDV LaSota株的产量。此外，TLR3基因的敲除显著抑制了IFN-α、IFN-β、IL-1β和TNF-α的表达。",
      "source": "MDPI",
      "tier": "alt",
      "field": "生命科学",
@@ -43592,8 +43678,8 @@
     },
     {
      "title": "Saccharopine and α-Aminoadipic Acid as Potential Biomarkers for Mitochondrial Stress in Neurons",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "作为线粒体压力潜在生物标志物的糖醇和α-氨基己二酸",
+     "summary_zh": "红氧化应激及随后的代谢重编程是神经元暴露于线粒体毒素的已知后果。本研究使用人类神经元培养，定量分析细胞内外氨基酸的变化模式，以探讨这些变化是否能作为呼吸链损伤引起的神经毒性机制的生物标志物。采用靶向代谢组学方法，量化了氨基酸池及其时间动态。数据来自于暴露于复合物I抑制剂（如小檗碱、1-甲基-4-苯基吡啶（MPP+）和特布芬脲）及非线粒体毒素（如MG-132、RSL3和青霉素）的LUHMES分化神经元。线粒体抑制引起的还原应激在氨基酸代谢的特征性重定向中得以体现，包括Asn/Asp和Gln/Glu比率的增加，以及神经元中电子受体脯氨酸的上调。最显著的是赖氨酸代谢物糖醇（sacc）和α-氨基己二酸（α-AAA）的显著增加，这两个潜在的神经元线粒体毒性生物标志物未受到其他类型毒素的影响。",
      "source": "MDPI",
      "tier": "alt",
      "field": "神经认知",
@@ -43606,8 +43692,8 @@
     },
     {
      "title": "Irisin in Cardiovascular Health and Disease: A Review of Its Function as a Biomarker and Therapeutic Target in Atherosclerosis and Related Conditions",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "Irisin在心血管健康与疾病中的作用综述",
+     "summary_zh": "动脉粥样硬化性心血管疾病（ASCVD）是全球主要死亡原因，急需新的生物标志物和治疗靶点。Irisin是一种源自FNDC5的肌肉细胞因子，因其多重效应而受到关注，但其在心血管健康中的作用存在争议。本文综述了Irisin在ASCVD中的分子机制、作为临床生物标志物的潜力及其治疗应用的挑战。前临床研究表明，Irisin具有多方面的心脏保护作用：通过增强线粒体质量控制和抑制细胞凋亡及焦亡来减轻细胞压力；通过促进血管生成和防止病理重塑来维持血管完整性；并增强再生干细胞治疗的疗效。大多数临床研究显示循环Irisin水平与ASCVD、心力衰竭及相关炎症状态的存在和严重程度呈负相关。然而，这些研究主要为观察性且多为横断面研究，样本量通常较小，并且在某些代谢状态和急性心脏损伤中出现矛盾的升高。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -43620,8 +43706,8 @@
     },
     {
      "title": "Genome-Wide Identification and Evolution Analysis of the bHLH Gene Family in Cucurbita pepo L.",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "葫芦科植物Cucurbita pepo L. bHLH基因家族的全基因组鉴定与进化分析",
+     "summary_zh": "基本螺旋-环-螺旋（bHLH）基因家族是植物中最大的转录因子家族之一，在生长、发育及环境胁迫响应中发挥重要作用。然而，Cucurbita pepo L.中bHLH基因家族的成员及功能特征尚不清楚。本研究鉴定了175个Cucurbita pepo L.的bHLH基因，显示出蛋白质长度和结构特征的显著变异。系统发育分析将这些基因分为24个亚组，各亚组内具有保守的基序组成，但不同亚家族之间存在明显的分化，表明功能差异。基因重复分析显示，全基因组重复/片段重复是bHLH基因家族扩展的主要驱动力。顺式调控元件分析表明，CpbHLH基因主要与光响应及植物生长发育过程相关。此外，RNA-seq分析显示CpbHLH基因具有组织特异性表达模式及对冷胁迫的动态响应，定量实时PCR（qRT-PCR）分析证实了其组织特异性表达模式，提示其在花发育和胁迫适应中的潜在作用。总体而言，本研究为CpbHLH基因家族提供了全面的概述。",
      "source": "MDPI",
      "tier": "alt",
      "field": "生命科学",
@@ -43634,8 +43720,8 @@
     },
     {
      "title": "Beyond Genotype: Integrating Phenoconversion into Pharmacogenetic Decision-Making in Psychiatry",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "超越基因型：将表型转化纳入精神科药物基因决策",
+     "summary_zh": "个体间在精神药物反应上的差异导致治疗失败、不良药物反应及反复调整用药。药物基因组学通过识别与药物代谢、疗效和耐受性相关的遗传变异，支持精准处方，并为多种精神药物提供了基于证据的建议。然而，基因型预测的是代谢能力，而非实际在体内表达的酶活性或特定时间内的系统药物暴露。本文回顾了表型转化，即基因型预测与观察到的代谢表型之间的不匹配及其对精神药物治疗的影响。药物间相互作用、吸烟、炎症、生理变化及疾病相关因素可在基因型不变的情况下改变药物代谢酶活性或系统药物暴露。我们讨论了这些影响如何限制基于基因型的剂量推荐的适用性，并提出一个动态框架，将药物基因组学结果与同时用药、临床状况、生活方式因素、治疗药物监测及患者状态的纵向变化相结合。该框架可能还会改善治疗充分性的评估，因为处方剂量、持续时间和依从性并不一定能确保治疗的充分性。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -43648,8 +43734,8 @@
     },
     {
      "title": "Population PK/PD Modeling and Simulation to Predict the Comparative Long-Term Efficacy of Olokizumab in Rheumatoid Arthritis Patients",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于人群PK/PD模型预测Olokizumab在RA患者中的长期疗效",
+     "summary_zh": "背景/目的：Olokizumab（OKZ）是一种针对白介素-6（IL-6）的人源化单克隆抗体。在随机对照试验中，OKZ在活跃性类风湿关节炎（RA）患者中显示出相较于阿达木单抗（ADLM）和安慰剂的疗效，且在开放标签单臂扩展研究中确认了其在106周内的持续疗效。本分析旨在通过基于人群药代动力学/药效学（PK/PD）模型的虚拟临床试验模拟，预测每两周（q2w）和每四周（q4w）给药的OKZ 64 mg与ADLM和安慰剂的1年疗效。方法：使用III期研究的汇总数据开发非线性混合效应模型，应用最大抑制Imax型关系的周转模型。模拟临床试验用于估算52周的反应率，定义为达到低疾病活动性（DAS28-CRP ≤ 3.2）和缓解（CDAI ≤ 2.8）的患者比例。结果：对数转化的C反应蛋白（CRP）基线水平和地区被确定为显著协变量，影响RA活动评分的动态。OKZ和ADLM的预测疗效曲线相似，95%预测区间重叠。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -43662,8 +43748,8 @@
     },
     {
      "title": "From Thoracotomy to Robotic Platforms in Thoracic Surgery: Technical Evolution, Simulation-Based Training, and Surgical Outcomes",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "胸外科手术技术演变：从开胸到机器人平台",
+     "summary_zh": "胸外科手术逐渐从开放性开胸手术转向视频辅助和机器人辅助方法，减少了手术相关创伤，同时改变了肺切除手术的技术环境及教学方式。本文综述了开放性胸外科手术、视频辅助胸外科手术（VATS）和机器人辅助胸外科手术（RATS）的临床演变，重点关注其围手术期和肿瘤学结果的证据、微创手术的学习曲线及模拟训练的作用。随机试验提供了有力证据，表明在适当选择的早期非小细胞肺癌患者中，VATS相比开胸手术改善了术后恢复，且不影响长期肿瘤学结果。RATS与VATS的随机比较支持RATS作为一种肿瘤学上可接受的微创替代方案，并在特定技术指标上显示出优势，尤其是出血量和淋巴结回收，但在主要临床或生存结果上未表现出一致的优越性。学习曲线因先前经验、病例复杂性、监督、机构量和定义能力的终点而异，固定病例数量阈值无法完整衡量熟练程度。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -43676,8 +43762,8 @@
     },
     {
      "title": "Effectiveness of the 23-Valent Pneumococcal Polysaccharide Vaccine in Reducing Mortality Among Older Adults: A Real-World Retrospective Cohort Study in Guangzhou, China",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "23价肺炎球菌多糖疫苗对老年人死亡率的影响研究",
+     "summary_zh": "目的：评估23价肺炎球菌多糖疫苗（PPSV23）在降低60岁及以上成人的全因、肺炎相关及慢性阻塞性肺疾病（COPD）相关死亡率的实际效果。方法：本回顾性队列研究使用现有健康监测数据，追踪2020年1月1日年龄≥60岁的个体至2025年8月31日，并按PPSV23接种状态分类。采用1:1比例的倾向评分匹配（PSM）平衡性别、年龄、地区分布、城市化水平和流感疫苗接种状态。使用时间依赖的Cox比例风险模型估计风险比（HR）和疫苗有效性（VE），定义为（1 − HR）× 100%。结果：经过PSM后，共纳入453,500名个体，平均随访5.61年。接种者的全因死亡率为每千人年3.93，而未接种者为9.57。PPSV23接种显著降低全因死亡率（VE = 43.1%，95% CI: 41.2–45.0%）、肺炎相关死亡率（VE = 46.2%，95% CI: 39.6–52.1%）及COPD相关死亡率（VE = 33.5%，95% CI: 20.9–44.2%）（均p < 0.001）。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -43690,8 +43776,8 @@
     },
     {
      "title": "Patient Journey and Treatment Patterns of Non-Muscle-Invasive Bladder Cancer in Mexico",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "墨西哥非肌肉侵袭性膀胱癌患者就诊与治疗模式研究",
+     "summary_zh": "非肌肉侵袭性膀胱癌（NMIBC）占新诊断膀胱肿瘤的大多数，但在墨西哥的管理情况知之甚少，尤其是在巴氏抗结核菌素（BCG）短缺期间。本研究为一项回顾性多中心观察研究，分析了在墨西哥城三家三级医院接受治疗的NMIBC患者的临床和组织病理特征、诊断和治疗时间线，以及对指南推荐护理的遵循情况。共回顾221名2010年1月至2020年12月间诊断的成人患者记录。患者的中位年龄为68岁（四分位数范围[IQR] 59–75），男女比例为3:1。最常见的症状为血尿（83.3%）。四分之三的患者为T1肿瘤，6.3%伴有原位癌，84.6%为高分级肿瘤，92.8%为高复发或进展风险。症状出现到组织病理诊断的中位间隔为167天（IQR 81–329），不同中心间存在差异。诊断后，第二次切除的中位时间为67天（IQR 33.5–112），首次BCG灌注为92.5天（IQR 41.8–165.5）。66%的患者接受了辅助膀胱内治疗，主要为BCG。",
      "source": "MDPI",
      "tier": "alt",
      "field": "医学健康",
@@ -44025,8 +44111,8 @@
     },
     {
      "title": "[Comment] Compassionate care for patients with Ebola virus disease",
-     "title_zh": "",
-     "summary_zh": "评述刚果民主共和国邦迪布焦病毒疫情中的姑息关怀措施，确诊病例6686例、死亡率48.3%，医护人员感染率高。",
+     "title_zh": "对埃博拉病毒病患者的关怀护理",
+     "summary_zh": "当前在刚果民主共和国爆发的埃博拉病毒疫情由Bundibugyo病毒（BDBV）引起，疫情迅速扩展，成为历史上第二大埃博拉疫情。截至2026年9月6日，确认病例6686例，死亡3226例（粗死亡率48.3%）。医疗工作者也受到严重影响，截至2026年9月6日，共有47名医疗工作者死亡（死亡率28.1%），而截至同年8月9日，已有68名医疗工作者康复。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -44039,8 +44125,8 @@
     },
     {
      "title": "[Series] Understanding peripheral arterial disease in the current era",
-     "title_zh": "",
-     "summary_zh": "强调动脉粥样硬化疾病研究应重视下肢外周动脉疾病的日益增长的全球疾病负担，而非仅关注心脑血管事件。",
+     "title_zh": "当前时代外周动脉疾病的理解",
+     "summary_zh": "动脉粥样硬化性心血管疾病是近年来全球人群早亡的主要原因。以往的死亡统计、相关文献和指南主要集中在心脏和脑血管不良事件及死亡原因上。然而，考虑到下肢外周动脉疾病的发病率不断上升及其对全球健康系统的负担加重，这种强调可能导致对更广泛的动脉粥样硬化风险的偏颇认知。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -44053,8 +44139,8 @@
     },
     {
      "title": "[Series] Current advancements in the care of peripheral arterial disease: modern approaches to medical, endovascular, and surgical treatment",
-     "title_zh": "",
-     "summary_zh": "综述外周动脉疾病医学、血管内及外科治疗进展：监督运动疗法改善间歇跛行患者步行能力，选择性血管重建用于重症缺血。",
+     "title_zh": "外周动脉疾病的最新治疗进展",
+     "summary_zh": "外周动脉疾病（PAD）患者面临极高的心血管事件风险，因此其管理的核心是通过药物治疗和行为改变来降低风险。无症状PAD或间歇性跛行患者的肢体丧失风险较低，只有少数患者发展为最严重的PAD形式：慢性肢体威胁性缺血。针对间歇性跛行患者，监督下的运动治疗被证明有效，可以改善其步行能力，并避免与血管重建手术相关的风险，以改善肢体血流。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -44067,8 +44153,8 @@
     },
     {
      "title": "[Series] Peripheral arterial disease: adverse impacts, disparities in outcomes, and the path ahead",
-     "title_zh": "",
-     "summary_zh": "阐述全球3亿人患外周动脉疾病导致的慢性疼痛、功能障碍、生活质量下降、失业和经济困难等严重个体和社会影响。",
+     "title_zh": "外周动脉疾病的影响、结果差异及未来展望",
+     "summary_zh": "本论文为外周动脉疾病（PAD）系列的第三篇。前两篇指出，PAD在全球影响超过3亿人，可通过非侵入性检测进行诊断，治疗需使用药物降低可改变的风险因素，并在特定患者中进行运动疗法和血管重建。本文描述了PAD对个体的严重影响，包括慢性疼痛、功能限制、失去独立性、身体和心理生活质量下降、失业及经济不稳定等问题。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -44151,8 +44237,8 @@
     },
     {
      "title": "[Correspondence] From isolation to burial: dignity in the Bundibugyo virus disease response",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "从隔离到安葬：Bundibugyo病毒病应对中的尊严",
+     "summary_zh": "2026年Bundibugyo病毒病疫情重新引发了人们对患者进入隔离、家庭面对死亡和安葬条件的关注。近期评论解释了隔离合法性的基础在于社会契约。未解决的问题更为具体：每个丝状病毒治疗中心在患者入院到出院或安葬过程中，应该被要求和资助提供哪些服务，并以此进行评估？",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -44610,8 +44696,8 @@
     },
     {
      "title": "[Comment] Can physiotherapist-led care relieve the emergency physician bottleneck?",
-     "title_zh": "",
-     "summary_zh": "物理治疗师主导的护理模式可通过改变急诊科传统医生把关模式来缓解急诊科拥堵。",
+     "title_zh": "物理治疗师主导的护理能缓解急诊医生瓶颈吗？",
+     "summary_zh": "急诊科拥挤在许多国家已达到前所未有的水平，导致患者死亡率和发病率显著增加。尽管由于住院床位短缺造成的医院接入阻塞被广泛认为是急诊科拥挤的主要原因，但传统急救护理模式中的另一个关键瓶颈在于急诊医生作为几乎所有进入急诊科患者的主要把关者。此研究探讨了物理治疗师主导的护理是否能够缓解这一瓶颈，提供了对急诊科资源利用和患者流动性的潜在改善方向。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -44722,8 +44808,8 @@
     },
     {
      "title": "[Articles] Physiotherapist-led care for musculoskeletal conditions in the emergency department (RESHAP-ED): a randomised controlled trial with economic evaluation",
-     "title_zh": "",
-     "summary_zh": "物理治疗师主导的急诊科肌肉骨骼疾病护理模式显著缩短无并发症患者住院时间，同时降低成本且维持疗效。",
+     "title_zh": "急诊科物理治疗师主导的肌肉骨骼疾病护理研究",
+     "summary_zh": "本研究评估了急诊科物理治疗师主导的护理模式对无并发症肌肉骨骼疾病患者的影响。通过随机对照试验，结果显示该模式显著缩短了患者的住院时间，同时未影响健康结果或安全性。此外，经济评估表明该模式具有成本效益。这一发现为急诊科护理提供了新的思路，强调了物理治疗师在管理肌肉骨骼疾病中的重要角色。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -45249,16 +45335,16 @@
  },
  "yearly": {
   "2026": {
-   "count": 25592,
+   "count": 25614,
    "by_field": {
     "AI计算机": 11491,
     "物理天文": 3326,
-    "医学健康": 2614,
+    "医学健康": 2633,
     "数学基础理论": 2605,
-    "化学材料": 2263,
+    "化学材料": 2264,
     "生命科学": 1514,
-    "神经认知": 850,
-    "地球气候": 539,
+    "神经认知": 851,
+    "地球气候": 540,
     "未分类": 390
    },
    "by_source": {
@@ -45267,8 +45353,8 @@
     "MDPI": 2993,
     "arXiv:quant-ph": 2316,
     "arXiv:cs.CL": 1503,
-    "chemRxiv": 1047,
-    "medRxiv": 960,
+    "chemRxiv": 1048,
+    "medRxiv": 981,
     "arXiv:math.PR": 932,
     "arXiv:math.NT": 774,
     "arXiv:cond-mat.mtrl-sci": 748,
@@ -45304,7 +45390,7 @@
      "2026-07": 2,
      "2026-08": 48,
      "2026-09": 2349,
-     "2026-10": 215
+     "2026-10": 234
     },
     "数学基础理论": {
      "2026-09": 2271,
@@ -45313,7 +45399,7 @@
     "化学材料": {
      "2026-08": 2,
      "2026-09": 2010,
-     "2026-10": 251
+     "2026-10": 252
     },
     "生命科学": {
      "2026-07": 8,
@@ -45325,12 +45411,12 @@
      "2026-07": 1,
      "2026-08": 20,
      "2026-09": 735,
-     "2026-10": 94
+     "2026-10": 95
     },
     "地球气候": {
      "2026-08": 7,
      "2026-09": 473,
-     "2026-10": 59
+     "2026-10": 60
     },
     "未分类": {
      "2026-08": 4,
@@ -45341,7 +45427,7 @@
    "topics": [
     [
      "learning",
-     1947
+     1949
     ],
     [
      "quantum",
@@ -45357,7 +45443,7 @@
     ],
     [
      "framework",
-     698
+     699
     ],
     [
      "neural",
@@ -45365,7 +45451,7 @@
     ],
     [
      "optimization",
-     532
+     533
     ],
     [
      "detection",
@@ -45373,15 +45459,15 @@
     ],
     [
      "reasoning",
-     505
+     506
     ],
     [
      "large",
-     501
+     503
     ],
     [
      "evaluation",
-     491
+     492
     ],
     [
      "dynamics",
@@ -45409,7 +45495,7 @@
     ],
     [
      "across",
-     401
+     403
     ],
     [
      "networks",
@@ -45417,7 +45503,7 @@
     ],
     [
      "beyond",
-     397
+     398
     ],
     [
      "llms",
@@ -45425,11 +45511,11 @@
     ],
     [
      "reinforcement",
-     374
+     375
     ],
     [
      "evidence",
-     366
+     367
     ],
     [
      "inference",
@@ -45737,8 +45823,8 @@
     },
     {
      "title": "[Editorial] Peripheral arterial disease: counting what matters",
-     "title_zh": "",
-     "summary_zh": "指出外周动脉疾病是全身性动脉粥样硬化表现，易被误诊为衰老或肌肉骨骼病，强调其系统性健康威胁而非局部腿部疾病。",
+     "title_zh": "外周动脉疾病：关注重要指标",
+     "summary_zh": "外周动脉疾病是由动脉粥样硬化引起的，影响四肢供血，通常被视为局部腿部疾病，尤其在无症状时被认为相对良性。然而，这种看法并不准确。外周动脉疾病实际上是全身性动脉粥样硬化的表现。当症状出现时，常常被归因于衰老或肌肉骨骼疾病，只有少数患者报告经典的间歇性跛行——运动引起的腿部疼痛在休息时缓解，这是临床医生被教导要关注的症状。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -45751,8 +45837,8 @@
     },
     {
      "title": "[Comment] Combining immunotherapy with stereotactic body radiation therapy in localised non-small-cell lung cancer",
-     "title_zh": "",
-     "summary_zh": "评析S1914试验结果：阿特珠单抗联合立体定向放疗对高危不可手术早期非小细胞肺癌患者的总生存期改善效果。",
+     "title_zh": "免疫治疗与立体定向体部放疗联合治疗局部非小细胞肺癌的研究",
+     "summary_zh": "在过去十年中，放疗与免疫治疗的结合成为全球研究的重点。Megan E Daly及其同事在《柳叶刀》上发表的3期随机临床试验（SWOG/NRG S1914）评估了在美国进行的研究，探讨了在高风险、医学上无法手术的早期非小细胞肺癌（NSCLC）患者中，围手术期使用阿特珠单抗（新辅助、同步及辅助）联合立体定向体部放疗（SBRT）是否能改善治疗效果。主要目标是比较接受阿特珠单抗加SBRT（n=210）与单独SBRT（n=207）患者的总体生存率。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -45765,8 +45851,8 @@
     },
     {
      "title": "[Comment] Compassionate care for patients with Ebola virus disease",
-     "title_zh": "",
-     "summary_zh": "评述刚果民主共和国邦迪布焦病毒疫情中的姑息关怀措施，确诊病例6686例、死亡率48.3%，医护人员感染率高。",
+     "title_zh": "对埃博拉病毒病患者的关怀护理",
+     "summary_zh": "当前在刚果民主共和国爆发的埃博拉病毒疫情由Bundibugyo病毒（BDBV）引起，疫情迅速扩展，成为历史上第二大埃博拉疫情。截至2026年9月6日，确认病例6686例，死亡3226例（粗死亡率48.3%）。医疗工作者也受到严重影响，截至2026年9月6日，共有47名医疗工作者死亡（死亡率28.1%），而截至同年8月9日，已有68名医疗工作者康复。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -45779,8 +45865,8 @@
     },
     {
      "title": "[Series] Understanding peripheral arterial disease in the current era",
-     "title_zh": "",
-     "summary_zh": "强调动脉粥样硬化疾病研究应重视下肢外周动脉疾病的日益增长的全球疾病负担，而非仅关注心脑血管事件。",
+     "title_zh": "当前时代外周动脉疾病的理解",
+     "summary_zh": "动脉粥样硬化性心血管疾病是近年来全球人群早亡的主要原因。以往的死亡统计、相关文献和指南主要集中在心脏和脑血管不良事件及死亡原因上。然而，考虑到下肢外周动脉疾病的发病率不断上升及其对全球健康系统的负担加重，这种强调可能导致对更广泛的动脉粥样硬化风险的偏颇认知。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -45793,8 +45879,8 @@
     },
     {
      "title": "[Series] Current advancements in the care of peripheral arterial disease: modern approaches to medical, endovascular, and surgical treatment",
-     "title_zh": "",
-     "summary_zh": "综述外周动脉疾病医学、血管内及外科治疗进展：监督运动疗法改善间歇跛行患者步行能力，选择性血管重建用于重症缺血。",
+     "title_zh": "外周动脉疾病的最新治疗进展",
+     "summary_zh": "外周动脉疾病（PAD）患者面临极高的心血管事件风险，因此其管理的核心是通过药物治疗和行为改变来降低风险。无症状PAD或间歇性跛行患者的肢体丧失风险较低，只有少数患者发展为最严重的PAD形式：慢性肢体威胁性缺血。针对间歇性跛行患者，监督下的运动治疗被证明有效，可以改善其步行能力，并避免与血管重建手术相关的风险，以改善肢体血流。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -45807,8 +45893,8 @@
     },
     {
      "title": "[Series] Peripheral arterial disease: adverse impacts, disparities in outcomes, and the path ahead",
-     "title_zh": "",
-     "summary_zh": "阐述全球3亿人患外周动脉疾病导致的慢性疼痛、功能障碍、生活质量下降、失业和经济困难等严重个体和社会影响。",
+     "title_zh": "外周动脉疾病的影响、结果差异及未来展望",
+     "summary_zh": "本论文为外周动脉疾病（PAD）系列的第三篇。前两篇指出，PAD在全球影响超过3亿人，可通过非侵入性检测进行诊断，治疗需使用药物降低可改变的风险因素，并在特定患者中进行运动疗法和血管重建。本文描述了PAD对个体的严重影响，包括慢性疼痛、功能限制、失去独立性、身体和心理生活质量下降、失业及经济不稳定等问题。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -45905,8 +45991,8 @@
     },
     {
      "title": "[Correspondence] From isolation to burial: dignity in the Bundibugyo virus disease response",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "从隔离到安葬：Bundibugyo病毒病应对中的尊严",
+     "summary_zh": "2026年Bundibugyo病毒病疫情重新引发了人们对患者进入隔离、家庭面对死亡和安葬条件的关注。近期评论解释了隔离合法性的基础在于社会契约。未解决的问题更为具体：每个丝状病毒治疗中心在患者入院到出院或安葬过程中，应该被要求和资助提供哪些服务，并以此进行评估？",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",
@@ -45919,8 +46005,8 @@
     },
     {
      "title": "[Department of Error] Department of Error",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "靶向MEK在癌症治疗中的机制与机会",
+     "summary_zh": "Chan WY等研究了靶向MEK在癌症及其他领域的应用。在NEMO试验中，binimetinib组的客观反应率应为15%（95% CI：11–20），而Combi-v试验中，trametinib + dabrafenib组的客观反应率应为64%（95% CI：59–69）。NEMO试验中，binimetinib组的中位无进展生存期应为2.8个月（95% CI：2.8–3.6），而dacarbazine组为1.5个月（95% CI：1.5–1.7）。这些数据为MEK靶向治疗提供了重要的机制洞察和治疗机会。",
      "source": "Lancet",
      "tier": "mainstream",
      "field": "医学健康",

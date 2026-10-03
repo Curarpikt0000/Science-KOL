@@ -1,0 +1,25 @@
+[
+ {
+  "person_id": "kirk_sorensen",
+  "person_name": "Kirk Sorensen",
+  "channel": "媒体采访",
+  "pub_type": "公司官网转述稿（第三人称，非本人亲笔）",
+  "title": "Kirk Sorensen Discusses the Future of Thorium on Thoughtful Money",
+  "body": "Published January 1st, 2026 Flibe Energy president and chief technologist Kirk Sorensen joined Adam Taggart on Thoughtful Money for a wide-ranging conversation, âIs Thorium the Future of Nuclear Energy?â The discussion traces the renewed interest in nuclear energy driven by growing electricity demand, examines Chinaâs molten-salt thorium reactor program and how it builds on the 1960s Oak Ridge experiments, and explains thoriumâs resource abundance, fuel-efficiency advantage, and non-proliferation profile. Sorensen walks through how a molten-salt reactor works, why its high-temperature, low-pressure operation provides inherent safety, and how the failure modes of conventional reactors do not apply to it. The conversation also covers the history of how molten-salt development was set aside, the current wave of small modular and molten-salt reactor activity, the role of surplus weap",
+  "journal": "Flibe Energy 官网（flibe.com）",
+  "doi": "",
+  "url": "https://flibe.com/news/kirk-sorensen-thoughtful-money-thorium-interview/",
+  "published": "2026-01-01",
+  "date_status": "verified",
+  "authors": "Kirk Sorensen",
+  "attribution_confidence": "medium",
+  "attribution_basis": "页面标题与正文明确为 Sorensen 的访谈；但为 Flibe 公司稿的第三人称概述，非本人原话；页面注明 Published January 1st, 2026（日期为月初整日，可能是月份占位）",
+  "collected_on": "2026-10-03",
+  "quotes": [],
+  "topic_zh": "钍基熔盐反应堆作为核能未来发展方向",
+  "claim_zh": "钍燃料熔盐反应堆最终能够降低核电成本并成为核能发展的重要路径",
+  "evidence_zh": "核能需求因电力需求增长而重新受到关注；中国正在推进熔盐钍反应堆项目，该项目建立在1960年代橡树岭实验基础上；熔盐反应堆采用高温低压运行方式，提供固有安全性；传统反应堆的失效模式不适用于熔盐反应堆；当前出现小型模块化反应堆和熔盐反应堆活动浪潮；剩余武器级材料可作为燃料使用",
+  "article_body": "Published January 1st, 2026 Flibe Energy president and chief technologist Kirk Sorensen joined Adam Taggart on Thoughtful Money for a wide-ranging conversation, âIs Thorium the Future of Nuclear Energy?â The discussion traces the renewed interest in nuclear energy driven by growing electricity demand, examines Chinaâs molten-salt thorium reactor program and how it builds on the 1960s Oak Ridge experiments, and explains thoriumâs resource abundance, fuel-efficiency advantage, and non-proliferation profile. Sorensen walks through how a molten-salt reactor works, why its high-temperature, low-pressure operation provides inherent safety, and how the failure modes of conventional reactors do not apply to it. The conversation also covers the history of how molten-salt development was set aside, the current wave of small modular and molten-salt reactor activity, the role of surplus weapons material as fuel, and why a thorium-fueled approach could ultimately lower the cost of nuclear power. Taggart and Sorensen first spoke about thorium more than a decade ago, and this interview revisits that long-running conversation with the benefit of everything that has changed since. '] after:translate-x-0 after:opacity-0 group-hover:after:opacity-100 group-hover:after:translate-x-2 after:inline-block after:duration-300 group-hover:after:text-white after:text-black\">View More Updates Learn more at flibe.com &copy; Flibe Energy, Inc. All Rights Reserved. Explore Technology Media & Resources Apps & Tools News About Company Contact Us Privacy Policy Terms of Use Join Stakeholders Investors Careers ",
+  "manual_note": "Chao 2026-10-02 批准入册后的一年 backfill；Politics-Checker 抽取管线（sandbox）产出，已人工逐条核对"
+ }
+]
