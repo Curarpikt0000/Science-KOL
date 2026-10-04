@@ -1,21 +1,60 @@
 {
  "_meta": {
-  "built_at": "2026-10-04",
-  "total": 25916,
+  "built_at": "2026-10-05",
+  "total": 25928,
   "undated": 302,
-  "days": 66,
+  "days": 67,
   "months": 4,
   "years": 1
  },
  "daily": {
-  "2026-10-03": {
-   "count": 20,
+  "2026-10-04": {
+   "count": 2,
    "by_field": {
-    "医学健康": 19,
+    "医学健康": 2
+   },
+   "by_tier": {
+    "preprint": 2
+   },
+   "items": [
+    {
+     "title": "Can Large Language Models Diagnose Primary Immunodeficiency from Patient-Described Symptoms?",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.05.26.26353818",
+     "doi": "10.64898/2026.05.26.26353818",
+     "published": "2026-10-04",
+     "importance": 8.5,
+     "abstract": "Patients with primary immunodeficiency (PI) face prolonged diagnostic delays and may increasingly turn to large language models (LLMs) to interpret their symptoms during this period. We evaluated whether an LLM could recognize PI from symptom descriptions derived from interviews with 21 PI patients. In prior work, we showed that GPT-4o identified PI in 96% of cases when prompted with physician-written patient histories (Rider et al., 2025). Here, when prompted with symptom descriptions in patients' own words, GPT-5.2 identified PI in only 7 cases (33%), although it suggested general immune system concerns in 17 cases (81%). This expert-versus-patient gap may indicate that LLMs are sensitive to the language and framing of symptom descriptions, performing substantially worse when patients describe their own symptoms in everyday language than when clinicians summarize patient histories in structured medical terms. This study underscores the need to carefully evaluate how LLMs are used in patient-facing applications.",
+     "authors": "Reteig, L. C.; Woloshin, S.; Maglione, P. J.; Farmer, J. R.; Ong, M.-S."
+    },
+    {
+     "title": "Mental Stress-Induced Myocardial Ischemia and Cardiovascular Events in Women after a Premature Myocardial Infarction: A Prospective Cohort Study",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "medRxiv",
+     "tier": "preprint",
+     "field": "医学健康",
+     "url": "https://doi.org/10.64898/2026.09.30.26364456",
+     "doi": "10.64898/2026.09.30.26364456",
+     "published": "2026-10-04",
+     "importance": 8.0,
+     "abstract": "Background. Women with premature myocardial infarction (MI) have worse outcomes than similarly aged men despite less severe disease, and stress-related factors have been implicated. We examined sex differences in the association of mental stress-induced myocardial ischemia (MSIMI) with cardiovascular outcomes after premature MI and explored vascular and inflammatory mechanisms. Methods. We studied 602 individuals (mean age 51 years; 46% women) within 8 months of MI who underwent 99mTc-sestamibi myocardial perfusion imaging at rest and after mental stress. MSIMI was defined as a summed difference score [ ]3. We measured reactive hyperemia index (RHI) as peripheral microvascular reactivity to stress and interleukin-6 (IL-6) as inflammatory response to stress. The primary endpoint was cardiovascular death or nonfatal MI; the secondary endpoint added heart failure hospitalization. Cox proportional hazards models adjusted for sociodemographic factors, clinical, and psychiatric history. Results. MSIMI was more common in women than men (19.2% vs. 13.2%, p=0.04). Over a median follow-up of 34.2 months, 51 primary and 91 secondary endpoint events occurred. The hazard ratio (HR) of MSIMI for",
+     "authors": "Vaccarino, V.; Shah, A. J.; She, H.; Elon, L.; Lewis, T. T.; Ko, Y.-A.; murrah, n. V.; Shallenberger, L.; Roberts, T.; Stefanos, L.; Fan-Lou, E. Y.; Pearce, B. D.; Martin, Z. T.; Medina Inojosa, J. R."
+    }
+   ]
+  },
+  "2026-10-03": {
+   "count": 25,
+   "by_field": {
+    "医学健康": 24,
     "神经认知": 1
    },
    "by_tier": {
-    "mainstream": 14,
+    "mainstream": 19,
     "preprint": 6
    },
    "items": [
@@ -132,6 +171,34 @@
      "authors": "Annika Bergquist, Erik von Seth, Tom H Karlsen, Atsushi Tanaka, Cyriel Ponsioen"
     },
     {
+     "title": "Menkes Disease",
+     "title_zh": "",
+     "summary_zh": "Menkes病的病因、临床表现、诊断方法和治疗进展的综述总结。",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2607595?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMicm2607595",
+     "published": "2026-10-03",
+     "importance": 10.0,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Hsin-Yu Chen and Chi-Nien Chen"
+    },
+    {
+     "title": "Grief as a Vector for Disease — Tradition and Public Health in Ebola Outbreaks",
+     "title_zh": "",
+     "summary_zh": "埃博拉疫情中的悲伤传统习俗增加疾病传播风险，需在公共卫生干预中平衡文化敏感性与防疫需求。",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2608136?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMp2608136",
+     "published": "2026-10-03",
+     "importance": 10.0,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Celestin Mutuyimana and Clare Killikelly"
+    },
+    {
      "title": "[Correspondence] Advances in primary sclerosing cholangitis care",
      "title_zh": "原发性硬化性胆管炎护理的进展",
      "summary_zh": "我们欢迎Erik von Seth及其同事对研讨会的更正，明确指出在接受口服万古霉素治疗的原发性硬化性胆管炎患者的已发表研究中未发现耐万古霉素肠球菌。研讨会中最初报告的发生率为8.7%，现已更正为0%。",
@@ -217,8 +284,8 @@
     },
     {
      "title": "Validation of Machine Learning Models for classification of bladder dysfunction and risk of hydronephrosis in patients with Spina Bifida using videourodynamic data",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于视频尿动力学数据的脊柱裂患者膀胱功能障碍及肾盂积水风险的机器学习模型验证",
+     "summary_zh": "目的：视频尿动力学（VUDS）用于评估脊柱裂（SB）患者的膀胱功能障碍及上尿路恶化风险，但解读存在评估者间变异性。本文评估了适应性机器学习模型在独立外部队列中的表现。方法：收集2016至2025年间在单一机构接受VUDS的SB患者数据。采用三种模型：基于压力-容量数据的深度学习卷积神经网络模型、基于透视成像数据的深度学习成像模型，以及将压力-容量和透视数据风险平均的集成模型。结果：在70名肾盂积水患者中，13名（18%）发生了新发肾盂积水。集成模型的表现优于单一模式，符合指数为0.77（仅压力-容量：0.70，仅成像：0.72）。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -231,8 +298,8 @@
     },
     {
      "title": "Predicting Cognitive Functioning in ADHD Using Population-Based MRI Across Large and Small Samples",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "基于人群MRI预测ADHD儿童的认知功能",
+     "summary_zh": "本研究利用机器学习方法，评估基于神经影像的认知预测模型在注意缺陷多动障碍（ADHD）儿童中的适用性。我们使用来自青少年大脑认知发展（ABCD）研究的基线数据（n = 11,747），训练了81个MRI衍生特征集的预测模型，涵盖任务性fMRI对比、功能连接、结构MRI和扩散测量及其多模态组合。我们分别在非ADHD参与者和不同ADHD分层中测试模型性能，并在一个独立的ADHD队列中评估外部泛化（Lytle等，2020；n=79），未进行重新训练。结果显示，整合所有特征集的堆叠模型达到了最高的预测准确性（r=.57），并再现了观察到的群体认知差异，同时在ADHD和非ADHD组中保持了相似的表现。外部测试中，堆叠的工作记忆任务模型在独立ADHD队列中也表现出良好的泛化能力（r=.44）。这些发现表明，基于人群训练的模型能够有效预测ADHD儿童的认知功能。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "神经认知",
@@ -245,8 +312,8 @@
     },
     {
      "title": "Assessing AI and Neurologist Diagnostic Reasoning Against Neuropathological Ground Truth",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "评估AI与神经科医生诊断推理的准确性",
+     "summary_zh": "背景：复杂神经疾病的准确鉴别诊断仍然具有挑战性，因其临床特征重叠且疾病表现异质。虽然大型语言模型（LLMs）在临床推理中展现出潜力，但以往研究主要基于临床医生共识，而非生物学真实标准。方法：我们引入了NeuroBench，这是一个包含神经病理学确认的复杂神经病例的基准数据集，以及DIAGNO，一个基于LLM的神经诊断系统。NeuroBench包含791个回顾性病例摘要及其对应的尸检确认诊断，来源于三个独立的医疗系统。结果：在203个复杂病例的子集中，三位独立评审者对DIAGNO和神经科医生的表现进行了评估，结果显示DIAGNO在诊断准确性上具有竞争力。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -259,8 +326,8 @@
     },
     {
      "title": "Reinforcement Learning for Chronic Care Pathway Optimization: A Unified Framework across Three Clinical Goal Types",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "慢性病护理路径优化的强化学习统一框架",
+     "summary_zh": "慢性病护理需要在竞争的生物标志物、安全性和成本约束下进行连续治疗，但临床目标结构因疾病而异。本研究探讨是否可以采用一种生理学驱动的强化学习范式，针对三种目标结构（目标治疗、多标志物巡航和有界周期完成）进行统一应用，而无需特定于疾病的政策架构。研究实例包括痛风、慢性肾病和多囊卵巢综合症（PCOS）介导的生育治疗。训练方法为行为克隆，随后在每种疾病的500条模拟轨迹上进行近端策略优化（PPO）。评估使用配对种子（N = 50主要；N = 500自助法95%置信区间）、多种子偏移42-51、消融实验和分布外特征。PCOS（周期完成）：PPO 72.0%对比医生基线54.0%（N = 50）；在N = 500时，PPO 69.8% [65.6, 73.8]对比医生52.8% [48.8, 57.2]。痛风（目标治疗）：PPO 88.0%对比90.0%（McNemar p = 1.0）。慢性肾病（巡航）：医生32.0%，BC/PPO 38.0%。此版本撤回了v1中出现的三条文献坐标，并用平行期刊手稿的重新校准核的NOR-痛风校准替代。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -272,9 +339,51 @@
      "authors": "Wang, R.; Chen, H.; Wu, Y.; Li, Z.; Shen, R.; He, F.; Zhao, S.; Zheng, N."
     },
     {
-     "title": "Change in irritable bowel syndrome symptom severity among members of a multi-omic digital food-as-medicine program: a retrospective single-arm cohort study with estimates corrected for regression to the mean",
+     "title": "Hantavirus — Lessons Learned about Security and Solidarity",
      "title_zh": "",
      "summary_zh": "",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2611801?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMp2611801",
+     "published": "2026-10-03",
+     "importance": 8.5,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Pedro Sánchez and Tedros Adhanom Ghebreyesus"
+    },
+    {
+     "title": "A Guide for the Perplexed Physician",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2603758?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMp2603758",
+     "published": "2026-10-03",
+     "importance": 8.5,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Dean Ariel"
+    },
+    {
+     "title": "Beyond Percentage of Weight Lost — Protecting Participants in Obesity Trials",
+     "title_zh": "",
+     "summary_zh": "",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2609407?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMp2609407",
+     "published": "2026-10-03",
+     "importance": 8.5,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Sarah H. Schmitz"
+    },
+    {
+     "title": "Change in irritable bowel syndrome symptom severity among members of a multi-omic digital food-as-medicine program: a retrospective single-arm cohort study with estimates corrected for regression to the mean",
+     "title_zh": "多组学数字食品疗法对肠易激综合症症状的影响研究",
+     "summary_zh": "背景：关于食品疗法在肠易激综合症（IBS）中的真实世界证据较少，单臂评估可能因均值回归（RTM）而夸大改善效果。本研究评估了在多组学个性化数字健康食品疗法项目中，IBS症状严重度量表（IBS-SSS，0-500）的变化，进行了未调整和RTM校正的分析。方法：回顾性单臂队列研究。在15,933名有效基线成员中，2,254名进行了随访，1,683名在基线后至少14天进行了测量。通过协方差分析估计在4、12（主要）和26周的变化，按基线严重度分层，进行了未调整和RTM校正。结果：在12周时（n = 430），IBS-SSS未调整下降了43.88分（95%置信区间[CI] -52.44至-35.32；p < 0.001），RTM校正后下降了47.73分（-55.48至-39.98；p < 0.001）；1,339名有症状的成员中有720名（53.8%；95% CI 51.1至56.4）下降了至少50分。重度患者改善更显著。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -287,8 +396,8 @@
     },
     {
      "title": "Sequencing for a Lifetime: Professional Perspectives on the Value and Feasibility of Lifelong Genomic Medicine",
-     "title_zh": "",
-     "summary_zh": "",
+     "title_zh": "终身基因组医学的价值与可行性专业视角",
+     "summary_zh": "引言：终身基因组医学通过存储的基因组数据为一生的医疗提供信息，正逐步从愿景走向现实，全球已有多个新生儿测序项目在进行，数据的重新分析已在临床实践中应用。专业人士对其价值和可行性的看法尚未被研究。方法：我们对52名美国专业人士进行了半结构化访谈并进行了主题分析，参与者包括临床遗传学家、遗传顾问、初级保健医生、实验室人员和基因组筛查实施者。访谈内容涉及交付环境、长期临床关系、数据重新分析与再联系、知情同意、数据管理、隐私及儿童向成人的过渡。结果：所有五个群体的参与者均认为终身基因组医学具有临床价值，强调基因组信息在多个生命阶段的相关性、根据情况变化重新查询基因组的能力以及根据不断发展的知识采取行动的能力。少数人对此价值表示质疑，倾向于更有针对性的检测。许多参与者认为这一模式是不可避免的，并描述了许多组成活动的操作先例。",
      "source": "medRxiv",
      "tier": "preprint",
      "field": "医学健康",
@@ -302,21 +411,21 @@
    ]
   },
   "2026-10-02": {
-   "count": 1810,
+   "count": 1815,
    "by_field": {
-    "AI计算机": 971,
+    "AI计算机": 973,
     "物理天文": 289,
     "数学基础理论": 174,
     "化学材料": 112,
-    "医学健康": 110,
+    "医学健康": 111,
     "生命科学": 73,
-    "神经认知": 45,
-    "地球气候": 28,
+    "神经认知": 46,
+    "地球气候": 29,
     "未分类": 8
    },
    "by_tier": {
     "mainstream": 12,
-    "alt": 203,
+    "alt": 208,
     "preprint": 1595
    },
    "items": [
@@ -43148,22 +43257,22 @@
  },
  "monthly": {
   "2026-10": {
-   "count": 3859,
+   "count": 3871,
    "by_field": {
-    "AI计算机": 2030,
+    "AI计算机": 2032,
     "物理天文": 667,
     "数学基础理论": 334,
     "化学材料": 252,
-    "医学健康": 234,
+    "医学健康": 242,
     "生命科学": 165,
-    "神经认知": 95,
-    "地球气候": 60,
+    "神经认知": 96,
+    "地球气候": 61,
     "未分类": 22
    },
    "by_tier": {
-    "mainstream": 47,
-    "alt": 437,
-    "preprint": 3375
+    "mainstream": 52,
+    "alt": 442,
+    "preprint": 3377
    },
    "topics": [
     [
@@ -43176,7 +43285,7 @@
     ],
     [
      "language",
-     170
+     171
     ],
     [
      "agents",
@@ -43200,7 +43309,7 @@
     ],
     [
      "large",
-     81
+     82
     ],
     [
      "generation",
@@ -43208,7 +43317,7 @@
     ],
     [
      "beyond",
-     76
+     77
     ],
     [
      "neural",
@@ -43395,6 +43504,34 @@
      "importance": 10.0,
      "abstract": "We thank Kevin M Johnson and colleagues for their Correspondence regarding oral vancomycin in primary sclerosing cholangitis. We acknowledge that current evidence has not identified a clear signal of increased incidence of vancomycin-resistant enterococci among individuals with primary sclerosing cholangitis receiving oral vancomycin, although vancomycin-resistant enterococci have not been systematically assessed in all studies. We, however, believe that the central issue extends beyond vancomycin-resistant enterococci.",
      "authors": "Annika Bergquist, Erik von Seth, Tom H Karlsen, Atsushi Tanaka, Cyriel Ponsioen"
+    },
+    {
+     "title": "Menkes Disease",
+     "title_zh": "",
+     "summary_zh": "Menkes病的病因、临床表现、诊断方法和治疗进展的综述总结。",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMicm2607595?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMicm2607595",
+     "published": "2026-10-03",
+     "importance": 10.0,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Hsin-Yu Chen and Chi-Nien Chen"
+    },
+    {
+     "title": "Grief as a Vector for Disease — Tradition and Public Health in Ebola Outbreaks",
+     "title_zh": "",
+     "summary_zh": "埃博拉疫情中的悲伤传统习俗增加疾病传播风险，需在公共卫生干预中平衡文化敏感性与防疫需求。",
+     "source": "NEJM",
+     "tier": "mainstream",
+     "field": "医学健康",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2608136?af=R&rss=currentIssue",
+     "doi": "10.1056/NEJMp2608136",
+     "published": "2026-10-03",
+     "importance": 10.0,
+     "abstract": "New England Journal of Medicine, Ahead of Print.",
+     "authors": "Celestin Mutuyimana and Clare Killikelly"
     },
     {
      "title": "Glioma margins gain a third dimension before surgery ends",
@@ -43759,34 +43896,6 @@
      "importance": 9.5,
      "abstract": "Thoracic surgery has progressively moved from open thoracotomy to video-assisted and robot-assisted approaches, reducing access-related trauma while changing the technical environment in which pulmonary resections are performed and taught. This narrative review examines the clinical evolution of open, video-assisted thoracic surgery (VATS), and robot-assisted thoracic surgery (RATS), with particular attention to the evidence supporting their perioperative and oncological outcomes, the learning curves associated with minimally invasive surgery, and the role of simulation-based training. Randomized trials now provide robust evidence that VATS improve postoperative recovery compared with thoracotomy in appropriately selected patients with predominantly early-stage non-small cell lung cancer, without compromising long-term oncological outcomes. Randomized comparisons between RATS and VATS support RATS as an oncologically acceptable minimally invasive alternative and suggest advantages in selected technical endpoints, particularly blood loss and lymph node retrieval, but do not demonstrate consistent superiority in major clinical or survival outcomes. Learning curves vary according to p",
      "authors": "Michele Piazzolla, Doroty Sampietro, Marco Donatello Delcuratolo, Paolo Nicola Camillo Girotti, Lucia Anna Muscarella, Paola Parente"
-    },
-    {
-     "title": "Effectiveness of the 23-Valent Pneumococcal Polysaccharide Vaccine in Reducing Mortality Among Older Adults: A Real-World Retrospective Cohort Study in Guangzhou, China",
-     "title_zh": "23价肺炎球菌多糖疫苗对老年人死亡率的影响研究",
-     "summary_zh": "目的：评估23价肺炎球菌多糖疫苗（PPSV23）在降低60岁及以上成人的全因、肺炎相关及慢性阻塞性肺疾病（COPD）相关死亡率的实际效果。方法：本回顾性队列研究使用现有健康监测数据，追踪2020年1月1日年龄≥60岁的个体至2025年8月31日，并按PPSV23接种状态分类。采用1:1比例的倾向评分匹配（PSM）平衡性别、年龄、地区分布、城市化水平和流感疫苗接种状态。使用时间依赖的Cox比例风险模型估计风险比（HR）和疫苗有效性（VE），定义为（1 − HR）× 100%。结果：经过PSM后，共纳入453,500名个体，平均随访5.61年。接种者的全因死亡率为每千人年3.93，而未接种者为9.57。PPSV23接种显著降低全因死亡率（VE = 43.1%，95% CI: 41.2–45.0%）、肺炎相关死亡率（VE = 46.2%，95% CI: 39.6–52.1%）及COPD相关死亡率（VE = 33.5%，95% CI: 20.9–44.2%）（均p < 0.001）。",
-     "source": "MDPI",
-     "tier": "alt",
-     "field": "医学健康",
-     "url": "https://doi.org/10.3390/vaccines14100877",
-     "doi": "10.3390/vaccines14100877",
-     "published": "2026-10-02",
-     "importance": 9.5,
-     "abstract": "Objectives: To evaluate the real-world effectiveness of the 23-valent pneumococcal polysaccharide vaccine (PPSV23) in reducing all-cause, pneumonia-related, and chronic obstructive pulmonary disease (COPD)-related mortality in adults aged ≥60 years. Methods: In this retrospective cohort study using existing health surveillance data, individuals aged ≥60 years on 1 January 2020 were followed until 31 August 2025 and classified by PPSV23 vaccination status. Propensity score matching (PSM) at a 1:1 ratio balanced sex, age, regional distribution, urbanization level and influenza vaccination status. Time-dependent Cox proportional hazards models estimated hazard ratios (HR) and vaccine effectiveness (VE), defined as (1 − HR) × 100%. Subgroup, negative control (mortality from traffic accidents), and E-value sensitivity analyses were performed. Results: After PSM, 453,500 individuals were included, with a mean follow-up of 5.61 years. All-cause mortality was 3.93 per 1000 person-years in vaccinated versus 9.57 in unvaccinated individuals. PPSV23 vaccination reduced all-cause mortality (VE = 43.1%, 95% CI: 41.2–45.0%), pneumonia-related mortality (VE = 46.2%, 95% CI: 39.6–52.1%), and COPD-",
-     "authors": "Yan Kang, Zhiwei Zheng, Juan Qi, Lin Tang, Wen Wang, Xinqi Lin"
-    },
-    {
-     "title": "Patient Journey and Treatment Patterns of Non-Muscle-Invasive Bladder Cancer in Mexico",
-     "title_zh": "墨西哥非肌肉侵袭性膀胱癌患者就诊与治疗模式研究",
-     "summary_zh": "非肌肉侵袭性膀胱癌（NMIBC）占新诊断膀胱肿瘤的大多数，但在墨西哥的管理情况知之甚少，尤其是在巴氏抗结核菌素（BCG）短缺期间。本研究为一项回顾性多中心观察研究，分析了在墨西哥城三家三级医院接受治疗的NMIBC患者的临床和组织病理特征、诊断和治疗时间线，以及对指南推荐护理的遵循情况。共回顾221名2010年1月至2020年12月间诊断的成人患者记录。患者的中位年龄为68岁（四分位数范围[IQR] 59–75），男女比例为3:1。最常见的症状为血尿（83.3%）。四分之三的患者为T1肿瘤，6.3%伴有原位癌，84.6%为高分级肿瘤，92.8%为高复发或进展风险。症状出现到组织病理诊断的中位间隔为167天（IQR 81–329），不同中心间存在差异。诊断后，第二次切除的中位时间为67天（IQR 33.5–112），首次BCG灌注为92.5天（IQR 41.8–165.5）。66%的患者接受了辅助膀胱内治疗，主要为BCG。",
-     "source": "MDPI",
-     "tier": "alt",
-     "field": "医学健康",
-     "url": "https://doi.org/10.3390/curroncol33100597",
-     "doi": "10.3390/curroncol33100597",
-     "published": "2026-10-02",
-     "importance": 9.5,
-     "abstract": "Non-muscle-invasive bladder cancer (NMIBC) accounts for most newly diagnosed bladder tumors, yet little is known about how it is managed in Mexico, particularly during prolonged Bacillus Calmette-Guérin (BCG) shortages. This retrospective, multicenter observational study characterized the clinical and histopathological profile, the diagnostic and treatment timelines, and the adherence to guideline-recommended care of patients with NMIBC treated at three tertiary referral hospitals in Mexico City. The records of 221 adults diagnosed between January 2010 and December 2020 were reviewed, and the risk of recurrence or progression was classified according to the European Association of Urology 2019 classification. The median age was 68 years (interquartile range [IQR] 59–75) and the male-to-female ratio was 3:1. Hematuria was the most frequent presenting symptom (83.3%). Three-quarters of patients had T1 tumors, 6.3% had concomitant carcinoma in situ, 84.6% had high-grade tumors, and 92.8% were at high risk of recurrence or progression. The median interval from symptom onset to histopathologic diagnosis was 167 days (IQR 81–329) and varied between centers. After diagnosis, the median ti",
-     "authors": "Anna Scavuzzo, Ricardo Alonso Castillejos-Molina, Iván Bravo-Castro, Miguel A. Jiménez-Ríos, José G. Campos-Salcedo, Miguel A. Jiménez-Dávila"
     }
    ]
   },
@@ -45335,26 +45444,26 @@
  },
  "yearly": {
   "2026": {
-   "count": 25614,
+   "count": 25626,
    "by_field": {
-    "AI计算机": 11491,
+    "AI计算机": 11493,
     "物理天文": 3326,
-    "医学健康": 2633,
+    "医学健康": 2641,
     "数学基础理论": 2605,
     "化学材料": 2264,
     "生命科学": 1514,
-    "神经认知": 851,
-    "地球气候": 540,
+    "神经认知": 852,
+    "地球气候": 541,
     "未分类": 390
    },
    "by_source": {
     "arXiv:cs.AI": 5730,
     "arXiv:cs.LG": 4413,
-    "MDPI": 2993,
+    "MDPI": 2998,
     "arXiv:quant-ph": 2316,
     "arXiv:cs.CL": 1503,
     "chemRxiv": 1048,
-    "medRxiv": 981,
+    "medRxiv": 983,
     "arXiv:math.PR": 932,
     "arXiv:math.NT": 774,
     "arXiv:cond-mat.mtrl-sci": 748,
@@ -45367,7 +45476,7 @@
     "arXiv:physics.chem-ph": 200,
     "eLife": 160,
     "Lancet": 117,
-    "NEJM": 105,
+    "NEJM": 110,
     "JAMA": 105,
     "arXiv:physics.ao-ph": 93,
     "arXiv:q-bio.NC": 84,
@@ -45379,7 +45488,7 @@
      "2026-07": 2,
      "2026-08": 3,
      "2026-09": 9456,
-     "2026-10": 2030
+     "2026-10": 2032
     },
     "物理天文": {
      "2026-08": 1,
@@ -45390,7 +45499,7 @@
      "2026-07": 2,
      "2026-08": 48,
      "2026-09": 2349,
-     "2026-10": 234
+     "2026-10": 242
     },
     "数学基础理论": {
      "2026-09": 2271,
@@ -45411,12 +45520,12 @@
      "2026-07": 1,
      "2026-08": 20,
      "2026-09": 735,
-     "2026-10": 95
+     "2026-10": 96
     },
     "地球气候": {
      "2026-08": 7,
      "2026-09": 473,
-     "2026-10": 60
+     "2026-10": 61
     },
     "未分类": {
      "2026-08": 4,
@@ -45435,7 +45544,7 @@
     ],
     [
      "language",
-     914
+     915
     ],
     [
      "agents",
@@ -45463,7 +45572,7 @@
     ],
     [
      "large",
-     503
+     504
     ],
     [
      "evaluation",
@@ -45474,16 +45583,16 @@
      481
     ],
     [
+     "prediction",
+     456
+    ],
+    [
      "generation",
      456
     ],
     [
-     "prediction",
-     455
-    ],
-    [
      "control",
-     410
+     411
     ],
     [
      "efficient",
@@ -45491,19 +45600,19 @@
     ],
     [
      "through",
-     404
+     405
     ],
     [
      "across",
      403
     ],
     [
-     "networks",
+     "beyond",
      399
     ],
     [
-     "beyond",
-     398
+     "networks",
+     399
     ],
     [
      "llms",
