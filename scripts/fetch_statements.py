@@ -252,10 +252,15 @@ NEWS_CHANNELS = {"媒体采访", "署名文章", "播客"}
 
 def main() -> int:
     only_field = sys.argv[1] if len(sys.argv) > 1 else None
+    only_id = os.environ.get("SK_ONLY_ID")      # 按人单跑/回填（逗号分隔多个 id）；日链不设
     roster = json.loads(ROSTER.read_text(encoding="utf-8"))
     people = [p for p in roster["people"] if p.get("active")]
     if only_field:
         people = [p for p in people if p.get("field") == only_field]
+    if only_id:
+        ids = {x.strip() for x in only_id.split(",") if x.strip()}
+        people = [p for p in people if p["id"] in ids]
+        assert people, f"SK_ONLY_ID 没匹配到在册的人: {only_id}"
     print(f"抓取 {len(people)} 人的言论"
           + (f"（门类 {only_field}）" if only_field else "") + "\n")
 
@@ -293,7 +298,7 @@ def main() -> int:
         news_rows = []
         if use_news and sx is not None:
             try:
-                news_rows, news_rej = sx.news_quote_statements(p, days=60, known_urls=known_urls)
+                news_rows, news_rej = sx.news_quote_statements(p, days=int(os.environ.get("SK_NEWS_DAYS", "60")), known_urls=known_urls)
                 rejected.extend(news_rej)
             except Exception as e:  # noqa: BLE001
                 print(f"  [WARN] {p.get('name_en')} 新闻源异常，跳过：{e}")

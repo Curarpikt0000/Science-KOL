@@ -32,6 +32,11 @@ def main() -> int:
         return 0
     reg = json.loads((ROOT / "data" / "kol_registry.json").read_text(encoding="utf-8"))
     people = [p for p in reg["people"] if p.get("active")]
+    only_id = os.environ.get("SK_ONLY_ID")      # 按人单跑/回填；日链不设
+    if only_id:
+        ids = {x.strip() for x in only_id.split(",") if x.strip()}
+        people = [p for p in people if p["id"] in ids]
+        assert people, f"SK_ONLY_ID 没匹配到在册的人: {only_id}"
     seen = json.loads(SEEN.read_text(encoding="utf-8")) if SEEN.exists() else {}
 
     out = S_DIR / f"{date.today().isoformat()}.json"

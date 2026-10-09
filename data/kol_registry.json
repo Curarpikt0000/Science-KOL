@@ -6944,6 +6944,40 @@
    "controversies": "",
    "statements": [],
    "added_on": "2026-10-02"
+  },
+  {
+   "id": "oa-A5044576485",
+   "name_en": "David A. Sinclair",
+   "name_zh": "",
+   "field": "生命科学",
+   "bio": "哈佛医学院遗传学教授，衰老生物学研究者；提出「衰老信息论」，研究表观遗传重编程逆转衰老；著有《Lifespan》；Co-Chief Editor of Aging。",
+   "affiliation": "Harvard University",
+   "affiliation_verified": false,
+   "country": "US",
+   "alive": true,
+   "alive_checked_on": "2026-10-09",
+   "alive_evidence": "2026-10 视频访谈（The Diary of a CEO）与 OpenAlex 近期作品",
+   "active": true,
+   "origin": "manual-chao-2026-10-09",
+   "origin_note": "Chao 转发 The Diary of a CEO 访谈（DnvWAP99r3Y）后要求加入；批准归生命科学；ORCID 与 OpenAlex 锚定，同名闸通过",
+   "orcid": "0000-0002-9936-436X",
+   "openalex_url": "https://openalex.org/A5044576485",
+   "h_index": 116,
+   "cited_by_count": 85332,
+   "search_terms": [
+    "David A. Sinclair"
+   ],
+   "controversies": "长寿补充剂（NMN、白藜芦醇）与其创办企业存在商业利益关联；「衰老可逆」及部分补充剂结论受到同行质疑。观点需区分其研究论文与商业/科普表述。",
+   "rating": null,
+   "rating_pct": null,
+   "score_A": null,
+   "score_B": null,
+   "score_C": null,
+   "score_D": null,
+   "weighted_score": null,
+   "rating_reason": "手动入册，四维评分待定，不硬套公式；学术指标取自 OpenAlex。",
+   "statements": [],
+   "added_on": "2026-10-09"
   }
  ],
  "_migrated_from_fc": {
